@@ -93,7 +93,7 @@ def run_experiment_2():
         vulnerabilities_by_id={v.vulnerability_id: v for v in test_vulns}
     )
     
-    df = pd.DataFrame([r.dict() for r in records])
+    df = pd.DataFrame([r.model_dump() for r in records])
     output_csv = RESULTS_DIR / "experiment_2_results.csv"
     df.to_csv(output_csv, index=False)
     
