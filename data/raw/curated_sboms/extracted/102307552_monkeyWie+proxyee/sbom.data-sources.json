@@ -1,0 +1,887 @@
+{
+  "SpdxId": "SPDXRef-DOCUMENT",
+  "DataSources": [
+    {
+      "SpdxId": "SPDXRef-Package-59223DD0A81212884A55149EAD96DC3D5A6E7891CC8A3DCFBBC4A0B60E046138",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/com.github.monkeywie/proxyee/1.7.6"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/com.github.monkeywie/proxyee/1.7.6"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/monkeyWie/proxyee/blob/v1.7.6/LICENSE"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-Package-43E83C1532FFD6227C07F8F5EB1287F1036C29C8CA2E2B6C0D3F8EDD10A6FBAD",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/netty/netty/blob/netty-4.1.94.Final/NOTICE.txt"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-Package-1BBBD33191E80E0061A86203AEB6E3F99D44F98659DE048D9728AEADD3C1B8AB",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/netty/netty/blob/netty-4.1.94.Final/NOTICE.txt"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-Package-83831E27306259165B6878FE4432344F382004B87B203DB5E65F1FECEA0CA823",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/bcgit/bc-java"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/org.bouncycastle/bcpkix-jdk15on/1.60"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/org.bouncycastle/bcpkix-jdk15on/1.60"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/org.bouncycastle/bcpkix-jdk15on/1.60"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/bcgit/bc-java/blob/r1rv60/LICENSE.html"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-Package-6F2A159271ABEEC80823CA560E6ABD037F6B695FB84D8B66B78C16301AD36E99",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/netty/netty/blob/netty-4.1.94.Final/NOTICE.txt"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-Package-08EBACFAC79335D83FFA9E878F51FB7FBE0FF629C2195A7574158CFD0DADB080",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/netty/netty/blob/netty-4.1.94.Final/NOTICE.txt"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-Package-C380F972A8C9B2F1EF14F45707A3B62FA80B68858972F203E51BA25C1383A1FA",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/bcgit/bc-java"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/org.bouncycastle/bcprov-jdk15on/1.60"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/org.bouncycastle/bcprov-jdk15on/1.60"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/org.bouncycastle/bcprov-jdk15on/1.60"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/bcgit/bc-java/blob/r1rv60/LICENSE.html"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-Package-1C6BCB898CE9E77CF51664BB6E43AA1F34F83E6943E3A106ABCB81A9BB41C2D6",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/netty/netty/blob/netty-4.1.94.Final/NOTICE.txt"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-Package-D02A8F9DA03CCCC84E8A9B06984C5C654A1886F3819BB5350EAB78327C56EE1D",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/netty/netty/blob/netty-4.1.94.Final/NOTICE.txt"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-Package-1BCD76F77F33A37F33A081637497331F9C07FEB5056CB59193B7AA57223FA4D4",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/netty/netty/blob/netty-4.1.94.Final/NOTICE.txt"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-Package-4884D8D82C1BCCF46D255B7D608D7502C7D6AC5FA6E904F6C5CF66CEBD76B9EC",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/netty/netty/blob/netty-4.1.94.Final/NOTICE.txt"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-Package-B60EDEC60ED55B8EADAA6335BAD3EED644ECA77807528BF330486E5070E2C17D",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/netty/netty/blob/netty-4.1.94.Final/NOTICE.txt"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-Package-2B9B89DC87864ED369DF172E66CB815B01D569C4CAEC368ED538AA10E5B96803",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/netty/netty/blob/netty-4.1.94.Final/NOTICE.txt"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-RootPackage",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "HomePage": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/monkeyWie/proxyee/blob/cddd02ad0d5a00fb152a8839f7356c1b17d62ff4/LICENSE"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/monkeyWie/proxyee/blob/cddd02ad0d5a00fb152a8839f7356c1b17d62ff4/LICENSE"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/monkeyWie/proxyee/blob/cddd02ad0d5a00fb152a8839f7356c1b17d62ff4/LICENSE"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    }
+  ]
+}

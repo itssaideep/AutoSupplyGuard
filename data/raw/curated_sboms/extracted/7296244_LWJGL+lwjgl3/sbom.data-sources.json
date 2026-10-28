@@ -1,0 +1,131 @@
+{
+  "SpdxId": "SPDXRef-DOCUMENT",
+  "DataSources": [
+    {
+      "SpdxId": "SPDXRef-Package-9344211037A9A27AD65B215B8BDAAF1AA3D8C3A1963D2060B123E6ECC127315D",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/org.lwjgl/lwjgl/3.3.3"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/org.lwjgl/lwjgl/3.3.3"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://www.lwjgl.org/license"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-RootPackage",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "HomePage": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/LWJGL/lwjgl3/blob/dea553c7e8136d5981c8713e1502461342487335/LICENSE.md"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/LWJGL/lwjgl3/blob/dea553c7e8136d5981c8713e1502461342487335/LICENSE.md"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/LWJGL/lwjgl3/blob/dea553c7e8136d5981c8713e1502461342487335/LICENSE.md"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    }
+  ]
+}

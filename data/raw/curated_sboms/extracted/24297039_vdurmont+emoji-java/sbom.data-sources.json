@@ -1,0 +1,320 @@
+{
+  "SpdxId": "SPDXRef-DOCUMENT",
+  "DataSources": [
+    {
+      "SpdxId": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/hamcrest/JavaHamcrest"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/org.hamcrest/hamcrest-core/1.3"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/org.hamcrest/hamcrest-core/1.3"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/hamcrest/JavaHamcrest/blob/hamcrest-java-1.3/LICENSE.txt"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-Package-E7E842C2B63A9EE24DBE9B004062CA5FDF20FE36860609F5DCAC2421957AF492",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-Package-A56E37F271DD8A4F18A0A43A52A31B5A07DA31CB9F8D5C1B15BD7E4054CD151B",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/com.vdurmont/emoji-java/5.1.1"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/com.vdurmont/emoji-java/5.1.1"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/vdurmont/emoji-java/blob/v5.1.1/LICENSE.md"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-Package-8204B307E0E6A92DBC005A46D2B8DDF377680EA5BC935C7E458440223BE8FCD0",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "HomePage": {
+        "DataSourceType": "Auto",
+        "Name": "Central Repository REST API",
+        "Url": "https://search.maven.org/solrsearch/select"
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/org.json/json/20170516"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/org.json/json/20170516"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://central.sonatype.com/artifact/org.json/json/20170516"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    },
+    {
+      "SpdxId": "SPDXRef-RootPackage",
+      "Name": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "Version": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "FileName": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "Supplier": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      },
+      "DownloadLocation": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "HomePage": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ConcludedLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/vdurmont/emoji-java/blob/9a90624aa0a50f1785d6a10e1fcb2a296ce468f7/LICENSE.md"
+      },
+      "DeclaredLicense": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/vdurmont/emoji-java/blob/9a90624aa0a50f1785d6a10e1fcb2a296ce468f7/LICENSE.md"
+      },
+      "LicenseComments": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "CopyrightText": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": "https://github.com/vdurmont/emoji-java/blob/9a90624aa0a50f1785d6a10e1fcb2a296ce468f7/LICENSE.md"
+      },
+      "Comment": {
+        "DataSourceType": "Manual",
+        "Name": "Corrected manually",
+        "Url": null
+      },
+      "ExternalReference": {
+        "DataSourceType": "Auto",
+        "Name": "sbom-tool",
+        "Url": "https://github.com/microsoft/sbom-tool/releases/tag/v2.2.9"
+      }
+    }
+  ]
+}

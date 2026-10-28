@@ -1,0 +1,460 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "netty-websocket-spring-boot-starter db29b043e69e2837a4eacdacec552a809ac2d689",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-23a3ffc9-178f-408f-b815-5b8a41a1fa04/netty-websocket-spring-boot-starter/db29b043e69e2837a4eacdacec552a809ac2d689/5USL3FUtlUigGJ7NCSplNQ",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-6B1817BE62142B1FA74254F351116960F7ED224025F370C77F8F855698B8F552",
+      "name": "org.springframework.spring-core",
+      "versionInfo": "5.0.4.RELEASE",
+      "packageFileName": "spring-core-5.0.4.RELEASE.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-core@5.0.4.RELEASE"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B85D617B78794BCCE12646F2A6E7D6FDB4AA1029D0F8BC9B42B5BC675BA11FF4",
+      "name": "org.springframework.spring-aop",
+      "versionInfo": "5.0.4.RELEASE",
+      "packageFileName": "spring-aop-5.0.4.RELEASE.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-aop/5.0.4.RELEASE/spring-aop-5.0.4.RELEASE.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-aop@5.0.4.RELEASE"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-561CD1A4AF4B5A5AC033629B70523E0D9B6F8B12BE0837A3E1206381F67712F5",
+      "name": "org.springframework.spring-beans",
+      "versionInfo": "5.0.4.RELEASE",
+      "packageFileName": "spring-beans-5.0.4.RELEASE.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-beans@5.0.4.RELEASE"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-D09ADB02F6B682C69F420131EEEA3326EE55EE1B03B0E359906DCE4B56DD3CBF",
+      "name": "io.netty.netty-buffer",
+      "versionInfo": "4.1.67.Final",
+      "packageFileName": "netty-buffer-4.1.67.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.67.Final/netty-buffer-4.1.67.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-buffer@4.1.67.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-40F7C627522EBB47FD3539FBC62884F75E4EC0F1832BE723C1283E7004F77CE1",
+      "name": "org.springframework.spring-context",
+      "versionInfo": "5.0.4.RELEASE",
+      "packageFileName": "spring-context-5.0.4.RELEASE.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-context/5.0.4.RELEASE/spring-context-5.0.4.RELEASE.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-context@5.0.4.RELEASE"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F1D21A46FBE9B136EF9287595C04B619208EB3C4F444DD8123DE7D9905A1B524",
+      "name": "io.netty.netty-handler",
+      "versionInfo": "4.1.67.Final",
+      "packageFileName": "netty-handler-4.1.67.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-handler@4.1.67.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-58A57665394193AD1BA965DE9B7FF4BDD7F4E689EF9B40969878FD945D41E7C9",
+      "name": "org.springframework.spring-expression",
+      "versionInfo": "5.0.4.RELEASE",
+      "packageFileName": "spring-expression-5.0.4.RELEASE.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-expression/5.0.4.RELEASE/spring-expression-5.0.4.RELEASE.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-expression@5.0.4.RELEASE"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DF6D2A89032140714CB45DE1F5240A655EFBE412ED0BD6948FECF4622AA55DD6",
+      "name": "org.yeauty.netty-websocket-spring-boot-starter",
+      "versionInfo": "0.12.0",
+      "packageFileName": "netty-websocket-spring-boot-starter-0.12.0.jar",
+      "supplier": "Person: Yeauty (YeautyYE@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/yeauty/netty-websocket-spring-boot-starter/0.12.0/netty-websocket-spring-boot-starter-0.12.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.yeauty.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.yeauty/netty-websocket-spring-boot-starter@0.12.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-27D06DB48F2E515C4D7069A74C705F39BE3C63FE147183B3A944B4659829ABB6",
+      "name": "org.springframework.boot.spring-boot",
+      "versionInfo": "2.0.0.RELEASE",
+      "packageFileName": "spring-boot-2.0.0.RELEASE.jar",
+      "supplier": "Organization: Pivotal Software, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot@2.0.0.RELEASE"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7CBC55072EE6896F00FC962517171B602D71E0C5F84A57413052AFC7DB07A288",
+      "name": "org.springframework.boot.spring-boot-autoconfigure",
+      "versionInfo": "2.0.0.RELEASE",
+      "packageFileName": "spring-boot-autoconfigure-2.0.0.RELEASE.jar",
+      "supplier": "Organization: Pivotal Software, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-autoconfigure",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.0.0.RELEASE"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-095029D49ACFFE3AEF07F9C8BE9221492C2E7157DDBB593AB57A2B5E551D018B",
+      "name": "io.netty.netty-transport",
+      "versionInfo": "4.1.67.Final",
+      "packageFileName": "netty-transport-4.1.67.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.67.Final/netty-transport-4.1.67.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport@4.1.67.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ED901B9480261C8594E0A5BC627178C06BC9C9A0B2506CFD7F03F9E4116FEC95",
+      "name": "io.netty.netty-resolver",
+      "versionInfo": "4.1.67.Final",
+      "packageFileName": "netty-resolver-4.1.67.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.67.Final/netty-resolver-4.1.67.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-resolver@4.1.67.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6B579B443525C5A255936DB6F44F0DF9D2CA9CB70B72C614E8ED93DFFAF7B848",
+      "name": "io.netty.netty-common",
+      "versionInfo": "4.1.67.Final",
+      "packageFileName": "netty-common-4.1.67.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-common/4.1.67.Final/netty-common-4.1.67.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-common@4.1.67.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6D650C4D3F4FFA996ACBF552418921709C95C59C645C52248AD6418BF31440CE",
+      "name": "org.springframework.spring-jcl",
+      "versionInfo": "5.0.4.RELEASE",
+      "packageFileName": "spring-jcl-5.0.4.RELEASE.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-jcl/5.0.4.RELEASE/spring-jcl-5.0.4.RELEASE.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-jcl@5.0.4.RELEASE"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5DA9536864D0734A829F8498428BA2D6B6950F80DCB224F535D195D1C3E633B9",
+      "name": "io.netty.netty-codec-http",
+      "versionInfo": "4.1.67.Final",
+      "packageFileName": "netty-codec-http-4.1.67.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec-http@4.1.67.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-0D37A0EF5CCDCD619D6C67431442D1EAEBED46009356411D58A5C8E1C909F191",
+      "name": "io.netty.netty-codec",
+      "versionInfo": "4.1.67.Final",
+      "packageFileName": "netty-codec-4.1.67.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec@4.1.67.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "netty-websocket-spring-boot-starter",
+      "versionInfo": "db29b043e69e2837a4eacdacec552a809ac2d689",
+      "packageFileName": "./",
+      "supplier": "Organization: YeautyYE",
+      "downloadLocation": "git\u002Bhttps://github.com/YeautyYE/netty-websocket-spring-boot-starter.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/YeautyYE/netty-websocket-spring-boot-starter",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/YeautyYE/spdx.org/netty-websocket-spring-boot-starter@db29b043e69e2837a4eacdacec552a809ac2d689?tag_id=3af28998-a4b2-4861-8e92-384b7ebaeaf6"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DF6D2A89032140714CB45DE1F5240A655EFBE412ED0BD6948FECF4622AA55DD6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-D09ADB02F6B682C69F420131EEEA3326EE55EE1B03B0E359906DCE4B56DD3CBF",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-58A57665394193AD1BA965DE9B7FF4BDD7F4E689EF9B40969878FD945D41E7C9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-561CD1A4AF4B5A5AC033629B70523E0D9B6F8B12BE0837A3E1206381F67712F5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-40F7C627522EBB47FD3539FBC62884F75E4EC0F1832BE723C1283E7004F77CE1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-6B1817BE62142B1FA74254F351116960F7ED224025F370C77F8F855698B8F552",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-0D37A0EF5CCDCD619D6C67431442D1EAEBED46009356411D58A5C8E1C909F191",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-5DA9536864D0734A829F8498428BA2D6B6950F80DCB224F535D195D1C3E633B9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-7CBC55072EE6896F00FC962517171B602D71E0C5F84A57413052AFC7DB07A288",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B85D617B78794BCCE12646F2A6E7D6FDB4AA1029D0F8BC9B42B5BC675BA11FF4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-ED901B9480261C8594E0A5BC627178C06BC9C9A0B2506CFD7F03F9E4116FEC95",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-095029D49ACFFE3AEF07F9C8BE9221492C2E7157DDBB593AB57A2B5E551D018B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-6D650C4D3F4FFA996ACBF552418921709C95C59C645C52248AD6418BF31440CE",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-6B579B443525C5A255936DB6F44F0DF9D2CA9CB70B72C614E8ED93DFFAF7B848",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-27D06DB48F2E515C4D7069A74C705F39BE3C63FE147183B3A944B4659829ABB6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F1D21A46FBE9B136EF9287595C04B619208EB3C4F444DD8123DE7D9905A1B524",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

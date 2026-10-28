@@ -1,0 +1,95 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-03-15T08:30:00Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "cdxgen",
+        "version": "9.9.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "volvo-tcu-firmware",
+      "type": "application",
+      "name": "telematics-gateway-service",
+      "version": "2.4.1",
+      "purl": "pkg:generic/volvo/telematics-gateway-service@2.4.1"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "openssl-crypto",
+      "type": "library",
+      "name": "openssl",
+      "version": "1.1.1u",
+      "purl": "pkg:generic/openssl@1.1.1u",
+      "cpe": "cpe:2.3:a:openssl:openssl:1.1.1u:*:*:*:*:*:*:*",
+      "supplier": {
+        "name": "OpenSSL Project"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "OpenSSL"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "curl-lib",
+      "type": "library",
+      "name": "libcurl",
+      "version": "7.88.1",
+      "purl": "pkg:generic/curl@7.88.1",
+      "supplier": {
+        "name": "Haxx"
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "curl"
+          }
+        }
+      ]
+    },
+    {
+      "bom-ref": "paho-mqtt-c",
+      "type": "library",
+      "name": "paho.mqtt.c",
+      "version": "1.3.12",
+      "purl": "pkg:generic/eclipse/paho.mqtt.c@1.3.12",
+      "licenses": [
+        {
+          "expression": "EPL-2.0 OR EDL-1.0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "zlib-comp",
+      "type": "library",
+      "name": "zlib",
+      "version": "1.2.13",
+      "purl": "pkg:generic/zlib@1.2.13"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "volvo-tcu-firmware",
+      "dependsOn": [
+        "curl-lib",
+        "paho-mqtt-c"
+      ]
+    },
+    {
+      "ref": "curl-lib",
+      "dependsOn": [
+        "openssl-crypto",
+        "zlib-comp"
+      ]
+    }
+  ]
+}

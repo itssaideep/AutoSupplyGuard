@@ -1,0 +1,1117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "kilim 0a2e2613ef915243b51c2ec5650e4bd1717b3e3b",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-636c3b62-e02c-4412-a56a-aa4de34ebc55/kilim/0a2e2613ef915243b51c2ec5650e4bd1717b3e3b/nPSjmKoUJUm6NTLdFr45ow",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-fa16a6d7386f477bbc7307409309aece",
+      "extractedText": "Public Domain",
+      "name": "Public Domain"
+    }
+  ],
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-C4C4DF874AA9F820545935D365B0F21B93469B925D15EBB944F1182C042B0390",
+      "name": "org.ow2.asm.asm-tree",
+      "versionInfo": "7.1",
+      "packageFileName": "asm-tree-7.1.jar",
+      "supplier": "Organization: OW2",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/7.1/asm-tree-7.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://asm.ow2.org/",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2000-2011 INRIA, France Telecom\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.ow2.asm/asm-tree@7.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-0F14982F37FFF9422B203729E6D492F4BE574F2790B2C94CBC34D7066FC2397C",
+      "name": "org.ow2.asm.asm",
+      "versionInfo": "7.1",
+      "packageFileName": "asm-7.1.jar",
+      "supplier": "Organization: OW2",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/ow2/asm/asm/7.1/asm-7.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://asm.ow2.org/",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2000-2011 INRIA, France Telecom\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.ow2.asm/asm@7.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E690AE17F5D25E87C075453A73206034721AB5216F15E50F1C47A4555E783B5C",
+      "name": "org.apache.maven.shared.maven-shared-utils",
+      "versionInfo": "3.1.0",
+      "packageFileName": "maven-shared-utils-3.1.0.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://maven.apache.org/shared/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.shared/maven-shared-utils@3.1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F832E7DE09E509C8B260E0FFB1262AA2E4B79DEAFEFED35FF75AB1F50A7F7C6E",
+      "name": "org.apache.maven.maven-settings-builder",
+      "versionInfo": "3.5.2",
+      "packageFileName": "maven-settings-builder-3.5.2.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/maven-settings-builder/3.5.2/maven-settings-builder-3.5.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://maven.apache.org/ref/${project.version}/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2015 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven/maven-settings-builder@3.5.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2AED25DB786DD732B4F9357324A530FBAEC7D3EB566DAB9850623C75614E1542",
+      "name": "org.apache.maven.maven-plugin-api",
+      "versionInfo": "3.5.2",
+      "packageFileName": "maven-plugin-api-3.5.2.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.5.2/maven-plugin-api-3.5.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://maven.apache.org/ref/${project.version}/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2015 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven/maven-plugin-api@3.5.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-16A6E41B5A604AFE1758F2598A3D1D84A9772C62327B3DFDC6F4CEE11B4A9F5F",
+      "name": "org.apache.maven.plugin-tools.maven-plugin-annotations",
+      "versionInfo": "3.5.1",
+      "packageFileName": "maven-plugin-annotations-3.5.1.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.1/maven-plugin-annotations-3.5.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://maven.apache.org/plugin-tools",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations@3.5.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-EDC7E61933168FE12E10A3C01AB24B0B87BE8956AF626DE02F0A42889BEB2D51",
+      "name": "javax.inject.javax.inject",
+      "versionInfo": "1",
+      "packageFileName": "javax.inject-1.jar",
+      "supplier": "Organization: Java Dependency Injection Sandard",
+      "downloadLocation": "https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://code.google.com/p/atinject/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/javax.inject/javax.inject@1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-127DDB23E53AD1655E0AB43258F3F71B3F0B10D4F5DE5021EC2C0B559CB70C5E",
+      "name": "org.apache.commons.commons-lang3",
+      "versionInfo": "3.5",
+      "packageFileName": "commons-lang3-3.5.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://commons.apache.org/proper/commons-lang/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2016 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-lang3@3.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-A36F8AE83FFD41450977DCAC668B5AC8EA22B2CDBE83F40E76A25CE4D0CC4660",
+      "name": "junit.junit",
+      "versionInfo": "3.8.1",
+      "packageFileName": "junit-3.8.1.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://junit.org",
+      "licenseConcluded": "CPL-1.0",
+      "licenseDeclared": "CPL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@3.8.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7A100B304F908669C5961B5CA8F679E559BB2C4D6248F1646B468618F7356B7A",
+      "name": "org.codehaus.plexus.plexus-utils",
+      "versionInfo": "3.1.0",
+      "packageFileName": "plexus-utils-3.1.0.jar",
+      "supplier": "Organization: Codehaus Plexus",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://codehaus-plexus.github.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.codehaus.plexus/plexus-utils@3.1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-FD6EADC96962FAB853E1ABD7D23014CC07DFF84320E0A633229C71A80C627C48",
+      "name": "org.codehaus.plexus.plexus-component-annotations",
+      "versionInfo": "1.7.1",
+      "packageFileName": "plexus-component-annotations-1.7.1.jar",
+      "supplier": "Organization: Codehaus Plexus",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://codehaus-plexus.github.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.7.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E294239F93A44AD2E3AEE36F9DC579F2ECB75BA0D5AF5166F3B0F6AD43B1F70E",
+      "name": "org.eclipse.jetty.jetty-http",
+      "versionInfo": "9.3.0.v20150612",
+      "packageFileName": "jetty-http-9.3.0.v20150612.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.3.0.v20150612/jetty-http-9.3.0.v20150612.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.eclipse.org/jetty",
+      "licenseConcluded": "Apache-2.0 OR EPL-1.0",
+      "licenseDeclared": "Apache-2.0 OR EPL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-http@9.3.0.v20150612"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-71E7CC115944CDECE371EEE760570BDDD2AA3FC773129725CBB3CE4768C9A5ED",
+      "name": "org.apache.maven.maven-builder-support",
+      "versionInfo": "3.5.2",
+      "packageFileName": "maven-builder-support-3.5.2.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/maven-builder-support/3.5.2/maven-builder-support-3.5.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://maven.apache.org/ref/${project.version}/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2015 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven/maven-builder-support@3.5.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-FAE17FECC3D461A43F11CA080F223082C497C6810BF21F67227E431118372116",
+      "name": "org.codehaus.plexus.plexus-interpolation",
+      "versionInfo": "1.24",
+      "packageFileName": "plexus-interpolation-1.24.jar",
+      "supplier": "Organization: Codehaus Plexus",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://codehaus-plexus.github.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.codehaus.plexus/plexus-interpolation@1.24"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DA6B7ED6C3735BE239BE99858904426DEDF24FD1666085E7513644E5997E49D2",
+      "name": "org.sonatype.plexus.plexus-cipher",
+      "versionInfo": "1.4",
+      "packageFileName": "plexus-cipher-1.4.jar",
+      "supplier": "Organization: Sonatype",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://spice.sonatype.org/${project.artifactId}",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.sonatype.plexus/plexus-cipher@1.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3A19A6711E13394A3D99253AC8226D206AEC37D8830A3946293E9FAEF6B1C3FC",
+      "name": "org.eclipse.jetty.jetty-server",
+      "versionInfo": "9.3.0.v20150612",
+      "packageFileName": "jetty-server-9.3.0.v20150612.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.3.0.v20150612/jetty-server-9.3.0.v20150612.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.eclipse.org/jetty",
+      "licenseConcluded": "Apache-2.0 OR EPL-1.0",
+      "licenseDeclared": "Apache-2.0 OR EPL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-server@9.3.0.v20150612"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-335BDEAA8C90BAB813C9FDEA614B5F7E182E23C11F9B881210EDC009FF3EBA3D",
+      "name": "javax.enterprise.cdi-api",
+      "versionInfo": "1.0",
+      "packageFileName": "cdi-api-1.0.jar",
+      "supplier": "Organization: Seam Framework",
+      "downloadLocation": "https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.seamframework.org/Weld",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/javax.enterprise/cdi-api@1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1FA869216FD030616B0A5C181647DCB06DD75525107480EB9F4DE57FFE828761",
+      "name": "org.sonatype.plexus.plexus-sec-dispatcher",
+      "versionInfo": "1.4",
+      "packageFileName": "plexus-sec-dispatcher-1.4.jar",
+      "supplier": "Organization: Sonatype",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://spice.sonatype.org/${project.artifactId}",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.sonatype.plexus/plexus-sec-dispatcher@1.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-D2F5F3B8B1A6B32A5981F166B56C5727FA93D3BFD627630EADB6CBEE27B57929",
+      "name": "org.apache.maven.resolver.maven-resolver-spi",
+      "versionInfo": "1.1.0",
+      "packageFileName": "maven-resolver-spi-1.1.0.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.1.0/maven-resolver-spi-1.1.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://maven.apache.org/resolver/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.resolver/maven-resolver-spi@1.1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E02DD695EECFD8BB8F67A19549320D37F69AAAAE882B27C0E1660D23964E2B75",
+      "name": "javax.annotation.jsr250-api",
+      "versionInfo": "1.0",
+      "packageFileName": "jsr250-api-1.0.jar",
+      "supplier": "Organization: Oracle",
+      "downloadLocation": "https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html",
+      "licenseConcluded": "CDDL-1.0",
+      "licenseDeclared": "CDDL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/javax.annotation/jsr250-api@1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-663DFCAEA123D1A00BAD842DCA3D5B662936E82B2005F183D77D24875F9858BA",
+      "name": "com.google.inject.guice",
+      "versionInfo": "4.0",
+      "packageFileName": "guice-4.0.jar",
+      "supplier": "Organization: Google, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/inject/guice/4.0/guice-4.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/guice",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.inject/guice@4.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-090A39D14D6D0056C45118AFB92ED75E5549DD03DE3A3D39996CC99110EF486A",
+      "name": "org.apache.maven.maven-model",
+      "versionInfo": "3.5.2",
+      "packageFileName": "maven-model-3.5.2.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.5.2/maven-model-3.5.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://maven.apache.org/ref/${project.version}/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2015 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven/maven-model@3.5.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2813D4DBF27FD93EBBFEFC82471AF969B36B8CF1CCE23B394985D3194C47AAAB",
+      "name": "org.apache.maven.maven-resolver-provider",
+      "versionInfo": "3.5.2",
+      "packageFileName": "maven-resolver-provider-3.5.2.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/maven-resolver-provider/3.5.2/maven-resolver-provider-3.5.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://maven.apache.org/ref/${project.version}/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2015 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven/maven-resolver-provider@3.5.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9F85AC1C4900FFE571810B770A6F4F360EEDDECD44B973F88552B808A5D23942",
+      "name": "org.apache.maven.maven-core",
+      "versionInfo": "3.5.2",
+      "packageFileName": "maven-core-3.5.2.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/maven-core/3.5.2/maven-core-3.5.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://maven.apache.org/ref/${project.version}/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2015 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven/maven-core@3.5.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DA2E581C3C575CCB83773DD221628922E6D4D48027FCEC2D247951795B4132D5",
+      "name": "org.db4j.kilim",
+      "versionInfo": "2.0.2",
+      "packageFileName": "kilim-2.0.2.jar",
+      "supplier": "Person: nqzero (srl.public@nqzero.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/db4j/kilim/2.0.2/kilim-2.0.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/nqzero/kilim",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright 2006-2014 Sriram Srinivasan (kilim@malhar.net)\r\nCopyright 2016-2018 nqzero",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.db4j/kilim@2.0.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-24F6C8C44B65568C22ECBB977321E3626780A1070B754D439F1ABED49131FFFC",
+      "name": "javax.servlet.javax.servlet-api",
+      "versionInfo": "3.1.0",
+      "packageFileName": "javax.servlet-api-3.1.0.jar",
+      "supplier": "Organization: GlassFish Community",
+      "downloadLocation": "https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://servlet-spec.java.net",
+      "licenseConcluded": "CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "licenseDeclared": "CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "copyrightText": "Copyright (c) 1997-2013 Oracle and/or its affiliates. All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-35153E11F72A3FD9C93CCF4979F97CE079E18ECAEABB266CDCBC1D93F8473B78",
+      "name": "org.codehaus.plexus.plexus-classworlds",
+      "versionInfo": "2.5.2",
+      "packageFileName": "plexus-classworlds-2.5.2.jar",
+      "supplier": "Organization: Codehaus",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://plexus.codehaus.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.codehaus.plexus/plexus-classworlds@2.5.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7EAF4C535D624B3CFE641BBE91ABA174D5C16AB24EF93CAB6D79509B3C2995D6",
+      "name": "org.apache.maven.resolver.maven-resolver-api",
+      "versionInfo": "1.1.0",
+      "packageFileName": "maven-resolver-api-1.1.0.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.1.0/maven-resolver-api-1.1.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://maven.apache.org/resolver/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.resolver/maven-resolver-api@1.1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-BE5F592F699E02BC2D35218EF9C1CDDE1F5F12317A4BC220566C466E3C0D8E64",
+      "name": "commons-io.commons-io",
+      "versionInfo": "2.5",
+      "packageFileName": "commons-io-2.5.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://commons.apache.org/proper/commons-io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2002-2016 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-io/commons-io@2.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-FC7D64E0F99368BE356B1ADFD9E8CA6F3D4AD6C5CDFE86B6CBD81C3ED6D21605",
+      "name": "org.apache.maven.maven-artifact",
+      "versionInfo": "3.0",
+      "packageFileName": "maven-artifact-3.0.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://maven.apache.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven/maven-artifact@3.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-316E42A76645DE97B6202991140DB627ED2E3FDC50E0E38A3241B9814BF5F261",
+      "name": "org.apache.maven.maven-repository-metadata",
+      "versionInfo": "3.5.2",
+      "packageFileName": "maven-repository-metadata-3.5.2.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/3.5.2/maven-repository-metadata-3.5.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://maven.apache.org/ref/${project.version}/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2015 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven/maven-repository-metadata@3.5.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-62ABDBFB21DA719AC7B6BF338163CD9B6EE55E27F0F13269D5E262A402B965EF",
+      "name": "com.google.guava.guava",
+      "versionInfo": "20.0",
+      "packageFileName": "guava-20.0.jar",
+      "supplier": "Person: Kevin Bourrillion (kevinb@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/guava",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/guava@20.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4BCA79B6025456A3A201F7224FC57938A8334250EB06A4F36B786769975C235B",
+      "name": "org.eclipse.jetty.jetty-util",
+      "versionInfo": "9.3.0.v20150612",
+      "packageFileName": "jetty-util-9.3.0.v20150612.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.3.0.v20150612/jetty-util-9.3.0.v20150612.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.eclipse.org/jetty",
+      "licenseConcluded": "Apache-2.0 OR EPL-1.0",
+      "licenseDeclared": "Apache-2.0 OR EPL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-util@9.3.0.v20150612"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6C7069CAD7128E782387EECB39DC2579CCDBA639D2DEA85A92AC66C375434127",
+      "name": "aopalliance.aopalliance",
+      "versionInfo": "1.0",
+      "packageFileName": "aopalliance-1.0.jar",
+      "supplier": "Organization: AOP Alliance",
+      "downloadLocation": "https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://aopalliance.sourceforge.net",
+      "licenseConcluded": "LicenseRef-fa16a6d7386f477bbc7307409309aece",
+      "licenseDeclared": "LicenseRef-fa16a6d7386f477bbc7307409309aece",
+      "copyrightText": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/aopalliance/aopalliance@1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-37D13A872B2FC0781BEC5969DF74E5F744836C828A97B61138EF217C006F01BE",
+      "name": "org.eclipse.jetty.jetty-io",
+      "versionInfo": "9.3.0.v20150612",
+      "packageFileName": "jetty-io-9.3.0.v20150612.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.3.0.v20150612/jetty-io-9.3.0.v20150612.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.eclipse.org/jetty",
+      "licenseConcluded": "Apache-2.0 OR EPL-1.0",
+      "licenseDeclared": "Apache-2.0 OR EPL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-io@9.3.0.v20150612"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-0A840E2CBD15448EEBD1547634646961496FC0C21725B381BC2B46FC8543689B",
+      "name": "org.apache.maven.resolver.maven-resolver-impl",
+      "versionInfo": "1.1.0",
+      "packageFileName": "maven-resolver-impl-1.1.0.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.1.0/maven-resolver-impl-1.1.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://maven.apache.org/resolver/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.resolver/maven-resolver-impl@1.1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-225149F5DC8A1D9AE17DC609D5F360F5155DA9E778596BBBEED1EE5A2758ECA1",
+      "name": "org.apache.maven.maven-settings",
+      "versionInfo": "3.5.2",
+      "packageFileName": "maven-settings-3.5.2.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/maven-settings/3.5.2/maven-settings-3.5.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://maven.apache.org/ref/${project.version}/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2015 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven/maven-settings@3.5.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C9519FE8E110493A0D42879776F578BA9A097A8E5FA7751E7DC316844EFB8FDB",
+      "name": "org.eclipse.sisu.org.eclipse.sisu.inject",
+      "versionInfo": "0.3.3",
+      "packageFileName": "org.eclipse.sisu.inject-0.3.3.jar",
+      "supplier": "Organization: The Eclipse Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.3/org.eclipse.sisu.inject-0.3.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.eclipse.org/sisu/",
+      "licenseConcluded": "EPL-1.0",
+      "licenseDeclared": "EPL-1.0",
+      "copyrightText": "Copyright (c) 2010, 2015 Sonatype, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4D0DA2E326C5B05A073B46D2DF26CD8190D5FB1FF7D4B5C5CB2968C21C90E066",
+      "name": "org.apache.maven.resolver.maven-resolver-util",
+      "versionInfo": "1.1.0",
+      "packageFileName": "maven-resolver-util-1.1.0.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.1.0/maven-resolver-util-1.1.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://maven.apache.org/resolver/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven.resolver/maven-resolver-util@1.1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E5319A495DFCEDD60960A469FC306F9B940A6AE7FF8F67CADFD48EE9E556C5DA",
+      "name": "org.eclipse.sisu.org.eclipse.sisu.plexus",
+      "versionInfo": "0.3.3",
+      "packageFileName": "org.eclipse.sisu.plexus-0.3.3.jar",
+      "supplier": "Organization: The Eclipse Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.3/org.eclipse.sisu.plexus-0.3.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.eclipse.org/sisu/",
+      "licenseConcluded": "EPL-1.0",
+      "licenseDeclared": "EPL-1.0",
+      "copyrightText": "Copyright (c) 2010, 2015 Sonatype, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-20AFF8ED18BCB16F630B2F9761A43AB479B2BD4BF6BE1E54DDE84D05A9F9F277",
+      "name": "org.apache.maven.maven-model-builder",
+      "versionInfo": "3.5.2",
+      "packageFileName": "maven-model-builder-3.5.2.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/maven/maven-model-builder/3.5.2/maven-model-builder-3.5.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://maven.apache.org/ref/${project.version}/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2015 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.maven/maven-model-builder@3.5.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "kilim",
+      "versionInfo": "0a2e2613ef915243b51c2ec5650e4bd1717b3e3b",
+      "packageFileName": "./",
+      "supplier": "Organization: kilim",
+      "downloadLocation": "git\u002Bhttps://github.com/kilim/kilim.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/kilim/kilim",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2006, 2014 Sriram Srinivasan (kilim at malhar.net)\r\nCopyright (c) 2016 nqzero\r\nCopyright (c) 2013 Nilang Shah\r\nCopyright (c) 2013 Jason Pell\r\nCopyright (c) 2013 Jestan Nirojan (maven plugin)",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/kilim/spdx.org/kilim@0a2e2613ef915243b51c2ec5650e4bd1717b3e3b?tag_id=d57daa56-ca93-4f32-86d6-59a9623f0d27"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-3A19A6711E13394A3D99253AC8226D206AEC37D8830A3946293E9FAEF6B1C3FC",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-71E7CC115944CDECE371EEE760570BDDD2AA3FC773129725CBB3CE4768C9A5ED",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-7A100B304F908669C5961B5CA8F679E559BB2C4D6248F1646B468618F7356B7A",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-127DDB23E53AD1655E0AB43258F3F71B3F0B10D4F5DE5021EC2C0B559CB70C5E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2AED25DB786DD732B4F9357324A530FBAEC7D3EB566DAB9850623C75614E1542",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-335BDEAA8C90BAB813C9FDEA614B5F7E182E23C11F9B881210EDC009FF3EBA3D",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-FAE17FECC3D461A43F11CA080F223082C497C6810BF21F67227E431118372116",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-FD6EADC96962FAB853E1ABD7D23014CC07DFF84320E0A633229C71A80C627C48",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E690AE17F5D25E87C075453A73206034721AB5216F15E50F1C47A4555E783B5C",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-0F14982F37FFF9422B203729E6D492F4BE574F2790B2C94CBC34D7066FC2397C",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-225149F5DC8A1D9AE17DC609D5F360F5155DA9E778596BBBEED1EE5A2758ECA1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-37D13A872B2FC0781BEC5969DF74E5F744836C828A97B61138EF217C006F01BE",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-6C7069CAD7128E782387EECB39DC2579CCDBA639D2DEA85A92AC66C375434127",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4BCA79B6025456A3A201F7224FC57938A8334250EB06A4F36B786769975C235B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-62ABDBFB21DA719AC7B6BF338163CD9B6EE55E27F0F13269D5E262A402B965EF",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DA6B7ED6C3735BE239BE99858904426DEDF24FD1666085E7513644E5997E49D2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E294239F93A44AD2E3AEE36F9DC579F2ECB75BA0D5AF5166F3B0F6AD43B1F70E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-A36F8AE83FFD41450977DCAC668B5AC8EA22B2CDBE83F40E76A25CE4D0CC4660",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-EDC7E61933168FE12E10A3C01AB24B0B87BE8956AF626DE02F0A42889BEB2D51",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F832E7DE09E509C8B260E0FFB1262AA2E4B79DEAFEFED35FF75AB1F50A7F7C6E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C4C4DF874AA9F820545935D365B0F21B93469B925D15EBB944F1182C042B0390",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-20AFF8ED18BCB16F630B2F9761A43AB479B2BD4BF6BE1E54DDE84D05A9F9F277",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E5319A495DFCEDD60960A469FC306F9B940A6AE7FF8F67CADFD48EE9E556C5DA",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4D0DA2E326C5B05A073B46D2DF26CD8190D5FB1FF7D4B5C5CB2968C21C90E066",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C9519FE8E110493A0D42879776F578BA9A097A8E5FA7751E7DC316844EFB8FDB",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-0A840E2CBD15448EEBD1547634646961496FC0C21725B381BC2B46FC8543689B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-316E42A76645DE97B6202991140DB627ED2E3FDC50E0E38A3241B9814BF5F261",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-FC7D64E0F99368BE356B1ADFD9E8CA6F3D4AD6C5CDFE86B6CBD81C3ED6D21605",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-BE5F592F699E02BC2D35218EF9C1CDDE1F5F12317A4BC220566C466E3C0D8E64",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-7EAF4C535D624B3CFE641BBE91ABA174D5C16AB24EF93CAB6D79509B3C2995D6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-35153E11F72A3FD9C93CCF4979F97CE079E18ECAEABB266CDCBC1D93F8473B78",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-24F6C8C44B65568C22ECBB977321E3626780A1070B754D439F1ABED49131FFFC",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DA2E581C3C575CCB83773DD221628922E6D4D48027FCEC2D247951795B4132D5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-9F85AC1C4900FFE571810B770A6F4F360EEDDECD44B973F88552B808A5D23942",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-090A39D14D6D0056C45118AFB92ED75E5549DD03DE3A3D39996CC99110EF486A",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-D2F5F3B8B1A6B32A5981F166B56C5727FA93D3BFD627630EADB6CBEE27B57929",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2813D4DBF27FD93EBBFEFC82471AF969B36B8CF1CCE23B394985D3194C47AAAB",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-663DFCAEA123D1A00BAD842DCA3D5B662936E82B2005F183D77D24875F9858BA",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E02DD695EECFD8BB8F67A19549320D37F69AAAAE882B27C0E1660D23964E2B75",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-1FA869216FD030616B0A5C181647DCB06DD75525107480EB9F4DE57FFE828761",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-16A6E41B5A604AFE1758F2598A3D1D84A9772C62327B3DFDC6F4CEE11B4A9F5F",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

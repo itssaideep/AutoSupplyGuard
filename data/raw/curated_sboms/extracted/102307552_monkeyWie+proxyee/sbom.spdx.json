@@ -1,0 +1,389 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "proxyee cddd02ad0d5a00fb152a8839f7356c1b17d62ff4",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-15536ec9-4ff1-49d6-9b4e-d32a9da4348e/proxyee/cddd02ad0d5a00fb152a8839f7356c1b17d62ff4/YWPcEQwQ5k2U72mLjvg3fQ",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-c48f8c05db3d4ae9b0104c3725e3ea19",
+      "extractedText": "http://www.bouncycastle.org/licence.html",
+      "name": "http://www.bouncycastle.org/licence.html"
+    }
+  ],
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-59223DD0A81212884A55149EAD96DC3D5A6E7891CC8A3DCFBBC4A0B60E046138",
+      "name": "com.github.monkeywie.proxyee",
+      "versionInfo": "1.7.6",
+      "packageFileName": "proxyee-1.7.6.jar",
+      "supplier": "Person: monkeyWie (liwei-8466@qq.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/github/monkeywie/proxyee/1.7.6/proxyee-1.7.6.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/monkeyWie/proxyee",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2017 monkeyWie",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.monkeywie/proxyee@1.7.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-43E83C1532FFD6227C07F8F5EB1287F1036C29C8CA2E2B6C0D3F8EDD10A6FBAD",
+      "name": "io.netty.netty-codec-socks",
+      "versionInfo": "4.1.94.Final",
+      "packageFileName": "netty-codec-socks-4.1.94.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.94.Final/netty-codec-socks-4.1.94.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec-socks@4.1.94.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1BBBD33191E80E0061A86203AEB6E3F99D44F98659DE048D9728AEADD3C1B8AB",
+      "name": "io.netty.netty-resolver",
+      "versionInfo": "4.1.94.Final",
+      "packageFileName": "netty-resolver-4.1.94.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.94.Final/netty-resolver-4.1.94.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-resolver@4.1.94.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-83831E27306259165B6878FE4432344F382004B87B203DB5E65F1FECEA0CA823",
+      "name": "org.bouncycastle.bcpkix-jdk15on",
+      "versionInfo": "1.60",
+      "packageFileName": "bcpkix-jdk15on-1.60.jar",
+      "supplier": "Organization: The Legion of the Bouncy Castle Inc",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.bouncycastle.org/java.html",
+      "licenseConcluded": "LicenseRef-c48f8c05db3d4ae9b0104c3725e3ea19",
+      "licenseDeclared": "LicenseRef-c48f8c05db3d4ae9b0104c3725e3ea19",
+      "copyrightText": "Copyright (c) 2000-2018 The Legion of the Bouncy Castle Inc. (http://www.bouncycastle.org)",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.60"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6F2A159271ABEEC80823CA560E6ABD037F6B695FB84D8B66B78C16301AD36E99",
+      "name": "io.netty.netty-common",
+      "versionInfo": "4.1.94.Final",
+      "packageFileName": "netty-common-4.1.94.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-common/4.1.94.Final/netty-common-4.1.94.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-common@4.1.94.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-08EBACFAC79335D83FFA9E878F51FB7FBE0FF629C2195A7574158CFD0DADB080",
+      "name": "io.netty.netty-handler-proxy",
+      "versionInfo": "4.1.94.Final",
+      "packageFileName": "netty-handler-proxy-4.1.94.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.94.Final/netty-handler-proxy-4.1.94.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-handler-proxy@4.1.94.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C380F972A8C9B2F1EF14F45707A3B62FA80B68858972F203E51BA25C1383A1FA",
+      "name": "org.bouncycastle.bcprov-jdk15on",
+      "versionInfo": "1.60",
+      "packageFileName": "bcprov-jdk15on-1.60.jar",
+      "supplier": "Organization: The Legion of the Bouncy Castle Inc",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.bouncycastle.org/java.html",
+      "licenseConcluded": "LicenseRef-c48f8c05db3d4ae9b0104c3725e3ea19",
+      "licenseDeclared": "LicenseRef-c48f8c05db3d4ae9b0104c3725e3ea19",
+      "copyrightText": "Copyright (c) 2000-2018 The Legion of the Bouncy Castle Inc. (http://www.bouncycastle.org)",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.60"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1C6BCB898CE9E77CF51664BB6E43AA1F34F83E6943E3A106ABCB81A9BB41C2D6",
+      "name": "io.netty.netty-transport",
+      "versionInfo": "4.1.94.Final",
+      "packageFileName": "netty-transport-4.1.94.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.94.Final/netty-transport-4.1.94.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport@4.1.94.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-D02A8F9DA03CCCC84E8A9B06984C5C654A1886F3819BB5350EAB78327C56EE1D",
+      "name": "io.netty.netty-handler",
+      "versionInfo": "4.1.94.Final",
+      "packageFileName": "netty-handler-4.1.94.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.94.Final/netty-handler-4.1.94.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-handler@4.1.94.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1BCD76F77F33A37F33A081637497331F9C07FEB5056CB59193B7AA57223FA4D4",
+      "name": "io.netty.netty-codec",
+      "versionInfo": "4.1.94.Final",
+      "packageFileName": "netty-codec-4.1.94.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.94.Final/netty-codec-4.1.94.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec@4.1.94.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4884D8D82C1BCCF46D255B7D608D7502C7D6AC5FA6E904F6C5CF66CEBD76B9EC",
+      "name": "io.netty.netty-buffer",
+      "versionInfo": "4.1.94.Final",
+      "packageFileName": "netty-buffer-4.1.94.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.94.Final/netty-buffer-4.1.94.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-buffer@4.1.94.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B60EDEC60ED55B8EADAA6335BAD3EED644ECA77807528BF330486E5070E2C17D",
+      "name": "io.netty.netty-codec-http",
+      "versionInfo": "4.1.94.Final",
+      "packageFileName": "netty-codec-http-4.1.94.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.94.Final/netty-codec-http-4.1.94.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec-http@4.1.94.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2B9B89DC87864ED369DF172E66CB815B01D569C4CAEC368ED538AA10E5B96803",
+      "name": "io.netty.netty-transport-native-unix-common",
+      "versionInfo": "4.1.94.Final",
+      "packageFileName": "netty-transport-native-unix-common-4.1.94.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.94.Final/netty-transport-native-unix-common-4.1.94.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.94.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "proxyee",
+      "versionInfo": "cddd02ad0d5a00fb152a8839f7356c1b17d62ff4",
+      "packageFileName": "./",
+      "supplier": "Organization: monkeyWie",
+      "downloadLocation": "git\u002Bhttps://github.com/monkeyWie/proxyee.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/monkeyWie/proxyee",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2017 monkeyWie",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/monkeyWie/spdx.org/proxyee@cddd02ad0d5a00fb152a8839f7356c1b17d62ff4?tag_id=cabe94cc-e5a3-41e4-9ba7-23b7f9ad4aaf"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4884D8D82C1BCCF46D255B7D608D7502C7D6AC5FA6E904F6C5CF66CEBD76B9EC",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-1BCD76F77F33A37F33A081637497331F9C07FEB5056CB59193B7AA57223FA4D4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-1C6BCB898CE9E77CF51664BB6E43AA1F34F83E6943E3A106ABCB81A9BB41C2D6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-08EBACFAC79335D83FFA9E878F51FB7FBE0FF629C2195A7574158CFD0DADB080",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-6F2A159271ABEEC80823CA560E6ABD037F6B695FB84D8B66B78C16301AD36E99",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-83831E27306259165B6878FE4432344F382004B87B203DB5E65F1FECEA0CA823",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-43E83C1532FFD6227C07F8F5EB1287F1036C29C8CA2E2B6C0D3F8EDD10A6FBAD",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-1BBBD33191E80E0061A86203AEB6E3F99D44F98659DE048D9728AEADD3C1B8AB",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-59223DD0A81212884A55149EAD96DC3D5A6E7891CC8A3DCFBBC4A0B60E046138",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2B9B89DC87864ED369DF172E66CB815B01D569C4CAEC368ED538AA10E5B96803",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B60EDEC60ED55B8EADAA6335BAD3EED644ECA77807528BF330486E5070E2C17D",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-D02A8F9DA03CCCC84E8A9B06984C5C654A1886F3819BB5350EAB78327C56EE1D",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C380F972A8C9B2F1EF14F45707A3B62FA80B68858972F203E51BA25C1383A1FA",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

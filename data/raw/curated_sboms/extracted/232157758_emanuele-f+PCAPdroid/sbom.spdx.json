@@ -1,0 +1,122 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "PCAPdroid d2bde7b9e7d574506cb03beecb2ca108c5ba1401",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-7571f711-5a07-482b-8020-6b305e2aac51/PCAPdroid/d2bde7b9e7d574506cb03beecb2ca108c5ba1401/wnmznmTMi0mKMBgfsBWWYQ",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-62D339531B5CD0A9DE114DD411F9FCE2EAB36DD0979ADCBD13C14F29DEB26E68",
+      "name": "com.maxmind.db.maxmind-db",
+      "versionInfo": "2.0.0",
+      "packageFileName": "maxmind-db-2.0.0.jar",
+      "supplier": "Organization: MaxMind, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/maxmind/db/maxmind-db/2.0.0/maxmind-db-2.0.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://dev.maxmind.com/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "This software is Copyright (c) 2014-2020 by MaxMind, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.maxmind.db/maxmind-db@2.0.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3778ECFC4F2ABF4952973BB0806E77BA0704BA969D8CCA12AE597E4A42AC5CF8",
+      "name": "junit.junit",
+      "versionInfo": "4.13.1",
+      "packageFileName": "junit-4.13.1.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/junit/junit/4.13.1/junit-4.13.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://junit.org",
+      "licenseConcluded": "EPL-1.0",
+      "licenseDeclared": "EPL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.13.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "name": "org.hamcrest.hamcrest-core",
+      "versionInfo": "1.3",
+      "packageFileName": "hamcrest-core-1.3.jar",
+      "supplier": "Organization: Hamcrest",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/hamcrest/JavaHamcrest",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2000-2006, www.hamcrest.org\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "PCAPdroid",
+      "versionInfo": "d2bde7b9e7d574506cb03beecb2ca108c5ba1401",
+      "packageFileName": "./",
+      "supplier": "Organization: emanuele-f",
+      "downloadLocation": "git\u002Bhttps://github.com/emanuele-f/PCAPdroid.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/emanuele-f/PCAPdroid",
+      "licenseConcluded": "GPL-3.0-only",
+      "licenseDeclared": "GPL-3.0-only",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/emanuele-f/spdx.org/PCAPdroid@d2bde7b9e7d574506cb03beecb2ca108c5ba1401?tag_id=9bfba297-260d-4c27-b93a-f14b165915d2"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-3778ECFC4F2ABF4952973BB0806E77BA0704BA969D8CCA12AE597E4A42AC5CF8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-62D339531B5CD0A9DE114DD411F9FCE2EAB36DD0979ADCBD13C14F29DEB26E68",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

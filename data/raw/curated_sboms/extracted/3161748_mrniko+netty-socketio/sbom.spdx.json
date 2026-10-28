@@ -1,0 +1,1058 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "netty-socketio c4ca71e0c91483f8832a58e97f3a25f00f8b97a5",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-6eb044ce-5eee-42e4-81eb-e0d6399f3e63/netty-socketio/c4ca71e0c91483f8832a58e97f3a25f00f8b97a5/7EFhsCSikEezmB3lw7QcCA",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-5379A75AFE1A01863888387451789BC7A4EDE834AC8BAC13154D42CA17DC166F",
+      "name": "com.fasterxml.jackson.core.jackson-annotations",
+      "versionInfo": "2.17.2",
+      "packageFileName": "jackson-annotations-2.17.2.jar",
+      "supplier": "Organization: FasterXML",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/FasterXML/jackson",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.17.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2C85CCBD8FC67052E38E6959095994ACC47EAA459328CB8A5028D62C81C4C7FF",
+      "name": "net.bytebuddy.byte-buddy",
+      "versionInfo": "1.14.17",
+      "packageFileName": "byte-buddy-1.14.17.jar",
+      "supplier": "Person: Rafael Winterhalter (rafael.wth@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.14.17/byte-buddy-1.14.17.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://bytebuddy.net",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.bytebuddy/byte-buddy@1.14.17"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4A75F7CA4BA75589A2080B8829416BB6C3BB700B5E535A512E9F448B3301B252",
+      "name": "com.corundumstudio.socketio.netty-socketio",
+      "versionInfo": "2.0.12-SNAPSHOT",
+      "packageFileName": "netty-socketio-2.0.12-SNAPSHOT.jar",
+      "supplier": "Person: Nikita Koksharov (abracham.mitchell@gmail.com)",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/mrniko/netty-socketio",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2012-2023 Nikita Koksharov",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.corundumstudio.socketio/netty-socketio@2.0.12-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-FCD1C4CE1FA595D34430C008BFB251F8004E76381CAE858F38581C29E4E6A707",
+      "name": "io.netty.netty-transport",
+      "versionInfo": "4.1.112.Final",
+      "packageFileName": "netty-transport-4.1.112.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.112.Final/netty-transport-4.1.112.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport@4.1.112.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-01D02CF70C4287A5C3532D2001A459177F183157B80A90A4D75EDFD9EB2DA832",
+      "name": "io.netty.netty-transport-classes-epoll",
+      "versionInfo": "4.1.112.Final",
+      "packageFileName": "netty-transport-classes-epoll-4.1.112.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.112.Final/netty-transport-classes-epoll-4.1.112.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.112.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-40E09C08256306C58D12C94F14BB86AB7C12C283E0B1DB2013AAE47B4258E66F",
+      "name": "io.netty.netty-handler",
+      "versionInfo": "4.1.112.Final",
+      "packageFileName": "netty-handler-4.1.112.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.112.Final/netty-handler-4.1.112.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-handler@4.1.112.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-64B0D49373230D1125B1C4FEDB7452EE74D9CAA2D1C4793045D80CCAE9104919",
+      "name": "io.netty.netty-codec-http",
+      "versionInfo": "4.1.112.Final",
+      "packageFileName": "netty-codec-http-4.1.112.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.112.Final/netty-codec-http-4.1.112.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec-http@4.1.112.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-14F31434A25815AEC30972E1FAAA63FFA475361639BC2E8A1588185E9CF418F8",
+      "name": "io.netty.netty-buffer",
+      "versionInfo": "4.1.112.Final",
+      "packageFileName": "netty-buffer-4.1.112.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.112.Final/netty-buffer-4.1.112.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-buffer@4.1.112.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F0D56D812B64281FD4B1E81586F26107AFB8E2627F0A5FAA67C7FDD0C12F309B",
+      "name": "org.slf4j.slf4j-api",
+      "versionInfo": "1.7.36",
+      "packageFileName": "slf4j-api-1.7.36.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.slf4j.org",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2004-2022 QOS.ch Sarl (Switzerland)\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8327ECC6C3F35F78078B0ADE15C7168437841C222C567335CD1CB60174D9D530",
+      "name": "org.springframework.spring-beans",
+      "versionInfo": "6.1.14",
+      "packageFileName": "spring-beans-6.1.14.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-beans/6.1.14/spring-beans-6.1.14.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-beans@6.1.14"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "name": "org.hamcrest.hamcrest-core",
+      "versionInfo": "1.3",
+      "packageFileName": "hamcrest-core-1.3.jar",
+      "supplier": "Organization: Hamcrest",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/hamcrest/JavaHamcrest",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2000-2006, www.hamcrest.org\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9C704D3D40B427BFB9072318ECEB54326E0530F7BB342308C719BB17A0664CC9",
+      "name": "junit.junit",
+      "versionInfo": "4.13.2",
+      "packageFileName": "junit-4.13.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://junit.org",
+      "licenseConcluded": "EPL-1.0",
+      "licenseDeclared": "EPL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.13.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-20F02520AA8D82922A25C76DAE7A0EBBE56DDFD8B68BF7171152824A47C8278E",
+      "name": "org.reactivestreams.reactive-streams",
+      "versionInfo": "1.0.4",
+      "packageFileName": "reactive-streams-1.0.4.jar",
+      "supplier": "Person: Reactive Streams SIG",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.reactive-streams.org/",
+      "licenseConcluded": "MIT-0",
+      "licenseDeclared": "MIT-0",
+      "copyrightText": "Copyright 2014 Reactive Streams",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.reactivestreams/reactive-streams@1.0.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E1CEEF772D36A706BA7BF18ADE539F76FD6C737C52736DAD6F263F0D761E6071",
+      "name": "org.yaml.snakeyaml",
+      "versionInfo": "2.2",
+      "packageFileName": "snakeyaml-2.2.jar",
+      "supplier": "Organization: snakeyaml",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://bitbucket.org/snakeyaml/snakeyaml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.yaml/snakeyaml@2.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-013B5ACA9CC528A87616C8E495A5D0F2F73795998F81A94F7BACD6AB14F93CEF",
+      "name": "io.netty.netty-transport-native-unix-common",
+      "versionInfo": "4.1.112.Final",
+      "packageFileName": "netty-transport-native-unix-common-4.1.112.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.112.Final/netty-transport-native-unix-common-4.1.112.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.112.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-25EA3F58708912FCC240511CEC2EE6563CCA83E1CF28E2D61CA25268231B2627",
+      "name": "com.fasterxml.jackson.core.jackson-databind",
+      "versionInfo": "2.17.2",
+      "packageFileName": "jackson-databind-2.17.2.jar",
+      "supplier": "Organization: FasterXML",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/FasterXML/jackson",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.17.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F1CD6C7E77098FABAA98CC7EF976BA837776EE33B07623790928792F1C01D4A1",
+      "name": "com.fasterxml.jackson.core.jackson-core",
+      "versionInfo": "2.17.2",
+      "packageFileName": "jackson-core-2.17.2.jar",
+      "supplier": "Organization: FasterXML",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/FasterXML/jackson-core",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.17.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-61E5B94A0464236D18785DD30CD562E4CBF44F6CC29174EF5B382DD579DF5EE5",
+      "name": "com.esotericsoftware.reflectasm",
+      "versionInfo": "1.11.9",
+      "packageFileName": "reflectasm-1.11.9.jar",
+      "supplier": "Person: Nathan Sweet (nathan.sweet@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/esotericsoftware/reflectasm/1.11.9/reflectasm-1.11.9.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/EsotericSoftware/reflectasm",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2008, Nathan Sweet\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.esotericsoftware/reflectasm@1.11.9"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-D5FB4AAD120D11AA7DEE702989F24E84100EFC77179A0C9CF4327DAB2D83FDB2",
+      "name": "com.hazelcast.hazelcast-client",
+      "versionInfo": "3.12.12",
+      "packageFileName": "hazelcast-client-3.12.12.jar",
+      "supplier": "Organization: Hazelcast, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/hazelcast/hazelcast-client/3.12.12/hazelcast-client-3.12.12.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.hazelcast.com/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.hazelcast/hazelcast-client@3.12.12"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-0063CBE4F06DC47184FAB7970971F2981A386681EE4E31572F8691A3F464F188",
+      "name": "io.netty.netty-resolver",
+      "versionInfo": "4.1.112.Final",
+      "packageFileName": "netty-resolver-4.1.112.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.112.Final/netty-resolver-4.1.112.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-resolver@4.1.112.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9F65A294C2BDEC08B0355C3219652FADA4104FF5552A2B4435B9D001A26D8FBB",
+      "name": "org.jodd.jodd-util",
+      "versionInfo": "6.2.2",
+      "packageFileName": "jodd-util-6.2.2.jar",
+      "supplier": "Person: Igor Spasi\u0107 (igor@jodd.org)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jodd/jodd-util/6.2.2/jodd-util-6.2.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://util.jodd.org",
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "BSD-2-Clause",
+      "copyrightText": "Copyright (c) 2020, Oblac\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jodd/jodd-util@6.2.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-FF100A6A42DC4226193D12371275D6F59CD855D72AA6F7083FFFD94A79EC6AFF",
+      "name": "org.redisson.redisson",
+      "versionInfo": "3.33.0",
+      "packageFileName": "redisson-3.33.0.jar",
+      "supplier": "Organization: Redisson",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/redisson/redisson/3.33.0/redisson-3.33.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://redisson.org",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2014-2018 Nikita Koksharov",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.redisson/redisson@3.33.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1C03A7A1358819EBA24856B08EE5AD7FBACD853EF838E2DB63B188F17539946A",
+      "name": "org.objenesis.objenesis",
+      "versionInfo": "3.3",
+      "packageFileName": "objenesis-3.3.jar",
+      "supplier": "Organization: Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/objenesis/objenesis/3.3/objenesis-3.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://objenesis.org",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.objenesis/objenesis@3.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-D38926FF374B0622278CE81AE3D8C1554D297B0462C144FB254E31AC896A8FB1",
+      "name": "org.jmockit.jmockit",
+      "versionInfo": "1.49",
+      "packageFileName": "jmockit-1.49.jar",
+      "supplier": "Person: Rog\u00E9rio Liesenfeld",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jmockit/jmockit/1.49/jmockit-1.49.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://jmockit.github.io",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2006 JMockit developers",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jmockit/jmockit@1.49"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DC603080993EDABA94FF233C908AAE113731C0904CD516DF3F15551FA82022F9",
+      "name": "io.netty.netty-resolver-dns",
+      "versionInfo": "4.1.111.Final",
+      "packageFileName": "netty-resolver-dns-4.1.111.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-resolver-dns/4.1.111.Final/netty-resolver-dns-4.1.111.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-resolver-dns@4.1.111.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-A041CFA86A5B9AD6110851C9A878E50B4AEB32BA857DBBF06F5307F21C6BACA6",
+      "name": "com.esotericsoftware.minlog",
+      "versionInfo": "1.3.1",
+      "packageFileName": "minlog-1.3.1.jar",
+      "supplier": "Person: Nathan Sweet (nathan.sweet@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/esotericsoftware/minlog/1.3.1/minlog-1.3.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/EsotericSoftware/minlog",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2008, Nathan Sweet\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.esotericsoftware/minlog@1.3.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-AB002F38348E27CAC3A6C0A0EA3AD3975C132A4F04ABC78F37514ED34BA879A8",
+      "name": "io.projectreactor.reactor-core",
+      "versionInfo": "3.6.2",
+      "packageFileName": "reactor-core-3.6.2.jar",
+      "supplier": "Organization: reactor",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/projectreactor/reactor-core/3.6.2/reactor-core-3.6.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/reactor/reactor-core",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.projectreactor/reactor-core@3.6.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8517148B58B3835340E4814AD56E1C197D89D1AF4A0DD27B2A7C6385A054829B",
+      "name": "com.esotericsoftware.kryo",
+      "versionInfo": "5.6.0",
+      "packageFileName": "kryo-5.6.0.jar",
+      "supplier": "Person: Nathan Sweet (admin@esotericsoftware.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/esotericsoftware/kryo/5.6.0/kryo-5.6.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/EsotericSoftware/kryo",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2008-2023, Nathan Sweet All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.esotericsoftware/kryo@5.6.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1AC84E7DF2F69E90C12BF1AD1BC7DD26857ACAE17A3DB35EA069512725B1E64B",
+      "name": "io.reactivex.rxjava3.rxjava",
+      "versionInfo": "3.1.8",
+      "packageFileName": "rxjava-3.1.8.jar",
+      "supplier": "Person: David Karnok",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/reactivex/rxjava3/rxjava/3.1.8/rxjava-3.1.8.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/ReactiveX/RxJava",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2016-present, RxJava Contributors.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.reactivex.rxjava3/rxjava@3.1.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-A2932B84FEB1291AC0EB33F6A4BB59FB9D2A3A8B63A11750458F101D4506F57A",
+      "name": "javax.cache.cache-api",
+      "versionInfo": "1.1.1",
+      "packageFileName": "cache-api-1.1.1.jar",
+      "supplier": "Organization: JSR107 - Java Caching",
+      "downloadLocation": "https://repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/jsr107/jsr107spec",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) JSR107 Expert Group",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/javax.cache/cache-api@1.1.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-AC5E137A2F9F3C66235FAF549B1FA21E4D730682AF23F9DE60FA25EBBA61D9C5",
+      "name": "com.google.code.findbugs.jsr305",
+      "versionInfo": "3.0.2",
+      "packageFileName": "jsr305-3.0.2.jar",
+      "supplier": "Organization: The University of Maryland",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://findbugs.sourceforge.net/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-265EAD71BDAB58F643C52ABAE1F5501FAE93A016F02BD1A24C38F09131F301ED",
+      "name": "io.netty.netty-codec-dns",
+      "versionInfo": "4.1.111.Final",
+      "packageFileName": "netty-codec-dns-4.1.111.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-codec-dns/4.1.111.Final/netty-codec-dns-4.1.111.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec-dns@4.1.111.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2C20B93012226F10D70089D04910CEC7B2EC725098A1FF5BF6183FF8F54AB38F",
+      "name": "io.netty.netty-codec",
+      "versionInfo": "4.1.112.Final",
+      "packageFileName": "netty-codec-4.1.112.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.112.Final/netty-codec-4.1.112.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-codec@4.1.112.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DA2ED120F11B1E0335DC1482594951B70AB4FA9222A96F3E983885298850F4BC",
+      "name": "com.fasterxml.jackson.dataformat.jackson-dataformat-yaml",
+      "versionInfo": "2.17.1",
+      "packageFileName": "jackson-dataformat-yaml-2.17.1.jar",
+      "supplier": "Organization: FasterXML",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.17.1/jackson-dataformat-yaml-2.17.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/FasterXML/jackson-dataformats-text",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.17.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4C57D0258D02429638D2091DB71B936B5B9F957E31CF4B28DB94069790E75D4B",
+      "name": "org.springframework.spring-jcl",
+      "versionInfo": "6.1.14",
+      "packageFileName": "spring-jcl-6.1.14.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-jcl/6.1.14/spring-jcl-6.1.14.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-jcl@6.1.14"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C1C090B41C1ABE9FD960CD7EA676066731DCA4BFD8856E6B9DBE2E21C0EFE60C",
+      "name": "io.netty.netty-common",
+      "versionInfo": "4.1.112.Final",
+      "packageFileName": "netty-common-4.1.112.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-common/4.1.112.Final/netty-common-4.1.112.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-common@4.1.112.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-59C4A0B7CB23C4F48AFC4835DAF5E10C03D77B38C51949D1EABBD733B14D4691",
+      "name": "io.netty.netty-transport-native-epoll",
+      "versionInfo": "4.1.112.Final",
+      "packageFileName": "netty-transport-native-epoll-4.1.112.Final.jar",
+      "supplier": "Organization: The Netty Project",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.112.Final/netty-transport-native-epoll-4.1.112.Final.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://netty.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014 The Netty Project",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.112.Final"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7F0EA1EFEF6AC272AF42776B361A2B0CB20A9F5571E630277F87125AD9BED732",
+      "name": "com.hazelcast.hazelcast",
+      "versionInfo": "3.12.12",
+      "packageFileName": "hazelcast-3.12.12.jar",
+      "supplier": "Organization: Hazelcast, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/hazelcast/hazelcast/3.12.12/hazelcast-3.12.12.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.hazelcast.com/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.hazelcast/hazelcast@3.12.12"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-A604BAF8A891BEC781441C1CC7A66F81EB7FFF170A0EE87ED6433C64D482C4BA",
+      "name": "org.springframework.spring-core",
+      "versionInfo": "6.1.14",
+      "packageFileName": "spring-core-6.1.14.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-core/6.1.14/spring-core-6.1.14.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-core@6.1.14"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "netty-socketio",
+      "versionInfo": "c4ca71e0c91483f8832a58e97f3a25f00f8b97a5",
+      "packageFileName": "./",
+      "supplier": "Organization: mrniko",
+      "downloadLocation": "git\u002Bhttps://github.com/mrniko/netty-socketio.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/mrniko/netty-socketio",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/mrniko/spdx.org/netty-socketio@c4ca71e0c91483f8832a58e97f3a25f00f8b97a5?tag_id=093e6187-fb93-4ca7-a6e2-9278cdd96024"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-AC5E137A2F9F3C66235FAF549B1FA21E4D730682AF23F9DE60FA25EBBA61D9C5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-8517148B58B3835340E4814AD56E1C197D89D1AF4A0DD27B2A7C6385A054829B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DC603080993EDABA94FF233C908AAE113731C0904CD516DF3F15551FA82022F9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-61E5B94A0464236D18785DD30CD562E4CBF44F6CC29174EF5B382DD579DF5EE5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F0D56D812B64281FD4B1E81586F26107AFB8E2627F0A5FAA67C7FDD0C12F309B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-1AC84E7DF2F69E90C12BF1AD1BC7DD26857ACAE17A3DB35EA069512725B1E64B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-9F65A294C2BDEC08B0355C3219652FADA4104FF5552A2B4435B9D001A26D8FBB",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-D5FB4AAD120D11AA7DEE702989F24E84100EFC77179A0C9CF4327DAB2D83FDB2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-25EA3F58708912FCC240511CEC2EE6563CCA83E1CF28E2D61CA25268231B2627",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4A75F7CA4BA75589A2080B8829416BB6C3BB700B5E535A512E9F448B3301B252",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-FF100A6A42DC4226193D12371275D6F59CD855D72AA6F7083FFFD94A79EC6AFF",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F1CD6C7E77098FABAA98CC7EF976BA837776EE33B07623790928792F1C01D4A1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-9C704D3D40B427BFB9072318ECEB54326E0530F7BB342308C719BB17A0664CC9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-8327ECC6C3F35F78078B0ADE15C7168437841C222C567335CD1CB60174D9D530",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-FCD1C4CE1FA595D34430C008BFB251F8004E76381CAE858F38581C29E4E6A707",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-265EAD71BDAB58F643C52ABAE1F5501FAE93A016F02BD1A24C38F09131F301ED",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-AB002F38348E27CAC3A6C0A0EA3AD3975C132A4F04ABC78F37514ED34BA879A8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-013B5ACA9CC528A87616C8E495A5D0F2F73795998F81A94F7BACD6AB14F93CEF",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-01D02CF70C4287A5C3532D2001A459177F183157B80A90A4D75EDFD9EB2DA832",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2C85CCBD8FC67052E38E6959095994ACC47EAA459328CB8A5028D62C81C4C7FF",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-A604BAF8A891BEC781441C1CC7A66F81EB7FFF170A0EE87ED6433C64D482C4BA",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2C20B93012226F10D70089D04910CEC7B2EC725098A1FF5BF6183FF8F54AB38F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-40E09C08256306C58D12C94F14BB86AB7C12C283E0B1DB2013AAE47B4258E66F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-5379A75AFE1A01863888387451789BC7A4EDE834AC8BAC13154D42CA17DC166F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-7F0EA1EFEF6AC272AF42776B361A2B0CB20A9F5571E630277F87125AD9BED732",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-59C4A0B7CB23C4F48AFC4835DAF5E10C03D77B38C51949D1EABBD733B14D4691",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C1C090B41C1ABE9FD960CD7EA676066731DCA4BFD8856E6B9DBE2E21C0EFE60C",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4C57D0258D02429638D2091DB71B936B5B9F957E31CF4B28DB94069790E75D4B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DA2ED120F11B1E0335DC1482594951B70AB4FA9222A96F3E983885298850F4BC",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-A2932B84FEB1291AC0EB33F6A4BB59FB9D2A3A8B63A11750458F101D4506F57A",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-A041CFA86A5B9AD6110851C9A878E50B4AEB32BA857DBBF06F5307F21C6BACA6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-1C03A7A1358819EBA24856B08EE5AD7FBACD853EF838E2DB63B188F17539946A",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-0063CBE4F06DC47184FAB7970971F2981A386681EE4E31572F8691A3F464F188",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-14F31434A25815AEC30972E1FAAA63FFA475361639BC2E8A1588185E9CF418F8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-D38926FF374B0622278CE81AE3D8C1554D297B0462C144FB254E31AC896A8FB1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E1CEEF772D36A706BA7BF18ADE539F76FD6C737C52736DAD6F263F0D761E6071",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-20F02520AA8D82922A25C76DAE7A0EBBE56DDFD8B68BF7171152824A47C8278E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-64B0D49373230D1125B1C4FEDB7452EE74D9CAA2D1C4793045D80CCAE9104919",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

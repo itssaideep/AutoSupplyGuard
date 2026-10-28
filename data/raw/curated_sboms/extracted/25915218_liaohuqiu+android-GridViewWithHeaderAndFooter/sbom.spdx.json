@@ -1,0 +1,96 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "android-GridViewWithHeaderAndFooter d4a99eff0f46febdd338a7b93b69d924826ba6fe",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-0707bd44-e467-4088-a830-7d0db83fbdb1/android-GridViewWithHeaderAndFooter/d4a99eff0f46febdd338a7b93b69d924826ba6fe/oSMZioKOmEiv_TF9zvyFTg",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-67F1D09AA6650AA65134F636D8325EBA3584B4D9597EB41E2CF9FABC73951667",
+      "name": "in.srain.cube.grid-view-with-header-footer",
+      "versionInfo": "1.0.12",
+      "packageFileName": "grid-view-with-header-footer-1.0.12.jar",
+      "supplier": "Person: liaohuqiu",
+      "downloadLocation": "https://repo1.maven.org/maven2/in/srain/cube/grid-view-with-header-footer/1.0.12/grid-view-with-header-footer-1.0.12.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/liaohuqiu/android-GridViewWithHeaderAndFooter",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/in.srain.cube/grid-view-with-header-footer@1.0.12"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-AF67CB5B21ACE075322AB20A1680F7ED20AA78233280A6326852B8649AAB7B24",
+      "name": "com.google.android.android",
+      "versionInfo": "4.1.1.4",
+      "packageFileName": "android-4.1.1.4.jar",
+      "supplier": "Person: The Android Open Source Projects",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/android/android/4.1.1.4/android-4.1.1.4.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://source.android.com/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.android/android@4.1.1.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "android-GridViewWithHeaderAndFooter",
+      "versionInfo": "d4a99eff0f46febdd338a7b93b69d924826ba6fe",
+      "packageFileName": "./",
+      "supplier": "Organization: liaohuqiu",
+      "downloadLocation": "git\u002Bhttps://github.com/liaohuqiu/android-GridViewWithHeaderAndFooter.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/liaohuqiu/android-GridViewWithHeaderAndFooter",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/liaohuqiu/spdx.org/android-GridViewWithHeaderAndFooter@d4a99eff0f46febdd338a7b93b69d924826ba6fe?tag_id=3e1d0c05-2455-4883-8db8-8307a556a442"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-AF67CB5B21ACE075322AB20A1680F7ED20AA78233280A6326852B8649AAB7B24",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-67F1D09AA6650AA65134F636D8325EBA3584B4D9597EB41E2CF9FABC73951667",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

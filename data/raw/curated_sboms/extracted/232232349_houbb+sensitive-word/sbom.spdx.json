@@ -1,0 +1,252 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "sensitive-word 394f6312bdb407aba9ec5169ef443549d7827503",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-9f2b63ca-7961-4c93-b586-6065bf940fcf/sensitive-word/394f6312bdb407aba9ec5169ef443549d7827503/QH1LRqBYfEWgkdSA99-S8Q",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-1B062B9498F0FE100E0550481EECF0BF569288B9A26D1159BBFBE4B549BAF73A",
+      "name": "com.github.houbb.opencc4j",
+      "versionInfo": "1.8.1",
+      "packageFileName": "opencc4j-1.8.1.jar",
+      "supplier": "Person: houbb (houbinbin.echo@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/github/houbb/opencc4j/1.8.1/opencc4j-1.8.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://nexus.sonatype.org/oss-repository-hosting.html",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2016 ShenHuaJie iBase4J@163.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.houbb/opencc4j@1.8.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "name": "org.hamcrest.hamcrest-core",
+      "versionInfo": "1.3",
+      "packageFileName": "hamcrest-core-1.3.jar",
+      "supplier": "Organization: Hamcrest",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/hamcrest/JavaHamcrest",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2000-2006, www.hamcrest.org\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-31248384B5DBEC745F121831F15B599A23461E80EC8472343CC306969D995AB4",
+      "name": "org.apache.lucene.lucene-core",
+      "versionInfo": "4.0.0",
+      "packageFileName": "lucene-core-4.0.0.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.0.0/lucene-core-4.0.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://lucene.apache.org",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.lucene/lucene-core@4.0.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B339305B067D83772881FD466BC73F4E1B2DC56D5A4C0348573D348E19C43F95",
+      "name": "org.apiguardian.apiguardian-api",
+      "versionInfo": "1.0.0",
+      "packageFileName": "apiguardian-api-1.0.0.jar",
+      "supplier": "Person: @API Guardian Team (team@apiguardian.org)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/apiguardian-team/apiguardian",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apiguardian/apiguardian-api@1.0.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8D2D517DDAAB91E37A246281B938AD1168C5ED976F7D4E8588DD44B0FA68E263",
+      "name": "com.github.houbb.nlp-common",
+      "versionInfo": "0.0.5",
+      "packageFileName": "nlp-common-0.0.5.jar",
+      "supplier": "Person: houbb (houbinbin.echo@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/github/houbb/nlp-common/0.0.5/nlp-common-0.0.5.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://nexus.sonatype.org/oss-repository-hosting.html",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.houbb/nlp-common@0.0.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3778ECFC4F2ABF4952973BB0806E77BA0704BA969D8CCA12AE597E4A42AC5CF8",
+      "name": "junit.junit",
+      "versionInfo": "4.13.1",
+      "packageFileName": "junit-4.13.1.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/junit/junit/4.13.1/junit-4.13.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://junit.org",
+      "licenseConcluded": "EPL-1.0",
+      "licenseDeclared": "EPL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.13.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B65EEB3C120986C38BA694BE2D969A2AB392F9D7A83EC878EC8DC8B6A837A6D8",
+      "name": "com.github.houbb.heaven",
+      "versionInfo": "0.11.0",
+      "packageFileName": "heaven-0.11.0.jar",
+      "supplier": "Person: houbb (houbinbin.echo@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/github/houbb/heaven/0.11.0/heaven-0.11.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://nexus.sonatype.org/oss-repository-hosting.html",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2016 ShenHuaJie iBase4J@163.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.houbb/heaven@0.11.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-69FE0EAB1E26E694AE407FB0C35FD4F731D52EB91C4C3CD014A8E482164535F3",
+      "name": "com.github.houbb.sensitive-word",
+      "versionInfo": "0.21.0",
+      "packageFileName": "sensitive-word-0.21.0.jar",
+      "supplier": "Person: houbb (houbinbin.echo@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/github/houbb/sensitive-word/0.21.0/sensitive-word-0.21.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://nexus.sonatype.org/oss-repository-hosting.html",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2016 ShenHuaJie iBase4J@163.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.houbb/sensitive-word@0.21.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "sensitive-word",
+      "versionInfo": "394f6312bdb407aba9ec5169ef443549d7827503",
+      "packageFileName": "./",
+      "supplier": "Organization: houbb",
+      "downloadLocation": "git\u002Bhttps://github.com/houbb/sensitive-word.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/houbb/sensitive-word",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2016 ShenHuaJie iBase4J@163.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/houbb/spdx.org/sensitive-word@394f6312bdb407aba9ec5169ef443549d7827503?tag_id=33d57b10-d261-4bb4-9dd8-4d627be5477b"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B339305B067D83772881FD466BC73F4E1B2DC56D5A4C0348573D348E19C43F95",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-69FE0EAB1E26E694AE407FB0C35FD4F731D52EB91C4C3CD014A8E482164535F3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-1B062B9498F0FE100E0550481EECF0BF569288B9A26D1159BBFBE4B549BAF73A",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-3778ECFC4F2ABF4952973BB0806E77BA0704BA969D8CCA12AE597E4A42AC5CF8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B65EEB3C120986C38BA694BE2D969A2AB392F9D7A83EC878EC8DC8B6A837A6D8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-8D2D517DDAAB91E37A246281B938AD1168C5ED976F7D4E8588DD44B0FA68E263",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-31248384B5DBEC745F121831F15B599A23461E80EC8472343CC306969D995AB4",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

@@ -1,0 +1,434 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "weixin-popular 864994ee4841b08535db3ea6062489663adb672f",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-9864a37e-a5e9-41d1-bc6d-5a0e492abce0/weixin-popular/864994ee4841b08535db3ea6062489663adb672f/IJ6QOfHVy0C_PSW2UaHteA",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-8204B307E0E6A92DBC005A46D2B8DDF377680EA5BC935C7E458440223BE8FCD0",
+      "name": "org.json.json",
+      "versionInfo": "20170516",
+      "packageFileName": "json-20170516.jar",
+      "supplier": "Person: Douglas Crockford (douglas@crockford.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/json/json/20170516/json-20170516.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/douglascrockford/JSON-java",
+      "licenseConcluded": "JSON",
+      "licenseDeclared": "JSON",
+      "copyrightText": "Copyright (c) 2002 JSON.org",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.json/json@20170516"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F332698B19AC4E792F638A1D7D6FB857CC6CE351F02B01053E3C3544BD18899B",
+      "name": "org.slf4j.slf4j-api",
+      "versionInfo": "1.7.19",
+      "packageFileName": "slf4j-api-1.7.19.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.19/slf4j-api-1.7.19.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.slf4j.org",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2004-2014 QOS.ch\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.19"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-83A438CA93B2BB0CB9C0659C9280D91E3888CBBBBF3B8FBA204618022767452D",
+      "name": "org.apache.httpcomponents.httpcore",
+      "versionInfo": "4.3.3",
+      "packageFileName": "httpcore-4.3.3.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://hc.apache.org/httpcomponents-core-ga",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2005-2014 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpcore@4.3.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1892234BD266A2AADAE8C5C3001DFAE1C962F09C79C886D3FCFF64BCA4D83DCC",
+      "name": "org.apache.httpcomponents.httpclient",
+      "versionInfo": "4.3.6",
+      "packageFileName": "httpclient-4.3.6.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://hc.apache.org/httpcomponents-client",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 1999-2014 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpclient@4.3.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-A5AAD11E278431AB4EB2D2A24F61DDAE8E596C5D39360DB084D8870D79889D8E",
+      "name": "org.apache.httpcomponents.httpmime",
+      "versionInfo": "4.3.6",
+      "packageFileName": "httpmime-4.3.6.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.3.6/httpmime-4.3.6.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://hc.apache.org/httpcomponents-client",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 1999-2014 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpmime@4.3.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-AFAEBC4042668D2490FFFFEA924A8FBD11BE2878AA225144C32455459CA1B437",
+      "name": "org.slf4j.slf4j-simple",
+      "versionInfo": "1.7.19",
+      "packageFileName": "slf4j-simple-1.7.19.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.19/slf4j-simple-1.7.19.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.slf4j.org",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2004-2014 QOS.ch\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-simple@1.7.19"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-BB971FFE9BF05190C397F122C82AFE60993D3B8E7B3461FE64CB1812B81B03FE",
+      "name": "commons-logging.commons-logging",
+      "versionInfo": "1.1.3",
+      "packageFileName": "commons-logging-1.1.3.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://commons.apache.org/proper/commons-logging/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2003-2013 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-logging/commons-logging@1.1.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-CBC88FF07380B9374CB98596C312A6F28F5357F209B4A62F1DEDBB114B237F77",
+      "name": "com.vdurmont.emoji-java",
+      "versionInfo": "4.0.0",
+      "packageFileName": "emoji-java-4.0.0.jar",
+      "supplier": "Person: Vincent DURMONT (vdurmont@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/vdurmont/emoji-java/4.0.0/emoji-java-4.0.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/vdurmont/emoji-java",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2014-present Vincent DURMONT vdurmont@gmail.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.vdurmont/emoji-java@4.0.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-59868017D51B99BC6A13B7690CD19A1E9494EC41BC34B77FB8193DC7825A5F04",
+      "name": "com.sun.xml.bind.jaxb-impl",
+      "versionInfo": "2.1.12",
+      "packageFileName": "jaxb-impl-2.1.12.jar",
+      "supplier": "Organization: Java EE",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.1.12/jaxb-impl-2.1.12.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/javaee/jaxb-v2",
+      "licenseConcluded": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "licenseDeclared": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.sun.xml.bind/jaxb-impl@2.1.12"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3F3CD4DF16D9D57E7CE974A566C52FD314DC1B6DCD663DE2516FCE68AA4C4AF8",
+      "name": "redis.clients.jedis",
+      "versionInfo": "2.7.3",
+      "packageFileName": "jedis-2.7.3.jar",
+      "supplier": "Organization: Redis (redis@redis.io)",
+      "downloadLocation": "https://repo1.maven.org/maven2/redis/clients/jedis/2.7.3/jedis-2.7.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/xetorthio/jedis",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2010 Jonathan Leibiusky",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/redis.clients/jedis@2.7.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B0DF68FF9CEEE468539AEBC7D00EE2B4A3F6CB977457359663099E7A1E1746D5",
+      "name": "javax.servlet.servlet-api",
+      "versionInfo": "2.5",
+      "packageFileName": "servlet-api-2.5.jar",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/javax.servlet/servlet-api@2.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2DFA989A114A1F7FCDCD74E85849A9178C5EF5FE3F48F3B0E4F8203FBD65CD7D",
+      "name": "org.apache.commons.commons-pool2",
+      "versionInfo": "2.3",
+      "packageFileName": "commons-pool2-2.3.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://commons.apache.org/proper/commons-pool/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2014 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-pool2@2.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-81042D16F04EE50925A01981B13941C1A37FFC172B0E2805868E36294879806D",
+      "name": "commons-codec.commons-codec",
+      "versionInfo": "1.6",
+      "packageFileName": "commons-codec-1.6.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://commons.apache.org/codec/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2002-2011 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-codec/commons-codec@1.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B37DAE76B1DA09BC9095BFC612A80F9D6D7F262CF95D5B59A21ED1E9EFB798E5",
+      "name": "com.github.liyiorg.weixin-popular",
+      "versionInfo": "2.8.32",
+      "packageFileName": "weixin-popular-2.8.32.jar",
+      "supplier": "Person: Yi Li (liuemc@msn.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/github/liyiorg/weixin-popular/2.8.32/weixin-popular-2.8.32.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/liyiorg/weixin-popular",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.liyiorg/weixin-popular@2.8.32"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-15C95B7E535027AC2EF67AF6930EC764E81EF0011C4E4A906EB501E11C43EE88",
+      "name": "com.alibaba.fastjson",
+      "versionInfo": "1.2.47",
+      "packageFileName": "fastjson-1.2.47.jar",
+      "supplier": "Organization: Alibaba Group",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/alibaba/fastjson",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 1999-2017 Alibaba Group Holding Ltd.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.alibaba/fastjson@1.2.47"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "weixin-popular",
+      "versionInfo": "864994ee4841b08535db3ea6062489663adb672f",
+      "packageFileName": "./",
+      "supplier": "Organization: liyiorg",
+      "downloadLocation": "git\u002Bhttps://github.com/liyiorg/weixin-popular.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/liyiorg/weixin-popular",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/liyiorg/spdx.org/weixin-popular@864994ee4841b08535db3ea6062489663adb672f?tag_id=fbcdcbd2-72a3-491b-8c7b-f81f0db495fa"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-1892234BD266A2AADAE8C5C3001DFAE1C962F09C79C886D3FCFF64BCA4D83DCC",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F332698B19AC4E792F638A1D7D6FB857CC6CE351F02B01053E3C3544BD18899B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-8204B307E0E6A92DBC005A46D2B8DDF377680EA5BC935C7E458440223BE8FCD0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-15C95B7E535027AC2EF67AF6930EC764E81EF0011C4E4A906EB501E11C43EE88",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-81042D16F04EE50925A01981B13941C1A37FFC172B0E2805868E36294879806D",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B37DAE76B1DA09BC9095BFC612A80F9D6D7F262CF95D5B59A21ED1E9EFB798E5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2DFA989A114A1F7FCDCD74E85849A9178C5EF5FE3F48F3B0E4F8203FBD65CD7D",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B0DF68FF9CEEE468539AEBC7D00EE2B4A3F6CB977457359663099E7A1E1746D5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-3F3CD4DF16D9D57E7CE974A566C52FD314DC1B6DCD663DE2516FCE68AA4C4AF8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-BB971FFE9BF05190C397F122C82AFE60993D3B8E7B3461FE64CB1812B81B03FE",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-A5AAD11E278431AB4EB2D2A24F61DDAE8E596C5D39360DB084D8870D79889D8E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-59868017D51B99BC6A13B7690CD19A1E9494EC41BC34B77FB8193DC7825A5F04",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-CBC88FF07380B9374CB98596C312A6F28F5357F209B4A62F1DEDBB114B237F77",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-AFAEBC4042668D2490FFFFEA924A8FBD11BE2878AA225144C32455459CA1B437",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-83A438CA93B2BB0CB9C0659C9280D91E3888CBBBBF3B8FBA204618022767452D",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

@@ -1,0 +1,330 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "java-telegram-bot-api c6d6377fd3f1ebd5a312554d5de6a964daedb3eb",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-956ceb05-6e3b-4c52-ab3b-0746334d001d/java-telegram-bot-api/c6d6377fd3f1ebd5a312554d5de6a964daedb3eb/bA6zHe3Vd0aBhIiN0-EIZg",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-DA4B343280BE599D9422BFB9A9DBB049A857A170CFF54B2BD6D3B6AA39668007",
+      "name": "org.jetbrains.kotlin.kotlin-stdlib-jdk7",
+      "versionInfo": "1.9.22",
+      "packageFileName": "kotlin-stdlib-jdk7-1.9.22.jar",
+      "supplier": "Person: Kotlin Team",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.22/kotlin-stdlib-jdk7-1.9.22.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://kotlinlang.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2010-2023 JetBrains s.r.o and respective authors and developers",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.9.22"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E187CEBA9770BA1526CF4D347EF8F70ED4F6874B2E6565BB0FDFD360193DC624",
+      "name": "com.squareup.okio.okio",
+      "versionInfo": "3.6.0",
+      "packageFileName": "okio-3.6.0.jar",
+      "supplier": "Person: Square, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/okio/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2013 Square, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okio/okio@3.6.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4D9D2205DCF89C090F69FAAC2004EC3578CA69D4F229FCAA643734698964205E",
+      "name": "org.jetbrains.kotlin.kotlin-stdlib-jdk8",
+      "versionInfo": "1.9.22",
+      "packageFileName": "kotlin-stdlib-jdk8-1.9.22.jar",
+      "supplier": "Person: Kotlin Team",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.22/kotlin-stdlib-jdk8-1.9.22.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://kotlinlang.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2010-2023 JetBrains s.r.o and respective authors and developers",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.9.22"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3F9F311F5FA9B01BABE86507C31298A350F5D921B472581D41E5CEC7AE53E2BA",
+      "name": "com.google.code.gson.gson",
+      "versionInfo": "2.10.1",
+      "packageFileName": "gson-2.10.1.jar",
+      "supplier": "Organization: Google",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/gson",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2008 Google Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.10.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-A42639FA7545B20328DEF55651BAAE1347FF258C385C98B21E2879D90E8B206B",
+      "name": "org.jetbrains.kotlin.kotlin-stdlib",
+      "versionInfo": "1.9.22",
+      "packageFileName": "kotlin-stdlib-1.9.22.jar",
+      "supplier": "Person: Kotlin Team",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.22/kotlin-stdlib-1.9.22.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://kotlinlang.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2010-2023 JetBrains s.r.o and respective authors and developers",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.9.22"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-16D8D7C43A45F68150E1A36557540886BADEA8C4D7B1F09BB0BBCDA450796F98",
+      "name": "com.squareup.okhttp3.logging-interceptor",
+      "versionInfo": "4.12.0",
+      "packageFileName": "logging-interceptor-4.12.0.jar",
+      "supplier": "Person: Square, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/okhttp3/logging-interceptor/4.12.0/logging-interceptor-4.12.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://square.github.io/okhttp/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2019 Square, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/logging-interceptor@4.12.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4EB7FCAE2F90A3FBDA49D1B812F05D885376D27EF749F7EE8AE36E555DFBE453",
+      "name": "com.github.pengrad.java-telegram-bot-api",
+      "versionInfo": "7.9.1",
+      "packageFileName": "java-telegram-bot-api-7.9.1.jar",
+      "supplier": "Person: Stas Parshin",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/github/pengrad/java-telegram-bot-api/7.9.1/java-telegram-bot-api-7.9.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/pengrad/java-telegram-bot-api/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.pengrad/java-telegram-bot-api@7.9.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DD8BD9FFFBCDD7E69C09664C85EB77D080289165E728503FCF3643D1FE11D300",
+      "name": "com.squareup.okio.okio-jvm",
+      "versionInfo": "3.6.0",
+      "packageFileName": "okio-jvm-3.6.0.jar",
+      "supplier": "Person: Square, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/okio/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2013 Square, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okio/okio-jvm@3.6.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5173B0C4FD9D6E9D5E3B3B3C416427A7E6AA1FBF3728D5907AA832A0CE9DCC64",
+      "name": "com.squareup.okhttp3.okhttp",
+      "versionInfo": "4.12.0",
+      "packageFileName": "okhttp-4.12.0.jar",
+      "supplier": "Person: Square, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://square.github.io/okhttp/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2019 Square, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/okhttp@4.12.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-610B69597B2CF6A4A2B73C40E21C75358791246FF1F8A8429197A626D03F1DA9",
+      "name": "org.jetbrains.annotations",
+      "versionInfo": "13.0",
+      "packageFileName": "annotations-13.0.jar",
+      "supplier": "Person: JetBrains Team",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.jetbrains.org",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains/annotations@13.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B624DB420648B1BD6A72EE7257CFF9C0C2BFB00669F1EB5DAF18B75A78EB0318",
+      "name": "org.jetbrains.kotlin.kotlin-stdlib-common",
+      "versionInfo": "1.9.10",
+      "packageFileName": "kotlin-stdlib-common-1.9.10.jar",
+      "supplier": "Person: Kotlin Team",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://kotlinlang.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2010-2023 JetBrains s.r.o and respective authors and developers",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.9.10"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "java-telegram-bot-api",
+      "versionInfo": "c6d6377fd3f1ebd5a312554d5de6a964daedb3eb",
+      "packageFileName": "./",
+      "supplier": "Organization: pengrad",
+      "downloadLocation": "git\u002Bhttps://github.com/pengrad/java-telegram-bot-api.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/pengrad/java-telegram-bot-api",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/pengrad/spdx.org/java-telegram-bot-api@c6d6377fd3f1ebd5a312554d5de6a964daedb3eb?tag_id=66a76fe3-b501-4a19-8f99-af07d706e10f"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4D9D2205DCF89C090F69FAAC2004EC3578CA69D4F229FCAA643734698964205E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-5173B0C4FD9D6E9D5E3B3B3C416427A7E6AA1FBF3728D5907AA832A0CE9DCC64",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4EB7FCAE2F90A3FBDA49D1B812F05D885376D27EF749F7EE8AE36E555DFBE453",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-A42639FA7545B20328DEF55651BAAE1347FF258C385C98B21E2879D90E8B206B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-3F9F311F5FA9B01BABE86507C31298A350F5D921B472581D41E5CEC7AE53E2BA",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E187CEBA9770BA1526CF4D347EF8F70ED4F6874B2E6565BB0FDFD360193DC624",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-610B69597B2CF6A4A2B73C40E21C75358791246FF1F8A8429197A626D03F1DA9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-16D8D7C43A45F68150E1A36557540886BADEA8C4D7B1F09BB0BBCDA450796F98",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DA4B343280BE599D9422BFB9A9DBB049A857A170CFF54B2BD6D3B6AA39668007",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B624DB420648B1BD6A72EE7257CFF9C0C2BFB00669F1EB5DAF18B75A78EB0318",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DD8BD9FFFBCDD7E69C09664C85EB77D080289165E728503FCF3643D1FE11D300",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

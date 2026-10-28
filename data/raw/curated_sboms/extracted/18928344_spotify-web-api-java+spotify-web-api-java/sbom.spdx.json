@@ -1,0 +1,1890 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "spotify-web-api-java 68d8d2b155c4f4ba72ae6bdc9ee2f6513f2715ac",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-05a6cc7f-b43b-47c2-a6bd-f5901435c6db/spotify-web-api-java/68d8d2b155c4f4ba72ae6bdc9ee2f6513f2715ac/Dm5D5ThMwE-xzQ18Mk-pkw",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-7E8B8A26805C1C3B06DC693B7845CC1715149C0AB648DEA52079D39F4F41889E",
+      "name": "com.google.errorprone.error_prone_annotations",
+      "versionInfo": "2.27.0",
+      "packageFileName": "error_prone_annotations-2.27.0.jar",
+      "supplier": "Organization: Google LLC",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://errorprone.info",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.errorprone/error_prone_annotations@2.27.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-47B6372856657084525F2D4DFDCC2D9D55383FBC00808A4735C258A335C8B328",
+      "name": "org.junit.platform.junit-platform-commons",
+      "versionInfo": "1.11.2",
+      "packageFileName": "junit-platform-commons-1.11.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.11.2/junit-platform-commons-1.11.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.platform/junit-platform-commons@1.11.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-EF0EBF891D2ED3326BC4B5A2B19559E987A0B5C191383735FB51F7F75BFBBBC1",
+      "name": "org.eclipse.jetty.http2.http2-common",
+      "versionInfo": "11.0.20",
+      "packageFileName": "http2-common-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-common/11.0.20/http2-common-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty.http2/http2-common@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-56C76022D9FCC259623416ACAB20913615BE47E037A56ED9697CC8F1B561FFCF",
+      "name": "net.bytebuddy.byte-buddy",
+      "versionInfo": "1.15.3",
+      "packageFileName": "byte-buddy-1.15.3.jar",
+      "supplier": "Person: Rafael Winterhalter (rafael.wth@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.3/byte-buddy-1.15.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://bytebuddy.net",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.bytebuddy/byte-buddy@1.15.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2C51E3AE7CA736201DB81E29D18B3837F22218A4A28A510534087DD15EEFB712",
+      "name": "org.eclipse.jetty.jetty-proxy",
+      "versionInfo": "11.0.20",
+      "packageFileName": "jetty-proxy-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-proxy/11.0.20/jetty-proxy-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-proxy@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-D6983E831ECA8FCC023AC94D442E16AC9C822E78CFF366A7639C79B91414ACD3",
+      "name": "net.javacrumbs.json-unit.json-unit-core",
+      "versionInfo": "2.40.0",
+      "packageFileName": "json-unit-core-2.40.0.jar",
+      "supplier": "Person: Lukas Krecan (lukas@krecan.net)",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/javacrumbs/json-unit/json-unit-core/2.40.0/json-unit-core-2.40.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/lukas-krecan/JsonUnit",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.javacrumbs.json-unit/json-unit-core@2.40.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-01389EA46E74EEDED92B6089C97B105650A4EB5F5083F7048ECF724220416A92",
+      "name": "org.hamcrest.hamcrest-core",
+      "versionInfo": "2.2",
+      "packageFileName": "hamcrest-core-2.2.jar",
+      "supplier": "Organization: Hamcrest",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://hamcrest.org/JavaHamcrest/",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2000-2015 www.hamcrest.org\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@2.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B5528FEAAFE5D75C898245575FA5EDE883F330E5C868B5404A5429A3EBD4FE1C",
+      "name": "com.google.j2objc.j2objc-annotations",
+      "versionInfo": "3.0.0",
+      "packageFileName": "j2objc-annotations-3.0.0.jar",
+      "supplier": "Person: Tom Ball (tball@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/j2objc/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.j2objc/j2objc-annotations@3.0.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DC408DBFA6D080A33158C3C280B36C66F6C3438971958C1B1E7964F1F968D0B2",
+      "name": "com.jayway.jsonpath.json-path",
+      "versionInfo": "2.9.0",
+      "packageFileName": "json-path-2.9.0.jar",
+      "supplier": "Person: Kalle Stenflo (kalle.stenflo (a) gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/jayway/JsonPath",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.jayway.jsonpath/json-path@2.9.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-A1D15B48B2F928CC4C49FE63420A421E7D2F8B9E86F3560BD68183B755EAD1EF",
+      "name": "com.google.code.gson.gson",
+      "versionInfo": "2.11.0",
+      "packageFileName": "gson-2.11.0.jar",
+      "supplier": "Organization: Google",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/gson",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2008 Google Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.11.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-11F064DE073FA84C646C24A571B77416AC3D949FF70A2D71E5295C48D22E4BD4",
+      "name": "net.minidev.json-smart",
+      "versionInfo": "2.5.0",
+      "packageFileName": "json-smart-2.5.0.jar",
+      "supplier": "Organization: Chemouni Uriel",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/minidev/json-smart/2.5.0/json-smart-2.5.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://urielch.github.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.minidev/json-smart@2.5.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7508BE4CDE6E9926BD0C15DF4797E24D4DD7BD697F9C4340120A6EF50642AB20",
+      "name": "org.eclipse.jetty.jetty-security",
+      "versionInfo": "11.0.20",
+      "packageFileName": "jetty-security-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/11.0.20/jetty-security-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-security@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F96638866360D69896F4932A511FCA8FA560AAACE96052B096C4CD4FC4F20DF9",
+      "name": "com.google.guava.failureaccess",
+      "versionInfo": "1.0.2",
+      "packageFileName": "failureaccess-1.0.2.jar",
+      "supplier": "Person: Kevin Bourrillion (kevinb@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/guava",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/failureaccess@1.0.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-77890A147C660B631CB844A5FDF0EAB4E5416ACFF8AFA22F1292F2AB01F9FA15",
+      "name": "org.junit.jupiter.junit-jupiter-engine",
+      "versionInfo": "5.11.2",
+      "packageFileName": "junit-jupiter-engine-5.11.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.2/junit-jupiter-engine-5.11.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.11.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F2D1DFA0BF18F73DA2434B69925F0674CF7C93CDD207C9CFBF982DF9AA7ABCD0",
+      "name": "org.eclipse.jetty.jetty-webapp",
+      "versionInfo": "11.0.20",
+      "packageFileName": "jetty-webapp-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/11.0.20/jetty-webapp-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-webapp@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B9E92BD76114AA198591CC7CFC2F7FBBA308AA8B3AA6707B62C6427B567A9704",
+      "name": "org.junit.jupiter.junit-jupiter",
+      "versionInfo": "5.11.2",
+      "packageFileName": "junit-jupiter-5.11.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter/5.11.2/junit-jupiter-5.11.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter@5.11.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-84B8F0AE006D0C8AC557F447E4F571F0F4F61C57F67F485534122F1B28A1400E",
+      "name": "org.eclipse.jetty.jetty-servlets",
+      "versionInfo": "11.0.20",
+      "packageFileName": "jetty-servlets-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlets/11.0.20/jetty-servlets-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-servlets@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1C03A7A1358819EBA24856B08EE5AD7FBACD853EF838E2DB63B188F17539946A",
+      "name": "org.objenesis.objenesis",
+      "versionInfo": "3.3",
+      "packageFileName": "objenesis-3.3.jar",
+      "supplier": "Organization: Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/objenesis/objenesis/3.3/objenesis-3.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://objenesis.org",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.objenesis/objenesis@3.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-D832F12E8917BEBF17CF5928629D979C5F6FB36CC75E995378FA895508CE7856",
+      "name": "org.xmlunit.xmlunit-placeholders",
+      "versionInfo": "2.10.0",
+      "packageFileName": "xmlunit-placeholders-2.10.0.jar",
+      "supplier": "Organization: XMLUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/xmlunit/xmlunit-placeholders/2.10.0/xmlunit-placeholders-2.10.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://www.xmlunit.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.xmlunit/xmlunit-placeholders@2.10.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-522039B890679604752A638CACD14F2E23856B4BE60857063FCB7F7B07979DE0",
+      "name": "com.google.guava.guava",
+      "versionInfo": "33.2.1-jre",
+      "packageFileName": "guava-33.2.1-jre.jar",
+      "supplier": "Person: Kevin Bourrillion (kevinb@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/guava",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/guava@33.2.1-jre"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-D106B827A7ACE98E693E1A43460E0F459FDFD0B5DAD4B18229A076F6A338787D",
+      "name": "org.apache.httpcomponents.client5.httpclient5-cache",
+      "versionInfo": "5.4",
+      "packageFileName": "httpclient5-cache-5.4.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5-cache/5.4/httpclient5-cache-5.4.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://hc.apache.org/httpcomponents-client-5.4.x/${project.version}/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 1999-2023 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents.client5/httpclient5-cache@5.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DA2ED120F11B1E0335DC1482594951B70AB4FA9222A96F3E983885298850F4BC",
+      "name": "com.fasterxml.jackson.dataformat.jackson-dataformat-yaml",
+      "versionInfo": "2.17.1",
+      "packageFileName": "jackson-dataformat-yaml-2.17.1.jar",
+      "supplier": "Organization: FasterXML",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.17.1/jackson-dataformat-yaml-2.17.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/FasterXML/jackson-dataformats-text",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.17.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-87921FFAFEC0EB9457662E39FA83C1EEDD84F931F116AC18EFA477EC6825F4BD",
+      "name": "org.eclipse.jetty.jetty-alpn-client",
+      "versionInfo": "11.0.20",
+      "packageFileName": "jetty-alpn-client-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-client/11.0.20/jetty-alpn-client-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-alpn-client@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-44FD358362E03352C007D93711B28D20740AB45015B34F2A4350C19BE546C347",
+      "name": "org.junit.platform.junit-platform-engine",
+      "versionInfo": "1.11.2",
+      "packageFileName": "junit-platform-engine-1.11.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/platform/junit-platform-engine/1.11.2/junit-platform-engine-1.11.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.platform/junit-platform-engine@1.11.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-BD91CFC4C2D44C78AC9C12F359C8E523949E561C343EA301D2D77274C963381E",
+      "name": "com.google.guava.listenablefuture",
+      "versionInfo": "9999.0-empty-to-avoid-conflict-with-guava",
+      "packageFileName": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "supplier": "Person: Kevin Bourrillion (kevinb@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/guava",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ED3712F80EC6AC00CB27F4A0BF3CAB567F1295B71178CC2B50CF33E731478BD6",
+      "name": "org.junit.jupiter.junit-jupiter-params",
+      "versionInfo": "5.11.2",
+      "packageFileName": "junit-jupiter-params-5.11.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.2/junit-jupiter-params-5.11.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.11.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4365BD5BFB8E815D4B8A0F45CFEFAF426CAEE0E6FBAB6CE7AC1B7C8080FF3443",
+      "name": "com.github.jknack.handlebars-helpers",
+      "versionInfo": "4.3.1",
+      "packageFileName": "handlebars-helpers-4.3.1.jar",
+      "supplier": "Person: Edgar Espina",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/github/jknack/handlebars-helpers/4.3.1/handlebars-helpers-4.3.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/jknack/handlebars.java",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2012-2015 Edgar Espina",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.jknack/handlebars-helpers@4.3.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E1CEEF772D36A706BA7BF18ADE539F76FD6C737C52736DAD6F263F0D761E6071",
+      "name": "org.yaml.snakeyaml",
+      "versionInfo": "2.2",
+      "packageFileName": "snakeyaml-2.2.jar",
+      "supplier": "Organization: snakeyaml",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://bitbucket.org/snakeyaml/snakeyaml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.yaml/snakeyaml@2.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-0C207BDD58756F141342E04534214BF219EAC3A87221AA7C04C56ADE7DF698B6",
+      "name": "net.sf.jopt-simple.jopt-simple",
+      "versionInfo": "5.0.4",
+      "packageFileName": "jopt-simple-5.0.4.jar",
+      "supplier": "Person: Paul Holser (pholser@alumni.rice.edu)",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://jopt-simple.github.io/jopt-simple",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": " Copyright (c) 2004-2015 Paul R. Holser, Jr.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.sf.jopt-simple/jopt-simple@5.0.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-133F4335984E2DEA53689473F2712E6702D679AD3FFE1016F6BC6D25E301E6FF",
+      "name": "org.eclipse.jetty.toolchain.jetty-jakarta-servlet-api",
+      "versionInfo": "5.0.2",
+      "packageFileName": "jetty-jakarta-servlet-api-5.0.2.jar",
+      "supplier": "Organization: Mort Bay Consulting",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-jakarta-servlet-api/5.0.2/jetty-jakarta-servlet-api-5.0.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.org/jetty",
+      "licenseConcluded": "Apache-2.0 OR EPL-1.0",
+      "licenseDeclared": "Apache-2.0 OR EPL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty.toolchain/jetty-jakarta-servlet-api@5.0.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-A53526AF2B33C723F13ED7C0FB32C7F8B7078CA83CE1E5A7DD71FAC205CE7CA6",
+      "name": "com.fasterxml.jackson.core.jackson-databind",
+      "versionInfo": "2.18.0",
+      "packageFileName": "jackson-databind-2.18.0.jar",
+      "supplier": "Organization: FasterXML",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.18.0/jackson-databind-2.18.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/FasterXML/jackson",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.18.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-34C3546490E5D00CF1A2FF834C77BB6397B8F450F8BD4611AA0E233969F5C1F4",
+      "name": "org.eclipse.jetty.http2.http2-server",
+      "versionInfo": "11.0.20",
+      "packageFileName": "http2-server-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-server/11.0.20/http2-server-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty.http2/http2-server@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C397F046FB3580801E7808DC5653D386A486A5D9075DEEE6BEEC867DA93AED2E",
+      "name": "org.apiguardian.apiguardian-api",
+      "versionInfo": "1.1.2",
+      "packageFileName": "apiguardian-api-1.1.2.jar",
+      "supplier": "Person: @API Guardian Team (team@apiguardian.org)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/apiguardian-team/apiguardian",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-921FC44D46E0E47D8BF0FD5D2D4C2DE55405E892FF022DC92D9B72820BEC89D1",
+      "name": "org.eclipse.jetty.jetty-alpn-java-server",
+      "versionInfo": "11.0.20",
+      "packageFileName": "jetty-alpn-java-server-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-java-server/11.0.20/jetty-alpn-java-server-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-alpn-java-server@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-28C97982C212608BF83534A61599603D24FC89C670BD2C86985988B7CC8CC971",
+      "name": "org.eclipse.jetty.jetty-http",
+      "versionInfo": "11.0.20",
+      "packageFileName": "jetty-http-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/11.0.20/jetty-http-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-http@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C240E9BAB7957B7E77C728468B4327C32D551B3F670B94EE6A8CFD6D6C59CB59",
+      "name": "org.slf4j.slf4j-simple",
+      "versionInfo": "2.0.16",
+      "packageFileName": "slf4j-simple-2.0.16.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.16/slf4j-simple-2.0.16.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.slf4j.org",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2004-2022 QOS.ch Sarl (Switzerland)\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-simple@2.0.16"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-02D9BBF6382877C6C31501EFF957F710A98CE0C999A9880DAFA5ECBCFFB77BAE",
+      "name": "org.eclipse.jetty.jetty-io",
+      "versionInfo": "11.0.20",
+      "packageFileName": "jetty-io-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/11.0.20/jetty-io-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-io@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-669C8CA35766D36A4F691D560248C73BEB1706B72F4D5C091C43F3012229E3D7",
+      "name": "org.xmlunit.xmlunit-legacy",
+      "versionInfo": "2.10.0",
+      "packageFileName": "xmlunit-legacy-2.10.0.jar",
+      "supplier": "Organization: XMLUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/xmlunit/xmlunit-legacy/2.10.0/xmlunit-legacy-2.10.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://www.xmlunit.org/",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2001-2015, Jeff Martin, Tim Bacon\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.xmlunit/xmlunit-legacy@2.10.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C7F7833B1A2FF1FB71608AF973F36E7DA8F5206E7C48B528187AD5956C544E7E",
+      "name": "org.eclipse.jetty.jetty-alpn-server",
+      "versionInfo": "11.0.20",
+      "packageFileName": "jetty-alpn-server-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-server/11.0.20/jetty-alpn-server-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-alpn-server@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3301ABA6351B21A1CD33EA807FFCC301013E035D25B6D93C4EF49D2F3FA84C50",
+      "name": "org.eclipse.jetty.jetty-client",
+      "versionInfo": "11.0.20",
+      "packageFileName": "jetty-client-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/11.0.20/jetty-client-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-client@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-87896FD4127692670DCCB556F10FDB434A6231CA07BD08C2ED76014B585B6BA3",
+      "name": "commons-io.commons-io",
+      "versionInfo": "2.11.0",
+      "packageFileName": "commons-io-2.11.0.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://commons.apache.org/proper/commons-io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2002-2021 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-io/commons-io@2.11.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-970997B3DAA63C144F1460881F89B2274F79A2CD48E81C195686FE07A40F89E6",
+      "name": "org.eclipse.jetty.jetty-servlet",
+      "versionInfo": "11.0.20",
+      "packageFileName": "jetty-servlet-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/11.0.20/jetty-servlet-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-servlet@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-01A5B3F9200737E42312D44B53233E5F908C8E7753A679C2631ACF315E22B782",
+      "name": "com.fasterxml.jackson.core.jackson-annotations",
+      "versionInfo": "2.18.0",
+      "packageFileName": "jackson-annotations-2.18.0.jar",
+      "supplier": "Organization: FasterXML",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.18.0/jackson-annotations-2.18.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/FasterXML/jackson",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.18.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B36B2E74FE099D9DC1DA55B3557E26FF43B6E1E615B642F0E48E8569E7351E3D",
+      "name": "org.checkerframework.checker-qual",
+      "versionInfo": "3.42.0",
+      "packageFileName": "checker-qual-3.42.0.jar",
+      "supplier": "Organization: typetools",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://checkerframework.org/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright 2004-present by the Checker Framework developers\r\n",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.checkerframework/checker-qual@3.42.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DA4F80847EC3CEE737E82EEC1BF724F9626518817BA79B8B1C636F83604447DC",
+      "name": "org.opentest4j.opentest4j",
+      "versionInfo": "1.3.0",
+      "packageFileName": "opentest4j-1.3.0.jar",
+      "supplier": "Organization: Open Test Alliance for the JVM",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/ota4j-team/opentest4j",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2015-2023 the original author or authors.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.opentest4j/opentest4j@1.3.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-BE463778BCA75E94C222561B1596FDF9430AE8F3199DF4CA1710DDA9611FA306",
+      "name": "org.xmlunit.xmlunit-core",
+      "versionInfo": "2.10.0",
+      "packageFileName": "xmlunit-core-2.10.0.jar",
+      "supplier": "Organization: XMLUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/xmlunit/xmlunit-core/2.10.0/xmlunit-core-2.10.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://www.xmlunit.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.xmlunit/xmlunit-core@2.10.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-D3211E1847852D3FB8C78F202FFB39934B17B8AF08374C4B4DFCF7AEBA01E2F2",
+      "name": "org.apache.httpcomponents.client5.httpclient5",
+      "versionInfo": "5.4",
+      "packageFileName": "httpclient5-5.4.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.4/httpclient5-5.4.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://hc.apache.org/httpcomponents-client-5.4.x/${project.version}/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 1999-2023 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-672F5E320B04997F934A4DB2D6D43EF2D1D69F257D51CFCC9DF9940D2C7FAC95",
+      "name": "org.apache.httpcomponents.core5.httpcore5-h2",
+      "versionInfo": "5.3",
+      "packageFileName": "httpcore5-h2-5.3.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3/httpcore5-h2-5.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://hc.apache.org/httpcomponents-core-5.3.x/${project.version}/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2005-2024 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DC15B0E0E5672EE204E386DFC7B0A1B9C25822A45EB71AAF47069631A3925B1B",
+      "name": "net.minidev.accessors-smart",
+      "versionInfo": "2.5.0",
+      "packageFileName": "accessors-smart-2.5.0.jar",
+      "supplier": "Organization: Chemouni Uriel",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/minidev/accessors-smart/2.5.0/accessors-smart-2.5.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://urielch.github.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.minidev/accessors-smart@2.5.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C1183DB3EDEDFC717531B58021623AD9CCDA3A80815A37B4C472134761C2BE15",
+      "name": "net.bytebuddy.byte-buddy-agent",
+      "versionInfo": "1.15.3",
+      "packageFileName": "byte-buddy-agent-1.15.3.jar",
+      "supplier": "Person: Rafael Winterhalter (rafael.wth@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.3/byte-buddy-agent-1.15.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://bytebuddy.net",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.bytebuddy/byte-buddy-agent@1.15.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-01CF20B581A6C4BD1D63D8FF36E93C4ACDA049C1E23C2A7C913E9E189771C45B",
+      "name": "org.eclipse.jetty.jetty-xml",
+      "versionInfo": "11.0.20",
+      "packageFileName": "jetty-xml-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/11.0.20/jetty-xml-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-xml@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3B9A6161A2F4234EA411593203BA14B190C6F55451847730B56CF025D57B71EF",
+      "name": "org.eclipse.jetty.http2.http2-hpack",
+      "versionInfo": "11.0.20",
+      "packageFileName": "http2-hpack-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-hpack/11.0.20/http2-hpack-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty.http2/http2-hpack@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6D8BEC4AADA5822C86C90F9695828C871C53A20B14641B5DB80B6FD6996BDADF",
+      "name": "org.slf4j.slf4j-api",
+      "versionInfo": "2.0.16",
+      "packageFileName": "slf4j-api-2.0.16.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.slf4j.org",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2004-2022 QOS.ch Sarl (Switzerland)\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@2.0.16"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-CB38CA398E2DFF68136502A507C1E016686B285095FECDAD240E1932202C2E6C",
+      "name": "org.apache.httpcomponents.core5.httpcore5",
+      "versionInfo": "5.3",
+      "packageFileName": "httpcore5-5.3.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3/httpcore5-5.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://hc.apache.org/httpcomponents-core-5.3.x/${project.version}/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2005-2024 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E2FC7B5D46516074E5377C1057AA32D066F05A62E8549A035B9C428A03422276",
+      "name": "org.junit.jupiter.junit-jupiter-api",
+      "versionInfo": "5.11.2",
+      "packageFileName": "junit-jupiter-api-5.11.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.2/junit-jupiter-api-5.11.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.11.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F3ADC2A84B8FE22B28C3026185377BF4B80401F1331BF315C6C34C16836BA3A4",
+      "name": "com.neovisionaries.nv-i18n",
+      "versionInfo": "1.29",
+      "packageFileName": "nv-i18n-1.29.jar",
+      "supplier": "Person: Takahiko Kawasaki",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/neovisionaries/nv-i18n/1.29/nv-i18n-1.29.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/TakahikoKawasaki/nv-i18n",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.neovisionaries/nv-i18n@1.29"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F2F045A2A3F8FE88191456CC31E98240EE5DC37CD48D4B93FFF53493B8FF6A8B",
+      "name": "com.github.jknack.handlebars",
+      "versionInfo": "4.3.1",
+      "packageFileName": "handlebars-4.3.1.jar",
+      "supplier": "Person: Edgar Espina",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/github/jknack/handlebars/4.3.1/handlebars-4.3.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/jknack/handlebars.java",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2012-2015 Edgar Espina",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.jknack/handlebars@4.3.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8C6332E037DD280E800D9591EBB8BE51776085B93C1159322DB8E04F23A8DAD4",
+      "name": "org.eclipse.jetty.jetty-util",
+      "versionInfo": "11.0.20",
+      "packageFileName": "jetty-util-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/11.0.20/jetty-util-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-util@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-77F72EB68C6F6BBC04AB2285FBB0BC2535312F4E6AD9AC430F1D5492234969E1",
+      "name": "com.ethlo.time.itu",
+      "versionInfo": "1.10.2",
+      "packageFileName": "itu-1.10.2.jar",
+      "supplier": "Person: Morten Haraldsen",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/ethlo/time/itu/1.10.2/itu-1.10.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/ethlo/itu",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (C) 2017 Morten Haraldsen (ethlo)",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.ethlo.time/itu@1.10.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E9B712CFE301AA5816AD82C08B10C70E83D827F9160C966AF18D02BA5AFF15FE",
+      "name": "org.eclipse.jetty.jetty-alpn-java-client",
+      "versionInfo": "11.0.20",
+      "packageFileName": "jetty-alpn-java-client-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-java-client/11.0.20/jetty-alpn-java-client-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-alpn-java-client@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-CD14E66108FCA173FCA9FDEFD31B24C125CE65B7E2F0F5317EE8F26D2FB68696",
+      "name": "org.mockito.mockito-core",
+      "versionInfo": "5.14.1",
+      "packageFileName": "mockito-core-5.14.1.jar",
+      "supplier": "Organization: mockito (mockito@googlegroups.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/mockito/mockito-core/5.14.1/mockito-core-5.14.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/mockito/mockito",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2007 Mockito contributors",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.mockito/mockito-core@5.14.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DE3B664712A7AE157E2AC11761AA90AA234FE2640F573C3481EC3C9560C6AB0C",
+      "name": "com.networknt.json-schema-validator",
+      "versionInfo": "1.5.0",
+      "packageFileName": "json-schema-validator-1.5.0.jar",
+      "supplier": "Person: Steve Hu (stevehu@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/networknt/json-schema-validator/1.5.0/json-schema-validator-1.5.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/networknt/json-schema-validator",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2016 Network New Technologies Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.networknt/json-schema-validator@1.5.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-BD9F077E45E4A3D2D5D193930C932A795C348EAEA42A43DB279A871304FB1876",
+      "name": "commons-fileupload.commons-fileupload",
+      "versionInfo": "1.5",
+      "packageFileName": "commons-fileupload-1.5.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://commons.apache.org/proper/commons-fileupload/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2002-2023 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-fileupload/commons-fileupload@1.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4AE2223EDFEF3108E7A2A894D0D8E888D25F2841F578D4A31A94DAD3B3178A11",
+      "name": "org.eclipse.jetty.jetty-server",
+      "versionInfo": "11.0.20",
+      "packageFileName": "jetty-server-11.0.20.jar",
+      "supplier": "Organization: Webtide",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/11.0.20/jetty-server-11.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://eclipse.dev/jetty",
+      "licenseConcluded": "EPL-2.0 OR Apache-2.0",
+      "licenseDeclared": "EPL-2.0 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-server@11.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-0833608ED2B6E4AC5538616F2A053FB36CF3C28AFFF64E84BFB577B5D5B55F83",
+      "name": "org.wiremock.wiremock",
+      "versionInfo": "3.9.1",
+      "packageFileName": "wiremock-3.9.1.jar",
+      "supplier": "Person: Tom Akehurst",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/wiremock/wiremock/3.9.1/wiremock-3.9.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://wiremock.org",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.wiremock/wiremock@3.9.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-948EC4318A8D832502CB3B63837530419BDFAF8FA78D9F6AD756EB4CC20D3981",
+      "name": "org.hamcrest.hamcrest",
+      "versionInfo": "2.2",
+      "packageFileName": "hamcrest-2.2.jar",
+      "supplier": "Organization: Hamcrest",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://hamcrest.org/JavaHamcrest/",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2000-2015 www.hamcrest.org\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest@2.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-94F95BD54BDC2D499EA40968CB89873AFFC4B9DA788DA81E8A0E2751F38F60A1",
+      "name": "se.michaelthelin.spotify.spotify-web-api-java",
+      "versionInfo": "8.4.1",
+      "packageFileName": "spotify-web-api-java-8.4.1.jar",
+      "supplier": "Organization: Spotify Web API Java",
+      "downloadLocation": "https://repo1.maven.org/maven2/se/michaelthelin/spotify/spotify-web-api-java/8.4.1/spotify-web-api-java-8.4.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spotify-web-api-java/spotify-web-api-java",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2017 Michael Thelin",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/se.michaelthelin.spotify/spotify-web-api-java@8.4.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-AB8C365D5C7FD5C6578537F194858610A372181A40CCFC0A9F25E8E52CF07A0E",
+      "name": "com.fasterxml.jackson.datatype.jackson-datatype-jsr310",
+      "versionInfo": "2.17.2",
+      "packageFileName": "jackson-datatype-jsr310-2.17.2.jar",
+      "supplier": "Person: Nick Williams (nicholas@nicholaswilliams.net)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.2/jackson-datatype-jsr310-2.17.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/FasterXML/jackson-modules-java8",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.17.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8E9ED8506F2088E69D80A29F23A2A1EC50B75433AC94548A6DFFC6552C7EDAC9",
+      "name": "jakarta.activation.jakarta.activation-api",
+      "versionInfo": "1.2.2",
+      "packageFileName": "jakarta.activation-api-1.2.2.jar",
+      "supplier": "Person: Bill Shannon (bill.shannon@oracle.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/eclipse-ee4j/jaf",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 1997, 2019 Oracle and/or its affiliates. All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-218AFC4E004A1067745A69C09AF6022E5E700665DA752293303D577E293A880C",
+      "name": "jakarta.xml.bind.jakarta.xml.bind-api",
+      "versionInfo": "2.3.3",
+      "packageFileName": "jakarta.xml.bind-api-2.3.3.jar",
+      "supplier": "Person: Roman Grigoriadi (roman.grigoriadi@oracle.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/eclipse-ee4j/jaxb-api",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2017, 2018 Oracle and/or its affiliates. All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-EF4C08121027D9ED461A7CC73CF2C59F835944DAD47265619322DCFF1DCAFFC9",
+      "name": "com.fasterxml.jackson.core.jackson-core",
+      "versionInfo": "2.18.0",
+      "packageFileName": "jackson-core-2.18.0.jar",
+      "supplier": "Organization: FasterXML",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.18.0/jackson-core-2.18.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/FasterXML/jackson-core",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.18.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "spotify-web-api-java",
+      "versionInfo": "68d8d2b155c4f4ba72ae6bdc9ee2f6513f2715ac",
+      "packageFileName": "./",
+      "supplier": "Organization: spotify-web-api-java",
+      "downloadLocation": "git\u002Bhttps://github.com/spotify-web-api-java/spotify-web-api-java.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spotify-web-api-java/spotify-web-api-java",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2017 Michael Thelin",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/spotify-web-api-java/spdx.org/spotify-web-api-java@68d8d2b155c4f4ba72ae6bdc9ee2f6513f2715ac?tag_id=fcebd5b3-7bed-43c0-8a5f-81b0df888a5b"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-6D8BEC4AADA5822C86C90F9695828C871C53A20B14641B5DB80B6FD6996BDADF",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-3B9A6161A2F4234EA411593203BA14B190C6F55451847730B56CF025D57B71EF",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-01CF20B581A6C4BD1D63D8FF36E93C4ACDA049C1E23C2A7C913E9E189771C45B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C1183DB3EDEDFC717531B58021623AD9CCDA3A80815A37B4C472134761C2BE15",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DC15B0E0E5672EE204E386DFC7B0A1B9C25822A45EB71AAF47069631A3925B1B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-672F5E320B04997F934A4DB2D6D43EF2D1D69F257D51CFCC9DF9940D2C7FAC95",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-D3211E1847852D3FB8C78F202FFB39934B17B8AF08374C4B4DFCF7AEBA01E2F2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-BE463778BCA75E94C222561B1596FDF9430AE8F3199DF4CA1710DDA9611FA306",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B36B2E74FE099D9DC1DA55B3557E26FF43B6E1E615B642F0E48E8569E7351E3D",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-D832F12E8917BEBF17CF5928629D979C5F6FB36CC75E995378FA895508CE7856",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F2D1DFA0BF18F73DA2434B69925F0674CF7C93CDD207C9CFBF982DF9AA7ABCD0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F96638866360D69896F4932A511FCA8FA560AAACE96052B096C4CD4FC4F20DF9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-11F064DE073FA84C646C24A571B77416AC3D949FF70A2D71E5295C48D22E4BD4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DC408DBFA6D080A33158C3C280B36C66F6C3438971958C1B1E7964F1F968D0B2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-01389EA46E74EEDED92B6089C97B105650A4EB5F5083F7048ECF724220416A92",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2C51E3AE7CA736201DB81E29D18B3837F22218A4A28A510534087DD15EEFB712",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-EF0EBF891D2ED3326BC4B5A2B19559E987A0B5C191383735FB51F7F75BFBBBC1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-7E8B8A26805C1C3B06DC693B7845CC1715149C0AB648DEA52079D39F4F41889E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-8E9ED8506F2088E69D80A29F23A2A1EC50B75433AC94548A6DFFC6552C7EDAC9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-94F95BD54BDC2D499EA40968CB89873AFFC4B9DA788DA81E8A0E2751F38F60A1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-948EC4318A8D832502CB3B63837530419BDFAF8FA78D9F6AD756EB4CC20D3981",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4AE2223EDFEF3108E7A2A894D0D8E888D25F2841F578D4A31A94DAD3B3178A11",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DE3B664712A7AE157E2AC11761AA90AA234FE2640F573C3481EC3C9560C6AB0C",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E9B712CFE301AA5816AD82C08B10C70E83D827F9160C966AF18D02BA5AFF15FE",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-8C6332E037DD280E800D9591EBB8BE51776085B93C1159322DB8E04F23A8DAD4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E2FC7B5D46516074E5377C1057AA32D066F05A62E8549A035B9C428A03422276",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-CB38CA398E2DFF68136502A507C1E016686B285095FECDAD240E1932202C2E6C",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-EF4C08121027D9ED461A7CC73CF2C59F835944DAD47265619322DCFF1DCAFFC9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-218AFC4E004A1067745A69C09AF6022E5E700665DA752293303D577E293A880C",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-AB8C365D5C7FD5C6578537F194858610A372181A40CCFC0A9F25E8E52CF07A0E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-0833608ED2B6E4AC5538616F2A053FB36CF3C28AFFF64E84BFB577B5D5B55F83",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-BD9F077E45E4A3D2D5D193930C932A795C348EAEA42A43DB279A871304FB1876",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-CD14E66108FCA173FCA9FDEFD31B24C125CE65B7E2F0F5317EE8F26D2FB68696",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-77F72EB68C6F6BBC04AB2285FBB0BC2535312F4E6AD9AC430F1D5492234969E1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F2F045A2A3F8FE88191456CC31E98240EE5DC37CD48D4B93FFF53493B8FF6A8B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F3ADC2A84B8FE22B28C3026185377BF4B80401F1331BF315C6C34C16836BA3A4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-D106B827A7ACE98E693E1A43460E0F459FDFD0B5DAD4B18229A076F6A338787D",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-1C03A7A1358819EBA24856B08EE5AD7FBACD853EF838E2DB63B188F17539946A",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B9E92BD76114AA198591CC7CFC2F7FBBA308AA8B3AA6707B62C6427B567A9704",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-77890A147C660B631CB844A5FDF0EAB4E5416ACFF8AFA22F1292F2AB01F9FA15",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-7508BE4CDE6E9926BD0C15DF4797E24D4DD7BD697F9C4340120A6EF50642AB20",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B5528FEAAFE5D75C898245575FA5EDE883F330E5C868B5404A5429A3EBD4FE1C",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-D6983E831ECA8FCC023AC94D442E16AC9C822E78CFF366A7639C79B91414ACD3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-56C76022D9FCC259623416ACAB20913615BE47E037A56ED9697CC8F1B561FFCF",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-47B6372856657084525F2D4DFDCC2D9D55383FBC00808A4735C258A335C8B328",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DA4F80847EC3CEE737E82EEC1BF724F9626518817BA79B8B1C636F83604447DC",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-01A5B3F9200737E42312D44B53233E5F908C8E7753A679C2631ACF315E22B782",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-970997B3DAA63C144F1460881F89B2274F79A2CD48E81C195686FE07A40F89E6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-87896FD4127692670DCCB556F10FDB434A6231CA07BD08C2ED76014B585B6BA3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-3301ABA6351B21A1CD33EA807FFCC301013E035D25B6D93C4EF49D2F3FA84C50",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C7F7833B1A2FF1FB71608AF973F36E7DA8F5206E7C48B528187AD5956C544E7E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-669C8CA35766D36A4F691D560248C73BEB1706B72F4D5C091C43F3012229E3D7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-02D9BBF6382877C6C31501EFF957F710A98CE0C999A9880DAFA5ECBCFFB77BAE",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C240E9BAB7957B7E77C728468B4327C32D551B3F670B94EE6A8CFD6D6C59CB59",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-921FC44D46E0E47D8BF0FD5D2D4C2DE55405E892FF022DC92D9B72820BEC89D1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C397F046FB3580801E7808DC5653D386A486A5D9075DEEE6BEEC867DA93AED2E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-34C3546490E5D00CF1A2FF834C77BB6397B8F450F8BD4611AA0E233969F5C1F4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-A53526AF2B33C723F13ED7C0FB32C7F8B7078CA83CE1E5A7DD71FAC205CE7CA6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-133F4335984E2DEA53689473F2712E6702D679AD3FFE1016F6BC6D25E301E6FF",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-0C207BDD58756F141342E04534214BF219EAC3A87221AA7C04C56ADE7DF698B6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4365BD5BFB8E815D4B8A0F45CFEFAF426CAEE0E6FBAB6CE7AC1B7C8080FF3443",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-87921FFAFEC0EB9457662E39FA83C1EEDD84F931F116AC18EFA477EC6825F4BD",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-28C97982C212608BF83534A61599603D24FC89C670BD2C86985988B7CC8CC971",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E1CEEF772D36A706BA7BF18ADE539F76FD6C737C52736DAD6F263F0D761E6071",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-ED3712F80EC6AC00CB27F4A0BF3CAB567F1295B71178CC2B50CF33E731478BD6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-BD91CFC4C2D44C78AC9C12F359C8E523949E561C343EA301D2D77274C963381E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-44FD358362E03352C007D93711B28D20740AB45015B34F2A4350C19BE546C347",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DA2ED120F11B1E0335DC1482594951B70AB4FA9222A96F3E983885298850F4BC",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-522039B890679604752A638CACD14F2E23856B4BE60857063FCB7F7B07979DE0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-84B8F0AE006D0C8AC557F447E4F571F0F4F61C57F67F485534122F1B28A1400E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-A1D15B48B2F928CC4C49FE63420A421E7D2F8B9E86F3560BD68183B755EAD1EF",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

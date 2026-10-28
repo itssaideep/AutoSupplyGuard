@@ -1,0 +1,1117 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "datafaker 41b5693e1361cd7345368eec1d4695baaab5da62",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-3d3058cd-fd3a-4034-bcfd-3eb1f7f62461/datafaker/41b5693e1361cd7345368eec1d4695baaab5da62/W2IrNGBCLkGxwN1wFPWrYA",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-37ccbe6e507146d2bc1ee933f70db6d4",
+      "extractedText": "http://www.gnu.org/licenses/lgpl-3.0.html",
+      "name": "http://www.gnu.org/licenses/lgpl-3.0.html"
+    }
+  ],
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-12931361F0746B443E4E6E03E50FAE8A9134AB31237576CE8B226864C8428519",
+      "name": "commons-collections.commons-collections",
+      "versionInfo": "3.2.2",
+      "packageFileName": "commons-collections-3.2.2.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://commons.apache.org/collections/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2015 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-collections/commons-collections@3.2.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-48267C4501F5E8F74B625807B997427FD404C0C9F274A7645CE157B315FEA82B",
+      "name": "org.apache.commons.commons-lang3",
+      "versionInfo": "3.17.0",
+      "packageFileName": "commons-lang3-3.17.0.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://commons.apache.org/proper/commons-lang/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2024 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-lang3@3.17.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B5528FEAAFE5D75C898245575FA5EDE883F330E5C868B5404A5429A3EBD4FE1C",
+      "name": "com.google.j2objc.j2objc-annotations",
+      "versionInfo": "3.0.0",
+      "packageFileName": "j2objc-annotations-3.0.0.jar",
+      "supplier": "Person: Tom Ball (tball@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/j2objc/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.j2objc/j2objc-annotations@3.0.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-AC5E137A2F9F3C66235FAF549B1FA21E4D730682AF23F9DE60FA25EBBA61D9C5",
+      "name": "com.google.code.findbugs.jsr305",
+      "versionInfo": "3.0.2",
+      "packageFileName": "jsr305-3.0.2.jar",
+      "supplier": "Organization: The University of Maryland",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://findbugs.sourceforge.net/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E2FC7B5D46516074E5377C1057AA32D066F05A62E8549A035B9C428A03422276",
+      "name": "org.junit.jupiter.junit-jupiter-api",
+      "versionInfo": "5.11.2",
+      "packageFileName": "junit-jupiter-api-5.11.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.2/junit-jupiter-api-5.11.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.11.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1C03A7A1358819EBA24856B08EE5AD7FBACD853EF838E2DB63B188F17539946A",
+      "name": "org.objenesis.objenesis",
+      "versionInfo": "3.3",
+      "packageFileName": "objenesis-3.3.jar",
+      "supplier": "Organization: Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/objenesis/objenesis/3.3/objenesis-3.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://objenesis.org",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.objenesis/objenesis@3.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-870048CBE834D507458BDF63504979A39AD7122D6E01128EE493CB88D6297C88",
+      "name": "net.datafaker.datafaker",
+      "versionInfo": "2.4.1-SNAPSHOT",
+      "packageFileName": "datafaker-2.4.1-SNAPSHOT.jar",
+      "supplier": "Person: Erik Pragt (erik.pragt@datafaker.net)",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://www.datafaker.net",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2024 Datafaker.net See the LICENSE file for license rights and limitations.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.datafaker/datafaker@2.4.1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-A9DCF128B3630DA8B6597EA372E06077DBE1EF8CB2CA3D39404AE1397A24BC40",
+      "name": "com.googlecode.libphonenumber.libphonenumber",
+      "versionInfo": "8.13.47",
+      "packageFileName": "libphonenumber-8.13.47.jar",
+      "supplier": "Organization: Google",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/googlecode/libphonenumber/libphonenumber/8.13.47/libphonenumber-8.13.47.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/libphonenumber/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.googlecode.libphonenumber/libphonenumber@8.13.47"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-A015A38921AF194DB124A033F4DE1747D410442A65A982804197D469B2C984A1",
+      "name": "org.slf4j.slf4j-api",
+      "versionInfo": "1.7.32",
+      "packageFileName": "slf4j-api-1.7.32.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.slf4j.org",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2004-2017 QOS.ch\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.32"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B8FF4B4F38FD22D4121BE33F98E4A17CFAE8B425D1CCE3AD3858A09A751A0395",
+      "name": "com.google.guava.guava",
+      "versionInfo": "33.3.0-jre",
+      "packageFileName": "guava-33.3.0-jre.jar",
+      "supplier": "Person: Kevin Bourrillion (kevinb@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/guava/guava/33.3.0-jre/guava-33.3.0-jre.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/guava",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/guava@33.3.0-jre"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E4592859BEAB963B4FF38F090914B5A6BA11EC2D933CF97ECCC765AFA3CB5348",
+      "name": "com.github.javaparser.javaparser-symbol-solver-core",
+      "versionInfo": "3.26.2",
+      "packageFileName": "javaparser-symbol-solver-core-3.26.2.jar",
+      "supplier": "Organization: JavaParser",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/github/javaparser/javaparser-symbol-solver-core/3.26.2/javaparser-symbol-solver-core-3.26.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/javaparser",
+      "licenseConcluded": "LicenseRef-37ccbe6e507146d2bc1ee933f70db6d4 OR Apache-2.0",
+      "licenseDeclared": "LicenseRef-37ccbe6e507146d2bc1ee933f70db6d4 OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.javaparser/javaparser-symbol-solver-core@3.26.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2930768841A4E7C75E128233B18B559591D6D53C983AEAA254E924D3BE2EF1F7",
+      "name": "org.jetbrains.kotlin.kotlin-stdlib-jdk7",
+      "versionInfo": "2.0.20",
+      "packageFileName": "kotlin-stdlib-jdk7-2.0.20.jar",
+      "supplier": "Person: Kotlin Team",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/2.0.20/kotlin-stdlib-jdk7-2.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://kotlinlang.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2010-2023 JetBrains s.r.o and respective authors and developers",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@2.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-BB7FD31753D37B4DDC5DD01D4B936659E5A3441B1A6AA6B1184438C7758E41C5",
+      "name": "org.yaml.snakeyaml",
+      "versionInfo": "2.3",
+      "packageFileName": "snakeyaml-2.3.jar",
+      "supplier": "Organization: snakeyaml",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://bitbucket.org/snakeyaml/snakeyaml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.yaml/snakeyaml@2.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-354DFDADF11E8D5D38E39A64ECCF35E90D2E3011E3F4CA390B6D6FF0B60088C8",
+      "name": "org.jetbrains.kotlin.kotlin-test",
+      "versionInfo": "2.0.20",
+      "packageFileName": "kotlin-test-2.0.20.jar",
+      "supplier": "Person: Kotlin Team",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-test/2.0.20/kotlin-test-2.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://kotlinlang.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2010-2024 JetBrains s.r.o and respective authors and developers",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-test@2.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B90640073897F7706AE761B8ECD0EB0CE7490352554FD5C8B4A4026EF4768ED3",
+      "name": "org.reflections.reflections",
+      "versionInfo": "0.10.2",
+      "packageFileName": "reflections-0.10.2.jar",
+      "supplier": "Person: ronmamo",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/reflections/reflections/0.10.2/reflections-0.10.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://github.com/ronmamo/reflections",
+      "licenseConcluded": "WTFPL OR Apache-2.0",
+      "licenseDeclared": "WTFPL OR Apache-2.0",
+      "copyrightText": "Copyright (C) 2004 Sam Hocevar \u003Csam@hocevar.net\u003E",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.reflections/reflections@0.10.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-610B69597B2CF6A4A2B73C40E21C75358791246FF1F8A8429197A626D03F1DA9",
+      "name": "org.jetbrains.annotations",
+      "versionInfo": "13.0",
+      "packageFileName": "annotations-13.0.jar",
+      "supplier": "Person: JetBrains Team",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.jetbrains.org",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains/annotations@13.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F6A653585865366F8AC121991B1F233564BE5F150C782CE594893A5F4BD3F66D",
+      "name": "commons-validator.commons-validator",
+      "versionInfo": "1.9.0",
+      "packageFileName": "commons-validator-1.9.0.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-validator/commons-validator/1.9.0/commons-validator-1.9.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://commons.apache.org/proper/commons-validator/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2002-2024 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-validator/commons-validator@1.9.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-BF6A0BFCD9BDEB67D342A8738C239C2EB28FB9C41DF4E801F9718FCDFE149C94",
+      "name": "commons-beanutils.commons-beanutils",
+      "versionInfo": "1.9.4",
+      "packageFileName": "commons-beanutils-1.9.4.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://commons.apache.org/proper/commons-beanutils/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2000-2019 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-47B6372856657084525F2D4DFDCC2D9D55383FBC00808A4735C258A335C8B328",
+      "name": "org.junit.platform.junit-platform-commons",
+      "versionInfo": "1.11.2",
+      "packageFileName": "junit-platform-commons-1.11.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.11.2/junit-platform-commons-1.11.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.platform/junit-platform-commons@1.11.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C1183DB3EDEDFC717531B58021623AD9CCDA3A80815A37B4C472134761C2BE15",
+      "name": "net.bytebuddy.byte-buddy-agent",
+      "versionInfo": "1.15.3",
+      "packageFileName": "byte-buddy-agent-1.15.3.jar",
+      "supplier": "Person: Rafael Winterhalter (rafael.wth@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.3/byte-buddy-agent-1.15.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://bytebuddy.net",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.bytebuddy/byte-buddy-agent@1.15.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-34E9B0F33DA724D744E463E190002EC7BF6360A20ABA54CB8740B6303719C669",
+      "name": "org.javassist.javassist",
+      "versionInfo": "3.28.0-GA",
+      "packageFileName": "javassist-3.28.0-GA.jar",
+      "supplier": "Organization: Shigeru Chiba, www.javassist.org",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.javassist.org/",
+      "licenseConcluded": "MPL-1.1 OR LGPL-2.1-or-later OR Apache-2.0",
+      "licenseDeclared": "MPL-1.1 OR LGPL-2.1-or-later OR Apache-2.0",
+      "copyrightText": "Copyright (C) 1999-2021 by Shigeru Chiba, All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.javassist/javassist@3.28.0-GA"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-BD91CFC4C2D44C78AC9C12F359C8E523949E561C343EA301D2D77274C963381E",
+      "name": "com.google.guava.listenablefuture",
+      "versionInfo": "9999.0-empty-to-avoid-conflict-with-guava",
+      "packageFileName": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "supplier": "Person: Kevin Bourrillion (kevinb@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/guava",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F96638866360D69896F4932A511FCA8FA560AAACE96052B096C4CD4FC4F20DF9",
+      "name": "com.google.guava.failureaccess",
+      "versionInfo": "1.0.2",
+      "packageFileName": "failureaccess-1.0.2.jar",
+      "supplier": "Person: Kevin Bourrillion (kevinb@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/guava",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/failureaccess@1.0.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-542AB4907719D689F67575DC83712D712E0345B74310B3298DB5056BF4B305A9",
+      "name": "fr.marcwrobel.jbanking",
+      "versionInfo": "4.2.0",
+      "packageFileName": "jbanking-4.2.0.jar",
+      "supplier": "Organization: Marc Wrobel",
+      "downloadLocation": "https://repo1.maven.org/maven2/fr/marcwrobel/jbanking/4.2.0/jbanking-4.2.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://jbanking.marcwrobel.fr",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2013-2022 Marc Wrobel (marc.wrobel@gmail.com)",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/fr.marcwrobel/jbanking@4.2.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-92FDEF8125CA6D90905442A4227F161692F036E095CA9DAD373C0B48B4E4B465",
+      "name": "org.jetbrains.kotlin.kotlin-stdlib-jdk8",
+      "versionInfo": "2.0.20",
+      "packageFileName": "kotlin-stdlib-jdk8-2.0.20.jar",
+      "supplier": "Person: Kotlin Team",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/2.0.20/kotlin-stdlib-jdk8-2.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://kotlinlang.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2010-2024 JetBrains s.r.o and respective authors and developers",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@2.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-353DCC4382083BD549A76DBB36F814516E6CBA428F9146C21B1C8458ACAA6C54",
+      "name": "org.checkerframework.checker-qual",
+      "versionInfo": "3.43.0",
+      "packageFileName": "checker-qual-3.43.0.jar",
+      "supplier": "Organization: typetools",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://checkerframework.org/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright 2004-present by the Checker Framework developers\r\n",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.checkerframework/checker-qual@3.43.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-233BE17346736E72EB204CED4F77AAED9FE3A9EC4132B6739D209684214CF83C",
+      "name": "org.jetbrains.kotlin.kotlin-stdlib",
+      "versionInfo": "2.0.20",
+      "packageFileName": "kotlin-stdlib-2.0.20.jar",
+      "supplier": "Person: Kotlin Team",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.0.20/kotlin-stdlib-2.0.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://kotlinlang.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2010-2024 JetBrains s.r.o and respective authors and developers",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.0.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F0871656358C87013EB1F16E35B82EDD6BD2FE2C429C91C51707425B6BA04050",
+      "name": "commons-digester.commons-digester",
+      "versionInfo": "2.1",
+      "packageFileName": "commons-digester-2.1.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-digester/commons-digester/2.1/commons-digester-2.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://commons.apache.org/digester/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2010 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-digester/commons-digester@2.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ED3712F80EC6AC00CB27F4A0BF3CAB567F1295B71178CC2B50CF33E731478BD6",
+      "name": "org.junit.jupiter.junit-jupiter-params",
+      "versionInfo": "5.11.2",
+      "packageFileName": "junit-jupiter-params-5.11.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.2/junit-jupiter-params-5.11.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.11.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-BCA57574CE2AB7E193AB78E948F9A8653BE302180B7099068DE355C020AA0388",
+      "name": "com.google.errorprone.error_prone_annotations",
+      "versionInfo": "2.28.0",
+      "packageFileName": "error_prone_annotations-2.28.0.jar",
+      "supplier": "Organization: Google LLC",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://errorprone.info",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.errorprone/error_prone_annotations@2.28.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-56C76022D9FCC259623416ACAB20913615BE47E037A56ED9697CC8F1B561FFCF",
+      "name": "net.bytebuddy.byte-buddy",
+      "versionInfo": "1.15.3",
+      "packageFileName": "byte-buddy-1.15.3.jar",
+      "supplier": "Person: Rafael Winterhalter (rafael.wth@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.3/byte-buddy-1.15.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://bytebuddy.net",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.bytebuddy/byte-buddy@1.15.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-CDA9F8240ABDA73D00F1C31B6D641ADEA330A54DE0337256B8B77AC84C97ED7A",
+      "name": "org.assertj.assertj-core",
+      "versionInfo": "3.26.3",
+      "packageFileName": "assertj-core-3.26.3.jar",
+      "supplier": "Organization: AssertJ",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/assertj/assertj-core/3.26.3/assertj-core-3.26.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://assertj.github.io/doc/#assertj-core",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.assertj/assertj-core@3.26.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4860611117EC0D5AB6133AA7CE5C2053755142B5199797C8BBFE354C8E0EA2CF",
+      "name": "commons-logging.commons-logging",
+      "versionInfo": "1.3.2",
+      "packageFileName": "commons-logging-1.3.2.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-logging/commons-logging/1.3.2/commons-logging-1.3.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://commons.apache.org/proper/commons-logging/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2024 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-logging/commons-logging@1.3.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-44FD358362E03352C007D93711B28D20740AB45015B34F2A4350C19BE546C347",
+      "name": "org.junit.platform.junit-platform-engine",
+      "versionInfo": "1.11.2",
+      "packageFileName": "junit-platform-engine-1.11.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/platform/junit-platform-engine/1.11.2/junit-platform-engine-1.11.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.platform/junit-platform-engine@1.11.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4C51AA55D73E428EDD54C51B95F0DF976CEC862C79B8B72C99C132616544DE1F",
+      "name": "org.apache.commons.commons-text",
+      "versionInfo": "1.12.0",
+      "packageFileName": "commons-text-1.12.0.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://commons.apache.org/proper/commons-text",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014-2024 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-text@1.12.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-77890A147C660B631CB844A5FDF0EAB4E5416ACFF8AFA22F1292F2AB01F9FA15",
+      "name": "org.junit.jupiter.junit-jupiter-engine",
+      "versionInfo": "5.11.2",
+      "packageFileName": "junit-jupiter-engine-5.11.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.2/junit-jupiter-engine-5.11.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.11.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C397F046FB3580801E7808DC5653D386A486A5D9075DEEE6BEEC867DA93AED2E",
+      "name": "org.apiguardian.apiguardian-api",
+      "versionInfo": "1.1.2",
+      "packageFileName": "apiguardian-api-1.1.2.jar",
+      "supplier": "Person: @API Guardian Team (team@apiguardian.org)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/apiguardian-team/apiguardian",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3FCE237FFB6064BF5F8E20820474A6377CCC867F37455A4994D27E098185447E",
+      "name": "com.github.javaparser.javaparser-core",
+      "versionInfo": "3.26.2",
+      "packageFileName": "javaparser-core-3.26.2.jar",
+      "supplier": "Organization: JavaParser",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/github/javaparser/javaparser-core/3.26.2/javaparser-core-3.26.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/javaparser",
+      "licenseConcluded": "LGPL-3.0-only OR Apache-2.0",
+      "licenseDeclared": "LGPL-3.0-only OR Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.javaparser/javaparser-core@3.26.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DA4F80847EC3CEE737E82EEC1BF724F9626518817BA79B8B1C636F83604447DC",
+      "name": "org.opentest4j.opentest4j",
+      "versionInfo": "1.3.0",
+      "packageFileName": "opentest4j-1.3.0.jar",
+      "supplier": "Organization: Open Test Alliance for the JVM",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/ota4j-team/opentest4j",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2015-2023 the original author or authors.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.opentest4j/opentest4j@1.3.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-CD14E66108FCA173FCA9FDEFD31B24C125CE65B7E2F0F5317EE8F26D2FB68696",
+      "name": "org.mockito.mockito-core",
+      "versionInfo": "5.14.1",
+      "packageFileName": "mockito-core-5.14.1.jar",
+      "supplier": "Organization: mockito (mockito@googlegroups.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/mockito/mockito-core/5.14.1/mockito-core-5.14.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/mockito/mockito",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2007 Mockito contributors",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.mockito/mockito-core@5.14.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F763810FFF79B8CE432A7F208DB78D45866D0041069D2D11652D8F5E948E48E1",
+      "name": "com.github.curious-odd-man.rgxgen",
+      "versionInfo": "2.0",
+      "packageFileName": "rgxgen-2.0.jar",
+      "supplier": "Person: Vladislavs Varslavans (vlad.varslavans@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/github/curious-odd-man/rgxgen/2.0/rgxgen-2.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/curious-odd-man/RgxGen",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2019 Vladislavs Varslavans",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.curious-odd-man/rgxgen@2.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "datafaker",
+      "versionInfo": "41b5693e1361cd7345368eec1d4695baaab5da62",
+      "packageFileName": "./",
+      "supplier": "Organization: datafaker-net",
+      "downloadLocation": "git\u002Bhttps://github.com/datafaker-net/datafaker.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/datafaker-net/datafaker",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2024 Datafaker.net",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/datafaker-net/spdx.org/datafaker@41b5693e1361cd7345368eec1d4695baaab5da62?tag_id=0a7e70f9-1c30-437e-a870-66be29dd3d18"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B8FF4B4F38FD22D4121BE33F98E4A17CFAE8B425D1CCE3AD3858A09A751A0395",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-A9DCF128B3630DA8B6597EA372E06077DBE1EF8CB2CA3D39404AE1397A24BC40",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-870048CBE834D507458BDF63504979A39AD7122D6E01128EE493CB88D6297C88",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E2FC7B5D46516074E5377C1057AA32D066F05A62E8549A035B9C428A03422276",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-48267C4501F5E8F74B625807B997427FD404C0C9F274A7645CE157B315FEA82B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F763810FFF79B8CE432A7F208DB78D45866D0041069D2D11652D8F5E948E48E1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-CD14E66108FCA173FCA9FDEFD31B24C125CE65B7E2F0F5317EE8F26D2FB68696",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DA4F80847EC3CEE737E82EEC1BF724F9626518817BA79B8B1C636F83604447DC",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-3FCE237FFB6064BF5F8E20820474A6377CCC867F37455A4994D27E098185447E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-77890A147C660B631CB844A5FDF0EAB4E5416ACFF8AFA22F1292F2AB01F9FA15",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C397F046FB3580801E7808DC5653D386A486A5D9075DEEE6BEEC867DA93AED2E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4C51AA55D73E428EDD54C51B95F0DF976CEC862C79B8B72C99C132616544DE1F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-44FD358362E03352C007D93711B28D20740AB45015B34F2A4350C19BE546C347",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4860611117EC0D5AB6133AA7CE5C2053755142B5199797C8BBFE354C8E0EA2CF",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-CDA9F8240ABDA73D00F1C31B6D641ADEA330A54DE0337256B8B77AC84C97ED7A",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-56C76022D9FCC259623416ACAB20913615BE47E037A56ED9697CC8F1B561FFCF",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-BCA57574CE2AB7E193AB78E948F9A8653BE302180B7099068DE355C020AA0388",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-ED3712F80EC6AC00CB27F4A0BF3CAB567F1295B71178CC2B50CF33E731478BD6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F0871656358C87013EB1F16E35B82EDD6BD2FE2C429C91C51707425B6BA04050",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-233BE17346736E72EB204CED4F77AAED9FE3A9EC4132B6739D209684214CF83C",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C1183DB3EDEDFC717531B58021623AD9CCDA3A80815A37B4C472134761C2BE15",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-47B6372856657084525F2D4DFDCC2D9D55383FBC00808A4735C258A335C8B328",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-BF6A0BFCD9BDEB67D342A8738C239C2EB28FB9C41DF4E801F9718FCDFE149C94",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F6A653585865366F8AC121991B1F233564BE5F150C782CE594893A5F4BD3F66D",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-610B69597B2CF6A4A2B73C40E21C75358791246FF1F8A8429197A626D03F1DA9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-353DCC4382083BD549A76DBB36F814516E6CBA428F9146C21B1C8458ACAA6C54",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-92FDEF8125CA6D90905442A4227F161692F036E095CA9DAD373C0B48B4E4B465",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-542AB4907719D689F67575DC83712D712E0345B74310B3298DB5056BF4B305A9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F96638866360D69896F4932A511FCA8FA560AAACE96052B096C4CD4FC4F20DF9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-BD91CFC4C2D44C78AC9C12F359C8E523949E561C343EA301D2D77274C963381E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-34E9B0F33DA724D744E463E190002EC7BF6360A20ABA54CB8740B6303719C669",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B90640073897F7706AE761B8ECD0EB0CE7490352554FD5C8B4A4026EF4768ED3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-354DFDADF11E8D5D38E39A64ECCF35E90D2E3011E3F4CA390B6D6FF0B60088C8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-BB7FD31753D37B4DDC5DD01D4B936659E5A3441B1A6AA6B1184438C7758E41C5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2930768841A4E7C75E128233B18B559591D6D53C983AEAA254E924D3BE2EF1F7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E4592859BEAB963B4FF38F090914B5A6BA11EC2D933CF97ECCC765AFA3CB5348",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-A015A38921AF194DB124A033F4DE1747D410442A65A982804197D469B2C984A1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-1C03A7A1358819EBA24856B08EE5AD7FBACD853EF838E2DB63B188F17539946A",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-AC5E137A2F9F3C66235FAF549B1FA21E4D730682AF23F9DE60FA25EBBA61D9C5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B5528FEAAFE5D75C898245575FA5EDE883F330E5C868B5404A5429A3EBD4FE1C",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-12931361F0746B443E4E6E03E50FAE8A9134AB31237576CE8B226864C8428519",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

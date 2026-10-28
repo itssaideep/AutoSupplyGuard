@@ -1,0 +1,2072 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "retrofit-spring-boot-starter c2da56b50e84dca676f9032731414e0e5dd6cdbc",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-1ed6ac8b-4360-470a-bbca-b6b76d69995d/retrofit-spring-boot-starter/c2da56b50e84dca676f9032731414e0e5dd6cdbc/roU9J3xrVkmZKI6zx7k-HA",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-6B0D4CE6B64C506C395812F113652E5FCB6CFE21AA00F0AFE6569C4E3808D668",
+      "name": "io.github.resilience4j.resilience4j-circuitbreaker",
+      "versionInfo": "1.7.1",
+      "packageFileName": "resilience4j-circuitbreaker-1.7.1.jar",
+      "supplier": "Organization: Resilience4j",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/github/resilience4j/resilience4j-circuitbreaker/1.7.1/resilience4j-circuitbreaker-1.7.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://resilience4j.readme.io",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2020 Robert Winkler, Bohdan Storozhuk, Mahmoud Romeh, Dan Maas and others",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.github.resilience4j/resilience4j-circuitbreaker@1.7.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E5A4417DB2008C82A907D45ABADA788A562620E40FA561BB90B9DCE1F2DA3FA1",
+      "name": "org.springframework.spring-expression",
+      "versionInfo": "6.1.8",
+      "packageFileName": "spring-expression-6.1.8.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-expression/6.1.8/spring-expression-6.1.8.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-expression@6.1.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9DA1E44DEF099383046C6E17B0B72297B78DBEFD0628F592A10036D64C708230",
+      "name": "com.squareup.retrofit2.converter-gson",
+      "versionInfo": "2.11.0",
+      "packageFileName": "converter-gson-2.11.0.jar",
+      "supplier": "Person: Square, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/retrofit2/converter-gson/2.11.0/converter-gson-2.11.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/retrofit",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2013 Square, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.retrofit2/converter-gson@2.11.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C397F046FB3580801E7808DC5653D386A486A5D9075DEEE6BEEC867DA93AED2E",
+      "name": "org.apiguardian.apiguardian-api",
+      "versionInfo": "1.1.2",
+      "packageFileName": "apiguardian-api-1.1.2.jar",
+      "supplier": "Person: @API Guardian Team (team@apiguardian.org)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/apiguardian-team/apiguardian",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-EC9B9AF87C01222D5CF91F723A7A28DD605E40B309A90F90DD5B24C2881346A6",
+      "name": "org.springframework.spring-jcl",
+      "versionInfo": "6.1.8",
+      "packageFileName": "spring-jcl-6.1.8.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-jcl/6.1.8/spring-jcl-6.1.8.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-jcl@6.1.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B9DB27229F02F23A7F35EF7C7F43C2A40627411AE48FCAFFDBC31A6850E88E25",
+      "name": "com.squareup.retrofit2.converter-jackson",
+      "versionInfo": "2.11.0",
+      "packageFileName": "converter-jackson-2.11.0.jar",
+      "supplier": "Person: Square, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/retrofit2/converter-jackson/2.11.0/converter-jackson-2.11.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/retrofit",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2013 Square, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.retrofit2/converter-jackson@2.11.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9BE17E96EBEDFCC7EDAEB641DA38CAC39ECDB8449B0D88852C632497D09A0EDE",
+      "name": "org.projectlombok.lombok",
+      "versionInfo": "1.18.24",
+      "packageFileName": "lombok-1.18.24.jar",
+      "supplier": "Organization: Project Lombok (info@projectlombok.org)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://projectlombok.org",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (C) 2009-2021 The Project Lombok Authors.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.projectlombok/lombok@1.18.24"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2A52361931D141829F542A2F3E75DC2C10C3DA1E953EA3D2A93AAB1318EEF785",
+      "name": "com.squareup.okhttp3.logging-interceptor",
+      "versionInfo": "3.14.9",
+      "packageFileName": "logging-interceptor-3.14.9.jar",
+      "supplier": "Organization: Square",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/okhttp3/logging-interceptor/3.14.9/logging-interceptor-3.14.9.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/okhttp",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/logging-interceptor@3.14.9"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-93F4E68FE6D24E02DB5E24DFCF4620EB177469BC4DC8E461F16C1F4249E26DC3",
+      "name": "org.springframework.boot.spring-boot-autoconfigure",
+      "versionInfo": "3.2.6",
+      "packageFileName": "spring-boot-autoconfigure-3.2.6.jar",
+      "supplier": "Organization: VMware, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.2.6/spring-boot-autoconfigure-3.2.6.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://spring.io/projects/spring-boot",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.2.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C48FD6B87E728B38B288A80D95DFFF9314FD0B3B5D38238B7FFFAAD1D5C72DD0",
+      "name": "org.skyscreamer.jsonassert",
+      "versionInfo": "1.5.1",
+      "packageFileName": "jsonassert-1.5.1.jar",
+      "supplier": "Organization: Skyscreamer",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/skyscreamer/JSONassert",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.skyscreamer/jsonassert@1.5.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-EF073E6B46AD4829083F9C52A822A88E1829EE728B55ADA6CE02423874333250",
+      "name": "org.junit.jupiter.junit-jupiter-params",
+      "versionInfo": "5.10.2",
+      "packageFileName": "junit-jupiter-params-5.10.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.10.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ADA8E67FE9A9EF5E1C71D980DFBA759F628929C82F6DDE39E3F0D8D1977A5424",
+      "name": "org.junit.platform.junit-platform-engine",
+      "versionInfo": "1.10.2",
+      "packageFileName": "junit-platform-engine-1.10.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.platform/junit-platform-engine@1.10.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-0013F6CB1A3CCFC68FD7311CF95851B48250E55CBE5592CBC28EA0B2F4719905",
+      "name": "com.github.lianjiatech.retrofit-spring-boot-starter",
+      "versionInfo": "3.1.3",
+      "packageFileName": "retrofit-spring-boot-starter-3.1.3.jar",
+      "supplier": "Person: \u9648\u6DFB\u660E (chentianming11@qq.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/github/lianjiatech/retrofit-spring-boot-starter/3.1.3/retrofit-spring-boot-starter-3.1.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/lianjiatech/retrofit-spring-boot-starter",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright(c) 2020 Lianjia, Inc. All Rights Reserved",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.github.lianjiatech/retrofit-spring-boot-starter@3.1.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DC408DBFA6D080A33158C3C280B36C66F6C3438971958C1B1E7964F1F968D0B2",
+      "name": "com.jayway.jsonpath.json-path",
+      "versionInfo": "2.9.0",
+      "packageFileName": "json-path-2.9.0.jar",
+      "supplier": "Person: Kalle Stenflo (kalle.stenflo (a) gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/jayway/JsonPath",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.jayway.jsonpath/json-path@2.9.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9ADDA9CC78008B00D5DEE82EED7CB54FE140FA141109548FDA87466E25CD6778",
+      "name": "com.fasterxml.jackson.core.jackson-databind",
+      "versionInfo": "2.17.0",
+      "packageFileName": "jackson-databind-2.17.0.jar",
+      "supplier": "Organization: FasterXML",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/FasterXML/jackson",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.17.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-A083B24837949DDBE4ADC2EE3DA627E929D21E6D6EDDE5A81AD791322C1A6245",
+      "name": "com.squareup.okhttp3.okhttp",
+      "versionInfo": "3.14.9",
+      "packageFileName": "okhttp-3.14.9.jar",
+      "supplier": "Organization: Square",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/okhttp",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/okhttp@3.14.9"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-071E798B08F65D3F6083521F4F5983101FEC151710352D1AE79F948729B82CA2",
+      "name": "jakarta.xml.bind.jakarta.xml.bind-api",
+      "versionInfo": "4.0.2",
+      "packageFileName": "jakarta.xml.bind-api-4.0.2.jar",
+      "supplier": "Person: Roman Grigoriadi (roman.grigoriadi@oracle.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/jakartaee/jaxb-api",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2017, 2018 Oracle and/or its affiliates. All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3E4F039F66BBDACA6999CDAFDF87FBF191C40CBFA606DB92CBBCDB415F464C33",
+      "name": "com.squareup.okio.okio",
+      "versionInfo": "1.17.2",
+      "packageFileName": "okio-1.17.2.jar",
+      "supplier": "Organization: Square",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/okio",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2013 Square, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okio/okio@1.17.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DA4F80847EC3CEE737E82EEC1BF724F9626518817BA79B8B1C636F83604447DC",
+      "name": "org.opentest4j.opentest4j",
+      "versionInfo": "1.3.0",
+      "packageFileName": "opentest4j-1.3.0.jar",
+      "supplier": "Organization: Open Test Alliance for the JVM",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/ota4j-team/opentest4j",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2015-2023 the original author or authors.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.opentest4j/opentest4j@1.3.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-56952B0E904B7F9994538AE7C68EF9FF4737C4EC579787819CA5E6A04CB652C5",
+      "name": "com.vaadin.external.google.android-json",
+      "versionInfo": "0.0.20131108.vaadin1",
+      "packageFileName": "android-json-0.0.20131108.vaadin1.jar",
+      "supplier": "Person: Android Dev (androiddev)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://developer.android.com/sdk",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.vaadin.external.google/android-json@0.0.20131108.vaadin1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B04BAB1B381771D80E9B1FCF49B8910914F9560DA9FA9E878AE744F896F9FF9C",
+      "name": "io.projectreactor.reactor-core",
+      "versionInfo": "3.3.22.RELEASE",
+      "packageFileName": "reactor-core-3.3.22.RELEASE.jar",
+      "supplier": "Organization: reactor",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/projectreactor/reactor-core/3.3.22.RELEASE/reactor-core-3.3.22.RELEASE.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/reactor/reactor-core",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.projectreactor/reactor-core@3.3.22.RELEASE"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-90F48844408C69450E0FF401ECA568CE1E35FE005E736B15674B1168FC3BD1E3",
+      "name": "org.springframework.spring-context",
+      "versionInfo": "6.1.8",
+      "packageFileName": "spring-context-6.1.8.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-context/6.1.8/spring-context-6.1.8.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-context@6.1.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-41B6FE0F59E57AC5E588E26789063BB60DAAF35C1036443850EA44306F69AFD6",
+      "name": "javax.xml.bind.jaxb-api",
+      "versionInfo": "2.3.1",
+      "packageFileName": "jaxb-api-2.3.1.jar",
+      "supplier": "Organization: Oracle Corporation",
+      "downloadLocation": "https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/javaee/jaxb-spec",
+      "licenseConcluded": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "licenseDeclared": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "copyrightText": "Copyright (c) 2017-2018 Oracle and/or its affiliates. All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/javax.xml.bind/jaxb-api@2.3.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-40585622835FE9DDFAF36F7F98C17C1621C44E0B38CACF5C5FE9FE03D48D8B58",
+      "name": "net.minidev.json-smart",
+      "versionInfo": "2.5.1",
+      "packageFileName": "json-smart-2.5.1.jar",
+      "supplier": "Organization: Chemouni Uriel",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://urielch.github.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.minidev/json-smart@2.5.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5E8380FFB480B4C726423A958A7780FFA75584F6953B63BB4C0C0860676E86EE",
+      "name": "org.springframework.spring-aop",
+      "versionInfo": "6.1.8",
+      "packageFileName": "spring-aop-6.1.8.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-aop/6.1.8/spring-aop-6.1.8.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-aop@6.1.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-678DA35FF05A9D254F57E215008AEA44E6124377EFFFD898AB01000C961E00EE",
+      "name": "javax.annotation.javax.annotation-api",
+      "versionInfo": "1.3.2",
+      "packageFileName": "javax.annotation-api-1.3.2.jar",
+      "supplier": "Organization: GlassFish Community",
+      "downloadLocation": "https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://jcp.org/en/jsr/detail?id=250",
+      "licenseConcluded": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "licenseDeclared": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "copyrightText": "Copyright (c) 2012-2017 Oracle and/or its affiliates. All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-815DF719922530A7BA62B2EE2569CD5978CEB7B38B26D88D69612D6AE4EAB592",
+      "name": "org.springframework.boot.spring-boot-test-autoconfigure",
+      "versionInfo": "3.2.6",
+      "packageFileName": "spring-boot-test-autoconfigure-3.2.6.jar",
+      "supplier": "Organization: VMware, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/3.2.6/spring-boot-test-autoconfigure-3.2.6.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://spring.io/projects/spring-boot",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-test-autoconfigure@3.2.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4804FBA80CB5F17DC5AE39149358D34F3B8583DAABE03C8E99A841CAA8290DEB",
+      "name": "org.reactivestreams.reactive-streams",
+      "versionInfo": "1.0.3",
+      "packageFileName": "reactive-streams-1.0.3.jar",
+      "supplier": "Person: Reactive Streams SIG",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.reactive-streams.org/",
+      "licenseConcluded": "CC0-1.0",
+      "licenseDeclared": "CC0-1.0",
+      "copyrightText": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-00B0E637882501522652A9D085436C9D2C329847EC2DA654A8EB1EC3B3E08A51",
+      "name": "com.alibaba.csp.sentinel-core",
+      "versionInfo": "1.6.3",
+      "packageFileName": "sentinel-core-1.6.3.jar",
+      "supplier": "Organization: Alibaba Group",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/alibaba/csp/sentinel-core/1.6.3/sentinel-core-1.6.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/alibaba/Sentinel",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.alibaba.csp/sentinel-core@1.6.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "name": "org.hamcrest.hamcrest-core",
+      "versionInfo": "1.3",
+      "packageFileName": "hamcrest-core-1.3.jar",
+      "supplier": "Organization: Hamcrest",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/hamcrest/JavaHamcrest",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2000-2006, www.hamcrest.org\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-632148FCC1E9D41BC2E45F9C457425478797FEA448EB64CD1E35D311BC95AC89",
+      "name": "org.springframework.boot.spring-boot",
+      "versionInfo": "3.2.6",
+      "packageFileName": "spring-boot-3.2.6.jar",
+      "supplier": "Organization: VMware, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot/3.2.6/spring-boot-3.2.6.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://spring.io/projects/spring-boot",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot@3.2.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-16C062C1DCA7D7D7D54831C529362B79CA32F2B6C0A4CF75D9918F3E6A5D5425",
+      "name": "io.reactivex.rxjava2.rxjava",
+      "versionInfo": "2.2.21",
+      "packageFileName": "rxjava-2.2.21.jar",
+      "supplier": "Person: David Karnok (akarnokd@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/reactivex/rxjava2/rxjava/2.2.21/rxjava-2.2.21.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/ReactiveX/RxJava",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2016-present, RxJava Contributors.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.reactivex.rxjava2/rxjava@2.2.21"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-27553725BC2F363FF887E6AB0D2945B0156868C9252B44D69D047F9894595F82",
+      "name": "io.vavr.vavr-match",
+      "versionInfo": "0.10.2",
+      "packageFileName": "vavr-match-0.10.2.jar",
+      "supplier": "Person: Daniel Dietrich (cafebab3@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://vavr.io",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.vavr/vavr-match@0.10.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2AAAB509FCD4A0211ABDFBDD2692236C740BC1523876BD1D4F500DFAFE7E41F6",
+      "name": "org.apache.logging.log4j.log4j-api",
+      "versionInfo": "2.21.1",
+      "packageFileName": "log4j-api-2.21.1.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://logging.apache.org/log4j/2.x/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 1999-2023 Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.logging.log4j/log4j-api@2.21.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6D63E8B02671E1CD545216F1EC121AB7459B7A850E8C41B86BA0088E7F1886ED",
+      "name": "org.springframework.spring-test",
+      "versionInfo": "6.1.8",
+      "packageFileName": "spring-test-6.1.8.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-test/6.1.8/spring-test-6.1.8.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-test@6.1.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7FF83EC4AF478E2C521D99AE06BB0E191C163500C871DD602199D87282B08D7F",
+      "name": "junit.junit",
+      "versionInfo": "4.12",
+      "packageFileName": "junit-4.12.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://junit.org",
+      "licenseConcluded": "EPL-1.0",
+      "licenseDeclared": "EPL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.12"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F183BE4B297D90B7F73152E8072B84D6B3185B295009D84FD949170557F41B1C",
+      "name": "io.micrometer.micrometer-commons",
+      "versionInfo": "1.12.6",
+      "packageFileName": "micrometer-commons-1.12.6.jar",
+      "supplier": "Person: Tommy Ludwig (tludwig@vmware.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/micrometer/micrometer-commons/1.12.6/micrometer-commons-1.12.6.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/micrometer-metrics/micrometer",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2017-Present VMware, Inc. All Rights Reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.micrometer/micrometer-commons@1.12.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3F9F311F5FA9B01BABE86507C31298A350F5D921B472581D41E5CEC7AE53E2BA",
+      "name": "com.google.code.gson.gson",
+      "versionInfo": "2.10.1",
+      "packageFileName": "gson-2.10.1.jar",
+      "supplier": "Organization: Google",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/gson",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2008 Google Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.10.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7F9020D30D6E882CBB26C45C1FFD5CCD682C2D7F2BFBFA9F51841170B4A7BED7",
+      "name": "org.springframework.boot.spring-boot-starter-logging",
+      "versionInfo": "3.2.6",
+      "packageFileName": "spring-boot-starter-logging-3.2.6.jar",
+      "supplier": "Organization: VMware, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.2.6/spring-boot-starter-logging-3.2.6.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://spring.io/projects/spring-boot",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@3.2.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-467234FD51DA5061FEEFE12E428BB09948F1EEDE4533F9F3DB050857D07EDBCC",
+      "name": "org.junit.jupiter.junit-jupiter",
+      "versionInfo": "5.10.2",
+      "packageFileName": "junit-jupiter-5.10.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter@5.10.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6A968E65CE4A1037EE654EC2FBFD407A5E07E3E1435F0FCE7835E9FDE97BF69F",
+      "name": "io.reactivex.rxjava3.rxjava",
+      "versionInfo": "3.1.5",
+      "packageFileName": "rxjava-3.1.5.jar",
+      "supplier": "Person: David Karnok",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/reactivex/rxjava3/rxjava/3.1.5/rxjava-3.1.5.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/ReactiveX/RxJava",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2016-present, RxJava Contributors.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.reactivex.rxjava3/rxjava@3.1.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E3F1EA0CD807FD788846E2ACC1FC1C2F9BFA76878F4BD00677E18F3FC9346F57",
+      "name": "org.slf4j.slf4j-api",
+      "versionInfo": "2.0.7",
+      "packageFileName": "slf4j-api-2.0.7.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.slf4j.org",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2004-2022 QOS.ch Sarl (Switzerland)\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@2.0.7"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1C03A7A1358819EBA24856B08EE5AD7FBACD853EF838E2DB63B188F17539946A",
+      "name": "org.objenesis.objenesis",
+      "versionInfo": "3.3",
+      "packageFileName": "objenesis-3.3.jar",
+      "supplier": "Organization: Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/objenesis/objenesis/3.3/objenesis-3.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://objenesis.org",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.objenesis/objenesis@3.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E63D56DCFCA062E149B256B20E56D9922C1624ED33768345A7A32A7AB7B85FE8",
+      "name": "ch.qos.logback.logback-classic",
+      "versionInfo": "1.4.14",
+      "packageFileName": "logback-classic-1.4.14.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://logback.qos.ch",
+      "licenseConcluded": "EPL-1.0 OR LGPL-2.1-only",
+      "licenseDeclared": "EPL-1.0 OR LGPL-2.1-only",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/ch.qos.logback/logback-classic@1.4.14"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B1461F79D435745AD9CBD06CA8259941D0D476EC34A47D86D88D29FE44518E7B",
+      "name": "org.springframework.boot.spring-boot-test",
+      "versionInfo": "3.2.6",
+      "packageFileName": "spring-boot-test-3.2.6.jar",
+      "supplier": "Organization: VMware, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-test/3.2.6/spring-boot-test-3.2.6.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://spring.io/projects/spring-boot",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-test@3.2.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9F79358C390C181C6015A806729C95BC185016ED09AD5F61880A610AEFC7DE1D",
+      "name": "org.junit.jupiter.junit-jupiter-engine",
+      "versionInfo": "5.10.2",
+      "packageFileName": "junit-jupiter-engine-5.10.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5EE4F4ED977247CE474745E473B23021D226704B1F8ED5C344C7F85D571BBDBE",
+      "name": "org.ow2.asm.asm",
+      "versionInfo": "9.6",
+      "packageFileName": "asm-9.6.jar",
+      "supplier": "Organization: OW2",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://asm.ow2.io/",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2000-2011 INRIA, France Telecom\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.ow2.asm/asm@9.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-00DB5BBBAEED09CFD4ECC2AC9048A1CBB2501DE0C50FC7357EEB0C2B5495F9E0",
+      "name": "net.bytebuddy.byte-buddy",
+      "versionInfo": "1.12.21",
+      "packageFileName": "byte-buddy-1.12.21.jar",
+      "supplier": "Person: Rafael Winterhalter (rafael.wth@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://bytebuddy.net",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.bytebuddy/byte-buddy@1.12.21"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6F6DD4F888D3D3687ADC139CBCFD72354CC5548F1283A78101B26C829D81D6A1",
+      "name": "com.squareup.retrofit2.converter-jaxb",
+      "versionInfo": "2.11.0",
+      "packageFileName": "converter-jaxb-2.11.0.jar",
+      "supplier": "Person: Square, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/retrofit2/converter-jaxb/2.11.0/converter-jaxb-2.11.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/retrofit",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2013 Square, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.retrofit2/converter-jaxb@2.11.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-96DA5D284B9780022252074B1A00A7ACAB539CA7D18E66E35519B47EB5DE95EA",
+      "name": "org.apache.logging.log4j.log4j-to-slf4j",
+      "versionInfo": "2.21.1",
+      "packageFileName": "log4j-to-slf4j-2.21.1.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://logging.apache.org/log4j/2.x/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 1999-2023 Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.21.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4AE7375CE963B1891F2D1DD1F7FD6F117AB1B01A925D6FC5323F8FC7F34405A7",
+      "name": "com.squareup.okhttp3.mockwebserver",
+      "versionInfo": "3.14.9",
+      "packageFileName": "mockwebserver-3.14.9.jar",
+      "supplier": "Organization: Square",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/okhttp3/mockwebserver/3.14.9/mockwebserver-3.14.9.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/okhttp",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/mockwebserver@3.14.9"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-30110C04FACD323ECA1448796849D6E464951CAD309826B4544023BE9588A332",
+      "name": "org.junit.platform.junit-platform-commons",
+      "versionInfo": "1.10.2",
+      "packageFileName": "junit-platform-commons-1.10.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.platform/junit-platform-commons@1.10.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-BE9C6FB7AA1CE4274B48CD292037154421B05CBABAE23A1130BF369CA77D44B9",
+      "name": "org.xmlunit.xmlunit-core",
+      "versionInfo": "2.9.1",
+      "packageFileName": "xmlunit-core-2.9.1.jar",
+      "supplier": "Organization: XMLUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://www.xmlunit.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.xmlunit/xmlunit-core@2.9.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-0F5997539F74A978B318670C745FDDDBF7B5210D94B35492FCA5B83D0FEFEAC3",
+      "name": "io.micrometer.micrometer-observation",
+      "versionInfo": "1.12.6",
+      "packageFileName": "micrometer-observation-1.12.6.jar",
+      "supplier": "Person: Tommy Ludwig (tludwig@vmware.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/micrometer/micrometer-observation/1.12.6/micrometer-observation-1.12.6.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/micrometer-metrics/micrometer",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2017-Present VMware, Inc. All Rights Reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.micrometer/micrometer-observation@1.12.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7B7459D43DE2E54F3C12A83A0C3514E42853C14FCEE90EF5E0A290D048F223DB",
+      "name": "jakarta.annotation.jakarta.annotation-api",
+      "versionInfo": "2.1.1",
+      "packageFileName": "jakarta.annotation-api-2.1.1.jar",
+      "supplier": "Organization: Eclipse Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://projects.eclipse.org/projects/ee4j.ca",
+      "licenseConcluded": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "licenseDeclared": "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "copyrightText": "Copyright (c) 2012, 2022 Oracle and/or its affiliates. All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-05979860439B65EDF376AAE89C07EAAB92C5982D1009A5A5C03746C0F0A32EED",
+      "name": "com.fasterxml.jackson.core.jackson-core",
+      "versionInfo": "2.17.0",
+      "packageFileName": "jackson-core-2.17.0.jar",
+      "supplier": "Organization: FasterXML",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.17.0/jackson-core-2.17.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/FasterXML/jackson-core",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.17.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-FFA21C1DE52748390EEDC533BE50775108F485B647539DFC23341EF798C8082C",
+      "name": "com.squareup.retrofit2.retrofit",
+      "versionInfo": "2.11.0",
+      "packageFileName": "retrofit-2.11.0.jar",
+      "supplier": "Person: Square, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/retrofit2/retrofit/2.11.0/retrofit-2.11.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/retrofit",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2013 Square, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.retrofit2/retrofit@2.11.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-18F28CA2CAF813F45310CC8A5009BD8602D787E5EB6DA893F0CC3CD85B91FDD8",
+      "name": "org.slf4j.jul-to-slf4j",
+      "versionInfo": "2.0.13",
+      "packageFileName": "jul-to-slf4j-2.0.13.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/2.0.13/jul-to-slf4j-2.0.13.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.slf4j.org",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2004-2022 QOS.ch Sarl (Switzerland)\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/jul-to-slf4j@2.0.13"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9C311045E7E616BBBD52FB6DC934B6DF0979F310EC204D16DF8C41D764755ADF",
+      "name": "org.awaitility.awaitility",
+      "versionInfo": "4.2.1",
+      "packageFileName": "awaitility-4.2.1.jar",
+      "supplier": "Person: Johan Haleby",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/awaitility/awaitility/4.2.1/awaitility-4.2.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://awaitility.org",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2018 Johan Haleby",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.awaitility/awaitility@4.2.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-70DAC1189304DEBC8857E39BF68EEA6E7CF5DB121587A98A94290642C6F9CC40",
+      "name": "net.minidev.accessors-smart",
+      "versionInfo": "2.5.1",
+      "packageFileName": "accessors-smart-2.5.1.jar",
+      "supplier": "Organization: Chemouni Uriel",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://urielch.github.io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.minidev/accessors-smart@2.5.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6623ED28D9373AB881BD76CC0742838A292146467A4F41B12B0D95BA57577635",
+      "name": "io.github.resilience4j.resilience4j-core",
+      "versionInfo": "1.7.1",
+      "packageFileName": "resilience4j-core-1.7.1.jar",
+      "supplier": "Organization: Resilience4j",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/github/resilience4j/resilience4j-core/1.7.1/resilience4j-core-1.7.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://resilience4j.readme.io",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2020 Robert Winkler, Bohdan Storozhuk, Mahmoud Romeh, Dan Maas and others",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.github.resilience4j/resilience4j-core@1.7.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6A220D9B441ED05F83F7C5C7D0794D0582991CB0FDC89A11E89C1E8B80F6671F",
+      "name": "net.bytebuddy.byte-buddy-agent",
+      "versionInfo": "1.14.9",
+      "packageFileName": "byte-buddy-agent-1.14.9.jar",
+      "supplier": "Person: Rafael Winterhalter (rafael.wth@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.9/byte-buddy-agent-1.14.9.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://bytebuddy.net",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.bytebuddy/byte-buddy-agent@1.14.9"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C7096063E6C4C954CFAB99EE4E42C63B32C2700A42AE4C5F22E639E8C1416E3D",
+      "name": "org.springframework.spring-core",
+      "versionInfo": "6.1.8",
+      "packageFileName": "spring-core-6.1.8.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-core/6.1.8/spring-core-6.1.8.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-core@6.1.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-72C07738589F274722D74CDC4646DF93978A9E5D930103E4ED711DB0FD87672B",
+      "name": "com.fasterxml.jackson.core.jackson-annotations",
+      "versionInfo": "2.17.0",
+      "packageFileName": "jackson-annotations-2.17.0.jar",
+      "supplier": "Organization: FasterXML",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.17.0/jackson-annotations-2.17.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/FasterXML/jackson",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.17.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-FD43403BE6DDD90FA32CC06A36E478EDDD168AEDE4B99A4D736C2FEE73C435CF",
+      "name": "org.assertj.assertj-core",
+      "versionInfo": "3.24.2",
+      "packageFileName": "assertj-core-3.24.2.jar",
+      "supplier": "Organization: AssertJ",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "${project.organization.url}#${project.artifactId}",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.assertj/assertj-core@3.24.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F55A3B5D3B233587D4321EFC5112DF0D8642C072DF521395FC79BF4E7AAA55B7",
+      "name": "org.mockito.mockito-junit-jupiter",
+      "versionInfo": "5.7.0",
+      "packageFileName": "mockito-junit-jupiter-5.7.0.jar",
+      "supplier": "Organization: mockito (mockito@googlegroups.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/5.7.0/mockito-junit-jupiter-5.7.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/mockito/mockito",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2007 Mockito contributors",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.mockito/mockito-junit-jupiter@5.7.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2722DF8B976A56312782817494DE830B0F2AE66DCCEB194FCBBF5A4B4F282234",
+      "name": "org.springframework.spring-beans",
+      "versionInfo": "6.1.8",
+      "packageFileName": "spring-beans-6.1.8.jar",
+      "supplier": "Organization: Spring IO",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/spring-beans/6.1.8/spring-beans-6.1.8.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/spring-projects/spring-framework",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework/spring-beans@6.1.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E1CEEF772D36A706BA7BF18ADE539F76FD6C737C52736DAD6F263F0D761E6071",
+      "name": "org.yaml.snakeyaml",
+      "versionInfo": "2.2",
+      "packageFileName": "snakeyaml-2.2.jar",
+      "supplier": "Organization: snakeyaml",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://bitbucket.org/snakeyaml/snakeyaml",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.yaml/snakeyaml@2.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B0DF53BF958A83888CABF652A5F46C3AD64F56618023EAEBE6294654C8C52452",
+      "name": "org.springframework.boot.spring-boot-configuration-processor",
+      "versionInfo": "3.2.6",
+      "packageFileName": "spring-boot-configuration-processor-3.2.6.jar",
+      "supplier": "Organization: VMware, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.2.6/spring-boot-configuration-processor-3.2.6.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://spring.io/projects/spring-boot",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-configuration-processor@3.2.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-A7A5A25968C32D18101D1C21A76510F9928E0A264ABC3BEAD468B55DC238109E",
+      "name": "ch.qos.logback.logback-core",
+      "versionInfo": "1.4.14",
+      "packageFileName": "logback-core-1.4.14.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://logback.qos.ch",
+      "licenseConcluded": "EPL-1.0 OR LGPL-2.1-only",
+      "licenseDeclared": "EPL-1.0 OR LGPL-2.1-only",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/ch.qos.logback/logback-core@1.4.14"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7D438E859A2C21A8DD811D3EA1C06144B23CF482941F12958717C0D582C2B1C6",
+      "name": "org.springframework.boot.spring-boot-starter",
+      "versionInfo": "3.2.6",
+      "packageFileName": "spring-boot-starter-3.2.6.jar",
+      "supplier": "Organization: VMware, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/3.2.6/spring-boot-starter-3.2.6.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://spring.io/projects/spring-boot",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter@3.2.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2E7523A1AC7488C3766881443F7BDA238FB29C409EEE94A8D4C0E89915A539E7",
+      "name": "org.springframework.boot.spring-boot-starter-test",
+      "versionInfo": "3.2.6",
+      "packageFileName": "spring-boot-starter-test-3.2.6.jar",
+      "supplier": "Organization: VMware, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-test/3.2.6/spring-boot-starter-test-3.2.6.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://spring.io/projects/spring-boot",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-test@3.2.6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-948EC4318A8D832502CB3B63837530419BDFAF8FA78D9F6AD756EB4CC20D3981",
+      "name": "org.hamcrest.hamcrest",
+      "versionInfo": "2.2",
+      "packageFileName": "hamcrest-2.2.jar",
+      "supplier": "Organization: Hamcrest",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://hamcrest.org/JavaHamcrest/",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2000-2015 www.hamcrest.org\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest@2.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-06F6497665FDAAD590DE51556291AC8DD45CFCC74E483FDB67725FBB56E66AF9",
+      "name": "org.mockito.mockito-core",
+      "versionInfo": "5.7.0",
+      "packageFileName": "mockito-core-5.7.0.jar",
+      "supplier": "Organization: mockito (mockito@googlegroups.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/mockito/mockito-core/5.7.0/mockito-core-5.7.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/mockito/mockito",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2007 Mockito contributors",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.mockito/mockito-core@5.7.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-45F1AEB2FD0CD85CEF71BC02373B7D781B5F69EF92E14624D817BA5D113016A4",
+      "name": "jakarta.activation.jakarta.activation-api",
+      "versionInfo": "2.1.3",
+      "packageFileName": "jakarta.activation-api-2.1.3.jar",
+      "supplier": "Person: Bill Shannon (bill.shannon@oracle.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/jakartaee/jaf-api",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 1997, 2023 Oracle and/or its affiliates. All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E9B9CB33F9E9D5911626689322AD7CF7D538DF9F739E5DB26198B7574F830318",
+      "name": "javax.activation.javax.activation-api",
+      "versionInfo": "1.2.0",
+      "packageFileName": "javax.activation-api-1.2.0.jar",
+      "supplier": "Organization: Oracle",
+      "downloadLocation": "https://repo1.maven.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://java.net/",
+      "licenseConcluded": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "licenseDeclared": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "copyrightText": "Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/javax.activation/javax.activation-api@1.2.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B8F381115D53F5F546A8BE280252B19216B2D9D3380EF431C9A9C026E88D0B1E",
+      "name": "io.vavr.vavr",
+      "versionInfo": "0.10.2",
+      "packageFileName": "vavr-0.10.2.jar",
+      "supplier": "Person: Daniel Dietrich (cafebab3@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/vavr/vavr/0.10.2/vavr-0.10.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://vavr.io",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.vavr/vavr@0.10.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F7D16B06FC161F82C0552D4780BFD77FF6F6433100631E3DEF64D2938764BA5A",
+      "name": "org.junit.jupiter.junit-jupiter-api",
+      "versionInfo": "5.10.2",
+      "packageFileName": "junit-jupiter-api-5.10.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "retrofit-spring-boot-starter",
+      "versionInfo": "c2da56b50e84dca676f9032731414e0e5dd6cdbc",
+      "packageFileName": "./",
+      "supplier": "Organization: LianjiaTech",
+      "downloadLocation": "git\u002Bhttps://github.com/LianjiaTech/retrofit-spring-boot-starter.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/LianjiaTech/retrofit-spring-boot-starter",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright(c) 2020 Lianjia, Inc. All Rights Reserved",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/LianjiaTech/spdx.org/retrofit-spring-boot-starter@c2da56b50e84dca676f9032731414e0e5dd6cdbc?tag_id=1453e904-4dd6-4d3a-aad8-0c37c801b273"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4AE7375CE963B1891F2D1DD1F7FD6F117AB1B01A925D6FC5323F8FC7F34405A7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-5E8380FFB480B4C726423A958A7780FFA75584F6953B63BB4C0C0860676E86EE",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-90F48844408C69450E0FF401ECA568CE1E35FE005E736B15674B1168FC3BD1E3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-56952B0E904B7F9994538AE7C68EF9FF4737C4EC579787819CA5E6A04CB652C5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-071E798B08F65D3F6083521F4F5983101FEC151710352D1AE79F948729B82CA2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DC408DBFA6D080A33158C3C280B36C66F6C3438971958C1B1E7964F1F968D0B2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-ADA8E67FE9A9EF5E1C71D980DFBA759F628929C82F6DDE39E3F0D8D1977A5424",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-93F4E68FE6D24E02DB5E24DFCF4620EB177469BC4DC8E461F16C1F4249E26DC3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E5A4417DB2008C82A907D45ABADA788A562620E40FA561BB90B9DCE1F2DA3FA1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-00B0E637882501522652A9D085436C9D2C329847EC2DA654A8EB1EC3B3E08A51",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-40585622835FE9DDFAF36F7F98C17C1621C44E0B38CACF5C5FE9FE03D48D8B58",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B04BAB1B381771D80E9B1FCF49B8910914F9560DA9FA9E878AE744F896F9FF9C",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-9ADDA9CC78008B00D5DEE82EED7CB54FE140FA141109548FDA87466E25CD6778",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-0013F6CB1A3CCFC68FD7311CF95851B48250E55CBE5592CBC28EA0B2F4719905",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C48FD6B87E728B38B288A80D95DFFF9314FD0B3B5D38238B7FFFAAD1D5C72DD0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-9BE17E96EBEDFCC7EDAEB641DA38CAC39ECDB8449B0D88852C632497D09A0EDE",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B9DB27229F02F23A7F35EF7C7F43C2A40627411AE48FCAFFDBC31A6850E88E25",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-EC9B9AF87C01222D5CF91F723A7A28DD605E40B309A90F90DD5B24C2881346A6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-6B0D4CE6B64C506C395812F113652E5FCB6CFE21AA00F0AFE6569C4E3808D668",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-70DAC1189304DEBC8857E39BF68EEA6E7CF5DB121587A98A94290642C6F9CC40",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4804FBA80CB5F17DC5AE39149358D34F3B8583DAABE03C8E99A841CAA8290DEB",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-678DA35FF05A9D254F57E215008AEA44E6124377EFFFD898AB01000C961E00EE",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-41B6FE0F59E57AC5E588E26789063BB60DAAF35C1036443850EA44306F69AFD6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DA4F80847EC3CEE737E82EEC1BF724F9626518817BA79B8B1C636F83604447DC",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-A083B24837949DDBE4ADC2EE3DA627E929D21E6D6EDDE5A81AD791322C1A6245",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-EF073E6B46AD4829083F9C52A822A88E1829EE728B55ADA6CE02423874333250",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2A52361931D141829F542A2F3E75DC2C10C3DA1E953EA3D2A93AAB1318EEF785",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C397F046FB3580801E7808DC5653D386A486A5D9075DEEE6BEEC867DA93AED2E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F7D16B06FC161F82C0552D4780BFD77FF6F6433100631E3DEF64D2938764BA5A",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-06F6497665FDAAD590DE51556291AC8DD45CFCC74E483FDB67725FBB56E66AF9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2E7523A1AC7488C3766881443F7BDA238FB29C409EEE94A8D4C0E89915A539E7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-A7A5A25968C32D18101D1C21A76510F9928E0A264ABC3BEAD468B55DC238109E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E1CEEF772D36A706BA7BF18ADE539F76FD6C737C52736DAD6F263F0D761E6071",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F55A3B5D3B233587D4321EFC5112DF0D8642C072DF521395FC79BF4E7AAA55B7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-FD43403BE6DDD90FA32CC06A36E478EDDD168AEDE4B99A4D736C2FEE73C435CF",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-72C07738589F274722D74CDC4646DF93978A9E5D930103E4ED711DB0FD87672B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C7096063E6C4C954CFAB99EE4E42C63B32C2700A42AE4C5F22E639E8C1416E3D",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-6623ED28D9373AB881BD76CC0742838A292146467A4F41B12B0D95BA57577635",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B8F381115D53F5F546A8BE280252B19216B2D9D3380EF431C9A9C026E88D0B1E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E9B9CB33F9E9D5911626689322AD7CF7D538DF9F739E5DB26198B7574F830318",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-45F1AEB2FD0CD85CEF71BC02373B7D781B5F69EF92E14624D817BA5D113016A4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-948EC4318A8D832502CB3B63837530419BDFAF8FA78D9F6AD756EB4CC20D3981",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-7D438E859A2C21A8DD811D3EA1C06144B23CF482941F12958717C0D582C2B1C6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B0DF53BF958A83888CABF652A5F46C3AD64F56618023EAEBE6294654C8C52452",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2722DF8B976A56312782817494DE830B0F2AE66DCCEB194FCBBF5A4B4F282234",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-6A220D9B441ED05F83F7C5C7D0794D0582991CB0FDC89A11E89C1E8B80F6671F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-27553725BC2F363FF887E6AB0D2945B0156868C9252B44D69D047F9894595F82",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-96DA5D284B9780022252074B1A00A7ACAB539CA7D18E66E35519B47EB5DE95EA",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-6F6DD4F888D3D3687ADC139CBCFD72354CC5548F1283A78101B26C829D81D6A1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-00DB5BBBAEED09CFD4ECC2AC9048A1CBB2501DE0C50FC7357EEB0C2B5495F9E0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-5EE4F4ED977247CE474745E473B23021D226704B1F8ED5C344C7F85D571BBDBE",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-9F79358C390C181C6015A806729C95BC185016ED09AD5F61880A610AEFC7DE1D",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B1461F79D435745AD9CBD06CA8259941D0D476EC34A47D86D88D29FE44518E7B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E63D56DCFCA062E149B256B20E56D9922C1624ED33768345A7A32A7AB7B85FE8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-1C03A7A1358819EBA24856B08EE5AD7FBACD853EF838E2DB63B188F17539946A",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E3F1EA0CD807FD788846E2ACC1FC1C2F9BFA76878F4BD00677E18F3FC9346F57",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-467234FD51DA5061FEEFE12E428BB09948F1EEDE4533F9F3DB050857D07EDBCC",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-6A968E65CE4A1037EE654EC2FBFD407A5E07E3E1435F0FCE7835E9FDE97BF69F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-7F9020D30D6E882CBB26C45C1FFD5CCD682C2D7F2BFBFA9F51841170B4A7BED7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-3F9F311F5FA9B01BABE86507C31298A350F5D921B472581D41E5CEC7AE53E2BA",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F183BE4B297D90B7F73152E8072B84D6B3185B295009D84FD949170557F41B1C",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-7FF83EC4AF478E2C521D99AE06BB0E191C163500C871DD602199D87282B08D7F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-6D63E8B02671E1CD545216F1EC121AB7459B7A850E8C41B86BA0088E7F1886ED",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2AAAB509FCD4A0211ABDFBDD2692236C740BC1523876BD1D4F500DFAFE7E41F6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-632148FCC1E9D41BC2E45F9C457425478797FEA448EB64CD1E35D311BC95AC89",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-815DF719922530A7BA62B2EE2569CD5978CEB7B38B26D88D69612D6AE4EAB592",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-3E4F039F66BBDACA6999CDAFDF87FBF191C40CBFA606DB92CBBCDB415F464C33",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-9C311045E7E616BBBD52FB6DC934B6DF0979F310EC204D16DF8C41D764755ADF",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-18F28CA2CAF813F45310CC8A5009BD8602D787E5EB6DA893F0CC3CD85B91FDD8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-FFA21C1DE52748390EEDC533BE50775108F485B647539DFC23341EF798C8082C",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-05979860439B65EDF376AAE89C07EAAB92C5982D1009A5A5C03746C0F0A32EED",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-7B7459D43DE2E54F3C12A83A0C3514E42853C14FCEE90EF5E0A290D048F223DB",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-0F5997539F74A978B318670C745FDDDBF7B5210D94B35492FCA5B83D0FEFEAC3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-BE9C6FB7AA1CE4274B48CD292037154421B05CBABAE23A1130BF369CA77D44B9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-30110C04FACD323ECA1448796849D6E464951CAD309826B4544023BE9588A332",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-16C062C1DCA7D7D7D54831C529362B79CA32F2B6C0A4CF75D9918F3E6A5D5425",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-9DA1E44DEF099383046C6E17B0B72297B78DBEFD0628F592A10036D64C708230",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

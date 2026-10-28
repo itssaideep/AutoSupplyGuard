@@ -1,0 +1,70 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "lwjgl3 dea553c7e8136d5981c8713e1502461342487335",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-8ca9674c-3646-47a0-baa9-9ed1626eda4d/lwjgl3/dea553c7e8136d5981c8713e1502461342487335/7auLPnTiM0mK558u6_9y3g",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-9344211037A9A27AD65B215B8BDAAF1AA3D8C3A1963D2060B123E6ECC127315D",
+      "name": "org.lwjgl.lwjgl",
+      "versionInfo": "3.3.3",
+      "packageFileName": "lwjgl-3.3.3.jar",
+      "supplier": "Person: Ioannis Tsakpinis (iotsakp@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://www.lwjgl.org",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright \u00A9 2012-present Lightweight Java Game Library\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.lwjgl/lwjgl@3.3.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "lwjgl3",
+      "versionInfo": "dea553c7e8136d5981c8713e1502461342487335",
+      "packageFileName": "./",
+      "supplier": "Organization: LWJGL",
+      "downloadLocation": "git\u002Bhttps://github.com/LWJGL/lwjgl3.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/LWJGL/lwjgl3",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2012-present Lightweight Java Game Library All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/LWJGL/spdx.org/lwjgl3@dea553c7e8136d5981c8713e1502461342487335?tag_id=407b2ec1-ee6d-4ae8-84ad-7dbcb86f006d"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-9344211037A9A27AD65B215B8BDAAF1AA3D8C3A1963D2060B123E6ECC127315D",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

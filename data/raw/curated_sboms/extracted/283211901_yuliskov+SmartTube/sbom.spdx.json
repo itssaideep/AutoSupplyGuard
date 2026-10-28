@@ -1,0 +1,493 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "SmartTube a60ef54e51d2a88c25db57457a8fd503dccf6c41",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-5c0fc7b7-e2b0-48db-afd9-c89e176dc2af/SmartTube/a60ef54e51d2a88c25db57457a8fd503dccf6c41/pVkeOXZA40eWk0chNPNxPw",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-43fdc3b9dfd648f1a38809c734933c5f",
+      "extractedText": "https://github.com/mockito/mockito/blob/master/LICENSE",
+      "name": "https://github.com/mockito/mockito/blob/master/LICENSE"
+    }
+  ],
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-F761A42B0041F124A552CE81C49D538D6241B044EC78688AC6135FF7A2DE7CAF",
+      "name": "org.junit.jupiter.junit-jupiter",
+      "versionInfo": "5.6.2",
+      "packageFileName": "junit-jupiter-5.6.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter@5.6.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ED6B8C8FD7D242E9CC1F5B68C0B663E49DBCF325B715B1C5A7310740CB615E51",
+      "name": "com.google.guava.guava",
+      "versionInfo": "18.0",
+      "packageFileName": "guava-18.0.jar",
+      "supplier": "Person: Kevin Bourrillion (kevinb@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://code.google.com/p/guava-libraries",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/guava@18.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E7EE83F371CE9BAC3A408F5A6FF5880575A5487F9CEE9D60CFC07D0C345F7146",
+      "name": "net.bytebuddy.byte-buddy-agent",
+      "versionInfo": "1.10.13",
+      "packageFileName": "byte-buddy-agent-1.10.13.jar",
+      "supplier": "Person: Rafael Winterhalter (rafael.wth@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.13/byte-buddy-agent-1.10.13.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://bytebuddy.net",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.bytebuddy/byte-buddy-agent@1.10.13"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B4E496A0FDED63E36648E2FCDDDC2AEEFB2707275B3534A5D6262F6D21BDCEBD",
+      "name": "org.junit.jupiter.junit-jupiter-api",
+      "versionInfo": "5.6.2",
+      "packageFileName": "junit-jupiter-api-5.6.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.6.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C75990F0A2317FC4638656D332F0357439199F6EC31295B19EC6BCA5ACEFAB65",
+      "name": "org.apache.commons.commons-lang3",
+      "versionInfo": "3.11",
+      "packageFileName": "commons-lang3-3.11.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://commons.apache.org/proper/commons-lang/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2020 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-lang3@3.11"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2B8DC97169D40646AAD86B8F0402EF471C3DE1F226CF79A6B148F36AF31C667F",
+      "name": "org.opentest4j.opentest4j",
+      "versionInfo": "1.2.0",
+      "packageFileName": "opentest4j-1.2.0.jar",
+      "supplier": "Organization: Open Test Alliance for the JVM",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/ota4j-team/opentest4j",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.opentest4j/opentest4j@1.2.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B06ED1601DEC4BE36E3A3CA41EAF6B34DB78835EA6D5871270E75045999D1782",
+      "name": "org.junit.jupiter.junit-jupiter-params",
+      "versionInfo": "5.6.2",
+      "packageFileName": "junit-jupiter-params-5.6.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.6.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-524FF08F7D1FB89B60096F0A543E6ACD6DB8AD1B5C3F87A1DFF0D377A59EC186",
+      "name": "org.apiguardian.apiguardian-api",
+      "versionInfo": "1.1.0",
+      "packageFileName": "apiguardian-api-1.1.0.jar",
+      "supplier": "Person: @API Guardian Team (team@apiguardian.org)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/apiguardian-team/apiguardian",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apiguardian/apiguardian-api@1.1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-34846132D21EF190C0654194DC282C6D07E1F32FC77A0145C5F3D0AB4C879F78",
+      "name": "commons-io.commons-io",
+      "versionInfo": "2.8.0",
+      "packageFileName": "commons-io-2.8.0.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://commons.apache.org/proper/commons-io/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2002-2020 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-io/commons-io@2.8.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B2F805349FF2B14FF7F84B2CB3AE46CFC27674C34D5909EAFFE331E81A1AF2F0",
+      "name": "org.junit.jupiter.junit-jupiter-engine",
+      "versionInfo": "5.6.2",
+      "packageFileName": "junit-jupiter-engine-5.6.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.6.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B4A213C22C7A94B752EDC0D29234EA8C65F46F1EDFA2A3A900F23A19CE708B44",
+      "name": "com.google.jimfs.jimfs",
+      "versionInfo": "1.1",
+      "packageFileName": "jimfs-1.1.jar",
+      "supplier": "Organization: Google Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/jimfs",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2013 Google Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.jimfs/jimfs@1.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8440E3AE99DB5BCB722122AF730DE06322D474843A60222547456D392A3DBC2E",
+      "name": "org.junit.platform.junit-platform-engine",
+      "versionInfo": "1.6.2",
+      "packageFileName": "junit-platform-engine-1.6.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.platform/junit-platform-engine@1.6.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B036E67F54D35E8D8214AC2EF34C43F571F247795AE57A45DC0D916B421E3154",
+      "name": "org.objenesis.objenesis",
+      "versionInfo": "3.1",
+      "packageFileName": "objenesis-3.1.jar",
+      "supplier": "Organization: Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/objenesis/objenesis/3.1/objenesis-3.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://objenesis.org",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.objenesis/objenesis@3.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E73CF4FF187A899AE1BDCFC714803B75396FC061D075CD11E3202C1837FE2F9A",
+      "name": "org.mockito.mockito-core",
+      "versionInfo": "3.5.9",
+      "packageFileName": "mockito-core-3.5.9.jar",
+      "supplier": "Organization: mockito (mockito@googlegroups.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/mockito/mockito-core/3.5.9/mockito-core-3.5.9.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/mockito/mockito",
+      "licenseConcluded": "LicenseRef-43fdc3b9dfd648f1a38809c734933c5f",
+      "licenseDeclared": "LicenseRef-43fdc3b9dfd648f1a38809c734933c5f",
+      "copyrightText": "Copyright (c) 2007 Mockito contributors",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.mockito/mockito-core@3.5.9"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-89768803CAB091775C1C8576C39C425411D553F37363A86FCBEA88180B19EAA9",
+      "name": "org.junit-pioneer.junit-pioneer",
+      "versionInfo": "0.9.0",
+      "packageFileName": "junit-pioneer-0.9.0.jar",
+      "supplier": "Organization: junit-pioneer",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit-pioneer/junit-pioneer/0.9.0/junit-pioneer-0.9.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/junit-pioneer/junit-pioneer",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit-pioneer/junit-pioneer@0.9.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C24042C574275369E8F3024462E78EE9CC14C260BDF796724229F7C91E8B523B",
+      "name": "net.bytebuddy.byte-buddy",
+      "versionInfo": "1.10.13",
+      "packageFileName": "byte-buddy-1.10.13.jar",
+      "supplier": "Person: Rafael Winterhalter (rafael.wth@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.10.13/byte-buddy-1.10.13.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://bytebuddy.net",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.bytebuddy/byte-buddy@1.10.13"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ED38F88B769097608C43B04D59700FFF17B2B41CA1C8536BCC1C0D7B10C10BC2",
+      "name": "org.junit.platform.junit-platform-commons",
+      "versionInfo": "1.6.2",
+      "packageFileName": "junit-platform-commons-1.6.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.platform/junit-platform-commons@1.6.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "SmartTube",
+      "versionInfo": "a60ef54e51d2a88c25db57457a8fd503dccf6c41",
+      "packageFileName": "./",
+      "supplier": "Organization: yuliskov",
+      "downloadLocation": "git\u002Bhttps://github.com/yuliskov/SmartTube.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/yuliskov/SmartTube",
+      "licenseConcluded": "GPL-3.0-only",
+      "licenseDeclared": "GPL-3.0-only",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/yuliskov/spdx.org/SmartTube@a60ef54e51d2a88c25db57457a8fd503dccf6c41?tag_id=012b8f17-ef6a-41ba-b2e2-90d56b0ae17f"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2B8DC97169D40646AAD86B8F0402EF471C3DE1F226CF79A6B148F36AF31C667F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-ED6B8C8FD7D242E9CC1F5B68C0B663E49DBCF325B715B1C5A7310740CB615E51",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B4E496A0FDED63E36648E2FCDDDC2AEEFB2707275B3534A5D6262F6D21BDCEBD",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F761A42B0041F124A552CE81C49D538D6241B044EC78688AC6135FF7A2DE7CAF",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-ED38F88B769097608C43B04D59700FFF17B2B41CA1C8536BCC1C0D7B10C10BC2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C24042C574275369E8F3024462E78EE9CC14C260BDF796724229F7C91E8B523B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-8440E3AE99DB5BCB722122AF730DE06322D474843A60222547456D392A3DBC2E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B4A213C22C7A94B752EDC0D29234EA8C65F46F1EDFA2A3A900F23A19CE708B44",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B06ED1601DEC4BE36E3A3CA41EAF6B34DB78835EA6D5871270E75045999D1782",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E7EE83F371CE9BAC3A408F5A6FF5880575A5487F9CEE9D60CFC07D0C345F7146",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-524FF08F7D1FB89B60096F0A543E6ACD6DB8AD1B5C3F87A1DFF0D377A59EC186",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C75990F0A2317FC4638656D332F0357439199F6EC31295B19EC6BCA5ACEFAB65",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-89768803CAB091775C1C8576C39C425411D553F37363A86FCBEA88180B19EAA9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E73CF4FF187A899AE1BDCFC714803B75396FC061D075CD11E3202C1837FE2F9A",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B036E67F54D35E8D8214AC2EF34C43F571F247795AE57A45DC0D916B421E3154",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B2F805349FF2B14FF7F84B2CB3AE46CFC27674C34D5909EAFFE331E81A1AF2F0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-34846132D21EF190C0654194DC282C6D07E1F32FC77A0145C5F3D0AB4C879F78",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

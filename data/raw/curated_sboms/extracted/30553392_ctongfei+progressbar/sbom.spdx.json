@@ -1,0 +1,330 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "progressbar 270946279a1ed23935aac2da3a491a2bedd73e51",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-d5781bd5-251f-4853-88cd-d7c3e555fa6b/progressbar/270946279a1ed23935aac2da3a491a2bedd73e51/2O-OVhcr4EudXdMm2eDT6Q",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-6EFB72A1FBBB381C968E67B496F4F4E29B0652875ACD90011EB25D9F191DC81E",
+      "name": "org.junit.platform.junit-platform-commons",
+      "versionInfo": "1.9.2",
+      "packageFileName": "junit-platform-commons-1.9.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.platform/junit-platform-commons@1.9.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-804C2A24CBF9AD5E1CC523144E9B2C93F13DCDA9F22713CD3625154B53E0FE2D",
+      "name": "me.tongfei.progressbar",
+      "versionInfo": "0.10.1",
+      "packageFileName": "progressbar-0.10.1.jar",
+      "supplier": "Person: Tongfei Chen",
+      "downloadLocation": "https://repo1.maven.org/maven2/me/tongfei/progressbar/0.10.1/progressbar-0.10.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://github.com/ctongfei/progressbar",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2015--2024 Tongfei Chen and contributors",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/me.tongfei/progressbar@0.10.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2B8DC97169D40646AAD86B8F0402EF471C3DE1F226CF79A6B148F36AF31C667F",
+      "name": "org.opentest4j.opentest4j",
+      "versionInfo": "1.2.0",
+      "packageFileName": "opentest4j-1.2.0.jar",
+      "supplier": "Organization: Open Test Alliance for the JVM",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/ota4j-team/opentest4j",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.opentest4j/opentest4j@1.2.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-0263B8F6A16DEBF76F8BE3B8DFD469738A0076A56D83E856A24D44ABEA9F426F",
+      "name": "org.junit.jupiter.junit-jupiter-api",
+      "versionInfo": "5.9.2",
+      "packageFileName": "junit-jupiter-api-5.9.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C0F491BC59BBD50D30BAD04CA42E315AEE32E6618C4EBE7F1A40EE49B655855E",
+      "name": "org.junit.platform.junit-platform-engine",
+      "versionInfo": "1.9.2",
+      "packageFileName": "junit-platform-engine-1.9.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.platform/junit-platform-engine@1.9.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-38FE052AC0FB327D7C4234138E1624453BC6EA4417BE26C765D83D7707996FE4",
+      "name": "org.jline.jline-native",
+      "versionInfo": "3.26.2",
+      "packageFileName": "jline-native-3.26.2.jar",
+      "supplier": "Person: Guillaume Nodet (gnodet@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jline/jline-native/3.26.2/jline-native-3.26.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/jline/jline3",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2023, the original author or authors.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jline/jline-native@3.26.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9C44C48D3C0E71F88983E49FDD86FE68306CDCFF01B2D71E0B46FF2DA1F10A06",
+      "name": "org.junit.jupiter.junit-jupiter-engine",
+      "versionInfo": "5.9.2",
+      "packageFileName": "junit-jupiter-engine-5.9.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://junit.org/junit5/",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C6E023059043B68F1E07FD9D3CD1A11E386A74598ABAF59EE144B1911D823741",
+      "name": "org.jline.jline-terminal",
+      "versionInfo": "3.26.2",
+      "packageFileName": "jline-terminal-3.26.2.jar",
+      "supplier": "Person: Guillaume Nodet (gnodet@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jline/jline-terminal/3.26.2/jline-terminal-3.26.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/jline/jline3",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2002-2020, the original author or authors.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jline/jline-terminal@3.26.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-BCBFC732D58302E796AFD2B07DD96FFA45B8CC1FA7D116CE1D4181F756699A50",
+      "name": "org.slf4j.slf4j-simple",
+      "versionInfo": "2.0.5",
+      "packageFileName": "slf4j-simple-2.0.5.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/2.0.5/slf4j-simple-2.0.5.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.slf4j.org",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2004-2022 QOS.ch Sarl (Switzerland)\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-simple@2.0.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C397F046FB3580801E7808DC5653D386A486A5D9075DEEE6BEEC867DA93AED2E",
+      "name": "org.apiguardian.apiguardian-api",
+      "versionInfo": "1.1.2",
+      "packageFileName": "apiguardian-api-1.1.2.jar",
+      "supplier": "Person: @API Guardian Team (team@apiguardian.org)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/apiguardian-team/apiguardian",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-29B8487B1DE24BE76A71A743708C2ED4DC69CB32049EF260DE0A68E8A28DB98A",
+      "name": "org.slf4j.slf4j-api",
+      "versionInfo": "2.0.5",
+      "packageFileName": "slf4j-api-2.0.5.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.5/slf4j-api-2.0.5.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.slf4j.org",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2004-2022 QOS.ch Sarl (Switzerland)\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@2.0.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "progressbar",
+      "versionInfo": "270946279a1ed23935aac2da3a491a2bedd73e51",
+      "packageFileName": "./",
+      "supplier": "Organization: ctongfei",
+      "downloadLocation": "git\u002Bhttps://github.com/ctongfei/progressbar.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/ctongfei/progressbar",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2015--2024 Tongfei Chen and contributors",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/ctongfei/spdx.org/progressbar@270946279a1ed23935aac2da3a491a2bedd73e51?tag_id=08827073-d2da-4bb5-acd8-db6bf169e122"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-9C44C48D3C0E71F88983E49FDD86FE68306CDCFF01B2D71E0B46FF2DA1F10A06",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-804C2A24CBF9AD5E1CC523144E9B2C93F13DCDA9F22713CD3625154B53E0FE2D",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-6EFB72A1FBBB381C968E67B496F4F4E29B0652875ACD90011EB25D9F191DC81E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C0F491BC59BBD50D30BAD04CA42E315AEE32E6618C4EBE7F1A40EE49B655855E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-0263B8F6A16DEBF76F8BE3B8DFD469738A0076A56D83E856A24D44ABEA9F426F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-38FE052AC0FB327D7C4234138E1624453BC6EA4417BE26C765D83D7707996FE4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2B8DC97169D40646AAD86B8F0402EF471C3DE1F226CF79A6B148F36AF31C667F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-BCBFC732D58302E796AFD2B07DD96FFA45B8CC1FA7D116CE1D4181F756699A50",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C6E023059043B68F1E07FD9D3CD1A11E386A74598ABAF59EE144B1911D823741",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C397F046FB3580801E7808DC5653D386A486A5D9075DEEE6BEEC867DA93AED2E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-29B8487B1DE24BE76A71A743708C2ED4DC69CB32049EF260DE0A68E8A28DB98A",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

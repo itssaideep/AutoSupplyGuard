@@ -1,0 +1,370 @@
+[
+  {
+    "Id": 8205602,
+    "FullName": "mybatis/mybatis-3",
+    "CloneUrl": "https://github.com/mybatis/mybatis-3.git",
+    "CommitHash": "14cdc78c81b7bdfcc54dff02bba780f61479aef5",
+    "DependenciesCount": 56,
+    "StargazersCount": 19721
+  },
+  {
+    "Id": 283211901,
+    "FullName": "yuliskov/SmartTube",
+    "CloneUrl": "https://github.com/yuliskov/SmartTube.git",
+    "CommitHash": "a60ef54e51d2a88c25db57457a8fd503dccf6c41",
+    "DependenciesCount": 17,
+    "StargazersCount": 18914
+  },
+  {
+    "Id": 442430,
+    "FullName": "jhy/jsoup",
+    "CloneUrl": "https://github.com/jhy/jsoup.git",
+    "CommitHash": "b6bd4b455c54fa44c68df961b9d5c21a2bb0ae73",
+    "DependenciesCount": 22,
+    "StargazersCount": 10897
+  },
+  {
+    "Id": 1705960,
+    "FullName": "perwendel/spark",
+    "CloneUrl": "https://github.com/perwendel/spark.git",
+    "CommitHash": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "DependenciesCount": 37,
+    "StargazersCount": 9638
+  },
+  {
+    "Id": 3161748,
+    "FullName": "mrniko/netty-socketio",
+    "CloneUrl": "https://github.com/mrniko/netty-socketio.git",
+    "CommitHash": "c4ca71e0c91483f8832a58e97f3a25f00f8b97a5",
+    "DependenciesCount": 39,
+    "StargazersCount": 6781
+  },
+  {
+    "Id": 5683140,
+    "FullName": "NLPchina/ansj_seg",
+    "CloneUrl": "https://github.com/NLPchina/ansj_seg.git",
+    "CommitHash": "50787ca2c7031d2a18c5393a97d1a54432790785",
+    "DependenciesCount": 3,
+    "StargazersCount": 6480
+  },
+  {
+    "Id": 39673913,
+    "FullName": "coobird/thumbnailator",
+    "CloneUrl": "https://github.com/coobird/thumbnailator.git",
+    "CommitHash": "951d04f352d90f34420a82909c15453fee1b75ff",
+    "DependenciesCount": 5,
+    "StargazersCount": 5157
+  },
+  {
+    "Id": 1756350,
+    "FullName": "JodaOrg/joda-time",
+    "CloneUrl": "https://github.com/JodaOrg/joda-time.git",
+    "CommitHash": "2ce9b4cdc207130a186dafbb8456cd0b0cfd9e4c",
+    "DependenciesCount": 3,
+    "StargazersCount": 4974
+  },
+  {
+    "Id": 80640282,
+    "FullName": "remkop/picocli",
+    "CloneUrl": "https://github.com/remkop/picocli.git",
+    "CommitHash": "a856a14636fc22a24db6ab502b71c0439b384716",
+    "DependenciesCount": 1,
+    "StargazersCount": 4888
+  },
+  {
+    "Id": 7296244,
+    "FullName": "LWJGL/lwjgl3",
+    "CloneUrl": "https://github.com/LWJGL/lwjgl3.git",
+    "CommitHash": "dea553c7e8136d5981c8713e1502461342487335",
+    "DependenciesCount": 1,
+    "StargazersCount": 4753
+  },
+  {
+    "Id": 1187853,
+    "FullName": "stleary/JSON-java",
+    "CloneUrl": "https://github.com/stleary/JSON-java.git",
+    "CommitHash": "14f71274f79ac50afb316845539f4195facc33ee",
+    "DependenciesCount": 12,
+    "StargazersCount": 4513
+  },
+  {
+    "Id": 18992193,
+    "FullName": "bytedeco/javacpp",
+    "CloneUrl": "https://github.com/bytedeco/javacpp.git",
+    "CommitHash": "2fd35c62110eb9a539751a2de97c743f79aebfc2",
+    "DependenciesCount": 38,
+    "StargazersCount": 4480
+  },
+  {
+    "Id": 232232349,
+    "FullName": "houbb/sensitive-word",
+    "CloneUrl": "https://github.com/houbb/sensitive-word.git",
+    "CommitHash": "394f6312bdb407aba9ec5169ef443549d7827503",
+    "DependenciesCount": 8,
+    "StargazersCount": 4168
+  },
+  {
+    "Id": 83767845,
+    "FullName": "Pay-Group/best-pay-sdk",
+    "CloneUrl": "https://github.com/Pay-Group/best-pay-sdk.git",
+    "CommitHash": "c95accb7baa0ec786a56fab1f2d47bc277777930",
+    "DependenciesCount": 30,
+    "StargazersCount": 2918
+  },
+  {
+    "Id": 23050110,
+    "FullName": "classgraph/classgraph",
+    "CloneUrl": "https://github.com/classgraph/classgraph.git",
+    "CommitHash": "455a40a845f4bd6bef34d509c442350f2088b006",
+    "DependenciesCount": 44,
+    "StargazersCount": 2740
+  },
+  {
+    "Id": 11665119,
+    "FullName": "VerbalExpressions/JavaVerbalExpressions",
+    "CloneUrl": "https://github.com/VerbalExpressions/JavaVerbalExpressions.git",
+    "CommitHash": "a38c3c42412c174a18e5c16058a4ea1efc26f044",
+    "DependenciesCount": 3,
+    "StargazersCount": 2621
+  },
+  {
+    "Id": 24297039,
+    "FullName": "vdurmont/emoji-java",
+    "CloneUrl": "https://github.com/vdurmont/emoji-java.git",
+    "CommitHash": "9a90624aa0a50f1785d6a10e1fcb2a296ce468f7",
+    "DependenciesCount": 4,
+    "StargazersCount": 2615
+  },
+  {
+    "Id": 26836459,
+    "FullName": "drewnoakes/metadata-extractor",
+    "CloneUrl": "https://github.com/drewnoakes/metadata-extractor.git",
+    "CommitHash": "0c3452bf1c4556724930281ffd97f65b66bfd697",
+    "DependenciesCount": 4,
+    "StargazersCount": 2565
+  },
+  {
+    "Id": 47877714,
+    "FullName": "xtuhcy/gecco",
+    "CloneUrl": "https://github.com/xtuhcy/gecco.git",
+    "CommitHash": "260d88c5c90224ee2419bff167bbd0c82c54ae89",
+    "DependenciesCount": 23,
+    "StargazersCount": 2501
+  },
+  {
+    "Id": 19020770,
+    "FullName": "liyiorg/weixin-popular",
+    "CloneUrl": "https://github.com/liyiorg/weixin-popular.git",
+    "CommitHash": "864994ee4841b08535db3ea6062489663adb672f",
+    "DependenciesCount": 15,
+    "StargazersCount": 2500
+  },
+  {
+    "Id": 128709569,
+    "FullName": "sofastack/sofa-bolt",
+    "CloneUrl": "https://github.com/sofastack/sofa-bolt.git",
+    "CommitHash": "80bb0c975b308c9f867172771d38ca11d3c0fc41",
+    "DependenciesCount": 19,
+    "StargazersCount": 2423
+  },
+  {
+    "Id": 102884447,
+    "FullName": "casbin/jcasbin",
+    "CloneUrl": "https://github.com/casbin/jcasbin.git",
+    "CommitHash": "d2e2f78c36c10b11ea3f7ae2cbfc2796d2b4dcf8",
+    "DependenciesCount": 22,
+    "StargazersCount": 2381
+  },
+  {
+    "Id": 232157758,
+    "FullName": "emanuele-f/PCAPdroid",
+    "CloneUrl": "https://github.com/emanuele-f/PCAPdroid.git",
+    "CommitHash": "d2bde7b9e7d574506cb03beecb2ca108c5ba1401",
+    "DependenciesCount": 3,
+    "StargazersCount": 2284
+  },
+  {
+    "Id": 33740196,
+    "FullName": "amaembo/streamex",
+    "CloneUrl": "https://github.com/amaembo/streamex.git",
+    "CommitHash": "ce4bb3f288d78c8e7e10d38ed08d56c0885b8479",
+    "DependenciesCount": 3,
+    "StargazersCount": 2189
+  },
+  {
+    "Id": 17339218,
+    "FullName": "jOOQ/jOOL",
+    "CloneUrl": "https://github.com/jOOQ/jOOL.git",
+    "CommitHash": "31ed3a398fd099206f62438b80a2a93dd7e2105d",
+    "DependenciesCount": 4,
+    "StargazersCount": 2082
+  },
+  {
+    "Id": 14173222,
+    "FullName": "EsotericSoftware/kryonet",
+    "CloneUrl": "https://github.com/EsotericSoftware/kryonet.git",
+    "CommitHash": "03a135e2039bd7eb20e436ad70539238563d15a4",
+    "DependenciesCount": 7,
+    "StargazersCount": 1819
+  },
+  {
+    "Id": 139380324,
+    "FullName": "YeautyYE/netty-websocket-spring-boot-starter",
+    "CloneUrl": "https://github.com/YeautyYE/netty-websocket-spring-boot-starter.git",
+    "CommitHash": "db29b043e69e2837a4eacdacec552a809ac2d689",
+    "DependenciesCount": 16,
+    "StargazersCount": 1813
+  },
+  {
+    "Id": 40182023,
+    "FullName": "pengrad/java-telegram-bot-api",
+    "CloneUrl": "https://github.com/pengrad/java-telegram-bot-api.git",
+    "CommitHash": "c6d6377fd3f1ebd5a312554d5de6a964daedb3eb",
+    "DependenciesCount": 11,
+    "StargazersCount": 1788
+  },
+  {
+    "Id": 602351,
+    "FullName": "kilim/kilim",
+    "CloneUrl": "https://github.com/kilim/kilim.git",
+    "CommitHash": "0a2e2613ef915243b51c2ec5650e4bd1717b3e3b",
+    "DependenciesCount": 41,
+    "StargazersCount": 1777
+  },
+  {
+    "Id": 252883578,
+    "FullName": "LianjiaTech/retrofit-spring-boot-starter",
+    "CloneUrl": "https://github.com/LianjiaTech/retrofit-spring-boot-starter.git",
+    "CommitHash": "c2da56b50e84dca676f9032731414e0e5dd6cdbc",
+    "DependenciesCount": 78,
+    "StargazersCount": 1767
+  },
+  {
+    "Id": 102307552,
+    "FullName": "monkeyWie/proxyee",
+    "CloneUrl": "https://github.com/monkeyWie/proxyee.git",
+    "CommitHash": "cddd02ad0d5a00fb152a8839f7356c1b17d62ff4",
+    "DependenciesCount": 13,
+    "StargazersCount": 1522
+  },
+  {
+    "Id": 18264736,
+    "FullName": "NLPchina/nlp-lang",
+    "CloneUrl": "https://github.com/NLPchina/nlp-lang.git",
+    "CommitHash": "fdbba53eb3f205ab6cc77ecd77cd214459c1ef6f",
+    "DependenciesCount": 7,
+    "StargazersCount": 1492
+  },
+  {
+    "Id": 46473766,
+    "FullName": "Arronlong/httpclientutil",
+    "CloneUrl": "https://github.com/Arronlong/httpclientutil.git",
+    "CommitHash": "e6944efb08dea4dc227bf4bc79d217c9f1862836",
+    "DependenciesCount": 10,
+    "StargazersCount": 1413
+  },
+  {
+    "Id": 25915218,
+    "FullName": "liaohuqiu/android-GridViewWithHeaderAndFooter",
+    "CloneUrl": "https://github.com/liaohuqiu/android-GridViewWithHeaderAndFooter.git",
+    "CommitHash": "d4a99eff0f46febdd338a7b93b69d924826ba6fe",
+    "DependenciesCount": 2,
+    "StargazersCount": 1336
+  },
+  {
+    "Id": 1323052,
+    "FullName": "jnr/jnr-ffi",
+    "CloneUrl": "https://github.com/jnr/jnr-ffi.git",
+    "CommitHash": "59d3f61555699456dddd064531140653faf1e2bf",
+    "DependenciesCount": 15,
+    "StargazersCount": 1252
+  },
+  {
+    "Id": 9594425,
+    "FullName": "belerweb/pinyin4j",
+    "CloneUrl": "https://github.com/belerweb/pinyin4j.git",
+    "CommitHash": "f1f13dcc8147c30922197e073691e5b0e9f6ce1e",
+    "DependenciesCount": 3,
+    "StargazersCount": 1238
+  },
+  {
+    "Id": 39984469,
+    "FullName": "aliyun/aliyun-oss-java-sdk",
+    "CloneUrl": "https://github.com/aliyun/aliyun-oss-java-sdk.git",
+    "CommitHash": "9a0cd47e4a0d3b2044700e08f5a4e540feefa16e",
+    "DependenciesCount": 46,
+    "StargazersCount": 1217
+  },
+  {
+    "Id": 1561531,
+    "FullName": "banq/jdonframework",
+    "CloneUrl": "https://github.com/banq/jdonframework.git",
+    "CommitHash": "9a9fa5921bab875579f397c32c7438e507735d9d",
+    "DependenciesCount": 20,
+    "StargazersCount": 1161
+  },
+  {
+    "Id": 442921115,
+    "FullName": "datafaker-net/datafaker",
+    "CloneUrl": "https://github.com/datafaker-net/datafaker.git",
+    "CommitHash": "41b5693e1361cd7345368eec1d4695baaab5da62",
+    "DependenciesCount": 41,
+    "StargazersCount": 1157
+  },
+  {
+    "Id": 132854880,
+    "FullName": "magese/ik-analyzer-solr",
+    "CloneUrl": "https://github.com/magese/ik-analyzer-solr.git",
+    "CommitHash": "f0059e2c78d82bbd12630388378073de4ffcc7db",
+    "DependenciesCount": 6,
+    "StargazersCount": 1145
+  },
+  {
+    "Id": 242659126,
+    "FullName": "alipay/alipay-easysdk",
+    "CloneUrl": "https://github.com/alipay/alipay-easysdk.git",
+    "CommitHash": "0b0f31d7f901b43031531fe241ff1bf0db668fb5",
+    "DependenciesCount": 26,
+    "StargazersCount": 1101
+  },
+  {
+    "Id": 427866402,
+    "FullName": "feiniaojin/graceful-response",
+    "CloneUrl": "https://github.com/feiniaojin/graceful-response.git",
+    "CommitHash": "7921dce5aabcfb0c50259fbc3315ffa75bf6a47f",
+    "DependenciesCount": 61,
+    "StargazersCount": 1099
+  },
+  {
+    "Id": 30553392,
+    "FullName": "ctongfei/progressbar",
+    "CloneUrl": "https://github.com/ctongfei/progressbar.git",
+    "CommitHash": "270946279a1ed23935aac2da3a491a2bedd73e51",
+    "DependenciesCount": 11,
+    "StargazersCount": 1072
+  },
+  {
+    "Id": 16937765,
+    "FullName": "gitlab4j/gitlab4j-api",
+    "CloneUrl": "https://github.com/gitlab4j/gitlab4j-api.git",
+    "CommitHash": "db3b639e51f169fff9bf6c281d9d130d4063ea79",
+    "DependenciesCount": 45,
+    "StargazersCount": 1062
+  },
+  {
+    "Id": 18899208,
+    "FullName": "yomorun/hashids-java",
+    "CloneUrl": "https://github.com/yomorun/hashids-java.git",
+    "CommitHash": "039da8c2af0d3ad485b3fa57afdde56248f641f3",
+    "DependenciesCount": 3,
+    "StargazersCount": 1023
+  },
+  {
+    "Id": 18928344,
+    "FullName": "spotify-web-api-java/spotify-web-api-java",
+    "CloneUrl": "https://github.com/spotify-web-api-java/spotify-web-api-java.git",
+    "CommitHash": "68d8d2b155c4f4ba72ae6bdc9ee2f6513f2715ac",
+    "DependenciesCount": 71,
+    "StargazersCount": 1009
+  }
+]

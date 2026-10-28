@@ -1,0 +1,16 @@
+[
+  {
+    "paper": "wild_sboms_msr2025.pdf",
+    "source_url": "https://upsilon.cc/~zack/research/publications/msr-2025-sbom-dataset.pdf",
+    "local_path": "research\\papers\\wild_sboms_msr2025.pdf",
+    "sha256": "d71c38f925c38613677ce5e59d465008eec1bd875e05037bf26e7aa9f1e46fde",
+    "size_bytes": 188928
+  },
+  {
+    "paper": "curated_sboms_arxiv2504.pdf",
+    "source_url": "https://arxiv.org/pdf/2504.06880",
+    "local_path": "research\\papers\\curated_sboms_arxiv2504.pdf",
+    "sha256": "72a118572c9ed805a82435de4341043f4d29a474dd1f94d2e04ee224725230fb",
+    "size_bytes": 132078
+  }
+]

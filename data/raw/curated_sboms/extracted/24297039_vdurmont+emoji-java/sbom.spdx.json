@@ -1,0 +1,148 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "emoji-java 9a90624aa0a50f1785d6a10e1fcb2a296ce468f7",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-c606d455-4a55-425b-90db-9ffd179bbfc2/emoji-java/9a90624aa0a50f1785d6a10e1fcb2a296ce468f7/4FX7od9wWEKpOE5YRJ_5GA",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "name": "org.hamcrest.hamcrest-core",
+      "versionInfo": "1.3",
+      "packageFileName": "hamcrest-core-1.3.jar",
+      "supplier": "Organization: Hamcrest",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/hamcrest/JavaHamcrest",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2000-2006, www.hamcrest.org\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E7E842C2B63A9EE24DBE9B004062CA5FDF20FE36860609F5DCAC2421957AF492",
+      "name": "junit.junit",
+      "versionInfo": "4.13",
+      "packageFileName": "junit-4.13.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/junit/junit/4.13/junit-4.13.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://junit.org",
+      "licenseConcluded": "EPL-1.0",
+      "licenseDeclared": "EPL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.13"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-A56E37F271DD8A4F18A0A43A52A31B5A07DA31CB9F8D5C1B15BD7E4054CD151B",
+      "name": "com.vdurmont.emoji-java",
+      "versionInfo": "5.1.1",
+      "packageFileName": "emoji-java-5.1.1.jar",
+      "supplier": "Person: Vincent DURMONT (vdurmont@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/vdurmont/emoji-java/5.1.1/emoji-java-5.1.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/vdurmont/emoji-java",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2014-present Vincent DURMONT vdurmont@gmail.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.vdurmont/emoji-java@5.1.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8204B307E0E6A92DBC005A46D2B8DDF377680EA5BC935C7E458440223BE8FCD0",
+      "name": "org.json.json",
+      "versionInfo": "20170516",
+      "packageFileName": "json-20170516.jar",
+      "supplier": "Person: Douglas Crockford (douglas@crockford.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/json/json/20170516/json-20170516.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/douglascrockford/JSON-java",
+      "licenseConcluded": "JSON",
+      "licenseDeclared": "JSON",
+      "copyrightText": "Copyright (c) 2002 JSON.org",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.json/json@20170516"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "emoji-java",
+      "versionInfo": "9a90624aa0a50f1785d6a10e1fcb2a296ce468f7",
+      "packageFileName": "./",
+      "supplier": "Organization: vdurmont",
+      "downloadLocation": "git\u002Bhttps://github.com/vdurmont/emoji-java.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/vdurmont/emoji-java",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2014-present Vincent DURMONT vdurmont@gmail.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/vdurmont/spdx.org/emoji-java@9a90624aa0a50f1785d6a10e1fcb2a296ce468f7?tag_id=2f9ba9a6-f921-4bec-b754-85c3dd1a6e34"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E7E842C2B63A9EE24DBE9B004062CA5FDF20FE36860609F5DCAC2421957AF492",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-8204B307E0E6A92DBC005A46D2B8DDF377680EA5BC935C7E458440223BE8FCD0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-A56E37F271DD8A4F18A0A43A52A31B5A07DA31CB9F8D5C1B15BD7E4054CD151B",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

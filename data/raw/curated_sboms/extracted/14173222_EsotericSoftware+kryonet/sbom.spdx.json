@@ -1,0 +1,226 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "kryonet 03a135e2039bd7eb20e436ad70539238563d15a4",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-a38f9c23-5f3b-4cec-9bb6-a408d0235de9/kryonet/03a135e2039bd7eb20e436ad70539238563d15a4/wMh9JFLBm0mX1EkC3Nq74Q",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "name": "org.hamcrest.hamcrest-core",
+      "versionInfo": "1.3",
+      "packageFileName": "hamcrest-core-1.3.jar",
+      "supplier": "Organization: Hamcrest",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/hamcrest/JavaHamcrest",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2000-2006, www.hamcrest.org\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2756AEA74DB53374A0A71777D9F70A52410934E8CEFCF43159CAF389BB2D95B8",
+      "name": "org.objenesis.objenesis",
+      "versionInfo": "2.1",
+      "packageFileName": "objenesis-2.1.jar",
+      "supplier": "Organization: Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://objenesis.org",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.objenesis/objenesis@2.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4DC083E3DA9D8A54383EE49D1832FA5C0856C1572DD9A25CF8900D76FBA770DF",
+      "name": "com.esotericsoftware.kryo.kryo",
+      "versionInfo": "2.24.0",
+      "packageFileName": "kryo-2.24.0.jar",
+      "supplier": "Person: Nathan Sweet (nathan.sweet@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/EsotericSoftware/kryo",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2008-2023, Nathan Sweet All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.esotericsoftware.kryo/kryo@2.24.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DEDDF745F5938E9EAF5D2B8EA036F32DD99B9727E045C8BE68DC560FD1D3D53B",
+      "name": "com.esotericsoftware.jsonbeans",
+      "versionInfo": "0.7",
+      "packageFileName": "jsonbeans-0.7.jar",
+      "supplier": "Person: Nathan Sweet (nathan.sweet@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/esotericsoftware/jsonbeans/0.7/jsonbeans-0.7.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/EsotericSoftware/jsonbeans",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2010, Nathan Sweet\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.esotericsoftware/jsonbeans@0.7"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7BDCB8F0571591D18D331FE171430846C6915CA76CC2ED9F68B1FF31FF771AA8",
+      "name": "com.esotericsoftware.kryonet",
+      "versionInfo": "2.22.0-RC1",
+      "packageFileName": "kryonet-2.22.0-RC1.jar",
+      "supplier": "Person: Nathan Sweet (nathan.sweet@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/esotericsoftware/kryonet/2.22.0-RC1/kryonet-2.22.0-RC1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/EsotericSoftware/kryonet",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2008, Nathan Sweet\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.esotericsoftware/kryonet@2.22.0-RC1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-17E232488CEFB6EB7B6931939EA0B843B38B6DAC945983111E59FF8C28F90324",
+      "name": "com.esotericsoftware.minlog.minlog",
+      "versionInfo": "1.2",
+      "packageFileName": "minlog-1.2.jar",
+      "supplier": "Person: Nathan Sweet (nathan.sweet@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://code.google.com/p/minlog/",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2008, Nathan Sweet\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.esotericsoftware.minlog/minlog@1.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-FB8BF57D8EC8B164BC4B1571C7324A64809A5AB3A82040492710FEC977855FF7",
+      "name": "junit.junit",
+      "versionInfo": "4.11",
+      "packageFileName": "junit-4.11.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/junit/junit/4.11/junit-4.11.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://junit.org",
+      "licenseConcluded": "CPL-1.0",
+      "licenseDeclared": "CPL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.11"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "kryonet",
+      "versionInfo": "03a135e2039bd7eb20e436ad70539238563d15a4",
+      "packageFileName": "./",
+      "supplier": "Organization: EsotericSoftware",
+      "downloadLocation": "git\u002Bhttps://github.com/EsotericSoftware/kryonet.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/EsotericSoftware/kryonet",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2008, Nathan Sweet\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/EsotericSoftware/spdx.org/kryonet@03a135e2039bd7eb20e436ad70539238563d15a4?tag_id=fa4dbd38-6074-4aee-a3c8-a16e6e3e26ad"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2756AEA74DB53374A0A71777D9F70A52410934E8CEFCF43159CAF389BB2D95B8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-7BDCB8F0571591D18D331FE171430846C6915CA76CC2ED9F68B1FF31FF771AA8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-17E232488CEFB6EB7B6931939EA0B843B38B6DAC945983111E59FF8C28F90324",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DEDDF745F5938E9EAF5D2B8EA036F32DD99B9727E045C8BE68DC560FD1D3D53B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-FB8BF57D8EC8B164BC4B1571C7324A64809A5AB3A82040492710FEC977855FF7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4DC083E3DA9D8A54383EE49D1832FA5C0856C1572DD9A25CF8900D76FBA770DF",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

@@ -1,0 +1,174 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "thumbnailator 951d04f352d90f34420a82909c15453fee1b75ff",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-cb737aae-40ff-4320-9a8b-87c88ebb1c6d/thumbnailator/951d04f352d90f34420a82909c15453fee1b75ff/g9PJhRm8PEyuiXPRuHZVOQ",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-BC40C94EAD7EE98E261E0C48BA02DD1017CBBD5D6A7D6ED3A6280AF661454D0F",
+      "name": "net.coobird.thumbnailator",
+      "versionInfo": "0.4.20",
+      "packageFileName": "thumbnailator-0.4.20.jar",
+      "supplier": "Person: Chris Kroells (coobirdnet@gmail.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/net/coobird/thumbnailator/0.4.20/thumbnailator-0.4.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/coobird/thumbnailator",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2008-2023 Chris Kroells",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/net.coobird/thumbnailator@0.4.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "name": "org.hamcrest.hamcrest-core",
+      "versionInfo": "1.3",
+      "packageFileName": "hamcrest-core-1.3.jar",
+      "supplier": "Organization: Hamcrest",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/hamcrest/JavaHamcrest",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2000-2006, www.hamcrest.org\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9C704D3D40B427BFB9072318ECEB54326E0530F7BB342308C719BB17A0664CC9",
+      "name": "junit.junit",
+      "versionInfo": "4.13.2",
+      "packageFileName": "junit-4.13.2.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://junit.org",
+      "licenseConcluded": "EPL-1.0",
+      "licenseDeclared": "EPL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.13.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-74AC144D752A2E361CA097EF33AE1D67E21FB9CBE811DE68C4C8472967CB4DDC",
+      "name": "org.mockito.mockito-core",
+      "versionInfo": "1.8.5",
+      "packageFileName": "mockito-core-1.8.5.jar",
+      "supplier": "Organization: mockito (mockito@googlegroups.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/mockito/mockito-core/1.8.5/mockito-core-1.8.5.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.mockito.org",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2007 Mockito contributors",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.mockito/mockito-core@1.8.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-79EC14C03194669FF9B2850DD155B75A89DDF906C0C035F3C2693B3DEB9CB195",
+      "name": "org.objenesis.objenesis",
+      "versionInfo": "1.0",
+      "packageFileName": "objenesis-1.0.jar",
+      "supplier": "Organization: EasyMock",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://objenesis.googlecode.com/svn/docs/index.html",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.objenesis/objenesis@1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "thumbnailator",
+      "versionInfo": "951d04f352d90f34420a82909c15453fee1b75ff",
+      "packageFileName": "./",
+      "supplier": "Organization: coobird",
+      "downloadLocation": "git\u002Bhttps://github.com/coobird/thumbnailator.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/coobird/thumbnailator",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2008-2023 Chris Kroells",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/coobird/spdx.org/thumbnailator@951d04f352d90f34420a82909c15453fee1b75ff?tag_id=01a95708-ddcd-4bea-ab4a-db363ab1ebd7"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-74AC144D752A2E361CA097EF33AE1D67E21FB9CBE811DE68C4C8472967CB4DDC",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-79EC14C03194669FF9B2850DD155B75A89DDF906C0C035F3C2693B3DEB9CB195",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-9C704D3D40B427BFB9072318ECEB54326E0530F7BB342308C719BB17A0664CC9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-BC40C94EAD7EE98E261E0C48BA02DD1017CBBD5D6A7D6ED3A6280AF661454D0F",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

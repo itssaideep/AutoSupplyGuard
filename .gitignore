@@ -1,0 +1,29 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data Archives & Large Files
+data/raw/wild_sboms/*.zstd
+data/raw/wild_sboms/*.tar
+data/raw/curated_sboms/*.zip
+data/raw/automotive_vulnerabilities/CV_Vulnerability_22-24/.git/
+data/interim/
+*.log
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,831 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "best-pay-sdk c95accb7baa0ec786a56fab1f2d47bc277777930",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-2ec5e026-6e5f-4968-9736-bf78e35a5cda/best-pay-sdk/c95accb7baa0ec786a56fab1f2d47bc277777930/ZkGRGboL00esbMgw0NVeTA",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-334501a6c5154f87a48f8e652d04c096",
+      "extractedText": "http://www.bouncycastle.org/licence.html",
+      "name": "http://www.bouncycastle.org/licence.html"
+    }
+  ],
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-44831BABF140686210BB2054D8079A7951F67A111E71AC68ABC7712A9AA9966A",
+      "name": "xpp3.xpp3",
+      "versionInfo": "1.1.3.3",
+      "packageFileName": "xpp3-1.1.3.3.jar",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "https://repo1.maven.org/maven2/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/xpp3/xpp3@1.1.3.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-27D32EDB308BB6613D79900C098CA2598ADF67109FCB4AD3633C04488B12F22F",
+      "name": "joda-time.joda-time",
+      "versionInfo": "2.9.4",
+      "packageFileName": "joda-time-2.9.4.jar",
+      "supplier": "Organization: Joda.org",
+      "downloadLocation": "https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.joda.org/joda-time/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/joda-time/joda-time@2.9.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-22E369EBC0D46AD1559379362F6DE12277DC9775E5D21109A27765C02127EB0A",
+      "name": "ch.qos.logback.logback-classic",
+      "versionInfo": "1.1.7",
+      "packageFileName": "logback-classic-1.1.7.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://logback.qos.ch",
+      "licenseConcluded": "EPL-1.0 OR LGPL-2.1-only",
+      "licenseDeclared": "EPL-1.0 OR LGPL-2.1-only",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/ch.qos.logback/logback-classic@1.1.7"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7BDE3EB969CF5974A62437BA2D3E45303C3C3B2A8F485F0F61F3E1796EDFA3A9",
+      "name": "com.fasterxml.jackson.core.jackson-databind",
+      "versionInfo": "2.9.10.1",
+      "packageFileName": "jackson-databind-2.9.10.1.jar",
+      "supplier": "Organization: FasterXML",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://github.com/FasterXML/jackson",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1B823C9BCEB0CE4AC2D84375F3A48A240D0388C187D655912006796642B89D5F",
+      "name": "stax.stax",
+      "versionInfo": "1.2.0",
+      "packageFileName": "stax-1.2.0.jar",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "https://repo1.maven.org/maven2/stax/stax/1.2.0/stax-1.2.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://stax.codehaus.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/stax/stax@1.2.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-86668FE230C4DD352E95F95E81F73A6652A93970E931832A1636DBD94AA76FF9",
+      "name": "com.squareup.retrofit2.converter-gson",
+      "versionInfo": "2.5.0",
+      "packageFileName": "converter-gson-2.5.0.jar",
+      "supplier": "Organization: Square, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/retrofit2/converter-gson/2.5.0/converter-gson-2.5.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/retrofit/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2013 Square, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.retrofit2/converter-gson@2.5.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E1D05FEC0CB6623753E4717F80C9FA3BF885407BA31E15436E55F963B188D81A",
+      "name": "org.bouncycastle.bcprov-jdk15on",
+      "versionInfo": "1.59",
+      "packageFileName": "bcprov-jdk15on-1.59.jar",
+      "supplier": "Organization: The Legion of the Bouncy Castle Inc",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.bouncycastle.org/java.html",
+      "licenseConcluded": "LicenseRef-334501a6c5154f87a48f8e652d04c096",
+      "licenseDeclared": "LicenseRef-334501a6c5154f87a48f8e652d04c096",
+      "copyrightText": "Copyright (c) 2000-2017 The Legion of the Bouncy Castle Inc. (http://www.bouncycastle.org)",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.59"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DC9A43EA0FBBEDE300165236A296A90DF10340412B46F1CFB9136678EE3A2360",
+      "name": "com.squareup.okio.okio",
+      "versionInfo": "1.15.0",
+      "packageFileName": "okio-1.15.0.jar",
+      "supplier": "Organization: Square",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/okio/okio/1.15.0/okio-1.15.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/okio",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2013 Square, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okio/okio@1.15.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C92A688BB13DD06DE0328BB1A4C57694F7A7D978E72045809FCF5A6F7096218A",
+      "name": "org.apache.tomcat.embed.tomcat-embed-core",
+      "versionInfo": "8.5.50",
+      "packageFileName": "tomcat-embed-core-8.5.50.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.50/tomcat-embed-core-8.5.50.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://tomcat.apache.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 1999-2019 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@8.5.50"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-AFFE72CE7DE0094385E74A74110C52C3D3D0468227ABC70064F43BDECE5752B8",
+      "name": "commons-logging.commons-logging",
+      "versionInfo": "1.2",
+      "packageFileName": "commons-logging-1.2.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://commons.apache.org/proper/commons-logging/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2003-2014 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-logging/commons-logging@1.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E1CAAD7E2627CE37517921557448109C98C7F4DDE366FEEEAB4F29AC90D7B9B4",
+      "name": "com.squareup.retrofit2.retrofit",
+      "versionInfo": "2.5.0",
+      "packageFileName": "retrofit-2.5.0.jar",
+      "supplier": "Organization: Square, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/retrofit2/retrofit/2.5.0/retrofit-2.5.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/retrofit/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2013 Square, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.retrofit2/retrofit@2.5.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-65EB6C86099A6D17AFD50C30173F974DAB5C4D2D2B8D6B7B40574890AEE897FB",
+      "name": "com.google.code.gson.gson",
+      "versionInfo": "2.8.2",
+      "packageFileName": "gson-2.8.2.jar",
+      "supplier": "Organization: Google (opensource@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/gson",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2008 Google Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.8.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8BE665C1B799891CF54D5D710AA37B9EA7D96271419AB8739CE4A195BCBB7D6D",
+      "name": "org.slf4j.slf4j-api",
+      "versionInfo": "1.7.20",
+      "packageFileName": "slf4j-api-1.7.20.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.20/slf4j-api-1.7.20.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.slf4j.org",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2004-2014 QOS.ch\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.20"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3778ECFC4F2ABF4952973BB0806E77BA0704BA969D8CCA12AE597E4A42AC5CF8",
+      "name": "junit.junit",
+      "versionInfo": "4.13.1",
+      "packageFileName": "junit-4.13.1.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/junit/junit/4.13.1/junit-4.13.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://junit.org",
+      "licenseConcluded": "EPL-1.0",
+      "licenseDeclared": "EPL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.13.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-BC418349EB23A86E14A63BE8720B2E8A342503D097B13A8793AE0B871FF0FDCE",
+      "name": "com.squareup.okhttp3.okhttp",
+      "versionInfo": "3.12.0",
+      "packageFileName": "okhttp-3.12.0.jar",
+      "supplier": "Organization: Square",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.12.0/okhttp-3.12.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/okhttp",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/okhttp@3.12.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2020599496F362A0EA57E1920468515C50B6EE5DB27633CF48C77080C7BFF84F",
+      "name": "com.squareup.okhttp3.logging-interceptor",
+      "versionInfo": "3.12.0",
+      "packageFileName": "logging-interceptor-3.12.0.jar",
+      "supplier": "Organization: Square",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/okhttp3/logging-interceptor/3.12.0/logging-interceptor-3.12.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/okhttp",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/logging-interceptor@3.12.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E095669A1D6FDD7B94AE372F540C2B9E6F06FFB24327C7B42C06C91550FF5B13",
+      "name": "com.fasterxml.jackson.core.jackson-annotations",
+      "versionInfo": "2.9.10",
+      "packageFileName": "jackson-annotations-2.9.10.jar",
+      "supplier": "Organization: FasterXML",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://github.com/FasterXML/jackson",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.10"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-98CC4CE17FA77139F85BD10C887376D7BCD0621EAAE50C8A99B35CF769296C37",
+      "name": "com.fasterxml.jackson.core.jackson-core",
+      "versionInfo": "2.9.10",
+      "packageFileName": "jackson-core-2.9.10.jar",
+      "supplier": "Organization: FasterXML",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/FasterXML/jackson-core",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.10"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-D67F715DF5B77605C0591AB8C4BD3FF9558F8E55E0E220F8B9B511159AC21E0C",
+      "name": "org.apache.httpcomponents.httpcore",
+      "versionInfo": "4.4.13",
+      "packageFileName": "httpcore-4.4.13.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://hc.apache.org/httpcomponents-core-ga",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2005-2020 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-127DDB23E53AD1655E0AB43258F3F71B3F0B10D4F5DE5021EC2C0B559CB70C5E",
+      "name": "org.apache.commons.commons-lang3",
+      "versionInfo": "3.5",
+      "packageFileName": "commons-lang3-3.5.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://commons.apache.org/proper/commons-lang/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2001-2016 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.commons/commons-lang3@3.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-EA5A828FF236CE6F5BD22B39E2A19206757F0E7FAC1DD12A435D6F2F3F5FB0B1",
+      "name": "ch.qos.logback.logback-core",
+      "versionInfo": "1.1.7",
+      "packageFileName": "logback-core-1.1.7.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://logback.qos.ch",
+      "licenseConcluded": "EPL-1.0 OR LGPL-2.1-only",
+      "licenseDeclared": "EPL-1.0 OR LGPL-2.1-only",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/ch.qos.logback/logback-core@1.1.7"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2CE0F6E5F3106B65C63670EEA418A5BC9F304C466354488B7DECF7028F2FE06E",
+      "name": "stax.stax-api",
+      "versionInfo": "1.0.1",
+      "packageFileName": "stax-api-1.0.1.jar",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "https://repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://stax.codehaus.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/stax/stax-api@1.0.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4319FD34AC3624B8D0790049E7F07665077A324A2F6F32ACE539082D828CC583",
+      "name": "cn.springboot.best-pay-sdk",
+      "versionInfo": "1.3.7",
+      "packageFileName": "best-pay-sdk-1.3.7.jar",
+      "supplier": "Person: lly835 (lly835@163.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/cn/springboot/best-pay-sdk/1.3.7/best-pay-sdk-1.3.7.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/Pay-Group/best-pay-sdk",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/cn.springboot/best-pay-sdk@1.3.7"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-929EF36D95B673D2531B11FA51A9595B8D40EF1865AD71DBFAFB7B8B81F15ED4",
+      "name": "org.apache.tomcat.tomcat-annotations-api",
+      "versionInfo": "8.5.50",
+      "packageFileName": "tomcat-annotations-api-8.5.50.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.5.50/tomcat-annotations-api-8.5.50.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://tomcat.apache.org/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 1999-2019 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@8.5.50"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3BB6A49C67EC4AF6AA910305EC5016EDC995086F11D665C60A283CD333A9BAC1",
+      "name": "org.simpleframework.simple-xml",
+      "versionInfo": "2.7.1",
+      "packageFileName": "simple-xml-2.7.1.jar",
+      "supplier": "Person: Niall Gallagher (niallg@users.sf.net)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://simple.sourceforge.net",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.simpleframework/simple-xml@2.7.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-0D90FBEF1B712872B0952140CF5A140E07F1F6BBB2F7334514019C0616F1DD56",
+      "name": "commons-codec.commons-codec",
+      "versionInfo": "1.11",
+      "packageFileName": "commons-codec-1.11.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://commons.apache.org/proper/commons-codec/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2002-2017 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-codec/commons-codec@1.11"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "name": "org.hamcrest.hamcrest-core",
+      "versionInfo": "1.3",
+      "packageFileName": "hamcrest-core-1.3.jar",
+      "supplier": "Organization: Hamcrest",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/hamcrest/JavaHamcrest",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2000-2006, www.hamcrest.org\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2BFE540C3B3DCBF119BCB47E5D15F109D9D726F46BFEA05BBF2CB768E5D80C68",
+      "name": "org.apache.httpcomponents.httpclient",
+      "versionInfo": "4.5.13",
+      "packageFileName": "httpclient-4.5.13.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://hc.apache.org/httpcomponents-client",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 1999-2020 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9BE17E96EBEDFCC7EDAEB641DA38CAC39ECDB8449B0D88852C632497D09A0EDE",
+      "name": "org.projectlombok.lombok",
+      "versionInfo": "1.18.24",
+      "packageFileName": "lombok-1.18.24.jar",
+      "supplier": "Organization: Project Lombok (info@projectlombok.org)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://projectlombok.org",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (C) 2009-2021 The Project Lombok Authors.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.projectlombok/lombok@1.18.24"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-F18A2464432F5AEEEAA5617FD82AFA528840CCA7E03EA87E6B9F95C77A0AC68E",
+      "name": "com.squareup.retrofit2.converter-simplexml",
+      "versionInfo": "2.5.0",
+      "packageFileName": "converter-simplexml-2.5.0.jar",
+      "supplier": "Organization: Square, Inc.",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/retrofit2/converter-simplexml/2.5.0/converter-simplexml-2.5.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/retrofit/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2013 Square, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.retrofit2/converter-simplexml@2.5.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "best-pay-sdk",
+      "versionInfo": "c95accb7baa0ec786a56fab1f2d47bc277777930",
+      "packageFileName": "./",
+      "supplier": "Organization: Pay-Group",
+      "downloadLocation": "git\u002Bhttps://github.com/Pay-Group/best-pay-sdk.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/Pay-Group/best-pay-sdk",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/Pay-Group/spdx.org/best-pay-sdk@c95accb7baa0ec786a56fab1f2d47bc277777930?tag_id=3ef3db5c-3e22-407f-b58b-a2b7f1a956c9"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-BC418349EB23A86E14A63BE8720B2E8A342503D097B13A8793AE0B871FF0FDCE",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E1CAAD7E2627CE37517921557448109C98C7F4DDE366FEEEAB4F29AC90D7B9B4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-AFFE72CE7DE0094385E74A74110C52C3D3D0468227ABC70064F43BDECE5752B8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-22E369EBC0D46AD1559379362F6DE12277DC9775E5D21109A27765C02127EB0A",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-3778ECFC4F2ABF4952973BB0806E77BA0704BA969D8CCA12AE597E4A42AC5CF8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-8BE665C1B799891CF54D5D710AA37B9EA7D96271419AB8739CE4A195BCBB7D6D",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-65EB6C86099A6D17AFD50C30173F974DAB5C4D2D2B8D6B7B40574890AEE897FB",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DC9A43EA0FBBEDE300165236A296A90DF10340412B46F1CFB9136678EE3A2360",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2CE0F6E5F3106B65C63670EEA418A5BC9F304C466354488B7DECF7028F2FE06E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-EA5A828FF236CE6F5BD22B39E2A19206757F0E7FAC1DD12A435D6F2F3F5FB0B1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-127DDB23E53AD1655E0AB43258F3F71B3F0B10D4F5DE5021EC2C0B559CB70C5E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-D67F715DF5B77605C0591AB8C4BD3FF9558F8E55E0E220F8B9B511159AC21E0C",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-98CC4CE17FA77139F85BD10C887376D7BCD0621EAAE50C8A99B35CF769296C37",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E095669A1D6FDD7B94AE372F540C2B9E6F06FFB24327C7B42C06C91550FF5B13",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2020599496F362A0EA57E1920468515C50B6EE5DB27633CF48C77080C7BFF84F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2BFE540C3B3DCBF119BCB47E5D15F109D9D726F46BFEA05BBF2CB768E5D80C68",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-0D90FBEF1B712872B0952140CF5A140E07F1F6BBB2F7334514019C0616F1DD56",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-929EF36D95B673D2531B11FA51A9595B8D40EF1865AD71DBFAFB7B8B81F15ED4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4319FD34AC3624B8D0790049E7F07665077A324A2F6F32ACE539082D828CC583",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-F18A2464432F5AEEEAA5617FD82AFA528840CCA7E03EA87E6B9F95C77A0AC68E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-9BE17E96EBEDFCC7EDAEB641DA38CAC39ECDB8449B0D88852C632497D09A0EDE",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-3BB6A49C67EC4AF6AA910305EC5016EDC995086F11D665C60A283CD333A9BAC1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C92A688BB13DD06DE0328BB1A4C57694F7A7D978E72045809FCF5A6F7096218A",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-86668FE230C4DD352E95F95E81F73A6652A93970E931832A1636DBD94AA76FF9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-44831BABF140686210BB2054D8079A7951F67A111E71AC68ABC7712A9AA9966A",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E1D05FEC0CB6623753E4717F80C9FA3BF885407BA31E15436E55F963B188D81A",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-1B823C9BCEB0CE4AC2D84375F3A48A240D0388C187D655912006796642B89D5F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-7BDE3EB969CF5974A62437BA2D3E45303C3C3B2A8F485F0F61F3E1796EDFA3A9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-27D32EDB308BB6613D79900C098CA2598ADF67109FCB4AD3633C04488B12F22F",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}

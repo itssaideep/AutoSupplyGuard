@@ -1,0 +1,1252 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "name": "aliyun-oss-java-sdk 9a0cd47e4a0d3b2044700e08f5a4e540feefa16e",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.9-f06112e1-e75d-4335-a78c-0f510f5fabe1/aliyun-oss-java-sdk/9a0cd47e4a0d3b2044700e08f5a4e540feefa16e/zhoDtCYhO0CFq6pnb0Pfww",
+  "creationInfo": {
+    "creators": ["Tool: Microsoft.SBOMTool-2.2.9", "Tool: SbomDatasetGnerator"],
+    "created": "2024-12-04T23:31:38Z"
+  },
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-bc09d46229274243b8e3dad11c5e6f77",
+      "extractedText": "https://raw.githubusercontent.com/hunterhacker/jdom/refs/tags/JDOM-2.0.6.1/LICENSE.txt",
+      "name": "https://raw.githubusercontent.com/hunterhacker/jdom/refs/tags/JDOM-2.0.6.1/LICENSE.txt"
+    },
+    {
+      "licenseId": "LicenseRef-30917c2ee45f4b5aa110dd4b1327b651",
+      "extractedText": "http://www.bouncycastle.org/licence.html",
+      "name": "http://www.bouncycastle.org/licence.html"
+    }
+  ],
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-4434AE7B28B0C167DA03B8393BAA5ECB8BE0854BB65CD1FE6BC15529EF1B2DB9",
+      "name": "org.ini4j.ini4j",
+      "versionInfo": "0.5.4",
+      "packageFileName": "ini4j-0.5.4.jar",
+      "supplier": "Person: Ivan Szkiba (szkiba at SourceForge)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/ini4j/ini4j/0.5.4/ini4j-0.5.4.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.ini4j.org",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2005,2009 Ivan SZKIBA",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.ini4j/ini4j@0.5.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-AC5E137A2F9F3C66235FAF549B1FA21E4D730682AF23F9DE60FA25EBBA61D9C5",
+      "name": "com.google.code.findbugs.jsr305",
+      "versionInfo": "3.0.2",
+      "packageFileName": "jsr305-3.0.2.jar",
+      "supplier": "Organization: The University of Maryland",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://findbugs.sourceforge.net/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-088E0C0205C72F071950661349C37873F4EAE3412FB260A8DC969CE6AE0D84FA",
+      "name": "com.google.guava.guava",
+      "versionInfo": "29.0-android",
+      "packageFileName": "guava-29.0-android.jar",
+      "supplier": "Person: Kevin Bourrillion (kevinb@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/guava/guava/29.0-android/guava-29.0-android.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/guava",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/guava@29.0-android"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3AB135EFE31EC6F178965271F1EF451737E0AAE7B5DE12B468E98F3A75BA7764",
+      "name": "io.opentelemetry.opentelemetry-context",
+      "versionInfo": "1.38.0",
+      "packageFileName": "opentelemetry-context-1.38.0.jar",
+      "supplier": "Person: OpenTelemetry",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-context/1.38.0/opentelemetry-context-1.38.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/open-telemetry/opentelemetry-java",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright The OpenTelemetry Authors",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.opentelemetry/opentelemetry-context@1.38.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-CBB0379382A2E6149DE1C2C0B0ECA42232461AB2F5ED5DE0D9037A4CBB840020",
+      "name": "com.aliyun.java-trace-api",
+      "versionInfo": "0.2.11-beta",
+      "packageFileName": "java-trace-api-0.2.11-beta.jar",
+      "supplier": "Person: Aliyun SDK (aliyunsdk@aliyun.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/aliyun/java-trace-api/0.2.11-beta/java-trace-api-0.2.11-beta.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.aliyun.com",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (C) Alibaba Cloud Computing\r\nAll rights reserved.\r\n\r\n\u7248\u6743\u6240\u6709 \uFF08C\uFF09\u963F\u91CC\u4E91\u8BA1\u7B97\u6709\u9650\u516C\u53F8\r\n\r\nhttp://www.aliyun.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.aliyun/java-trace-api@0.2.11-beta"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-16CA24C6CD9B249AF0001C76028354A309F02D32C48C780AEB92A987ADE65836",
+      "name": "com.aliyun.tea",
+      "versionInfo": "1.2.3",
+      "packageFileName": "tea-1.2.3.jar",
+      "supplier": "Person: Aliyun SDK (aliyunsdk@aliyun.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/aliyun/tea/1.2.3/tea-1.2.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.aliyun.com",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (C) Alibaba Cloud Computing\r\nAll rights reserved.\r\n\r\n\u7248\u6743\u6240\u6709 \uFF08C\uFF09\u963F\u91CC\u4E91\u8BA1\u7B97\u6709\u9650\u516C\u53F8\r\n\r\nhttp://www.aliyun.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.aliyun/tea@1.2.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B21DE682C3A71A16528786F720CDF7ADE575017507ED4C9058EAA8F1A9FF8F2B",
+      "name": "com.squareup.okhttp3.okhttp",
+      "versionInfo": "3.12.13",
+      "packageFileName": "okhttp-3.12.13.jar",
+      "supplier": "Organization: Square",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.12.13/okhttp-3.12.13.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/okhttp",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okhttp3/okhttp@3.12.13"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-A9C924AD79561EFB164CED418D301DD0AFDDC87F2179B97885139633C2D34961",
+      "name": "org.slf4j.slf4j-api",
+      "versionInfo": "1.7.30",
+      "packageFileName": "slf4j-api-1.7.30.jar",
+      "supplier": "Organization: QOS.ch",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.slf4j.org",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright (c) 2004-2017 QOS.ch\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5007E8EC7C2A397BEFD7191DDB84696DF19E90FB249FB284136C2B1F6178A764",
+      "name": "com.google.guava.failureaccess",
+      "versionInfo": "1.0.1",
+      "packageFileName": "failureaccess-1.0.1.jar",
+      "supplier": "Person: Kevin Bourrillion (kevinb@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/guava",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/failureaccess@1.0.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4804FBA80CB5F17DC5AE39149358D34F3B8583DAABE03C8E99A841CAA8290DEB",
+      "name": "org.reactivestreams.reactive-streams",
+      "versionInfo": "1.0.3",
+      "packageFileName": "reactive-streams-1.0.3.jar",
+      "supplier": "Person: Reactive Streams SIG",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.reactive-streams.org/",
+      "licenseConcluded": "CC0-1.0",
+      "licenseDeclared": "CC0-1.0",
+      "copyrightText": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-CE21F063D08F3EC741C0974FC22750482D4C643F9EB72C4DFB5D1C05F643FC4D",
+      "name": "org.jdom.jdom2",
+      "versionInfo": "2.0.6.1",
+      "packageFileName": "jdom2-2.0.6.1.jar",
+      "supplier": "Organization: JDOM",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://jdom.org/",
+      "licenseConcluded": "LicenseRef-bc09d46229274243b8e3dad11c5e6f77",
+      "licenseDeclared": "LicenseRef-bc09d46229274243b8e3dad11c5e6f77",
+      "copyrightText": "Copyright (C) 2000-2012 Jason Hunter \u0026 Brett McLaughlin.\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jdom/jdom2@2.0.6.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5E32BCFA19223931700E04FF7E675D31295B0A1AACBF3FDC533979D29A180C9F",
+      "name": "com.google.protobuf.protobuf-java",
+      "versionInfo": "4.0.0-rc-2",
+      "packageFileName": "protobuf-java-4.0.0-rc-2.jar",
+      "supplier": "Person: Hao Nguyen (haon@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/4.0.0-rc-2/protobuf-java-4.0.0-rc-2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://developers.google.com/protocol-buffers/",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright 2008 Google Inc.  All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java@4.0.0-rc-2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9E1FE0A8B6C6040A6F48DFD30F91790C48CD068CFC71F8156753AAC8BADB31C8",
+      "name": "com.aliyun.kms.kms-transfer-client",
+      "versionInfo": "0.1.0",
+      "packageFileName": "kms-transfer-client-0.1.0.jar",
+      "supplier": "Person: Aliyun SDK (aliyunsdk@aliyun.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/aliyun/kms/kms-transfer-client/0.1.0/kms-transfer-client-0.1.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.aliyun.com",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "Copyright (C) Alibaba Cloud Computing\r\nAll rights reserved.\r\n\u7248\u6743\u6240\u6709 \uFF08C\uFF09\u963F\u91CC\u4E91\u8BA1\u7B97\u6709\u9650\u516C\u53F8\r\nhttp://www.aliyun.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.aliyun.kms/kms-transfer-client@0.1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3F9F311F5FA9B01BABE86507C31298A350F5D921B472581D41E5CEC7AE53E2BA",
+      "name": "com.google.code.gson.gson",
+      "versionInfo": "2.10.1",
+      "packageFileName": "gson-2.10.1.jar",
+      "supplier": "Organization: Google",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/gson",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2008 Google Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.10.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5234D066964036056BED313628143E0AEBC0D5F0744CC6FE3C80651967AB65E4",
+      "name": "com.aliyun.aliyun-java-sdk-kms",
+      "versionInfo": "2.11.0",
+      "packageFileName": "aliyun-java-sdk-kms-2.11.0.jar",
+      "supplier": "Person: Aliyun SDK (aliyunsdk@aliyun.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/aliyun/aliyun-java-sdk-kms/2.11.0/aliyun-java-sdk-kms-2.11.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.aliyun.com",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2009-present, Alibaba Cloud All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.aliyun/aliyun-java-sdk-kms@2.11.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-0D90FBEF1B712872B0952140CF5A140E07F1F6BBB2F7334514019C0616F1DD56",
+      "name": "commons-codec.commons-codec",
+      "versionInfo": "1.11",
+      "packageFileName": "commons-codec-1.11.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://commons.apache.org/proper/commons-codec/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2002-2017 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-codec/commons-codec@1.11"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8ADBAC4D8ABE141CA47D254A8592215F80686425E49FE12D7D6BB93118DD87FF",
+      "name": "com.aliyun.aliyun-java-sdk-core",
+      "versionInfo": "4.5.10",
+      "packageFileName": "aliyun-java-sdk-core-4.5.10.jar",
+      "supplier": "Person: Aliyun SDK (aliyunsdk@aliyun.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/aliyun/aliyun-java-sdk-core/4.5.10/aliyun-java-sdk-core-4.5.10.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.aliyun.com",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2009-present, Alibaba Cloud All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.aliyun/aliyun-java-sdk-core@4.5.10"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-67B7F72CF24F66FF0ABDAE14D0A285846EC32F96E70A89B13424388D26D5F407",
+      "name": "org.codehaus.jettison.jettison",
+      "versionInfo": "1.5.4",
+      "packageFileName": "jettison-1.5.4.jar",
+      "supplier": "Person: The Jettison Team",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.5.4/jettison-1.5.4.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/jettison-json/jettison",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.codehaus.jettison/jettison@1.5.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-CF2A9D0DF09B20636A90B98FC0A34FB9A0459B3E084C9AE8E060DB680EEC0F36",
+      "name": "org.dom4j.dom4j",
+      "versionInfo": "2.1.4",
+      "packageFileName": "dom4j-2.1.4.jar",
+      "supplier": "Person: Filip Jirs\u00E1k (filip@jirsak.org)",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/dom4j/dom4j/2.1.4/dom4j-2.1.4.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://dom4j.github.io/",
+      "licenseConcluded": "Plexus",
+      "licenseDeclared": "Plexus",
+      "copyrightText": "Copyright 2001-2023 \u00A9 MetaStuff, Ltd. and DOM4J contributors. All Rights Reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.dom4j/dom4j@2.1.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B173B85824BD4D354FD3C79AAA89CB9D625CE51489ADD0443F29AD45D11FA610",
+      "name": "io.opentracing.opentracing-api",
+      "versionInfo": "0.33.0",
+      "packageFileName": "opentracing-api-0.33.0.jar",
+      "supplier": "Organization: OpenTracing",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/opentracing/opentracing-java",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2016-2019 The OpenTracing Authors",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.opentracing/opentracing-api@0.33.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-493BB32DBB816DE7F6378A15E4868BE68872F9FC05871E4803C3F96037F3EFE3",
+      "name": "com.aliyun.alibabacloud-dkms-gcs-openapi-util",
+      "versionInfo": "0.2.8",
+      "packageFileName": "alibabacloud-dkms-gcs-openapi-util-0.2.8.jar",
+      "supplier": "Person: Aliyun SDK (aliyunsdk@aliyun.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/aliyun/alibabacloud-dkms-gcs-openapi-util/0.2.8/alibabacloud-dkms-gcs-openapi-util-0.2.8.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.aliyun.com",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (C) Alibaba Cloud Computing\r\nAll rights reserved.\r\n\r\n\u7248\u6743\u6240\u6709 \uFF08C\uFF09\u963F\u91CC\u4E91\u8BA1\u7B97\u6709\u9650\u516C\u53F8\r\n\r\nhttp://www.aliyun.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.aliyun/alibabacloud-dkms-gcs-openapi-util@0.2.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7EFEDE13EF63C3203218645FA1D9BB96F491358A6E149CEE3F0E8AE2677E27AA",
+      "name": "com.google.errorprone.error_prone_annotations",
+      "versionInfo": "2.3.4",
+      "packageFileName": "error_prone_annotations-2.3.4.jar",
+      "supplier": "Organization: Google (opensource@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://nexus.sonatype.org/oss-repository-hosting.html",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-066E7598A9BFEFF790B5A06F03BBE76FEDB3D31F458262DEAD6BD58D03A01F0B",
+      "name": "com.aliyun.tea-util",
+      "versionInfo": "0.2.7",
+      "packageFileName": "tea-util-0.2.7.jar",
+      "supplier": "Person: Aliyun SDK (aliyunsdk@aliyun.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/aliyun/tea-util/0.2.7/tea-util-0.2.7.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.aliyun.com",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (C) Alibaba Cloud Computing\r\nAll rights reserved.\r\n\r\n\u7248\u6743\u6240\u6709 \uFF08C\uFF09\u963F\u91CC\u4E91\u8BA1\u7B97\u6709\u9650\u516C\u53F8\r\n\r\nhttp://www.aliyun.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.aliyun/tea-util@0.2.7"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-950ADF11B4554B29E9B32F2917A21F7E0C86EBB80BB1413FF34EF85503533258",
+      "name": "com.aliyun.alibabacloud-dkms-gcs-openapi-credential",
+      "versionInfo": "0.2.8",
+      "packageFileName": "alibabacloud-dkms-gcs-openapi-credential-0.2.8.jar",
+      "supplier": "Person: Aliyun SDK (aliyunsdk@aliyun.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/aliyun/alibabacloud-dkms-gcs-openapi-credential/0.2.8/alibabacloud-dkms-gcs-openapi-credential-0.2.8.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.aliyun.com",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (C) Alibaba Cloud Computing\r\nAll rights reserved.\r\n\r\n\u7248\u6743\u6240\u6709 \uFF08C\uFF09\u963F\u91CC\u4E91\u8BA1\u7B97\u6709\u9650\u516C\u53F8\r\n\r\nhttp://www.aliyun.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.aliyun/alibabacloud-dkms-gcs-openapi-credential@0.2.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6F9E20BB55AC2F7ED700B286948D6C5F334178952743047FC224D4306870CAAB",
+      "name": "com.google.protobuf.protobuf-java-util",
+      "versionInfo": "4.0.0-rc-2",
+      "packageFileName": "protobuf-java-util-4.0.0-rc-2.jar",
+      "supplier": "Person: Hao Nguyen (haon@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java-util/4.0.0-rc-2/protobuf-java-util-4.0.0-rc-2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://developers.google.com/protocol-buffers/",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright 2008 Google Inc.  All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java-util@4.0.0-rc-2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-EE88C0DE176412E102A4E37ABF35A80ABAC74AFC3328B3D32491524AB71AAE0B",
+      "name": "com.aliyun.aliyun-java-core",
+      "versionInfo": "0.2.11-beta",
+      "packageFileName": "aliyun-java-core-0.2.11-beta.jar",
+      "supplier": "Person: Aliyun SDK (aliyunsdk@aliyun.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/aliyun/aliyun-java-core/0.2.11-beta/aliyun-java-core-0.2.11-beta.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.aliyun.com",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (C) Alibaba Cloud Computing\r\nAll rights reserved.\r\n\r\n\u7248\u6743\u6240\u6709 \uFF08C\uFF09\u963F\u91CC\u4E91\u8BA1\u7B97\u6709\u9650\u516C\u53F8\r\n\r\nhttp://www.aliyun.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.aliyun/aliyun-java-core@0.2.11-beta"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-06E865333CEFEBB2892407B00C7E7891FD9AEB963F3D889CA5186DCAA18EBE86",
+      "name": "org.jacoco.org.jacoco.agent",
+      "versionInfo": "0.8.5",
+      "packageFileName": "org.jacoco.agent-0.8.5.jar",
+      "supplier": "Organization: Mountainminds GmbH \u0026 Co. KG",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://jacoco.org",
+      "licenseConcluded": "EPL-2.0",
+      "licenseDeclared": "EPL-2.0",
+      "copyrightText": "Copyright (c) 2009, 2019 Mountainminds GmbH \u0026 Co. KG and Contributors",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.jacoco/org.jacoco.agent@0.8.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7F41171601F43B6AC34E7A3F2EE9E090C7252DB036F652524FA17976A6055425",
+      "name": "com.aliyun.aliyun-java-sdk-ram",
+      "versionInfo": "3.1.0",
+      "packageFileName": "aliyun-java-sdk-ram-3.1.0.jar",
+      "supplier": "Person: Aliyun SDK (aliyunsdk@aliyun.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/aliyun/aliyun-java-sdk-ram/3.1.0/aliyun-java-sdk-ram-3.1.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.aliyun.com",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (c) 2009-present, Alibaba Cloud All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.aliyun/aliyun-java-sdk-ram@3.1.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-E9B9CB33F9E9D5911626689322AD7CF7D538DF9F739E5DB26198B7574F830318",
+      "name": "javax.activation.javax.activation-api",
+      "versionInfo": "1.2.0",
+      "packageFileName": "javax.activation-api-1.2.0.jar",
+      "supplier": "Organization: Oracle",
+      "downloadLocation": "https://repo1.maven.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://java.net/",
+      "licenseConcluded": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "licenseDeclared": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "copyrightText": "Copyright (c) 1997-2017 Oracle and/or its affiliates. All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/javax.activation/javax.activation-api@1.2.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "name": "org.hamcrest.hamcrest-core",
+      "versionInfo": "1.3",
+      "packageFileName": "hamcrest-core-1.3.jar",
+      "supplier": "Organization: Hamcrest",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/hamcrest/JavaHamcrest",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "copyrightText": "Copyright (c) 2000-2006, www.hamcrest.org\r\nAll rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.hamcrest/hamcrest-core@1.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5A1643F0D3C55D2747BC69F2688F7E2B71D66ED56AC9B846DF4230C7D54FC98B",
+      "name": "io.opentracing.opentracing-util",
+      "versionInfo": "0.33.0",
+      "packageFileName": "opentracing-util-0.33.0.jar",
+      "supplier": "Organization: OpenTracing",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/opentracing/opentracing-util/0.33.0/opentracing-util-0.33.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/opentracing/opentracing-java",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2016-2019 The OpenTracing Authors",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.opentracing/opentracing-util@0.33.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-DC9A43EA0FBBEDE300165236A296A90DF10340412B46F1CFB9136678EE3A2360",
+      "name": "com.squareup.okio.okio",
+      "versionInfo": "1.15.0",
+      "packageFileName": "okio-1.15.0.jar",
+      "supplier": "Organization: Square",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/squareup/okio/okio/1.15.0/okio-1.15.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/square/okio",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2013 Square, Inc.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.squareup.okio/okio@1.15.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-D4AD09F601D02E46CC927125FAA60A7CB419288E345F62E4E84CCD09509227D1",
+      "name": "io.opentracing.opentracing-noop",
+      "versionInfo": "0.33.0",
+      "packageFileName": "opentracing-noop-0.33.0.jar",
+      "supplier": "Organization: OpenTracing",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/opentracing/opentracing-noop/0.33.0/opentracing-noop-0.33.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/opentracing/opentracing-java",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2016-2019 The OpenTracing Authors",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.opentracing/opentracing-noop@0.33.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3778ECFC4F2ABF4952973BB0806E77BA0704BA969D8CCA12AE597E4A42AC5CF8",
+      "name": "junit.junit",
+      "versionInfo": "4.13.1",
+      "packageFileName": "junit-4.13.1.jar",
+      "supplier": "Organization: JUnit",
+      "downloadLocation": "https://repo1.maven.org/maven2/junit/junit/4.13.1/junit-4.13.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://junit.org",
+      "licenseConcluded": "EPL-1.0",
+      "licenseDeclared": "EPL-1.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/junit/junit@4.13.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-812BCF2A299778BDA7DA2D065925D770356C569688635FC7268D2A70F474CB6C",
+      "name": "org.bouncycastle.bcprov-jdk15on",
+      "versionInfo": "1.67",
+      "packageFileName": "bcprov-jdk15on-1.67.jar",
+      "supplier": "Organization: The Legion of the Bouncy Castle Inc",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.67/bcprov-jdk15on-1.67.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.bouncycastle.org/java.html",
+      "licenseConcluded": "LicenseRef-30917c2ee45f4b5aa110dd4b1327b651",
+      "licenseDeclared": "LicenseRef-30917c2ee45f4b5aa110dd4b1327b651",
+      "copyrightText": "Copyright (c) 2000-2020 The Legion of the Bouncy Castle Inc. (http://www.bouncycastle.org)",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.67"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5B8F55DAE8DE58F24A192155E0D6BA789FDB6B87B754AD506AEEE615B5321D03",
+      "name": "io.opentelemetry.opentelemetry-api",
+      "versionInfo": "1.38.0",
+      "packageFileName": "opentelemetry-api-1.38.0.jar",
+      "supplier": "Person: OpenTelemetry",
+      "downloadLocation": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-api/1.38.0/opentelemetry-api-1.38.0.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/open-telemetry/opentelemetry-java",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright The OpenTelemetry Authors",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.opentelemetry/opentelemetry-api@1.38.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-AFFE72CE7DE0094385E74A74110C52C3D3D0468227ABC70064F43BDECE5752B8",
+      "name": "commons-logging.commons-logging",
+      "versionInfo": "1.2",
+      "packageFileName": "commons-logging-1.2.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://commons.apache.org/proper/commons-logging/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2003-2014 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/commons-logging/commons-logging@1.2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2BFE540C3B3DCBF119BCB47E5D15F109D9D726F46BFEA05BBF2CB768E5D80C68",
+      "name": "org.apache.httpcomponents.httpclient",
+      "versionInfo": "4.5.13",
+      "packageFileName": "httpclient-4.5.13.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://hc.apache.org/httpcomponents-client",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 1999-2020 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-A7B3CFCFFFA5B8E1A7E99532B3707C25892E4FF0633DF0834543219E93F47B29",
+      "name": "com.aliyun.alibabacloud-dkms-gcs-openapi",
+      "versionInfo": "0.2.8",
+      "packageFileName": "alibabacloud-dkms-gcs-openapi-0.2.8.jar",
+      "supplier": "Person: Aliyun SDK (aliyunsdk@aliyun.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/aliyun/alibabacloud-dkms-gcs-openapi/0.2.8/alibabacloud-dkms-gcs-openapi-0.2.8.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.aliyun.com",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (C) Alibaba Cloud Computing\r\nAll rights reserved.\r\n\r\n\u7248\u6743\u6240\u6709 \uFF08C\uFF09\u963F\u91CC\u4E91\u8BA1\u7B97\u6709\u9650\u516C\u53F8\r\n\r\nhttp://www.aliyun.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.aliyun/alibabacloud-dkms-gcs-openapi@0.2.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-B6DCB902446D456C9AAA390D7D9004B16736CFF45DB803BA725C3F3C58C7C3A6",
+      "name": "com.aliyun.oss.aliyun-sdk-oss",
+      "versionInfo": "3.18.1",
+      "packageFileName": "aliyun-sdk-oss-3.18.1.jar",
+      "supplier": "Person: Aliyun SDK (aliyunsdk@aliyun.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/aliyun/oss/aliyun-sdk-oss/3.18.1/aliyun-sdk-oss-3.18.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.aliyun.com/product/oss",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.aliyun.oss/aliyun-sdk-oss@3.18.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-047405E423C74B49ADACCBFA5B8E91F01226484CFCB3773E51AB36D31A89316B",
+      "name": "com.aliyun.alibabacloud-dkms-gcs-sdk",
+      "versionInfo": "0.2.8",
+      "packageFileName": "alibabacloud-dkms-gcs-sdk-0.2.8.jar",
+      "supplier": "Person: Aliyun SDK (aliyunsdk@aliyun.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/aliyun/alibabacloud-dkms-gcs-sdk/0.2.8/alibabacloud-dkms-gcs-sdk-0.2.8.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://www.aliyun.com",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright (C) Alibaba Cloud Computing\r\nAll rights reserved.\r\n\r\n\u7248\u6743\u6240\u6709 \uFF08C\uFF09\u963F\u91CC\u4E91\u8BA1\u7B97\u6709\u9650\u516C\u53F8\r\n\r\nhttp://www.aliyun.com",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.aliyun/alibabacloud-dkms-gcs-sdk@0.2.8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-86677EC52D50C451A2677ECAD8B796F3380BCEEDC54DCEA092D9FAA3AC54DCC6",
+      "name": "com.google.j2objc.j2objc-annotations",
+      "versionInfo": "1.3",
+      "packageFileName": "j2objc-annotations-1.3.jar",
+      "supplier": "Organization: Google (opensource@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/j2objc/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-D67F715DF5B77605C0591AB8C4BD3FF9558F8E55E0E220F8B9B511159AC21E0C",
+      "name": "org.apache.httpcomponents.httpcore",
+      "versionInfo": "4.4.13",
+      "packageFileName": "httpcore-4.4.13.jar",
+      "supplier": "Organization: The Apache Software Foundation",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "http://hc.apache.org/httpcomponents-core-ga",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2005-2020 The Apache Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-BD91CFC4C2D44C78AC9C12F359C8E523949E561C343EA301D2D77274C963381E",
+      "name": "com.google.guava.listenablefuture",
+      "versionInfo": "9999.0-empty-to-avoid-conflict-with-guava",
+      "packageFileName": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "supplier": "Person: Kevin Bourrillion (kevinb@google.com)",
+      "downloadLocation": "https://repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/google/guava",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-41B6FE0F59E57AC5E588E26789063BB60DAAF35C1036443850EA44306F69AFD6",
+      "name": "javax.xml.bind.jaxb-api",
+      "versionInfo": "2.3.1",
+      "packageFileName": "jaxb-api-2.3.1.jar",
+      "supplier": "Organization: Oracle Corporation",
+      "downloadLocation": "https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/javaee/jaxb-spec",
+      "licenseConcluded": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "licenseDeclared": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "copyrightText": "Copyright (c) 2017-2018 Oracle and/or its affiliates. All rights reserved.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/javax.xml.bind/jaxb-api@2.3.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5605F70A47377E07721BC2F7482D27D8459F96A0FE92B3264AA9915C6A77D60B",
+      "name": "org.checkerframework.checker-compat-qual",
+      "versionInfo": "2.5.5",
+      "packageFileName": "checker-compat-qual-2.5.5.jar",
+      "supplier": "Organization: typetools",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://checkerframework.org",
+      "licenseConcluded": "GPL-2.0-only WITH Classpath-exception-2.0 AND MIT",
+      "licenseDeclared": "GPL-2.0-only WITH Classpath-exception-2.0 AND MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.checkerframework/checker-compat-qual@2.5.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-RootPackage",
+      "name": "aliyun-oss-java-sdk",
+      "versionInfo": "9a0cd47e4a0d3b2044700e08f5a4e540feefa16e",
+      "packageFileName": "./",
+      "supplier": "Organization: aliyun",
+      "downloadLocation": "git\u002Bhttps://github.com/aliyun/aliyun-oss-java-sdk.git",
+      "filesAnalyzed": false,
+      "checksums": [],
+      "homepage": "https://github.com/aliyun/aliyun-oss-java-sdk",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/aliyun/spdx.org/aliyun-oss-java-sdk@9a0cd47e4a0d3b2044700e08f5a4e540feefa16e?tag_id=2b41a66e-0cdb-4c4c-9139-b9952c37aa8e"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-CE21F063D08F3EC741C0974FC22750482D4C643F9EB72C4DFB5D1C05F643FC4D",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B21DE682C3A71A16528786F720CDF7ADE575017507ED4C9058EAA8F1A9FF8F2B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-CBB0379382A2E6149DE1C2C0B0ECA42232461AB2F5ED5DE0D9037A4CBB840020",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-088E0C0205C72F071950661349C37873F4EAE3412FB260A8DC969CE6AE0D84FA",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4434AE7B28B0C167DA03B8393BAA5ECB8BE0854BB65CD1FE6BC15529EF1B2DB9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-41B6FE0F59E57AC5E588E26789063BB60DAAF35C1036443850EA44306F69AFD6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-D67F715DF5B77605C0591AB8C4BD3FF9558F8E55E0E220F8B9B511159AC21E0C",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-047405E423C74B49ADACCBFA5B8E91F01226484CFCB3773E51AB36D31A89316B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-A7B3CFCFFFA5B8E1A7E99532B3707C25892E4FF0633DF0834543219E93F47B29",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-AFFE72CE7DE0094385E74A74110C52C3D3D0468227ABC70064F43BDECE5752B8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-812BCF2A299778BDA7DA2D065925D770356C569688635FC7268D2A70F474CB6C",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-3778ECFC4F2ABF4952973BB0806E77BA0704BA969D8CCA12AE597E4A42AC5CF8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-D4AD09F601D02E46CC927125FAA60A7CB419288E345F62E4E84CCD09509227D1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-DC9A43EA0FBBEDE300165236A296A90DF10340412B46F1CFB9136678EE3A2360",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-5A1643F0D3C55D2747BC69F2688F7E2B71D66ED56AC9B846DF4230C7D54FC98B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-C4B71B84E040240C8D909A275C612D9062279F55E209EA3E2D9F1750D268DF0F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-E9B9CB33F9E9D5911626689322AD7CF7D538DF9F739E5DB26198B7574F830318",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-7F41171601F43B6AC34E7A3F2EE9E090C7252DB036F652524FA17976A6055425",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-06E865333CEFEBB2892407B00C7E7891FD9AEB963F3D889CA5186DCAA18EBE86",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-EE88C0DE176412E102A4E37ABF35A80ABAC74AFC3328B3D32491524AB71AAE0B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-6F9E20BB55AC2F7ED700B286948D6C5F334178952743047FC224D4306870CAAB",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-950ADF11B4554B29E9B32F2917A21F7E0C86EBB80BB1413FF34EF85503533258",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-67B7F72CF24F66FF0ABDAE14D0A285846EC32F96E70A89B13424388D26D5F407",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-0D90FBEF1B712872B0952140CF5A140E07F1F6BBB2F7334514019C0616F1DD56",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-5234D066964036056BED313628143E0AEBC0D5F0744CC6FE3C80651967AB65E4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-3F9F311F5FA9B01BABE86507C31298A350F5D921B472581D41E5CEC7AE53E2BA",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-5E32BCFA19223931700E04FF7E675D31295B0A1AACBF3FDC533979D29A180C9F",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-5007E8EC7C2A397BEFD7191DDB84696DF19E90FB249FB284136C2B1F6178A764",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-066E7598A9BFEFF790B5A06F03BBE76FEDB3D31F458262DEAD6BD58D03A01F0B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-7EFEDE13EF63C3203218645FA1D9BB96F491358A6E149CEE3F0E8AE2677E27AA",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-493BB32DBB816DE7F6378A15E4868BE68872F9FC05871E4803C3F96037F3EFE3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B173B85824BD4D354FD3C79AAA89CB9D625CE51489ADD0443F29AD45D11FA610",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-CF2A9D0DF09B20636A90B98FC0A34FB9A0459B3E084C9AE8E060DB680EEC0F36",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-8ADBAC4D8ABE141CA47D254A8592215F80686425E49FE12D7D6BB93118DD87FF",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-5605F70A47377E07721BC2F7482D27D8459F96A0FE92B3264AA9915C6A77D60B",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-BD91CFC4C2D44C78AC9C12F359C8E523949E561C343EA301D2D77274C963381E",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-86677EC52D50C451A2677ECAD8B796F3380BCEEDC54DCEA092D9FAA3AC54DCC6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-B6DCB902446D456C9AAA390D7D9004B16736CFF45DB803BA725C3F3C58C7C3A6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-2BFE540C3B3DCBF119BCB47E5D15F109D9D726F46BFEA05BBF2CB768E5D80C68",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-5B8F55DAE8DE58F24A192155E0D6BA789FDB6B87B754AD506AEEE615B5321D03",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-9E1FE0A8B6C6040A6F48DFD30F91790C48CD068CFC71F8156753AAC8BADB31C8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-4804FBA80CB5F17DC5AE39149358D34F3B8583DAABE03C8E99A841CAA8290DEB",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-A9C924AD79561EFB164CED418D301DD0AFDDC87F2179B97885139633C2D34961",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-16CA24C6CD9B249AF0001C76028354A309F02D32C48C780AEB92A987ADE65836",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-3AB135EFE31EC6F178965271F1EF451737E0AAE7B5DE12B468E98F3A75BA7764",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-RootPackage",
+      "relatedSpdxElement": "SPDXRef-Package-AC5E137A2F9F3C66235FAF549B1FA21E4D730682AF23F9DE60FA25EBBA61D9C5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "relationshipType": "DESCRIBES"
+    }
+  ],
+  "documentDescribes": ["SPDXRef-RootPackage"]
+}
