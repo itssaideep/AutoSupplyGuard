@@ -16,6 +16,7 @@ htmlcov/
 # Data Archives & Large Files
 data/raw/wild_sboms/*.zstd
 data/raw/wild_sboms/*.tar
+data/raw/wild_sboms/sboms-02-filenames.csv
 data/raw/curated_sboms/*.zip
 data/raw/automotive_vulnerabilities/CV_Vulnerability_22-24/.git/
 data/interim/
