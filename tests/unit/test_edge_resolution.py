@@ -1,10 +1,10 @@
 """Unit tests verifying dependency edge extraction without document-level inflation (A2)."""
 
 import json
-from pathlib import Path
 import pytest
 from app.ingestion.spdx_parser import SPDXParser
 from app.ingestion.cyclonedx_parser import CycloneDXParser
+from app.core.config import settings
 
 def test_spdx_filters_document_describes_edges():
     """Verify that SPDXRef-DOCUMENT DESCRIBES relationships are excluded from component dependencies."""
@@ -112,7 +112,7 @@ def test_cyclonedx_metadata_component_packaging_handling():
 
 def test_curated_benchmark_exact_949_edge_invariant():
     """Verifies that across the 46 curated benchmark files, exactly 949 component dependencies exist."""
-    curated_dir = Path("data/raw/curated_sboms/extracted")
+    curated_dir = settings.RAW_DATA_DIR / "curated_sboms" / "extracted"
     if not curated_dir.exists():
         pytest.skip("Curated SBOMs raw directory not extracted")
 

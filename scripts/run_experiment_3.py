@@ -2,7 +2,6 @@
 
 import argparse
 from datetime import timedelta, date
-from pathlib import Path
 import pandas as pd
 from app.assurance.catalog import get_standard_claims
 from app.assurance.evaluator import AssuranceEngine
@@ -16,8 +15,9 @@ from app.models.enums import (
     VulnerabilityMatchMethod,
     ConfidenceCategory
 )
+from app.core.config import settings
 
-RESULTS_DIR = Path("research/results")
+RESULTS_DIR = settings.RESULTS_DIR
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 def run_experiment_3(smoke: bool = False):

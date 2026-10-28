@@ -15,7 +15,6 @@ from __future__ import annotations
 import math
 import random
 from datetime import date, timedelta
-from pathlib import Path
 from typing import List, Dict, Any, Tuple
 import pandas as pd
 from app.assurance.evaluator import AssuranceEngine
@@ -31,8 +30,9 @@ from app.models.enums import (
     VulnerabilityMatchMethod,
     ConfidenceCategory
 )
+from app.core.config import settings
 
-RESULTS_DIR = Path("research/results")
+RESULTS_DIR = settings.RESULTS_DIR
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 def wilson_score_interval(k: int, n: int, confidence: float = 0.95) -> Tuple[float, float, float]:

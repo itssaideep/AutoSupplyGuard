@@ -1,7 +1,6 @@
 """Experiment 4: Scalability, Memory & Graph Performance Profiling (RQ4)."""
 
 import argparse
-from pathlib import Path
 import time
 import tracemalloc
 import psutil
@@ -9,13 +8,14 @@ import pandas as pd
 from app.ingestion.manager import SBOMIngestionManager
 from app.sbom_quality.calculator import QualityAssessmentEngine
 from app.traceability.graph import TraceabilityGraph
+from app.core.config import settings
 
-RESULTS_DIR = Path("research/results")
+RESULTS_DIR = settings.RESULTS_DIR
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 def run_experiment_4(smoke: bool = False):
     print("=== Running Experiment 4: Scalability & Graph Robustness (RQ4) ===")
-    curated_dir = Path("data/raw/curated_sboms/extracted")
+    curated_dir = settings.RAW_DATA_DIR / "curated_sboms" / "extracted"
     if not curated_dir.exists():
         print("[ERROR] Curated SBOMs directory not found.")
         return

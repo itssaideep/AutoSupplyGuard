@@ -6,8 +6,9 @@ import json
 import urllib.request
 from pathlib import Path
 from typing import List, Dict, Any
+from app.core.config import settings
 
-MANIFEST_PATH = Path("data/manifests/dataset_manifest.json")
+MANIFEST_PATH = settings.MANIFESTS_DIR / "dataset_manifest.json"
 
 def verify_file_sha256(file_path: Path, expected_sha256: str) -> bool:
     """Computes SHA-256 of file and checks against expected digest."""
@@ -31,7 +32,7 @@ def fetch_and_verify_data(verify_only: bool = False, online: bool = False) -> bo
     all_ok = True
 
     for item in manifest:
-        local_path = Path(item["local_path"])
+        local_path = settings.BASE_DIR / item["local_path"]
         name = item["name"]
         expected_sha = item["sha256"]
         source_url = item["source_url"]

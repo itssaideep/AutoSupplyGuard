@@ -1,7 +1,6 @@
 """Test suite for Experiment B1: Robustness of Vulnerability Matching Under Degradation (Milestone 8 / RQ1)."""
 
 import pandas as pd
-from pathlib import Path
 from scripts.run_experiment_b1 import (
     load_curated_clean_components,
     build_offline_ground_truth,
@@ -9,6 +8,7 @@ from scripts.run_experiment_b1 import (
     run_degradation_experiment
 )
 from app.models.enums import IdentityResolutionStatus
+from app.core.config import settings
 
 def test_curated_clean_components_loaded():
     """Verify that all 995 components from 46 curated benchmark SBOMs are loaded."""
@@ -48,7 +48,7 @@ def test_experiment_b1_results_and_wild_sample():
     """Verify that Experiment B1 outputs exist and satisfy quality and stratification requirements."""
     run_degradation_experiment()
 
-    res_path = Path("research/results/exp1_degradation_results.csv")
+    res_path = settings.RESULTS_DIR / "exp1_degradation_results.csv"
     assert res_path.exists()
     df_deg = pd.read_csv(res_path)
     assert len(df_deg) == 30  # 5 fields x 6 perturbation rates
@@ -59,7 +59,7 @@ def test_experiment_b1_results_and_wild_sample():
     assert df_ver.iloc[-1]["candidate_share_mean"] > df_ver.iloc[0]["candidate_share_mean"]
 
     # Wild SBOM sample verification
-    strat_path = Path("research/results/exp1_wild_stratified_sample.csv")
+    strat_path = settings.RESULTS_DIR / "exp1_wild_stratified_sample.csv"
     assert strat_path.exists()
     df_strat = pd.read_csv(strat_path)
     assert len(df_strat) == 800  # 200 per band x 4 bands

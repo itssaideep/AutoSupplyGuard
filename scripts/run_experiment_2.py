@@ -1,7 +1,6 @@
 """Experiment 2: Dependency Impact & Context-Aware Prioritisation (RQ2)."""
 
 import argparse
-from pathlib import Path
 import pandas as pd
 from app.traceability.graph import TraceabilityGraph
 from app.traceability.prioritisation import VulnerabilityPrioritiser
@@ -16,8 +15,9 @@ from app.models.enums import (
     ConfidenceCategory,
     DependencyScope
 )
+from app.core.config import settings
 
-RESULTS_DIR = Path("research/results")
+RESULTS_DIR = settings.RESULTS_DIR
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 def run_experiment_2(smoke: bool = False):

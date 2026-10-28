@@ -1,13 +1,13 @@
 """Test suite for Experiment B2: Factorial Assurance Corpus Verification (Milestone 8 / RQ3)."""
 
 import pandas as pd
-from pathlib import Path
 from scripts.run_experiment_b2 import (
     build_factorial_corpus,
     compute_cohens_kappa,
     wilson_score_interval,
     run_experiment_b2
 )
+from app.core.config import settings
 
 def test_factorial_corpus_exact_size():
     """Verify that the B2 factorial corpus contains exactly N=98 cases meeting the sample specification."""
@@ -41,7 +41,7 @@ def test_wilson_score_interval_upper_bound_zero_errors():
 def test_experiment_b2_zero_false_assurance_and_perfect_accuracy():
     """Verify that AutoSupplyGuard achieves 100% accuracy and 0 false assurances (FAR=0.0%) on N=98."""
     run_experiment_b2()
-    results_path = Path("research/results/exp3_assurance_cases.csv")
+    results_path = settings.RESULTS_DIR / "exp3_assurance_cases.csv"
     assert results_path.exists()
 
     df = pd.read_csv(results_path)

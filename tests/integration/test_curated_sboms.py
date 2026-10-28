@@ -1,12 +1,12 @@
 """Integration tests running ingestion and quality assessment on Curated SBOM Benchmark."""
 
-from pathlib import Path
 import pytest
 from app.ingestion.manager import SBOMIngestionManager
 from app.sbom_quality.calculator import QualityAssessmentEngine
 from app.models.enums import SBOMValidationStatus, SBOMFormat
+from app.core.config import settings
 
-CURATED_DIR = Path("data/raw/curated_sboms/extracted")
+CURATED_DIR = settings.RAW_DATA_DIR / "curated_sboms" / "extracted"
 
 @pytest.mark.skipif(not CURATED_DIR.exists(), reason="Curated SBOM dataset not extracted")
 def test_ingest_all_curated_sboms():

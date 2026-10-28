@@ -5,9 +5,10 @@ Evidence-Driven Cybersecurity Assurance for Multi-Tier Automotive Supply Chains 
 from pathlib import Path
 import streamlit as st
 import pandas as pd
-import json
 from app.api.state import state
 from app.models.enums import IdentityResolutionStatus, VulnerabilityApplicability, AssuranceClaimStatus
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
 
 st.set_page_config(
     page_title="AutoSupplyGuard — Research Dashboard",
@@ -70,7 +71,7 @@ if nav == "1. Executive Overview":
         "for automotive supply chains."
     )
     st.markdown("---")
-    
+
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.metric("Total SBOMs Ingested", len(state.sboms))
@@ -82,7 +83,7 @@ if nav == "1. Executive Overview":
     with col4:
         gap_count = len(state.latest_evaluation.gap_summary) if state.latest_evaluation else 0
         st.metric("Assurance Gaps Detected", gap_count, delta_color="inverse")
-    
+
     st.markdown("### Operational Telemetry")
     colA, colB, colC = st.columns(3)
     with colA:
@@ -94,7 +95,7 @@ if nav == "1. Executive Overview":
     with colC:
         far = state.latest_evaluation.false_assurance_rate if state.latest_evaluation else 0.0
         st.metric("False Assurance Rate (FAR)", f"{far * 100:.2f}%", help="Must strictly be 0.00%")
-    
+
     st.markdown("---")
     st.subheader("Recent Ingested SBOMs")
     sbom_rows = []
@@ -121,7 +122,7 @@ elif nav == "2. SBOM Quality Assessment":
         "defined in `research/metrics.md`."
     )
     st.markdown("---")
-    
+
     metrics_data = []
     for s in state.sboms.values():
         m = s.quality_metrics
@@ -136,7 +137,7 @@ elif nav == "2. SBOM Quality Assessment":
                 "Matchability (M_matchable)": f"{m.vulnerability_matchability_index * 100:.1f}%"
             })
     st.dataframe(pd.DataFrame(metrics_data), use_container_width=True)
-    
+
     st.markdown("### Metric Formulation & Interpretation")
     st.markdown("""
     - **Completeness ($M_{\\text{comp}}$):** Proportion of components possessing Name, Version, and either PURL or CPE.
@@ -156,7 +157,7 @@ elif nav == "3. Vulnerability Prioritisation (RQ2)":
         "**Proposed AutoSupplyGuard Context & Evidence Score**."
     )
     st.markdown("---")
-    
+
     records = state.prioritised_records
     if not records:
         st.warning("No prioritised vulnerability records found. Ingest SBOMs or run analysis.")
@@ -178,7 +179,7 @@ elif nav == "3. Vulnerability Prioritisation (RQ2)":
             })
         df_prio = pd.DataFrame(table_rows)
         st.dataframe(df_prio.sort_values(by="Proposed Rank (Context)"), use_container_width=True)
-        
+
         # Download buttons
         csv_data = df_prio.to_csv(index=False)
         st.download_button("📥 Export Prioritisation Rankings (CSV)", csv_data, "vulnerability_prioritisation.csv", "text/csv")
@@ -193,10 +194,10 @@ elif nav == "4. Multi-Tier Traceability Graph":
         "and **Corporate Relationships**. Strictly differentiates **Documented Real Evidence** from **Synthetic Fixtures**."
     )
     st.markdown("---")
-    
+
     graph_dict = state.graph.to_dict()
     metrics = graph_dict["metrics"]
-    
+
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.metric("Total Nodes", metrics["total_nodes"])
@@ -206,7 +207,7 @@ elif nav == "4. Multi-Tier Traceability Graph":
         st.metric("Products", metrics["product_count"])
     with col4:
         st.metric("Components", metrics["component_count"])
-    
+
     st.markdown("### Verified Real Corporate Relationships (Volvo Group & Partners)")
     real_rels = state.supplier_manager.get_real_relationships()
     rel_rows = []
@@ -229,12 +230,12 @@ elif nav == "5. Cybersecurity Assurance Cases (RQ3)":
     st.title("📋 Evidence-Based Cybersecurity Assurance (RQ3)")
     st.markdown(
         "Structured assurance reasoning for **ISO/SAE 21434** and **UNECE R155** claims. "
-        "Guarantees **Zero False Assurance ($\text{FAR} = 0.0\%$)** by identifying missing, stale, or contradictory evidence."
+        "Guarantees **Zero False Assurance ($\text{FAR} = 0.0\\%$)** by identifying missing, stale, or contradictory evidence."
     )
     st.markdown("---")
-    
+
     eval_res = state.latest_evaluation or state.run_full_assurance_evaluation()
-    
+
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.metric("Total Claims", eval_res.total_claims)
@@ -244,7 +245,7 @@ elif nav == "5. Cybersecurity Assurance Cases (RQ3)":
         st.metric("Insufficient Evidence", eval_res.insufficient_evidence_count)
     with col4:
         st.metric("Contradicted Claims", eval_res.contradicted_count)
-    
+
     st.markdown("### Evaluated Assurance Claims")
     for claim in eval_res.evaluated_claims:
         badge = "🟢" if claim.status == AssuranceClaimStatus.SUPPORTED else "🔴" if claim.status == AssuranceClaimStatus.CONTRADICTED else "🟡"
@@ -267,7 +268,7 @@ elif nav == "6. Empirical Research & Benchmarks":
         "**Wild SBOMs (MSR 2025)**, and **Curated SBOMs (arXiv 2504)**."
     )
     st.markdown("---")
-    
+
     st.markdown("### Audited Datasets Overview")
     st.markdown("""
     | Dataset | Scope | Formats / Standards | Verified Unique Records |
@@ -276,7 +277,7 @@ elif nav == "6. Empirical Research & Benchmarks":
     | **Wild SBOMs** | Large-scale public repository mining (MSR 2025) | CycloneDX (79.7%), SPDX (19.6%) | **78,612 unique SBOMs**, 1.16M filenames |
     | **Curated SBOM Benchmark** | Ground truth open-source benchmark (arXiv:2504.06880) | SPDX-2.2 JSON | **46 projects**, 995 packages, 949 dependencies |
     """)
-    
+
     st.markdown("### Formal Research Questions Status")
     st.markdown("""
     - **RQ1 (SBOM Quality vs Matchability):** Ingestion engine tested across CycloneDX 1.3-1.5 and SPDX 2.2-2.3 with 5 formal quality metrics.

@@ -9,9 +9,10 @@ from app.models.component import Component
 from app.models.product import Product
 from app.models.vulnerability import Vulnerability
 from app.models.sbom import DependencyEdge
+from app.core.config import settings
 
-DEFAULT_REAL_REL_PATH = Path("data/processed/corporate_relationships.json")
-DEFAULT_SYNTH_PATH = Path("data/synthetic/synthetic_supply_chain.json")
+DEFAULT_REAL_REL_PATH = settings.PROCESSED_DATA_DIR / "corporate_relationships.json"
+DEFAULT_SYNTH_PATH = settings.SYNTHETIC_DIR / "synthetic_supply_chain.json"
 
 class SupplierGraphManager:
     """Manages real public corporate evidence and synthetic multi-tier supplier ecosystems."""

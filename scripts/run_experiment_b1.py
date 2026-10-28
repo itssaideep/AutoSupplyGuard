@@ -9,7 +9,6 @@ Additionally conducts quality-stratified sampling across 78,032 Wild SBOMs (Zacc
 """
 
 import random
-from pathlib import Path
 from typing import Dict, List, Any, Tuple
 import numpy as np
 import pandas as pd
@@ -23,11 +22,12 @@ from app.models.vulnerability import Vulnerability
 from app.models.enums import VulnerabilityApplicability, IdentityResolutionStatus
 from app.vulnerability.osv_client import OSVClient
 from app.vulnerability.matcher import VulnerabilityMatcher
+from app.core.config import settings
 
-RESULTS_DIR = Path("research/results")
-FIGURES_DIR = Path("research/figures")
-CURATED_DIR = Path("data/raw/curated_sboms/extracted")
-WILD_SBOMS_CSV = Path("data/raw/wild_sboms/sboms-01.csv")
+RESULTS_DIR = settings.RESULTS_DIR
+FIGURES_DIR = settings.FIGURES_DIR
+CURATED_DIR = settings.RAW_DATA_DIR / "curated_sboms" / "extracted"
+WILD_SBOMS_CSV = settings.RAW_DATA_DIR / "wild_sboms" / "sboms-01.csv"
 
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 FIGURES_DIR.mkdir(parents=True, exist_ok=True)

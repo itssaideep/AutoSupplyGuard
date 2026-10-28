@@ -17,6 +17,9 @@ class Settings(BaseModel):
     SAMPLES_DIR: Path = DATA_DIR / "samples"
     SYNTHETIC_DIR: Path = DATA_DIR / "synthetic"
     MANIFESTS_DIR: Path = DATA_DIR / "manifests"
+    RESEARCH_DIR: Path = BASE_DIR / "research"
+    RESULTS_DIR: Path = RESEARCH_DIR / "results"
+    FIGURES_DIR: Path = RESEARCH_DIR / "figures"
 
     # Evidence & Assurance thresholds
     EVIDENCE_FRESHNESS_DAYS: int = 90  # Default 90-day review freshness window

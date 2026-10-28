@@ -41,6 +41,8 @@ autosupplyguard-exp1 = "scripts.run_experiment_1:main"
 autosupplyguard-exp2 = "scripts.run_experiment_2:main"
 autosupplyguard-exp3 = "scripts.run_experiment_3:main"
 autosupplyguard-exp4 = "scripts.run_experiment_4:main"
+autosupplyguard-b1 = "scripts.run_experiment_b1:main"
+autosupplyguard-b2 = "scripts.run_experiment_b2:main"
 autosupplyguard-fetch = "scripts.fetch_data:main"
 
 [tool.setuptools.packages.find]

@@ -1,3 +1,3 @@
 batch_size_sboms,total_components,total_dependencies,elapsed_seconds,peak_memory_mb,rss_delta_mb,sboms_per_sec,comps_per_sec,graph_nodes,graph_edges
-1,14,13,0.0106,0.16,0.53,94.3,1320.19,14,13
-3,41,38,0.0243,0.24,0.22,123.38,1686.13,41,38
+1,14,13,0.0063,0.16,0.34,159.8,2237.17,14,13
+3,41,38,0.0129,0.25,0.2,232.46,3176.89,41,38

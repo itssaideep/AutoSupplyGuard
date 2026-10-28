@@ -1,14 +1,14 @@
 """Experiment 1: SBOM Quality & Component Matchability (RQ1)."""
 
 import argparse
-from pathlib import Path
 import pandas as pd
 from app.ingestion.manager import SBOMIngestionManager
 from app.sbom_quality.calculator import QualityAssessmentEngine
 from app.vulnerability.automotive_feed import AutomotiveVulnerabilityFeed
 from app.vulnerability.matcher import VulnerabilityMatcher
+from app.core.config import settings
 
-RESULTS_DIR = Path("research/results")
+RESULTS_DIR = settings.RESULTS_DIR
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 def run_experiment_1(smoke: bool = False):
@@ -19,7 +19,7 @@ def run_experiment_1(smoke: bool = False):
     vulns = list(auto_feed.load().values())
     matcher = VulnerabilityMatcher(vulns)
 
-    curated_dir = Path("data/raw/curated_sboms/extracted")
+    curated_dir = settings.RAW_DATA_DIR / "curated_sboms" / "extracted"
     results = []
 
     if curated_dir.exists():
