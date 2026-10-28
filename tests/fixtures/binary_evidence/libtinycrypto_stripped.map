@@ -1,0 +1,25 @@
+Archive member included to satisfy reference by file (symbol)
+
+libtinycrypto.a(cipher.o)
+                              main.o (safe_init)
+
+Discarded input sections
+
+ .text.vulnerable_cipher_decrypt
+                0x0000000000000000       0x80 libtinycrypto.a(cipher.o)
+ .text.unused_dummy_func
+                0x0000000000000000       0x12 libtinycrypto.a(cipher.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+.text           0x0000000000401000      0x400
+ .text.startup  0x0000000000401000       0x40 main.o
+                0x0000000000401000                main
+ .text.safe_init
+                0x0000000000401040       0x30 libtinycrypto.a(cipher.o)
+                0x0000000000401040                safe_init

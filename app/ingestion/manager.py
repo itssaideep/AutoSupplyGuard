@@ -16,23 +16,23 @@ def calculate_sha256(content_bytes: bytes) -> str:
 
 class SBOMIngestionManager:
     """Dispatches SBOM documents to appropriate parser based on inspection."""
-    
+
     def __init__(self):
         self.parsers = [
             SPDXParser(),
             CycloneDXParser(),
         ]
-    
+
     def parse_file(self, file_path: Union[str, Path]) -> ParsedSBOMResult:
         """Parses an SBOM from a local file path."""
         p = Path(file_path)
         if not p.exists():
             raise FileNotFoundError(f"SBOM file not found: {p}")
-        
+
         raw_bytes = p.read_bytes()
         sha256_hash = calculate_sha256(raw_bytes)
         source_id = p.name
-        
+
         try:
             raw_text = raw_bytes.decode("utf-8")
             raw_data = json.loads(raw_text)
@@ -52,15 +52,15 @@ class SBOMIngestionManager:
                 dependencies=[],
                 errors=[f"JSON decoding error: {str(e)}"]
             )
-        
+
         return self.parse_dict(raw_data, source_identifier=source_id, sha256_checksum=sha256_hash)
-    
+
     def parse_dict(self, raw_data: Dict[str, Any], source_identifier: str = "memory", sha256_checksum: Optional[str] = None) -> ParsedSBOMResult:
         """Parses an in-memory dictionary representation of an SBOM."""
         if sha256_checksum is None:
             raw_bytes = json.dumps(raw_data, sort_keys=True).encode("utf-8")
             sha256_checksum = calculate_sha256(raw_bytes)
-        
+
         for parser in self.parsers:
             if parser.can_parse(raw_data):
                 try:
@@ -80,7 +80,7 @@ class SBOMIngestionManager:
                         dependencies=[],
                         errors=[f"Parser exception: {str(e)}"]
                     )
-        
+
         # Unsupported format / schema
         sbom = SBOM(
             internal_id=f"sbom-unsupported-{sha256_checksum[:8]}",

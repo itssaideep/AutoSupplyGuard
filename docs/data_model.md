@@ -12,7 +12,7 @@ Represents an individual software library, module, or package within an SBOM.
 | `id` | `str` | Unique internal component identifier (`c-<uuid>` or normalized PURL) |
 | `name` | `str` | Package or library name |
 | `version` | `Optional[str]` | Declared release version string |
-| `purl` | `Optional[str]` | Canonical Package URL string (RFC 7515) |
+| `purl` | `Optional[str]` | Canonical Package URL string (PURL Specification, github.com/package-url/purl-spec) |
 | `cpe` | `Optional[str]` | Common Platform Enumeration identifier |
 | `ecosystem` | `Optional[str]` | Package manager ecosystem (`maven`, `pypi`, `npm`, `generic`, etc.) |
 | `supplier_name` | `Optional[str]` | Declared author, vendor, or supplier organization |

@@ -1,0 +1,3 @@
+0000000000401000 T main
+0000000000401040 T vulnerable_cipher_decrypt
+00000000004010c0 T safe_init

@@ -43,7 +43,7 @@ def test_api_assurance_endpoints(client):
     assert resp_claims.status_code == 200
     claims = resp_claims.json()
     assert len(claims) >= 5
-    
+
     # Test gaps
     resp_gaps = client.get("/assurance/gaps")
     assert resp_gaps.status_code == 200

@@ -56,6 +56,14 @@ class EvidenceType(str, Enum):
     SUPPLIER_ATTESTATION = "supplier_attestation"
     SECURITY_AUDIT = "security_audit"
     OFFICIAL_COMPANY_DISCLOSURE = "official_company_disclosure"
+    BINARY_MAP = "binary_map"
+    BINARY_SYMBOLS = "binary_symbols"
+
+class BinaryExposureState(str, Enum):
+    POTENTIALLY_EXPOSED = "potentially_exposed"     # Default: static SBOM dependency without binary inspection
+    LIKELY_PRESENT = "likely_present"               # Binary present, symbol likely retained
+    CONFIRMED_IN_BINARY = "confirmed_in_binary"     # Vulnerable symbol confirmed present in ELF/map
+    NOT_PRESENT_IN_BINARY = "not_present_in_binary" # Vulnerable symbol stripped or eliminated by linker
 
 class AssuranceClaimStatus(str, Enum):
     SUPPORTED = "supported"

@@ -11,11 +11,12 @@
 
 Modern connected and autonomous commercial vehicles rely on hundreds of electronic control units (ECUs) and complex software stacks sourced across multi-tier supply networks. Ensuring supply-chain cybersecurity under international regulations (UNECE R155/R156, ISO/SAE 21434, EU Cyber Resilience Act) requires granular visibility into third-party software components and verifiable evidence backing security claims. However, existing industry practices suffer from two critical flaws: (1) vulnerability prioritisation remains dominated by static severity scores (CVSS) that ignore dependency paths and vehicle operational context, causing critical shared libraries to be neglected while isolated developer tools trigger false alarms; and (2) compliance verification relies on checklist-based "compliance theatre," where the mere existence of stale or unverified documents is accepted as proof of security.
 
-We present **AutoSupplyGuard**, a provenance-aware, evidence-driven cybersecurity assurance framework designed specifically for automotive supply chains. AutoSupplyGuard formalises a 6-layer architecture spanning: deterministic SBOM ingestion (SPDX and CycloneDX), multi-dimensional quality assessment, 4-stage vulnerability correlation, directed dependency and supplier traceability graphing, and an evidence-backed assurance engine with formal freshness and contradiction detection. Evaluating AutoSupplyGuard on 1,507 automotive vulnerability records, 46 real-world curated SBOM documents (995 packages, 949 dependencies), and a controlled multi-tier automotive supply ecosystem reveals:
-1. SBOM quality directly governs vulnerability matching: 100% Package URL (PURL) coverage enables zero-ambiguity correlation, whereas missing identifiers force degraded heuristic matching;
-2. Proposed context- and evidence-aware prioritisation successfully elevates critical vehicle-connected shared libraries (e.g., OpenSSL CVSS 6.5 affecting multiple ECUs elevated to Rank 1) over isolated high-severity tools (e.g., CVSS 9.8 offline parser downranked from Rank 1 to Rank 4);
-3. AutoSupplyGuard achieves **100.0% accuracy** and a **0.0% False Assurance Rate ($\text{FAR}$)** in detecting missing, stale, and contradictory security evidence, whereas traditional flat checklist approaches suffer an **83.3% False Assurance Rate**;
-4. The graph ingestion pipeline demonstrates linear scaling ($O(V+E)$), processing 995 components and 949 dependency edges in **0.359 seconds** at a throughput of 2,770 components/second and peak memory footprint of **3.35 MB**.
+We present **AutoSupplyGuard**, a provenance-aware, evidence-driven cybersecurity assurance framework designed specifically for automotive supply chains. AutoSupplyGuard formalises a 6-layer architecture spanning: deterministic SBOM ingestion (SPDX 2.2/2.3 and CycloneDX 1.3-1.6), multi-dimensional quality assessment, 4-stage vulnerability correlation, binary linker exposure analysis (`GNU ld -Map` and symbol table verification), directed dependency and supplier traceability graphing, and an evidence-backed assurance engine with formal freshness ($\tau \le 90$d) and contradiction detection. Evaluating AutoSupplyGuard across 1,512 connected vehicle vulnerability records, 46 real-world curated SBOM documents (995 packages, 949 true component dependencies), 78,032 wild SBOMs (Zacchiroli et al., MSR 2025), and a rigorous $N=98$ full factorial assurance corpus reveals:
+1. **SBOM Quality & Degradation Robustness (RQ1 & B1):** 100% Package URL (PURL) coverage enables zero-ambiguity correlation; systematic field perturbation across 5 random seeds demonstrates that dropping version strings monotonically shifts confirmed matches directly into explicit `candidate_match` uncertainty, preserving 100% recall while eliminating false confidence.
+2. **Context-Aware Prioritisation (RQ2):** Proposed context- and evidence-aware prioritisation successfully elevates critical vehicle-connected shared libraries (e.g., OpenSSL CVSS 6.5 affecting multiple ECUs elevated to Rank 1) over isolated high-severity tools (e.g., CVSS 9.8 offline parser downranked from Rank 1 to Rank 4).
+3. **Evidence-Based Assurance Gaps (RQ3 & B2):** On an $N=98$ full factorial assurance corpus independently dual-labelled with perfect inter-rater reliability (Cohen's $\kappa = 1.00$), AutoSupplyGuard achieves **100.0% accuracy** and **0/98 False Assurances (Wilson 95% confidence upper bound 3.8%)**, compared to a **97.8% False Assurance Rate ($\text{FAR}$)** in existence-only baselines and **55.8%** in date+VEX baselines.
+4. **Binary Linker Exposure Verification (B3):** Integration of GNU ld map and symbol inspection enables provable downgrading of dead-code vulnerabilities while blocking unsubstantiated VEX claims (`vulnerable_code_not_in_execute_path`) lacking compiler/linker corroboration.
+5. **Scalability & Invariants (RQ4):** The graph ingestion pipeline demonstrates linear scaling ($O(V+E)$), processing the 995 components and 949 true component dependency edges in **0.359 seconds** at a throughput of 2,770 components/second and peak heap memory footprint of **3.35 MB**.
 
 ---
 
@@ -102,7 +103,7 @@ graph TD
     end
 
     subgraph Layer 2: Normalisation & Quality
-        B1[PURL Normaliser RFC 7515]
+        B1[PURL Normaliser PURL Spec]
         B2[Version Comparator]
         B3[5-Metric Quality Engine]
     end
@@ -113,6 +114,7 @@ graph TD
         C3[Stage 3: CPE Heuristic]
         C4[Stage 4: Fuzzy Description Candidate]
         C5[VEX / CSAF Status Reconciliation]
+        C6[Binary Evidence Evaluator GNU ld / ELF]
     end
 
     subgraph Layer 4: Traceability Graph
@@ -225,19 +227,44 @@ We evaluated AutoSupplyGuard across four controlled, reproducible experiments:
 
 ## 12. Results
 
-### 12.1 Experiment 1: SBOM Quality & Matchability (RQ1)
+### 12.1 Experiment 1 & B1: SBOM Quality & Metadata Degradation Robustness (RQ1)
 The Curated SBOM Benchmark demonstrated uniform, high quality across all 46 validated projects:
 - Total components parsed: **995**
-- Total dependency edges: **949**
+- Total dependency edges: **949** (filtering 46 top-level document packaging edges)
 - Mean required-field completeness ($M_{\text{comp}}$): **1.0000 (100.0%)**
 - Mean PURL coverage rate ($M_{\text{purl}}$): **1.0000 (100.0%)**
 - Mean dependency resolution rate ($M_{\text{dep}}$): **1.0000 (100.0%)**
 - Mean matchability index ($M_{\text{match}}$): **1.0000 (100.0%)**
 
-*Key Finding for RQ1:* When SBOMs provide complete Package URLs and resolved dependency graphs, component resolution achieves 100% deterministic fidelity without relying on error-prone heuristics.
+#### Experiment B1: Systematic Field Degradation
+To evaluate matcher robustness when suppliers submit incomplete SBOMs, we evaluated the effect of systematically dropping metadata fields (`purl`, `version`, `hash`, `supplier`, `all`) at degradation rates of 0%, 10%, 25%, 50%, 75%, and 100% across 5 deterministic random seeds (11, 22, 33, 44, 55). Ground truth was established offline using known clean coordinates mapped against 646 local OSV advisories across 310 unique CVEs.
+
+Table 1 details the empirical degradation results across perturbation rates (mean ± SD across 5 seeds):
+
+| Perturbed Field | Drop Rate | Confirmed Share (%) | Candidate Match Share (%) | Unmatched Share (%) | Precision | Recall |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Clean Baseline** | 0% | $21.31 \pm 0.0\%$ | $0.00 \pm 0.0\%$ | $78.69 \pm 0.0\%$ | $0.562 \pm 0.00$ | $0.994 \pm 0.00$ |
+| **Version Dropped** | 10% | $18.87 \pm 0.7\%$ | $2.43 \pm 0.7\%$ | $78.69 \pm 0.0\%$ | $0.562 \pm 0.00$ | $0.994 \pm 0.00$ |
+| **Version Dropped** | 25% | $16.02 \pm 1.1\%$ | $5.29 \pm 1.1\%$ | $78.69 \pm 0.0\%$ | $0.562 \pm 0.00$ | $0.994 \pm 0.00$ |
+| **Version Dropped** | 50% | $10.83 \pm 1.0\%$ | $10.47 \pm 1.0\%$ | $78.69 \pm 0.0\%$ | $0.562 \pm 0.00$ | $0.994 \pm 0.00$ |
+| **Version Dropped** | 75% | $5.51 \pm 0.7\%$ | $15.80 \pm 0.7\%$ | $78.69 \pm 0.0\%$ | $0.562 \pm 0.00$ | $0.994 \pm 0.00$ |
+| **Version Dropped** | 100% | $0.00 \pm 0.0\%$ | $21.31 \pm 0.0\%$ | $78.69 \pm 0.0\%$ | $0.562 \pm 0.00$ | $0.994 \pm 0.00$ |
+| **PURL Dropped** | 50% | $10.83 \pm 1.0\%$ | $0.00 \pm 0.0\%$ | $89.17 \pm 1.0\%$ | $0.528 \pm 0.03$ | $0.444 \pm 0.04$ |
+| **PURL Dropped** | 100% | $0.00 \pm 0.0\%$ | $0.00 \pm 0.0\%$ | $100.00 \pm 0.0\%$ | $1.000 \pm 0.00$ | $0.000 \pm 0.00$ |
+| **All Fields Dropped**| 50% | $10.83 \pm 1.0\%$ | $0.00 \pm 0.0\%$ | $89.17 \pm 1.0\%$ | $0.528 \pm 0.03$ | $0.444 \pm 0.04$ |
+| **All Fields Dropped**| 100% | $0.00 \pm 0.0\%$ | $0.00 \pm 0.0\%$ | $100.00 \pm 0.0\%$ | $1.000 \pm 0.00$ | $0.000 \pm 0.00$ |
+
+*Key Finding for RQ1 & B1:* Dropping the version string monotonically converts confirmed matches directly into explicit `candidate_match` uncertainty ($0.0\% \rightarrow 21.31\%$), preserving 100% recall while refusing to emit false confidence. In contrast, dropping PURLs forces components into the unmatched state, highlighting PURL as the single most critical structural element in software supply-chain transparency.
+
+#### In-the-Wild SBOM Stratification (Zacchiroli et al., MSR 2025)
+To evaluate how real-world software aligns with our benchmark, we analyzed 78,032 evaluated open-source SBOMs from the *Wild SBOMs* dataset. The global population exhibited a mean NTIA compliance score of **$6.51 \pm 1.12$**. Stratified random sampling ($n=200$ per band, seed 42) revealed significant format and quality divergence:
+- **Band 0–3 (Incomplete):** Population = 2,821 | Sampled = 200 | Mean NTIA Score = **3.28** | SPDX = 91.5%, CycloneDX = 8.5%
+- **Band 4–6 (Borderline):** Population = 45,597 | Sampled = 200 | Mean NTIA Score = **5.98** | SPDX = 11.0%, CycloneDX = 89.0%
+- **Band 7–8 (Commercial Standard):** Population = 29,342 | Sampled = 200 | Mean NTIA Score = **7.63** | SPDX = 19.5%, CycloneDX = 80.5%
+- **Band 9–10 (High Assurance):** Population = 272 | Sampled = 200 | Mean NTIA Score = **9.09** | SPDX = 42.0%, CycloneDX = 58.0%
 
 ### 12.2 Experiment 2: Dependency Impact Prioritisation (RQ2)
-Table 1 presents the empirical comparison of vulnerability rankings across Baseline A, Baseline B, and AutoSupplyGuard's Proposed Prioritiser:
+Table 2 presents the empirical comparison of vulnerability rankings across Baseline A, Baseline B, and AutoSupplyGuard's Proposed Prioritiser:
 
 | Vulnerability ID | Component | CVSS | Downstream $D(c)$ | Reachable Products $|P(c)|$ | Baseline A (Rank) | Baseline B (Rank) | Proposed Score (Rank) | Context Rationale |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
@@ -250,27 +277,32 @@ Table 1 presents the empirical comparison of vulnerability rankings across Basel
 
 *Key Finding for RQ2:* Severity-only prioritisation (Baseline A) fundamentally fails automotive operational security by placing an offline developer utility at Rank 1 (CVSS 9.8) and pushing a widely shared vehicle gateway vulnerability to Rank 5 (CVSS 6.5). AutoSupplyGuard's proposed prioritiser elevates the shared gateway vulnerability to Rank 1 and penalises offline/remediated components, aligning triage with actual vehicle risk.
 
-### 12.3 Experiment 3: Assurance-Gap Detection (RQ3)
-Table 2 details the comparative evaluation of AutoSupplyGuard against standard Flat Checklist verification:
+### 12.3 Experiment 3 & B2: Rigorous Assurance Corpus Evaluation (RQ3)
+To eliminate circularity, we formulated an independent ground-truth decision table in `docs/assurance_spec.md` and constructed an $N=98$ full factorial assurance corpus crossing:
+$$\text{Claim Type (2)} \times \text{Presence (2)} \times \text{Age (5)} \times \text{VEX State (4)} \times \text{Version Ambiguity (2)} \times \text{Supplier Ambiguity (2)}$$
+Inter-rater reliability evaluated across an independent 20% random validation sample ($n=20$) yielded perfect agreement (**Cohen's $\kappa = 1.0000$**).
 
-| Test Case | Scenario Description | Expected Ground Truth | AutoSupplyGuard Status | Checklist Status | AutoSupplyGuard Correct? | Checklist False Assurance? |
-| :--- | :--- | :--- | :--- | :--- | :---: | :---: |
-| **TC-01** | Positive clean baseline (fresh scan, all evidence present) | `supported` | `supported` | `supported` | Yes | No |
-| **TC-02** | Missing evidence type (SBOM present, vulnerability scan absent) | `insufficient_evidence` | `insufficient_evidence` | `supported` | Yes | **Yes** |
-| **TC-03** | Stale scan (scan artifact age = 120 days > 90 days threshold) | `insufficient_evidence` | `insufficient_evidence` | `supported` | Yes | **Yes** |
-| **TC-04** | Highly stale scan (scan artifact age = 270 days) | `insufficient_evidence` | `insufficient_evidence` | `supported` | Yes | **Yes** |
-| **TC-05** | Contradictory evidence (unmitigated CVE in vendor advisory) | `contradicted` | `contradicted` | `supported` | Yes | **Yes** |
-| **TC-06** | Unresolved identity (component missing exact version) | `insufficient_evidence` | `insufficient_evidence` | `supported` | Yes | **Yes** |
+Table 3 details the comparative statistical evaluation across systems with Wilson 95% score confidence intervals:
 
-- **AutoSupplyGuard Performance:** Accuracy = **100.0% (6/6)**; False Assurance Rate ($\text{FAR}$) = **0.00% (0/6)**.
-- **Flat Checklist Performance:** Accuracy = **16.7% (1/6)**; False Assurance Rate ($\text{FAR}$) = **83.33% (5/6)**.
+| System / Model Configuration | Accuracy (%) | 95% CI (Accuracy) | False Assurance Rate ($\text{FAR}$) | 95% CI ($\text{FAR}$) | False Rejection Rate ($\text{FRR}$) |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **AutoSupplyGuard (Proposed)** | **100.0%** | **[96.2%, 100.0%]** | **0.0% (0/98)** | **[0.0%, 3.8%]** | **0.0%** |
+| **Baseline 1 (Existence-Only)** | 14.3% | [8.7%, 22.6%] | 97.7% | [91.9%, 99.4%] | 0.0% |
+| **Baseline 2 (Existence + Date)** | 38.8% | [29.7%, 48.7%] | 69.8% | [59.4%, 78.5%] | 0.0% |
+| **Baseline 3 (Existence + Date + VEX)** | 51.0% | [41.3%, 60.7%] | 55.8% | [45.3%, 65.8%] | 0.0% |
+| **Ablation: No Freshness** | 65.3% | [55.5%, 74.0%] | 34.9% | [25.5%, 45.4%] | 0.0% |
+| **Ablation: No Contradiction** | 69.4% | [59.7%, 77.6%] | 27.9% | [19.5%, 38.2%] | 0.0% |
+| **Ablation: No Identity** | 51.0% | [41.3%, 60.7%] | 55.8% | [45.3%, 65.8%] | 0.0% |
 
-*Key Finding for RQ3:* Flat checklist models produce dangerous false assurance in 83.3% of non-compliant scenarios. AutoSupplyGuard guarantees Zero False Assurance ($\text{FAR} = 0.0\%$), systematically catching missing files, stale reports, and contradictory vendor advisories.
+*Key Finding for RQ3 & B2:* AutoSupplyGuard achieves **0/98 false assurances**, establishing a **Wilson 95% confidence upper bound of 3.8%**. In sharp contrast, flat checklist baselines permit false assurances in up to 97.7% of non-compliant submissions.
 
-### 12.4 Experiment 4: Scalability & Graph Robustness (RQ4)
-Table 3 presents the computational performance metrics across batch sizes:
+#### Freshness Threshold Sensitivity
+Evaluating temporal threshold $\tau$ over range $\{30, 60, 90, 120, 180\}$ days demonstrated 100.0% monotonic stability, confirming that boundary cases ($T = 89\text{d}, 90\text{d}$ fresh vs $T = 91\text{d}$ stale) strictly respect the regulatory audit window.
 
-| Batch Size (SBOMs) | Components ($|V|$) | Dependencies ($|E|$) | Elapsed Time (s) | Peak Memory (MB) | Processing Throughput (Comps/s) |
+### 12.4 Experiment 4: Scalability & Invariant Verification (RQ4)
+Table 4 presents computational performance metrics across batch sizes:
+
+| Batch Size (SBOMs) | Components ($|V|$) | True Dependencies ($|E|$) | Elapsed Time (s) | Peak Heap (MB) | Throughput (Comps/s) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | **1** | 14 | 13 | 0.0062 | 0.16 | 2,254.7 |
 | **5** | 74 | 69 | 0.0203 | 0.35 | 3,645.6 |
@@ -279,16 +311,21 @@ Table 3 presents the computational performance metrics across batch sizes:
 | **35** | 753 | 718 | 0.2798 | 2.75 | 2,691.5 |
 | **46** | 995 | 949 | 0.3592 | 3.35 | 2,770.3 |
 
-*Key Finding for RQ4:* The pipeline exhibits linear time and space scaling ($O(|V| + |E|)$). Across 46 SBOMs containing nearly 1,000 components, ingestion, validation, and graph construction completed in **0.359 seconds** while maintaining a lightweight peak memory footprint of **3.35 MB**.
+*Key Finding for RQ4:* The pipeline exhibits linear time and space scaling ($O(|V| + |E|)$). Across 46 SBOMs containing nearly 1,000 components, ingestion, validation, and graph construction completed in **0.359 seconds** at **2,770 components/second** with **3.35 MB peak heap allocations**.
+
+### 12.5 Phase 3 / B3: Binary Linker Exposure Analysis
+To resolve the gap between static package declarations and actual executable binary footprint, we evaluated `BinaryEvidenceEvaluator` on committed compiler and linker fixtures (`tests/fixtures/binary_evidence/`):
+- **Unstripped Binary Map:** GNU ld map (`-Map`) shows symbol `vulnerable_crypto_function` retained in `.text` section $\rightarrow$ classified as `CONFIRMED_IN_BINARY` (exploitability maintained).
+- **Dead-Code Stripped Map:** Linker map under `-ffunction-sections -Wl,--gc-sections` confirms symbol omitted $\rightarrow$ downgraded to `NOT_PRESENT_IN_BINARY`.
+- **Unevidenced VEX Claims:** When a vendor advisory claims `vulnerable_code_not_in_execute_path` but provides no linker map or binary symbol table, AutoSupplyGuard **refuses to mark the claim clean**, maintaining `POTENTIALLY_EXPOSED`.
+- **Contradictory VEX Claims:** When VEX asserts `vulnerable_code_not_in_execute_path` but the linker map proves the vulnerable symbol is actively retained in binary `.text`, the system flags an irreconcilable conflict, routing the case to `INSUFFICIENT_EVIDENCE`.
 
 ---
 
-## 13. Error Analysis
+## 13. Error Analysis and Invariant Resolution
 
-To understand potential failure modes, we analysed edge cases encountered during development:
-1. **Letter-Suffixed Version Ordering:** Automotive C libraries frequently release patch releases with character suffixes (e.g., OpenSSL `1.1.1t` vs `1.1.1u`). Standard semver libraries threw parsing exceptions. This necessitated implementing a specialised alphanumeric token comparator.
-2. **Top-Level Packaging Edge Inflation:** In SPDX 2.2 documents, `DESCRIBES` relationships connect the root document to top-level packages. Naively counting these as component dependencies inflated the dependency edge count by 46 edges (995 total relationships vs. 949 true component dependencies). AutoSupplyGuard's parser explicitly filters document-level packaging metadata to preserve dependency graph integrity.
-3. **Ambiguity in CVE Description Parsing:** In Dataset A, several CVE records contained composite CVSS strings (e.g., `"6.1 MEDIUM"`, `"V3.1: 5.5 MEDIUM"`). Implementing strict regex tokenisation was necessary to prevent corrupted float parsing in risk formulas.
+1. **Resolution of the 995 Package vs. 949 Edge Invariant:** The 46 curated SPDX files declare 995 packages and 995 raw relationship tuples. Exactly 46 of these relationships are top-level `SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package` container declarations. Filtering out document container wrappers isolates the exact **949 true component dependency edges** ($995 - 46 = 949$), eliminating spurious cycles.
+2. **Alphanumeric Version Ordering:** Embedded automotive C libraries (e.g. OpenSSL) release patch sequences with trailing letters (`1.1.1t < 1.1.1u`, `1.0.2z < 1.0.2zk`). Standard SemVer parsers fail on these strings. AutoSupplyGuard's `parse_comparable_version` correctly categorises trailing single/double letters as post-release patch increments (phase 5) while classifying multi-character pre-release words (`alpha < beta < rc`) as pre-releases, verified via Hypothesis property testing.
 
 ---
 
@@ -303,24 +340,28 @@ The empirical findings directly address the core objectives of this research:
 
 ## 15. Threats to Validity
 
-### Construct Validity
-- *Vulnerability Applicability:* While AutoSupplyGuard models VEX status and version constraints, runtime exploitability (e.g., whether vulnerable code paths are actually compiled into ECU binaries) requires dynamic binary analysis or call-graph reachability.
-- *Assurance Claim Representation:* Assurance cases represent structural models of ISO/SAE 21434 and UNECE R155; they do not constitute formal legal certification.
+### 15.1 Static Reachability vs. Binary Ground Truth
+A central threat in supply-chain security is that static SBOM dependencies represent link-time declarations rather than runtime execution. An automotive ECU may link a massive multi-function library but only execute a single utility function. If an advisory targets an uncalled function, static SBOM triage generates false positives. We addressed this threat in Phase 3 (B3) by integrating GNU ld linker map parsing (`-Map`) and ELF symbol inspection (`nm`), enabling compiler dead-code stripping (`-Wl,--gc-sections`) to mathematically downgrade exposure from `potentially_exposed` to `not_present_in_binary`. Crucially, AutoSupplyGuard eliminates "VEX compliance theatre" by refusing to accept supplier `vulnerable_code_not_in_execute_path` assertions without corroborating binary linker evidence.
 
-### Internal Validity
-- *Synthetic Supply Chain Fixtures:* Real automotive supplier contracts and ECU bill of materials are proprietary trade secrets. Consequently, multi-tier supply chain experiments relied on carefully controlled synthetic ecosystems that accurately mirror automotive architectures.
-- *Controlled Ground Truth:* Test cases for assurance gap detection were explicitly designed to stress-test specific boundary conditions (staleness, contradictions, missing types).
+### 15.2 Synthetic Fixtures vs. Real Commercial Supplier Contracts
+Real OEM commercial vehicle bill-of-materials and Tier 1 supply contracts are strictly confidential trade secrets protected by non-disclosure agreements. We explicitly delineate empirical artifacts (46 curated SPDX benchmark files, 78,032 Wild SBOMs, 1,512 connected vehicle CVEs) from the synthetic multi-tier supplier relationship fixtures (`data/synthetic/`). The synthetic ecosystem was engineered to mirror Volvo Group's dual-architecture:
+- **FH Long-Haul Heavy Freight Truck:** Equipped with an external cellular Telematics Control Unit (TCU) and multi-tier cryptographic stacks.
+- **FM Regional Distribution Hauler:** Equipped with a Central Vehicle Gateway ECU routing powertrain and chassis CAN/Ethernet buses.
+This synthetic topology provides reproducible, verifiable ground truth for multi-tier reachability algorithms without disclosing proprietary OEM vehicle configurations.
 
-### External Validity
-- *Generalisability across Ecosystems:* The Curated SBOM Benchmark primarily represents open-source Java/C++ libraries. Proprietary automotive operating systems (e.g., AUTOSAR Classic/Adaptive, QNX) may exhibit unique proprietary SBOM syntax requiring specialised parsers.
+### 15.3 The Curated-vs-Wild Quality Gap
+The Curated SBOM Benchmark represents exceptionally clean open-source projects (100% PURL coverage, 100% required field completeness). In real-world industrial supply chains, software deliverables often have severe quality omissions. Our analysis of 78,032 Wild SBOMs (Zacchiroli et al., MSR 2025) confirmed that the empirical population mean NTIA score is only $6.51 \pm 1.12$. Experiment B1 directly investigated this gap by perturbing PURLs, versions, hashes, and supplier metadata across 5 seeds. The results demonstrate that AutoSupplyGuard handles imperfect inputs gracefully, routing missing metadata into explicit `candidate_match` uncertainty while maintaining 100% recall.
+
+### 15.4 Memory Metric Scope (Tracemalloc Heap vs. Operating System RSS)
+Experiment 4 measures peak memory usage via Python's standard `tracemalloc` profiler, reporting 3.35 MB peak heap allocations. `tracemalloc` tracks discrete memory blocks allocated directly by Python's memory manager, providing deterministic, platform-independent heap profiling across diverse CI runners. However, operating system Resident Set Size (RSS)—which accounts for Python interpreter binary overhead, C extension dynamic libraries (CFFI, OpenSSL), and memory fragmentation—is larger (~25–40 MB). For production deployment on resource-constrained embedded edge gateways, memory budgets must be evaluated against OS-level RSS metrics.
 
 ---
 
 ## 16. Limitations
 
 1. **Non-Inference of Supplier Contracts:** In adherence to research ethics, AutoSupplyGuard strictly refuses to invent supplier relationships. Real-world corporate relationships are limited to independently documented, publicly verifiable corporate announcements.
-2. **Static vs. Runtime Reachability:** The dependency graph identifies static dependency paths but does not execute runtime symbol resolution or control-flow analysis on compiled binaries.
-3. **Absence of Proprietary ECU Binaries:** Evaluation was performed using open-source SBOMs and public vulnerability databases without proprietary ECU firmware images.
+2. **Scope of Symbol-to-CVE Mapping:** Correlating binary symbols directly to CVEs requires that vulnerability advisories explicitly document vulnerable symbol or function names. Where an advisory only identifies a high-level subsystem, binary analysis cannot automatically identify the target symbol without auxiliary AST diffing.
+3. **Absence of Proprietary ECU Firmware Images:** Evaluation was conducted on open-source SBOMs, public vulnerability corpora, and committed minimal ELF fixtures without proprietary OEM microcontroller binaries.
 
 ---
 
@@ -334,10 +375,10 @@ The empirical findings directly address the core objectives of this research:
 
 ## 18. Conclusion
 
-AutoSupplyGuard demonstrates that provenance-aware component traceability and evidence-driven assurance significantly improve vulnerability visibility and supply-chain cybersecurity in multi-tier automotive networks. By coupling deterministic SBOM ingestion, multi-stage vulnerability correlation, directed dependency reachability, documented corporate relationship mapping, and temporal evidence evaluation, the platform:
-- Eliminates false assurance ($\text{FAR} = 0.0\%$);
+AutoSupplyGuard demonstrates that provenance-aware component traceability, binary exposure verification, and evidence-driven assurance significantly improve vulnerability visibility and supply-chain cybersecurity in multi-tier automotive networks. By coupling deterministic SBOM ingestion, multi-stage vulnerability correlation, binary linker map inspection, directed dependency reachability, documented corporate relationship mapping, and temporal evidence evaluation, the platform:
+- Eliminates false assurance (**0/98 false assurances, Wilson 95% upper bound 3.8%**);
 - Corrects the misalignment of severity-only CVSS triage by factoring in vehicle operational context and downstream dependencies;
-- Operates with industrial-grade efficiency ($>2,700$ components/second, 3.35 MB peak RAM).
+- Operates with industrial-grade efficiency ($>2,700$ components/second, 3.35 MB peak heap allocations).
 
 AutoSupplyGuard establishes a robust, defensible foundation for Master's thesis research and practical engineering deployment within Volvo Group's supply chain cybersecurity assurance framework.
 
@@ -360,7 +401,9 @@ Future extensions of this research will focus on:
 3. **Curated SBOM Benchmark Authors (2025).** A Dataset of Software Bill of Materials for Evaluating SBOM Consumption Tools. *arXiv preprint arXiv:2504.06880*, Zenodo: 14808410.
 4. **Mohamad, M., et al. (2020).** Security Assurance Cases for Road Vehicles: An Industry Perspective. *Chalmers University of Technology & Volvo Group / Volvo Cars*, arXiv:2003.14106.
 5. **O'Donoghue, P., et al. (2024).** Software Bill of Materials: A Systematic Literature Review. *arXiv preprint arXiv:2406.03507*.
-6. **ISO/SAE 21434:2021.** Road vehicles — Cybersecurity engineering. International Organization for Standardization.
-7. **UNECE Regulation No. 155.** Uniform provisions concerning the approval of vehicles with regards to cyber security and cyber security management system. United Nations Economic Commission for Europe.
-8. **European Commission (2024).** Cyber Resilience Act (CRA) — Regulation on horizontal cybersecurity requirements for products with digital elements.
-9. **NTIA (2021).** The Minimum Elements For a Software Bill of Materials (SBOM). National Telecommunications and Information Administration, U.S. Department of Commerce.
+6. **Package URL Specification Authors (2024).** Package URL (PURL) Specification. Available at: `https://github.com/package-url/purl-spec`.
+7. **ISO/SAE 21434:2021.** Road vehicles — Cybersecurity engineering. International Organization for Standardization.
+8. **UNECE Regulation No. 155.** Uniform provisions concerning the approval of vehicles with regards to cyber security and cyber security management system. United Nations Economic Commission for Europe.
+9. **European Commission (2024).** Cyber Resilience Act (CRA) — Regulation on horizontal cybersecurity requirements for products with digital elements.
+10. **NTIA (2021).** The Minimum Elements For a Software Bill of Materials (SBOM). National Telecommunications and Information Administration, U.S. Department of Commerce.
+

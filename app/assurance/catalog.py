@@ -1,6 +1,6 @@
 """Catalog of formal Automotive Regulatory Requirements and Standard Assurance Claims."""
 
-from typing import List, Dict
+from typing import List
 from app.models.assurance import RegulatoryRequirement, AssuranceClaim
 from app.models.enums import EvidenceType, AssuranceClaimStatus
 

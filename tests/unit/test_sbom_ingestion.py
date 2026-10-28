@@ -2,12 +2,10 @@
 
 import pytest
 from app.ingestion.manager import SBOMIngestionManager
-from app.ingestion.spdx_parser import SPDXParser
-from app.ingestion.cyclonedx_parser import CycloneDXParser
 from app.sbom_quality.calculator import QualityAssessmentEngine
 from app.normalisation.purl_normaliser import normalise_purl, construct_purl
 from app.normalisation.version_normaliser import normalise_version, matches_version_constraint
-from app.models.enums import SBOMValidationStatus, IdentityResolutionStatus, SBOMFormat
+from app.models.enums import SBOMValidationStatus, IdentityResolutionStatus
 
 @pytest.fixture
 def manager():
@@ -43,7 +41,7 @@ def test_version_normalisation():
     assert v_norm == "1.2.3"
     assert is_valid is True
     assert is_mod is True
-    
+
     # Null / Unknown
     v_none, is_valid_none, _ = normalise_version("unknown")
     assert v_none is None
@@ -108,7 +106,7 @@ def test_cyclonedx_duplicate_packages(manager, quality_engine):
     res = manager.parse_dict(cdx_doc, source_identifier="dup.cdx.json")
     assert len(res.components) == 2
     assert any("Duplicate component identity detected" in w for w in res.warnings)
-    
+
     metrics = quality_engine.assess(res)
     assert metrics.duplicate_component_rate > 0.0  # 1 duplicate out of 2 components
 

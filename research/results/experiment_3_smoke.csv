@@ -1,0 +1,4 @@
+case_id,category,expected_status,proposed_asg_status,flat_checklist_status,asg_correct,flat_checklist_correct,asg_false_assurance,flat_false_assurance
+TC-01-POS,positive_clean,supported,supported,supported,True,True,False,False
+TC-02-MISSING-TYPE,missing_evidence,insufficient_evidence,insufficient_evidence,supported,True,False,False,True
+TC-03-STALE-120D,stale_evidence,insufficient_evidence,insufficient_evidence,supported,True,False,False,True

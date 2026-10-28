@@ -1,5 +1,4 @@
 import os
-import sys
 import hashlib
 import json
 import urllib.request
@@ -20,7 +19,7 @@ def download_file(url, dest_path, force=False):
     if os.path.exists(dest_path) and not force and os.path.getsize(dest_path) > 0:
         print(f"[SKIP] {dest_path} already exists ({os.path.getsize(dest_path)} bytes)")
         return dest_path, calculate_sha256(dest_path), os.path.getsize(dest_path)
-    
+
     print(f"[DOWNLOADING] {url} -> {dest_path}")
     os.makedirs(os.path.dirname(dest_path), exist_ok=True)
     try:

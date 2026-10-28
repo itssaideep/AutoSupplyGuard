@@ -1,0 +1,6 @@
+freshness_threshold_days,accuracy
+30,1.0
+60,1.0
+90,1.0
+120,1.0
+180,1.0

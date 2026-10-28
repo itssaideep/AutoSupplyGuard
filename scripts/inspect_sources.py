@@ -1,6 +1,5 @@
 import urllib.request
 import json
-import sys
 
 def inspect_zenodo(record_id):
     url = f"https://zenodo.org/api/records/{record_id}"

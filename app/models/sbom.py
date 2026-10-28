@@ -1,6 +1,6 @@
 """Canonical SBOM and Dependency domain models."""
 
-from typing import Optional, List, Dict, Any
+from typing import Optional, List
 from datetime import datetime
 from pydantic import BaseModel, Field
 from app.models.enums import SBOMFormat, SBOMValidationStatus, DependencyScope

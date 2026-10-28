@@ -1,6 +1,6 @@
 """Canonical Organisation domain model."""
 
-from typing import Optional, List
+from typing import List
 from pydantic import BaseModel, Field
 
 class Organisation(BaseModel):

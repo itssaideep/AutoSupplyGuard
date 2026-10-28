@@ -5,7 +5,6 @@ from pathlib import Path
 from typing import List, Dict, Optional, Any
 import networkx as nx
 from app.models.relationship import CorporateRelationship
-from app.models.organisation import Organisation
 from app.models.component import Component
 from app.models.product import Product
 from app.models.vulnerability import Vulnerability
@@ -16,7 +15,7 @@ DEFAULT_SYNTH_PATH = Path("data/synthetic/synthetic_supply_chain.json")
 
 class SupplierGraphManager:
     """Manages real public corporate evidence and synthetic multi-tier supplier ecosystems."""
-    
+
     def __init__(self, real_rel_path: Optional[Path] = None, synth_path: Optional[Path] = None):
         self.real_rel_path = real_rel_path or DEFAULT_REAL_REL_PATH
         self.synth_path = synth_path or DEFAULT_SYNTH_PATH
@@ -24,7 +23,7 @@ class SupplierGraphManager:
         self.real_relationships: List[CorporateRelationship] = []
         self.synthetic_data: Dict[str, Any] = {}
         self._load_data()
-    
+
     def _load_data(self):
         # 1. Load real corporate relationships
         if self.real_rel_path.exists():
@@ -46,7 +45,7 @@ class SupplierGraphManager:
                         limitations=rel_obj.limitations,
                         is_synthetic=False
                     )
-        
+
         # 2. Load synthetic fixture
         if self.synth_path.exists():
             with open(self.synth_path, "r", encoding="utf-8") as f:
@@ -79,7 +78,7 @@ class SupplierGraphManager:
             "vulnerabilities": [Vulnerability(**v) for v in self.synthetic_data.get("vulnerabilities", [])],
             "evidence_scenarios": self.synthetic_data.get("evidence_scenarios", [])
         }
-    
+
     def export_corporate_graph_json(self) -> Dict[str, Any]:
         """Serializes the corporate graph into JSON format with distinct real vs synthetic tags."""
         nodes = []

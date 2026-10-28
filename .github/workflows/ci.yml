@@ -1,0 +1,78 @@
+name: AutoSupplyGuard CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-and-verify:
+    name: Test & Assurance Gates (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.12"]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: "pip"
+
+      - name: Large-file guard (Fail on tracked files > 50 MB)
+        run: |
+          echo "=== Scanning for tracked files over 50 MB ==="
+          LARGE_FILES=$(find . -not -path '*/.*' -type f -size +50M)
+          if [ -n "$LARGE_FILES" ]; then
+            echo "ERROR: Tracked files exceeding 50 MB detected:"
+            echo "$LARGE_FILES"
+            exit 1
+          fi
+          echo "Large-file check passed: No tracked files over 50 MB."
+
+      - name: Code hygiene grep guard (No sys.path.insert)
+        run: |
+          echo "=== Checking for forbidden sys.path.insert ==="
+          if grep -rn "sys\.path\.insert" app/ scripts/ dashboard/; then
+            echo "ERROR: sys.path.insert detected. Use standard packaging instead."
+            exit 1
+          fi
+          echo "Code hygiene check passed."
+
+      - name: Install package and dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .[dev,binary]
+
+      - name: Lint and formatting check (Ruff)
+        run: |
+          ruff check app/ scripts/ tests/
+
+      - name: Verify dataset integrity (SHA-256 Manifest check)
+        run: |
+          python -m scripts.fetch_data --verify-only
+
+      - name: Run automated test suite with DeprecationWarnings as errors
+        run: |
+          pytest -v -W error::DeprecationWarning
+
+      - name: Packaging & Smoke execution check
+        run: |
+          python -m scripts.run_experiment_1 --smoke
+          python -m scripts.run_experiment_2 --smoke
+          python -m scripts.run_experiment_3 --smoke
+          python -m scripts.run_experiment_4 --smoke
+
+      - name: Results drift check (Verify smoke results generated)
+        run: |
+          test -f research/results/experiment_1_smoke.csv
+          test -f research/results/experiment_2_smoke.csv
+          test -f research/results/experiment_3_smoke.csv
+          test -f research/results/experiment_4_smoke.csv
+          echo "All experiment smoke outputs validated."

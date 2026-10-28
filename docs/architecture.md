@@ -26,7 +26,7 @@ AutoSupplyGuard is structured into six strictly decoupled layers:
 +-------------------------------------------------------------------------+
                                     ^
 +-------------------------------------------------------------------------+
-| Layer 2: Normalisation and Quality Engine (PURL RFC, SemVer, 5 Metrics) |
+| Layer 2: Normalisation and Quality Engine (PURL Spec, SemVer, 5 Metrics) |
 +-------------------------------------------------------------------------+
                                     ^
 +-------------------------------------------------------------------------+
@@ -40,7 +40,7 @@ AutoSupplyGuard is structured into six strictly decoupled layers:
 - **Integrity:** SHA-256 computation on every input file, recorded immutably in provenance manifests.
 
 ### Layer 2: Normalisation & Quality Assessment
-- **Package URLs:** Normalized via `packageurl-python` adhering to RFC specifications.
+- **Package URLs:** Normalized via `packageurl-python` adhering to the Package URL specification (https://github.com/package-url/purl-spec).
 - **Version Comparators:** Implements `parse_comparable_version` for C/C++ alphanumeric suffixes (e.g., `1.1.1u`).
 - **Quality Metrics:** Computes 5 formal metrics:
   - $M_{\text{comp}}$: Required-field completeness

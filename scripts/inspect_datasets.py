@@ -1,13 +1,12 @@
 import os
 import json
 import pandas as pd
-import openpyxl
 
 def audit_wild_sboms():
     print("=== AUDIT: Wild SBOMs (Zenodo 17397281) ===")
     meta_path = "data/raw/wild_sboms/sboms-01.csv"
     fn_path = "data/raw/wild_sboms/sboms-02-filenames.csv"
-    
+
     if os.path.exists(meta_path):
         df_meta = pd.read_csv(meta_path)
         print(f"Total SBOM records: {len(df_meta):,}")
@@ -16,7 +15,7 @@ def audit_wild_sboms():
         print("Format distribution:\n", df_meta['format'].value_counts(dropna=False).to_dict())
         print("Version distribution:\n", df_meta['version'].value_counts(dropna=False).head(10).to_dict())
         print("Score summary (NTIA-based quality):\n", df_meta['score'].describe().to_dict())
-    
+
     if os.path.exists(fn_path):
         df_fn = pd.read_csv(fn_path)
         print(f"\nTotal filename records: {len(df_fn):,}, Unique sha1s: {df_fn['sha1'].nunique():,}")

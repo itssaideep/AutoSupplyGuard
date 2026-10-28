@@ -199,7 +199,7 @@ def get_executive_summary() -> Dict[str, Any]:
     confirmed = sum(1 for m in state.matches if m.applicability.value == "confirmed_applicable")
     candidates = sum(1 for m in state.matches if m.applicability.value == "candidate_match")
     unresolved_identities = sum(1 for c in state.components.values() if c.identity_status.value in {"unresolved", "ambiguous"})
-    
+
     return {
         "project": settings.PROJECT_NAME,
         "version": settings.VERSION,

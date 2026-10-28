@@ -1,0 +1,72 @@
+[
+  {
+    "dataset_id": "automotive_vulnerabilities_22_24",
+    "name": "Automotive Software Vulnerability Corpus (2018-2024)",
+    "publisher": "SriAbir / Empirical Software Engineering",
+    "source_url": "https://github.com/SriAbir/CV_Vulnerability_22-24",
+    "local_path": "data/raw/automotive_vulnerabilities/CV_Vulnerability_22-24/GitHubAutomotiveVulnerabilities_2022_2024.xlsx",
+    "sha256": "06b89131660db5d70a4e2b15ddebeecc91afcdc84f4b991ac1f042e58e8c6596",
+    "size_bytes": 271442,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "dataset_id": "wild_sboms_metadata",
+    "name": "Wild SBOMs Metadata (78,612 SBOMs)",
+    "publisher": "Stefano Zacchiroli et al. (MSR 2025)",
+    "source_url": "https://zenodo.org/records/17397281/files/sboms-01.csv.zstd",
+    "local_path": "data/raw/wild_sboms/sboms-01.csv",
+    "sha256": "dc05eef41fae18f700316431eddf6202e6ed609555340fe1f4adf8f6a49a4686",
+    "size_bytes": 11819635,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "dataset_id": "wild_sboms_filenames",
+    "name": "Wild SBOMs Filenames Index (Compressed)",
+    "publisher": "Stefano Zacchiroli et al. (MSR 2025)",
+    "source_url": "https://zenodo.org/records/17397281/files/sboms-02-filenames.csv.zstd",
+    "local_path": "data/raw/wild_sboms/sboms-02-filenames.csv.zstd",
+    "sha256": "e1e5dcc5682f6564151a41a1cafc47563f6c4fdafd3041c0de328e99a75e5b4c",
+    "size_bytes": 26837284,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "dataset_id": "paper_wild_sboms",
+    "name": "Wild SBOMs: A Large-scale Dataset of Software Bill of Materials from Public Code",
+    "publisher": "MSR 2025",
+    "source_url": "https://upsilon.cc/~zack/research/publications/msr-2025-sbom-dataset.pdf",
+    "local_path": "research/papers/wild_sboms_msr2025.pdf",
+    "sha256": "d71c38f925c38613677ce5e59d465008eec1bd875e05037bf26e7aa9f1e46fde",
+    "size_bytes": 188928,
+    "license": "Open Access"
+  },
+  {
+    "dataset_id": "paper_curated_sboms",
+    "name": "A Dataset of Software Bill of Materials for Evaluating SBOM Consumption Tools",
+    "publisher": "arXiv:2504.06880",
+    "source_url": "https://arxiv.org/pdf/2504.06880",
+    "local_path": "research/papers/curated_sboms_arxiv2504.pdf",
+    "sha256": "72a118572c9ed805a82435de4341043f4d29a474dd1f94d2e04ee224725230fb",
+    "size_bytes": 132078,
+    "license": "Open Access"
+  },
+  {
+    "dataset_id": "paper_assurance_cases",
+    "name": "Security Assurance Cases for Road Vehicles: An Industry Perspective",
+    "publisher": "Chalmers University & Volvo Group / Volvo Cars (arXiv:2003.14106)",
+    "source_url": "https://arxiv.org/pdf/2003.14106",
+    "local_path": "research/papers/mohamad_security_assurance_cases_2020.pdf",
+    "sha256": "554fb3d3eebff5dab5e612f35115ce35e4ebdd38bdf710d9288e2ab5c36cf2fb",
+    "size_bytes": 554144,
+    "license": "Open Access"
+  },
+  {
+    "dataset_id": "paper_sbom_slr",
+    "name": "Software Bill of Materials: A Systematic Literature Review",
+    "publisher": "arXiv:2406.03507",
+    "source_url": "https://arxiv.org/pdf/2406.03507",
+    "local_path": "research/papers/odonoghue_sbom_slr_2024.pdf",
+    "sha256": "ca55f4d8741b83c9278d3404d3987a384e86b5ee92b8a446dc1400cff257208b",
+    "size_bytes": 349760,
+    "license": "Open Access"
+  }
+]

@@ -9,12 +9,12 @@ from app.ingestion.base import ParsedSBOMResult
 
 class TraceabilityGraph:
     """Represents multi-tier software dependency and product composition graphs."""
-    
+
     def __init__(self):
         self.graph = nx.DiGraph()
         self._components_by_id: Dict[str, Component] = {}
         self._products_by_id: Dict[str, Product] = {}
-    
+
     def add_component(self, component: Component):
         """Adds a component node to the graph."""
         self._components_by_id[component.internal_id] = component
@@ -29,7 +29,7 @@ class TraceabilityGraph:
             identity_status=component.identity_status.value,
             is_synthetic=component.is_synthetic
         )
-    
+
     def add_product(self, product: Product):
         """Adds a product root node to the graph."""
         self._products_by_id[product.product_id] = product
@@ -55,15 +55,15 @@ class TraceabilityGraph:
             scope=edge.scope.value,
             is_transitive=edge.is_transitive
         )
-    
+
     def add_sbom_result(self, parsed_result: ParsedSBOMResult, product_id: Optional[str] = None):
         """Ingests all components and dependency edges from a parsed SBOM."""
         for c in parsed_result.components:
             self.add_component(c)
-        
+
         for d in parsed_result.dependencies:
             self.add_dependency_edge(d)
-        
+
         if product_id and product_id in self.graph:
             # Link root or all components to product
             for c in parsed_result.components:
@@ -71,7 +71,7 @@ class TraceabilityGraph:
                 in_degree = self.graph.in_degree(c.internal_id)
                 if in_degree == 0:
                     self.link_product_to_component(product_id, c.internal_id)
-    
+
     def link_product_to_component(self, product_id: str, component_id: str):
         """Creates an edge indicating that a product deploys or includes a component."""
         self.graph.add_edge(
@@ -87,7 +87,7 @@ class TraceabilityGraph:
         if node_id not in self.graph:
             return set()
         return nx.descendants(self.graph, node_id)
-    
+
     def get_ancestors(self, node_id: str) -> Set[str]:
         """Returns all transitive upstream nodes that depend on node_id."""
         if node_id not in self.graph:
@@ -136,11 +136,11 @@ class TraceabilityGraph:
         nodes_list = []
         for node_id, data in self.graph.nodes(data=True):
             nodes_list.append({"id": node_id, **data})
-        
+
         edges_list = []
         for u, v, data in self.graph.edges(data=True):
             edges_list.append({"source": u, "target": v, **data})
-            
+
         return {
             "nodes": nodes_list,
             "edges": edges_list,

@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "autosupplyguard"
 version = "0.1.0"
@@ -17,11 +21,45 @@ dependencies = [
     "fastapi>=0.110",
     "uvicorn>=0.29",
     "streamlit>=1.35",
-    "pytest>=8.0",
-    "pytest-asyncio>=0.23"
+    "psutil>=5.9"
 ]
 
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "hypothesis>=6.90",
+    "ruff>=0.3",
+    "pre-commit>=3.6"
+]
+binary = [
+    "pyelftools>=0.30"
+]
+
+[project.scripts]
+autosupplyguard-exp1 = "scripts.run_experiment_1:main"
+autosupplyguard-exp2 = "scripts.run_experiment_2:main"
+autosupplyguard-exp3 = "scripts.run_experiment_3:main"
+autosupplyguard-exp4 = "scripts.run_experiment_4:main"
+autosupplyguard-fetch = "scripts.fetch_data:main"
+
+[tool.setuptools.packages.find]
+include = ["app*", "scripts*"]
+
 [tool.pytest.ini_options]
-pythonpath = ["."]
 testpaths = ["tests"]
 asyncio_default_fixture_loop_scope = "function"
+filterwarnings = [
+    "error::DeprecationWarning",
+    "ignore:.*Using `httpx` with `starlette.testclient` is deprecated.*",
+    "ignore:.*unclosed <socket.socket.*:ResourceWarning"
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["E501"]
+

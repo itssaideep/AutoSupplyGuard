@@ -6,17 +6,17 @@ from packageurl import PackageURL
 def normalise_purl(raw_purl: Optional[str]) -> Tuple[Optional[str], Optional[str], Optional[str], Optional[str], bool]:
     """
     Parses and normalises a Package URL.
-    
+
     Returns:
         (canonical_purl, ecosystem, name, version, is_valid)
     """
     if not raw_purl or not isinstance(raw_purl, str):
         return None, None, None, None, False
-    
+
     cleaned = raw_purl.strip()
     if not cleaned.startswith("pkg:"):
         return None, None, None, None, False
-    
+
     try:
         parsed = PackageURL.from_string(cleaned)
         canonical = parsed.to_string()

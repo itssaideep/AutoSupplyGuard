@@ -1,6 +1,6 @@
 """Canonical Evidence Artifact domain model."""
 
-from typing import Optional, List
+from typing import Optional
 from datetime import date, datetime
 from pydantic import BaseModel, Field
 from app.models.enums import EvidenceType

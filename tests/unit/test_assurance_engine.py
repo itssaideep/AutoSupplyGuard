@@ -1,8 +1,8 @@
 """Unit tests for the Evidence-Based Assurance Engine (Milestone 7 & RQ3)."""
 
-from datetime import datetime, timedelta, date
+from datetime import timedelta, date
 import pytest
-from app.assurance.catalog import get_standard_claims, get_standard_requirements
+from app.assurance.catalog import get_standard_claims
 from app.assurance.evaluator import AssuranceEngine
 from app.models.evidence import EvidenceArtifact
 from app.models.component import Component
@@ -23,7 +23,7 @@ def engine():
 def test_positive_supported_assurance_claim(engine):
     """Case 1: All required evidence present, valid, fresh (<90 days), and uncontradicted."""
     claim = get_standard_claims()[0]  # CLAIM-SBOM-TRANSPARENCY-01
-    
+
     # Fresh SBOM evidence created 10 days ago
     fresh_sbom = EvidenceArtifact(
         evidence_id="ev-sbom-fresh",
@@ -36,7 +36,7 @@ def test_positive_supported_assurance_claim(engine):
         provenance="Verified supplier ingestion pipeline"
     )
     claim.supporting_evidence_ids = ["ev-sbom-fresh"]
-    
+
     result = engine.evaluate_claims(
         claims=[claim],
         evidence_artifacts=[fresh_sbom]
@@ -49,7 +49,7 @@ def test_positive_supported_assurance_claim(engine):
 def test_missing_evidence_yields_insufficient_evidence(engine):
     """Case 2: Claim requires both SBOM and Vulnerability Assessment, but only SBOM is supplied."""
     claim = get_standard_claims()[1]  # CLAIM-VULN-ASSESSMENT-02 requires SBOM and VULN_ASSESSMENT
-    
+
     fresh_sbom = EvidenceArtifact(
         evidence_id="ev-sbom-only",
         evidence_type=EvidenceType.SBOM,
@@ -61,7 +61,7 @@ def test_missing_evidence_yields_insufficient_evidence(engine):
         provenance="Ingested"
     )
     claim.supporting_evidence_ids = ["ev-sbom-only"]
-    
+
     result = engine.evaluate_claims([claim], [fresh_sbom])
     assert result.supported_count == 0
     assert result.insufficient_evidence_count == 1
@@ -72,7 +72,7 @@ def test_missing_evidence_yields_insufficient_evidence(engine):
 def test_stale_evidence_yields_insufficient_evidence(engine):
     """Case 3: Evidence is 180 days old, exceeding the 90-day freshness threshold."""
     claim = get_standard_claims()[0]
-    
+
     stale_sbom = EvidenceArtifact(
         evidence_id="ev-sbom-stale",
         evidence_type=EvidenceType.SBOM,
@@ -84,7 +84,7 @@ def test_stale_evidence_yields_insufficient_evidence(engine):
         provenance="Archival"
     )
     claim.supporting_evidence_ids = ["ev-sbom-stale"]
-    
+
     result = engine.evaluate_claims([claim], [stale_sbom])
     assert result.supported_count == 0
     assert result.insufficient_evidence_count == 1
@@ -95,7 +95,7 @@ def test_stale_evidence_yields_insufficient_evidence(engine):
 def test_contradictory_evidence_detection(engine):
     """Case 4: Supplier attestation asserts 'no vulnerabilities', but matching confirms active CVE."""
     claim = get_standard_claims()[3]  # CLAIM-SUPPLIER-ATTESTATION-04
-    
+
     supplier_attest = EvidenceArtifact(
         evidence_id="ev-attest-01",
         evidence_type=EvidenceType.SUPPLIER_ATTESTATION,
@@ -107,7 +107,7 @@ def test_contradictory_evidence_detection(engine):
         provenance="Supplier portal"
     )
     claim.supporting_evidence_ids = ["ev-attest-01"]
-    
+
     # Active confirmed vulnerability
     match = VulnerabilityMatch(
         match_id="m-active",
@@ -118,7 +118,7 @@ def test_contradictory_evidence_detection(engine):
         confidence=ConfidenceCategory.HIGH,
         version_constraint_result="Satisfied <2.0"
     )
-    
+
     result = engine.evaluate_claims(
         claims=[claim],
         evidence_artifacts=[supplier_attest],
@@ -133,7 +133,7 @@ def test_contradictory_evidence_detection(engine):
 def test_unresolved_component_identity_gap(engine):
     """Case 5: Components lack version strings, creating an assurance gap."""
     claim = get_standard_claims()[4]  # CLAIM-IDENTITY-COMPLETENESS-05
-    
+
     fresh_sbom = EvidenceArtifact(
         evidence_id="ev-sbom-unresolved",
         evidence_type=EvidenceType.SBOM,
@@ -145,7 +145,7 @@ def test_unresolved_component_identity_gap(engine):
         provenance="Ingested"
     )
     claim.supporting_evidence_ids = ["ev-sbom-unresolved"]
-    
+
     unresolved_comp = Component(
         internal_id="comp-anon",
         name="crypto-driver",
@@ -154,7 +154,7 @@ def test_unresolved_component_identity_gap(engine):
         original_id="anon-1",
         identity_status=IdentityResolutionStatus.UNRESOLVED
     )
-    
+
     result = engine.evaluate_claims(
         claims=[claim],
         evidence_artifacts=[fresh_sbom],

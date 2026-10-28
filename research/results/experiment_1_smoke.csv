@@ -1,0 +1,4 @@
+document,project,components,completeness,purl_rate,dep_resolution,matchability_index,total_vuln_matches,confirmed_vulns,candidate_matches
+sbom.spdx.json,102307552_monkeyWie+proxyee,14,1.0,1.0,1.0,1.0,0,0,0
+sbom.spdx.json,102884447_casbin+jcasbin,23,1.0,1.0,1.0,1.0,0,0,0
+sbom.spdx.json,11665119_VerbalExpressions+JavaVerbalExpressions,4,1.0,1.0,1.0,1.0,0,0,0

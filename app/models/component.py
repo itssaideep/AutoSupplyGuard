@@ -1,18 +1,19 @@
 """Canonical Component domain model."""
 
-from typing import Optional, List
+from typing import Optional
 from pydantic import BaseModel, Field
 from app.models.enums import IdentityResolutionStatus
 
 class Component(BaseModel):
     """Represents a discrete software package, module, or library identified within an SBOM."""
-    
+
     internal_id: str = Field(..., description="Unique internal UUID or deterministic hash for component")
     name: str = Field(..., description="Normalised component name")
     version: Optional[str] = Field(None, description="Normalised component version string")
     purl: Optional[str] = Field(None, description="Standardised Package URL (PURL)")
     cpe: Optional[str] = Field(None, description="Common Platform Enumeration string if declared")
     supplier: Optional[str] = Field(None, description="Reported supplier or publisher organisation")
+    checksum: Optional[str] = Field(None, description="Cryptographic package digest (e.g. SHA-1, SHA-256)")
     ecosystem: Optional[str] = Field(None, description="Identified package manager or ecosystem (e.g. npm, pypi, maven)")
     license: Optional[str] = Field(None, description="Declared or concluded SPDX license expression")
     source_sbom_id: str = Field(..., description="Internal ID of the originating SBOM document")
