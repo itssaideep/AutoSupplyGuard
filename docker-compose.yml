@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  autosupplyguard-api:
+    build: .
+    container_name: autosupplyguard-api
+    ports:
+      - "8000:8000"
+    command: uvicorn app.api.main:app --host 0.0.0.0 --port 8000
+    volumes:
+      - ./data:/app/data
+      - ./research/results:/app/research/results
+    restart: unless-stopped
+
+  autosupplyguard-dashboard:
+    build: .
+    container_name: autosupplyguard-dashboard
+    ports:
+      - "8501:8501"
+    command: streamlit run dashboard/app.py --server.port 8501 --server.address 0.0.0.0
+    depends_on:
+      - autosupplyguard-api
+    volumes:
+      - ./data:/app/data
+      - ./research/results:/app/research/results
+    restart: unless-stopped
