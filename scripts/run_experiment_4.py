@@ -1,8 +1,11 @@
-"""Experiment 4: Scalability, Robustness, and Runtime/Memory Profiling (RQ4)."""
+import sys
+from pathlib import Path
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 
 import time
 import tracemalloc
-from pathlib import Path
 import pandas as pd
 from app.ingestion.manager import SBOMIngestionManager
 from app.sbom_quality.calculator import QualityAssessmentEngine

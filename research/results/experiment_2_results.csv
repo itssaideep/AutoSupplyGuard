@@ -1,0 +1,7 @@
+match_id,vulnerability_id,component_id,component_name,component_version,cvss_score,downstream_impact_count,reachable_products,applicability,identity_status,baseline_a_score,baseline_b_score,proposed_score,ranking_rank_baseline_a,ranking_rank_baseline_b,ranking_rank_proposed
+m1,CVE-2023-CRYPTO-SHARED,c-openssl,openssl,1.1.1t,6.5,4,"['VOLVO-FM-AUTONOMOUS-GATEWAY', 'VOLVO-FH-ELECTRIC-TCU']",confirmed_applicable,resolved_exact,6.5,16.961,0.68,5,1,1
+m2,CVE-2023-CURL-HIGH,c-curl,libcurl,7.88.1,7.8,2,"['VOLVO-FH-ELECTRIC-TCU', 'VOLVO-FM-AUTONOMOUS-GATEWAY']",confirmed_applicable,resolved_exact,7.8,16.369,0.672,4,2,2
+m5,CVE-2023-ZLIB-MEDIUM,c-zlib,zlib,1.2.13,5.3,3,"['VOLVO-FM-AUTONOMOUS-GATEWAY', 'VOLVO-FH-ELECTRIC-TCU']",confirmed_applicable,resolved_exact,5.3,12.647,0.602,6,3,3
+m3,CVE-2023-ISOLATED-CRITICAL,c-isolated-tool-1,log-parser-tool,0.9,9.8,0,[],confirmed_applicable,resolved_exact,9.8,9.8,0.392,1,4,4
+m4,CVE-2023-ISOLATED-HIGH,c-isolated-tool-2,benchmark-mock,1.0,8.5,0,[],confirmed_applicable,resolved_exact,8.5,8.5,0.34,3,6,5
+m6,CVE-2023-FIXED-REMEDIATED,c-fixed-lib,securesocket,2.0.0,9.0,0,[],fixed_with_evidence,resolved_exact,9.0,9.0,0.0,2,5,6
