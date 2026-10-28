@@ -1,6 +1,6 @@
-# AutoSupplyGuard Limitations & Research Boundaries
+# AutoSupplyGuard Limitations & Technical Boundaries
 
-AutoSupplyGuard is a scientific research prototype and cybersecurity assurance engine. In accordance with rigorous scientific ethics and legal transparency, this document details known limitations and boundaries.
+AutoSupplyGuard is a cybersecurity assurance platform. In accordance with rigorous engineering ethics and legal transparency, this document details known limitations and boundaries.
 
 ## 1. Corporate Identity and Disambiguation Boundaries
 - **Strict Isolation of Volvo Group and Volvo Cars:** Volvo Group (commercial vehicles, heavy trucks, buses, construction equipment, marine engines) and Volvo Cars (passenger motor vehicles) are distinct, independent corporate entities with separate legal structures, cybersecurity management systems, and supplier contracts. AutoSupplyGuard strictly isolates records for both entities. No corporate partnership, supplier relationship, or vulnerability finding is ever transferred or assumed between them.

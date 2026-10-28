@@ -1,6 +1,6 @@
 # AutoSupplyGuard: Evidence-Driven Cybersecurity Assurance for Multi-Tier Automotive Supply Chains
 
-**Author:** Master's Thesis Research Candidate  
+**Author:** Sai Deep  
 **Target Focus:** Supply Chain Cybersecurity Assurance, Volvo Group  
 **Date:** October 2026  
 **Artifact Repository:** AutoSupplyGuard (`itssaideep/AutoSupplyGuard`)
@@ -40,7 +40,7 @@ AutoSupplyGuard was designed to address these fundamental challenges by bridging
 
 ## 2. Research Questions
 
-This thesis investigates four primary research questions:
+This project investigates four primary research questions:
 
 - **RQ1 (SBOM Quality and Matchability):** *How does SBOM quality affect component identification and vulnerability-matching accuracy in automotive software systems?*
 - **RQ2 (Context-Aware Prioritisation):** *Does dependency-aware and product-context analysis identify downstream security impact that severity-only vulnerability prioritisation misses?*
@@ -380,7 +380,7 @@ AutoSupplyGuard demonstrates that provenance-aware component traceability, binar
 - Corrects the misalignment of severity-only CVSS triage by factoring in vehicle operational context and downstream dependencies;
 - Operates with industrial-grade efficiency ($>2,700$ components/second, 3.35 MB peak heap allocations).
 
-AutoSupplyGuard establishes a robust, defensible foundation for Master's thesis research and practical engineering deployment within Volvo Group's supply chain cybersecurity assurance framework.
+AutoSupplyGuard establishes a robust, defensible foundation for practical engineering deployment within Volvo Group's supply chain cybersecurity assurance framework.
 
 ---
 

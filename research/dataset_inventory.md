@@ -1,6 +1,6 @@
 # AutoSupplyGuard — Dataset Inventory & Data Governance Manifest
 
-This inventory documents all primary, secondary, and benchmark datasets acquired, verified, and audited for the **AutoSupplyGuard** research prototype.
+This inventory documents all primary, secondary, and benchmark datasets acquired, verified, and audited for **AutoSupplyGuard**.
 
 ---
 

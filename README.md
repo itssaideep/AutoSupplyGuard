@@ -179,20 +179,6 @@ AutoSupplyGuard models independently documented corporate disclosures with stric
 
 ---
 
-## 7. Project Metadata
-
-```bibtex
-@software{AutoSupplyGuard2026,
-  author       = {Sai Deep},
-  title        = {AutoSupplyGuard: Evidence-Driven Cybersecurity Assurance for Multi-Tier Automotive Supply Chains},
-  year         = {2026},
-  publisher    = {GitHub},
-  url          = {https://github.com/itssaideep/AutoSupplyGuard}
-}
-```
-
----
-
-## 8. License
+## 7. License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
