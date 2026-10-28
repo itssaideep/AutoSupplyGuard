@@ -34,10 +34,22 @@ def normalise_version(raw_version: Optional[str]) -> Tuple[Optional[str], bool, 
         # Return cleaned non-standard version with validity=False
         return cleaned, False, modified
 
+def parse_comparable_version(v_str: str) -> tuple:
+    """Parses version into comparable tuple of (type_flag, value) tokens."""
+    tokens = re.findall(r"(\d+|[a-zA-Z]+)", v_str)
+    res = []
+    for t in tokens:
+        if t.isdigit():
+            res.append((0, int(t)))
+        else:
+            res.append((1, t.lower()))
+    return tuple(res)
+
 def matches_version_constraint(version_str: str, constraint_str: str) -> bool:
     """
     Checks if a component version satisfies an affected or fixed version constraint.
-    Supports exact match, prefix match, and simple range operators (<, <=, >, >=, ==, !=).
+    Supports exact match, prefix match, and range operators (<, <=, >, >=, ==, !=).
+    Handles both standard PEP440/SemVer and letter-suffixed versions (e.g. OpenSSL 1.1.1u).
     """
     if not version_str or not constraint_str:
         return False
@@ -54,20 +66,38 @@ def matches_version_constraint(version_str: str, constraint_str: str) -> bool:
     if c_clean == v_norm or c_clean == version_str:
         return True
     
-    if not v_valid:
-        # Fallback to simple string match
-        return v_norm == c_clean
-    
-    try:
-        from packaging.specifiers import SpecifierSet
-        spec = SpecifierSet(c_clean)
-        return Version(v_norm) in spec
-    except Exception:
-        # If constraint is a bare version e.g. "1.2.3", test equality
-        c_norm, c_valid, _ = normalise_version(c_clean)
-        if c_valid:
+    # Check operator prefix
+    op_match = re.match(r"^(<=|>=|<|>|==|!=)\s*(.+)$", c_clean)
+    if op_match:
+        op = op_match.group(1)
+        target_v = op_match.group(2).strip()
+        t_norm, t_valid, _ = normalise_version(target_v)
+        target_comp = t_norm or target_v
+        
+        # Try packaging.version first if both are valid standard versions
+        if v_valid and t_valid:
             try:
-                return Version(v_norm) == Version(c_norm)
+                from packaging.specifiers import SpecifierSet
+                return Version(v_norm) in SpecifierSet(c_clean)
             except Exception:
                 pass
-        return v_norm.startswith(c_clean)
+        
+        # Fallback to tokenized tuple comparison
+        v_tuple = parse_comparable_version(v_norm)
+        t_tuple = parse_comparable_version(target_comp)
+        if op == "<":
+            return v_tuple < t_tuple
+        elif op == "<=":
+            return v_tuple <= t_tuple
+        elif op == ">":
+            return v_tuple > t_tuple
+        elif op == ">=":
+            return v_tuple >= t_tuple
+        elif op == "==":
+            return v_tuple == t_tuple
+        elif op == "!=":
+            return v_tuple != t_tuple
+            
+    # Default fallback: equality or prefix match
+    return v_norm == c_clean or v_norm.startswith(c_clean)
+
