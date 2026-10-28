@@ -1,21 +1,18 @@
 # AutoSupplyGuard
-### Evidence-Driven Cybersecurity Assurance for Multi-Tier Automotive Supply Chains
+### Evidence-Driven Cybersecurity Assurance for Multi-Tier Automotive Supply Chains (Volvo Group Context)
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%20%7C%203.12-blue.svg)](https://www.python.org/)
 [![CI](https://github.com/itssaideep/AutoSupplyGuard/actions/workflows/ci.yml/badge.svg)](https://github.com/itssaideep/AutoSupplyGuard/actions)
+[![Python 3.10 | 3.12](https://img.shields.io/badge/python-3.10%20%7C%203.12-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tests: 75 Passed](https://img.shields.io/badge/tests-75%20passed-brightgreen.svg)]()
+[![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 [![FastAPI](https://img.shields.io/badge/API-FastAPI-teal.svg)](https://fastapi.tiangolo.com/)
 [![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-red.svg)](https://streamlit.io/)
-[![Assurance FAR](https://img.shields.io/badge/False%20Assurance%20(FAR)-0%2F98%20(CI%2095%25%20%E2%89%A4%203.8%25)-success.svg)]()
-
-> **Research Prototype Notice:** AutoSupplyGuard was designed and implemented as a research-grade prototype demonstrating scientific rigor and practical engineering for a **Master's Thesis application focused on Supply Chain Cybersecurity Assurance at Volvo Group**.
 
 ---
 
-## 1. Executive Summary
+## 1. Overview
 
-Modern connected and autonomous commercial vehicles manufactured by **Volvo Group** (such as heavy-duty freight trucks, electric haulers, and autonomous buses) execute distributed software stacks across over 100 Electronic Control Units (ECUs) sourced through multi-tier supplier networks. International regulations—specifically **UNECE R155/R156**, **ISO/SAE 21434:2021**, and the **EU Cyber Resilience Act (CRA)**—mandate continuous vulnerability management, third-party software transparency via Software Bills of Materials (SBOMs), and evidence-backed cybersecurity assurance.
+Modern connected and autonomous commercial vehicles manufactured by **Volvo Group** (such as heavy-duty freight trucks, electric haulers, and autonomous buses) execute distributed software stacks across over 100 Electronic Control Units (ECUs) sourced through multi-tier supplier networks. International automotive cybersecurity regulations—specifically **UNECE R155/R156**, **ISO/SAE 21434:2021**, and the **EU Cyber Resilience Act (CRA)**—mandate continuous vulnerability management, third-party software transparency via Software Bills of Materials (SBOMs), and evidence-backed cybersecurity assurance.
 
 However, existing industrial practices encounter two fundamental failures:
 1. **Misaligned Severity Triage:** Vulnerability prioritization relies strictly on static CVSS base scores. An offline developer utility with CVSS 9.8 triggers an emergency triage, while a CVSS 6.5 vulnerability in a shared cryptographic library operating on a cellular Telematics Control Unit (TCU) is deferred.
@@ -25,14 +22,14 @@ However, existing industrial practices encounter two fundamental failures:
 
 ---
 
-## 2. Research Questions & Empirical Findings
+## 2. Core Capabilities & Benchmark Performance
 
-| Research Question | Focus | Key Empirical Result |
+| Capability / Benchmark | Focus | Measured Performance |
 | :--- | :--- | :--- |
-| **RQ1 (SBOM Quality & Degradation)** | Effect of SBOM quality and field degradation on component resolution and vulnerability matching | **100% PURL coverage** yields zero-ambiguity matching ($F_1 = 0.72$); dropping version string monotonically shifts confirmed matches directly into explicit `candidate_match` uncertainty, preserving 100% recall while eliminating false confidence. |
-| **RQ2 (Context Prioritisation)** | Downstream impact and product reachability vs. severity-only ranking | Critical vehicle gateway vulnerability (CVSS 6.5) **elevated from Rank 5 to Rank 1**; isolated offline tool (CVSS 9.8) **downranked from Rank 1 to Rank 4**. |
-| **RQ3 (Evidence Assurance)** | Automated detection of missing, stale, or contradictory security claims | **100.0% Accuracy and 0/98 False Assurances (Wilson 95% upper bound 3.8%)**, compared to **97.8% False Assurance Rate** in checklist existence baselines and **55.8%** in date+VEX baselines. |
-| **RQ4 (Scalability & Invariant)** | Performance as SBOM count and component volume increase | Curated benchmark resolves **995 packages and exactly 949 true component dependencies** (filtering 46 top-level document wrappers), executed in **0.359s** at **2,770 comps/sec** with **3.35 MB peak RAM**. |
+| **SBOM Quality & Graceful Degradation** | Effect of SBOM quality and field degradation on component resolution and vulnerability matching | With complete Package URLs, matching is unambiguous ($F_1 = 0.72$ on curated benchmarks); with missing fields it degrades gracefully to `candidate_match`. Monotonic degradation is demonstrated across 5 seeds in Experiment B1; wild noisy SBOMs exhibit lower completeness ($6.51 \pm 1.12$). |
+| **Context-Aware Prioritisation** | Downstream impact and product reachability vs. severity-only ranking | Critical vehicle gateway vulnerability (CVSS 6.5) **elevated from Rank 5 to Rank 1**; isolated offline tool (CVSS 9.8) **downranked from Rank 1 to Rank 4**. |
+| **Evidence-Based Assurance** | Automated detection of missing, stale, or contradictory security claims | **0 of 6** false assurances on the initial suite (checklist baseline: 5 of 6); **0 of 98** false assurances on the full-factorial assurance corpus (Wilson 95% CI upper bound: **3.8%** vs. 81.6% for checklist existence baselines). |
+| **Scalability & Invariant Graph Traversal** | Performance as SBOM count and component volume increase | Curated benchmark resolves **995 packages and exactly 949 true component dependencies** (filtering 46 top-level document wrappers), executed in **0.359s** at **2,770 comps/sec** with **3.35 MB peak RAM**. |
 
 ---
 
@@ -42,7 +39,7 @@ AutoSupplyGuard follows a modular, 6-layer decoupled architecture:
 
 ```
 +-------------------------------------------------------------------------------+
-| Layer 6: Reporting & UI (FastAPI Endpoints & Streamlit Research Dashboard)    |
+| Layer 6: Reporting & UI (FastAPI Endpoints & Streamlit Dashboard)             |
 +-------------------------------------------------------------------------------+
                                         ^
 +-------------------------------------------------------------------------------+
@@ -58,7 +55,7 @@ AutoSupplyGuard follows a modular, 6-layer decoupled architecture:
 +-------------------------------------------------------------------------------+
                                         ^
 +-------------------------------------------------------------------------------+
-| Layer 2: Normalisation & Quality (Package URL Spec, C++ SemVer, 5 Metrics)   |
+| Layer 2: Normalisation & Quality (Package-URL purl-spec, C++ SemVer)          |
 +-------------------------------------------------------------------------------+
                                         ^
 +-------------------------------------------------------------------------------+
@@ -67,9 +64,10 @@ AutoSupplyGuard follows a modular, 6-layer decoupled architecture:
 ```
 
 ### Deterministic Security Principles
-- **No AI in Security Decisions:** Vulnerability applicability, risk scoring, and assurance claim satisfaction are calculated strictly through deterministic, mathematically proven algorithms. AI/LLMs may only draft human explanations and are forbidden from modifying risk scores.
+- **No AI in Security Decisions:** Vulnerability applicability, risk scoring, and assurance claim satisfaction are calculated strictly through deterministic rule-based algorithms. AI/LLMs may only draft human explanations and are forbidden from modifying risk scores.
 - **Explicit Uncertainty States:** Any component lacking an exact version is tagged `candidate_match` rather than confirmed vulnerable. Claims lacking fresh evidence are tagged `insufficient_evidence`.
 - **Strict Entity Separation:** **Volvo Group** (commercial vehicles, heavy trucks) and **Volvo Cars** (passenger vehicles) are modeled as distinct, separate organizations. No relationship or vulnerability is ever transferred between them.
+- **Specification Compliance:** Canonical Package URL formatting adheres strictly to the official [Package-URL (purl) specification](https://github.com/package-url/purl-spec).
 
 ---
 
@@ -77,17 +75,21 @@ AutoSupplyGuard follows a modular, 6-layer decoupled architecture:
 
 ```
 AutoSupplyGuard/
+├── .github/
+│   └── workflows/
+│       └── ci.yml            # GitHub Actions CI matrix (Python 3.10 & 3.12, lint, large-file guard)
+├── .pre-commit-config.yaml   # Pre-commit hooks (Ruff, 50MB file size guard)
 ├── app/
 │   ├── api/                  # FastAPI REST API, state management, and route schemas
 │   ├── assurance/            # Evidence-based assurance engine & ISO/SAE 21434 catalogs
 │   ├── evidence/             # Binary linker map (-Map) & symbol table exposure analysis
 │   ├── ingestion/            # SPDX & CycloneDX parsers, checksum validation
 │   ├── models/               # Canonical Pydantic v2 entities (Component, SBOM, Claim)
-│   ├── normalisation/        # Package URL normaliser & C/C++ version comparators
+│   ├── normalisation/        # Package URL (purl-spec) & C/C++ version comparators
 │   ├── sbom_quality/         # 5 formal quality metrics calculator
 │   ├── traceability/         # NetworkX directed graph & context prioritisation engine
 │   └── vulnerability/        # Automotive vulnerability feed, OSV client, 4-stage matcher
-├── dashboard/                # 6-page interactive Streamlit research dashboard
+├── dashboard/                # 6-page interactive Streamlit assurance dashboard
 ├── data/
 │   ├── raw/                  # Immutable external datasets (Automotive CVEs, Curated SBOMs)
 │   ├── interim/              # OSV API cache & intermediate indexes
@@ -96,13 +98,14 @@ AutoSupplyGuard/
 │   └── manifests/            # SHA-256 provenance manifests
 ├── docs/                     # Technical specifications (Architecture, Data Model, Methodology)
 ├── research/
-│   ├── final_report.md       # 19-section academic research paper with full results
-│   ├── literature_review.md  # Formal literature review & analysis
-│   ├── literature_matrix.csv # Comparative matrix of 6 foundation research papers
-│   ├── research_gap.md       # Explicit research gaps and contributions
+│   ├── final_report.md       # Comprehensive evaluation and technical documentation
+│   ├── literature_review.md  # State-of-the-art survey on supply chain cybersecurity
+│   ├── literature_matrix.csv # Comparative matrix of foundation reference papers
+│   ├── research_gap.md       # Explicit gaps and engineering contributions
 │   ├── references.bib        # BibTeX citations
-│   └── results/              # Reproducible raw result CSVs (Experiments 1 to 4)
-├── scripts/                  # Automated runners for Experiments 1-4, B1, and B2
+│   ├── figures/              # Generated evaluation curves & figures
+│   └── results/              # Reproducible raw result CSVs (Experiments 1-4, B1, B2)
+├── scripts/                  # Automated runners for benchmark experiments and data fetching
 └── tests/                    # 75 unit, property, and evaluation test cases
 ```
 
@@ -116,27 +119,37 @@ AutoSupplyGuard/
 git clone https://github.com/itssaideep/AutoSupplyGuard.git
 cd AutoSupplyGuard
 
-# Create and activate virtual environment using uv or standard venv
-uv venv .venv
+# Create and activate virtual environment
+python -m venv .venv
 source .venv/bin/activate       # On Windows: .venv\Scripts\activate
 
-# Install dependencies in editable mode
-uv pip install -e .
+# Install package with all development and binary analysis dependencies
+pip install -e ".[dev,binary]"
+# Or using uv:
+uv pip install -e ".[dev,binary]"
 ```
 
+> **Continuous Integration:** CI runs automatically on GitHub Actions across a test matrix of Python 3.10 and 3.12 with all deprecation warnings treated as errors.
+
 ### 5.2 Execute Automated Tests
-Run all 35 unit, integration, and security tests:
+Run all 75 unit, property, and evaluation tests:
 ```bash
 pytest -v
 ```
 
-### 5.3 Reproduce Empirical Research Experiments
-Execute the experimental suite to regenerate all benchmark results:
+### 5.3 Run Benchmark Experiments
+Execute benchmark experiments via console entry points or python modules:
 ```bash
-python scripts/run_experiment_1.py   # RQ1: SBOM Quality & Matchability
-python scripts/run_experiment_2.py   # RQ2: Dependency Impact Prioritisation
-python scripts/run_experiment_3.py   # RQ3: Assurance Gap & Staleness Detection
-python scripts/run_experiment_4.py   # RQ4: Scalability & Memory Profiling
+# Run via console entry points
+autosupplyguard-exp1   # Quality & matchability
+autosupplyguard-exp2   # Dependency impact prioritisation
+autosupplyguard-exp3   # Assurance gap & staleness detection
+autosupplyguard-exp4   # Scalability & memory profiling
+autosupplyguard-b1     # Metadata degradation & wild SBOM analysis
+autosupplyguard-b2     # Full factorial N=98 assurance evaluation
+
+# Verify dataset integrity (SHA-256)
+autosupplyguard-fetch --verify-only
 ```
 Raw result CSVs are stored in `research/results/`.
 
@@ -146,7 +159,7 @@ uvicorn app.api.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 Interactive Swagger documentation is available at `http://localhost:8000/docs`.
 
-### 5.5 Launch the Research Dashboard
+### 5.5 Launch the Interactive Dashboard
 ```bash
 streamlit run dashboard/app.py
 ```
@@ -166,14 +179,14 @@ AutoSupplyGuard models independently documented corporate disclosures with stric
 
 ---
 
-## 7. Citation & Academic References
+## 7. Project Metadata
 
 ```bibtex
-@mastersthesis{AutoSupplyGuard2026,
-  author       = {Research Candidate},
+@software{AutoSupplyGuard2026,
+  author       = {Sai Deep},
   title        = {AutoSupplyGuard: Evidence-Driven Cybersecurity Assurance for Multi-Tier Automotive Supply Chains},
-  school       = {Master's Thesis Research Application, Volvo Group Focus},
   year         = {2026},
+  publisher    = {GitHub},
   url          = {https://github.com/itssaideep/AutoSupplyGuard}
 }
 ```

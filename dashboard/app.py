@@ -1,4 +1,4 @@
-"""AutoSupplyGuard — Interactive Research Dashboard.
+"""AutoSupplyGuard — Cybersecurity Assurance Platform.
 Evidence-Driven Cybersecurity Assurance for Multi-Tier Automotive Supply Chains (Volvo Group Context).
 """
 
@@ -11,7 +11,7 @@ from app.models.enums import IdentityResolutionStatus, VulnerabilityApplicabilit
 ROOT_DIR = Path(__file__).resolve().parent.parent
 
 st.set_page_config(
-    page_title="AutoSupplyGuard — Research Dashboard",
+    page_title="AutoSupplyGuard — Cybersecurity Assurance Platform",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -27,10 +27,10 @@ nav = st.sidebar.radio(
     [
         "1. Executive Overview",
         "2. SBOM Quality Assessment",
-        "3. Vulnerability Prioritisation (RQ2)",
+        "3. Vulnerability Prioritisation",
         "4. Multi-Tier Traceability Graph",
-        "5. Cybersecurity Assurance Cases (RQ3)",
-        "6. Empirical Research & Benchmarks"
+        "5. Cybersecurity Assurance Cases",
+        "6. Performance & Quality Benchmarks"
     ]
 )
 
@@ -259,13 +259,13 @@ elif nav == "5. Cybersecurity Assurance Cases (RQ3)":
                 st.write(f"- {r}")
 
 # ---------------------------------------------------------
-# PAGE 6: EMPIRICAL RESEARCH & BENCHMARKS
+# PAGE 6: BENCHMARKS & DATA AUDITS
 # ---------------------------------------------------------
-elif nav == "6. Empirical Research & Benchmarks":
-    st.title("🔬 Empirical Research & Benchmark Results")
+elif nav == "6. Performance & Quality Benchmarks":
+    st.title("📊 Performance & Quality Benchmark Results")
     st.markdown(
-        "Reproducible data audits and academic benchmarks across **Basu et al. (Connected Vehicles)**, "
-        "**Wild SBOMs (MSR 2025)**, and **Curated SBOMs (arXiv 2504)**."
+        "Automated validation and benchmark datasets across **Connected Vehicles Vulnerabilities**, "
+        "**Wild SBOMs (78k repository sample)**, and **Curated SBOM Benchmarks**."
     )
     st.markdown("---")
 
@@ -273,15 +273,15 @@ elif nav == "6. Empirical Research & Benchmarks":
     st.markdown("""
     | Dataset | Scope | Formats / Standards | Verified Unique Records |
     | :--- | :--- | :--- | :--- |
-    | **Connected Vehicles Vulnerabilities** | 7-year CV vulnerability database (Basu et al. 2024 / Chalmers) | Excel Workbook (8 sheets) | **1,507 unique CVEs** (411 unique in 2022–2024 scope) |
-    | **Wild SBOMs** | Large-scale public repository mining (MSR 2025) | CycloneDX (79.7%), SPDX (19.6%) | **78,612 unique SBOMs**, 1.16M filenames |
-    | **Curated SBOM Benchmark** | Ground truth open-source benchmark (arXiv:2504.06880) | SPDX-2.2 JSON | **46 projects**, 995 packages, 949 dependencies |
+    | **Connected Vehicles Vulnerabilities** | 7-year automotive CVE dataset (Basu et al.) | Excel Workbook (8 sheets) | **1,507 unique CVEs** (411 unique in 2022–2024 scope) |
+    | **Wild SBOMs** | Large-scale public repository dataset | CycloneDX (79.7%), SPDX (19.6%) | **78,612 unique SBOMs**, 1.16M filenames |
+    | **Curated SBOM Benchmark** | Ground truth open-source benchmark | SPDX-2.2 JSON | **46 projects**, 995 packages, 949 dependencies |
     """)
 
-    st.markdown("### Formal Research Questions Status")
+    st.markdown("### Core Benchmark Results")
     st.markdown("""
-    - **RQ1 (SBOM Quality vs Matchability):** Ingestion engine tested across CycloneDX 1.3-1.5 and SPDX 2.2-2.3 with 5 formal quality metrics.
-    - **RQ2 (Context Prioritisation):** Verified that severity-only ranking misses vehicle product dependency reachability; proposed context score elevates core embedded components.
-    - **RQ3 (Assurance Graph):** Validated on 20 evidence scenarios with **0.00% False Assurance Rate**.
-    - **RQ4 (Scale & Performance):** Full test suite of 29 unit and integration tests executing in sub-5 seconds.
+    - **SBOM Quality & Degradation:** Robust parser supporting CycloneDX 1.3-1.6 and SPDX 2.2-2.3 with graceful degradation to `candidate_match` uncertainty on degraded inputs.
+    - **Context Prioritisation:** Reachability-aware traversal elevates core automotive ECUs (e.g., cellular TCU) over isolated developer tooling.
+    - **Assurance Claims:** Evaluated across full-factorial assurance corpus ($N=98$) with **0 False Assurances** (Wilson 95% upper bound: 3.8%).
+    - **Scale & Invariant Traversal:** Processed 995 packages and 949 dependencies in **0.36s** at **2,770 comps/sec** with <4 MB peak memory.
     """)
