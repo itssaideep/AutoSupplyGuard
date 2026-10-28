@@ -1,0 +1,205 @@
+{
+  "description": "Controlled synthetic multi-tier automotive supply chain fixture for assurance evaluation and graph recovery benchmarking.",
+  "is_synthetic": true,
+  "organisations": [
+    {
+      "organisation_id": "SYNTH-OEM-VOLVO-TRUCKS",
+      "name": "Synthetic Volvo Heavy Commercial Vehicles",
+      "canonical_name": "Volvo Trucks Autonomous Division (Synthetic)",
+      "organisation_type": "OEM",
+      "is_synthetic": true
+    },
+    {
+      "organisation_id": "SYNTH-TIER1-TELEMATICS-CORP",
+      "name": "Nordic Telematics Solutions AB",
+      "canonical_name": "Nordic Telematics (Synthetic Tier 1)",
+      "organisation_type": "Tier 1",
+      "is_synthetic": true
+    },
+    {
+      "organisation_id": "SYNTH-TIER1-COCKPIT-SYSTEMS",
+      "name": "Apex Cockpit Automotive Systems",
+      "canonical_name": "Apex Cockpit (Synthetic Tier 1)",
+      "organisation_type": "Tier 1",
+      "is_synthetic": true
+    },
+    {
+      "organisation_id": "SYNTH-TIER2-CRYPTO-CORE",
+      "name": "SecuCore Embedded Cryptography",
+      "canonical_name": "SecuCore (Synthetic Tier 2)",
+      "organisation_type": "Tier 2",
+      "is_synthetic": true
+    },
+    {
+      "organisation_id": "SYNTH-TIER2-RTOS-KERNEL",
+      "name": "RealTime Automotive OS GmbH",
+      "canonical_name": "RealTime OS (Synthetic Tier 2)",
+      "organisation_type": "Tier 2",
+      "is_synthetic": true
+    },
+    {
+      "organisation_id": "SYNTH-TIER2-NET-STACK",
+      "name": "AutoEthernet Protocols Ltd",
+      "canonical_name": "AutoEthernet (Synthetic Tier 2)",
+      "organisation_type": "Tier 2",
+      "is_synthetic": true
+    }
+  ],
+  "products": [
+    {
+      "product_id": "SYNTH-PROD-TRUCK-TCU-V1",
+      "name": "Synthetic Telematics Control Unit v1.0",
+      "version": "1.0.0",
+      "category": "Telematics Gateway",
+      "supporting_source": "Synthetic Technical Specification v1",
+      "related_component_ids": ["synth-comp-tcu-daemon-v1"],
+      "is_synthetic": true
+    },
+    {
+      "product_id": "SYNTH-PROD-TRUCK-TCU-V2",
+      "name": "Synthetic Telematics Control Unit v2.0",
+      "version": "2.0.0",
+      "category": "Telematics Gateway",
+      "supporting_source": "Synthetic Technical Specification v2",
+      "related_component_ids": ["synth-comp-tcu-daemon-v2"],
+      "is_synthetic": true
+    }
+  ],
+  "components": [
+    {
+      "internal_id": "synth-comp-tcu-daemon-v1",
+      "name": "telematics-gateway-daemon",
+      "version": "1.0.0",
+      "purl": "pkg:generic/nordic/tcu-daemon@1.0.0",
+      "supplier": "Nordic Telematics Solutions AB",
+      "source_sbom_id": "synth-sbom-tcu-v1",
+      "original_id": "tcu-daemon-1.0",
+      "identity_status": "resolved_exact",
+      "is_synthetic": true
+    },
+    {
+      "internal_id": "synth-comp-tcu-daemon-v2",
+      "name": "telematics-gateway-daemon",
+      "version": "2.0.0",
+      "purl": "pkg:generic/nordic/tcu-daemon@2.0.0",
+      "supplier": "Nordic Telematics Solutions AB",
+      "source_sbom_id": "synth-sbom-tcu-v2",
+      "original_id": "tcu-daemon-2.0",
+      "identity_status": "resolved_exact",
+      "is_synthetic": true
+    },
+    {
+      "internal_id": "synth-comp-crypto-lib-v1",
+      "name": "secucore-crypto-engine",
+      "version": "1.2.0",
+      "purl": "pkg:generic/secucore/crypto-engine@1.2.0",
+      "supplier": "SecuCore Embedded Cryptography",
+      "source_sbom_id": "synth-sbom-tcu-v1",
+      "original_id": "crypto-1.2.0",
+      "identity_status": "resolved_exact",
+      "is_synthetic": true,
+      "notes": "Affected version: vulnerable to SYNTH-CVE-2024-0001 (CVSS 8.5)"
+    },
+    {
+      "internal_id": "synth-comp-crypto-lib-v2",
+      "name": "secucore-crypto-engine",
+      "version": "1.3.0",
+      "purl": "pkg:generic/secucore/crypto-engine@1.3.0",
+      "supplier": "SecuCore Embedded Cryptography",
+      "source_sbom_id": "synth-sbom-tcu-v2",
+      "original_id": "crypto-1.3.0",
+      "identity_status": "resolved_exact",
+      "is_synthetic": true,
+      "notes": "Fixed version: patched against SYNTH-CVE-2024-0001"
+    },
+    {
+      "internal_id": "synth-comp-rtos-kernel",
+      "name": "realtime-posix-kernel",
+      "version": "3.8.2",
+      "purl": "pkg:generic/realtime/posix-kernel@3.8.2",
+      "supplier": "RealTime Automotive OS GmbH",
+      "source_sbom_id": "synth-sbom-tcu-v1",
+      "original_id": "rtos-3.8.2",
+      "identity_status": "resolved_exact",
+      "is_synthetic": true,
+      "notes": "Stale assurance evidence case: security assessment is 240 days old (> 90 days)"
+    },
+    {
+      "internal_id": "synth-comp-ambiguous-pkg",
+      "name": "unnamed-canbus-helper",
+      "version": null,
+      "purl": null,
+      "supplier": "AutoEthernet Protocols Ltd",
+      "source_sbom_id": "synth-sbom-tcu-v1",
+      "original_id": "helper-raw",
+      "identity_status": "unresolved",
+      "is_synthetic": true,
+      "notes": "Ambiguous/unresolved component identity case: missing version and purl"
+    }
+  ],
+  "dependencies": [
+    {
+      "source_component_id": "synth-comp-tcu-daemon-v1",
+      "target_component_id": "synth-comp-crypto-lib-v1",
+      "relationship_type": "DEPENDS_ON",
+      "scope": "runtime",
+      "is_transitive": false
+    },
+    {
+      "source_component_id": "synth-comp-crypto-lib-v1",
+      "target_component_id": "synth-comp-rtos-kernel",
+      "relationship_type": "DEPENDS_ON",
+      "scope": "runtime",
+      "is_transitive": true
+    },
+    {
+      "source_component_id": "synth-comp-tcu-daemon-v2",
+      "target_component_id": "synth-comp-crypto-lib-v2",
+      "relationship_type": "DEPENDS_ON",
+      "scope": "runtime",
+      "is_transitive": false
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "vulnerability_id": "SYNTH-CVE-2024-0001",
+      "source": "Synthetic_Automotive_Feed",
+      "description": "Critical remote key derivation flaw in SecuCore crypto engine versions prior to 1.3.0.",
+      "cvss_score": 8.5,
+      "cvss_version": "3.1",
+      "severity_level": "HIGH",
+      "affected_packages": ["pkg:generic/secucore/crypto-engine", "secucore-crypto-engine"],
+      "affected_version_ranges": ["<1.3.0"],
+      "fixed_versions": ["1.3.0"],
+      "is_synthetic": true
+    }
+  ],
+  "evidence_scenarios": [
+    {
+      "case_id": "CASE-01-CLEAN-SUPPORTED",
+      "description": "TCU v2 has valid fresh SBOM, patched crypto library v1.3.0, and fresh vulnerability scan.",
+      "expected_status": "supported"
+    },
+    {
+      "case_id": "CASE-02-AFFECTED-CONFIRMED",
+      "description": "TCU v1 depends on vulnerable crypto library v1.2.0 satisfying <1.3.0 constraint.",
+      "expected_status": "confirmed_applicable"
+    },
+    {
+      "case_id": "CASE-03-STALE-EVIDENCE",
+      "description": "RTOS kernel security assessment date is 240 days old (> 90 day threshold).",
+      "expected_status": "insufficient_evidence",
+      "stale_days": 240
+    },
+    {
+      "case_id": "CASE-04-CONTRADICTION",
+      "description": "SecuCore self-attests 'not_affected' without code modification, while CVE confirms active exploit.",
+      "expected_status": "contradicted"
+    },
+    {
+      "case_id": "CASE-05-AMBIGUOUS-IDENTITY",
+      "description": "Component unnamed-canbus-helper has missing version, preventing vulnerability assessment.",
+      "expected_status": "insufficient_evidence"
+    }
+  ]
+}

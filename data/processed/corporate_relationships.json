@@ -1,0 +1,101 @@
+[
+  {
+    "relationship_id": "rel-volvo-group-nvidia-01",
+    "entity_a": "volvo-group",
+    "entity_b": "nvidia",
+    "relationship_type": "DEVELOPS_WITH",
+    "scope": "Partnership to develop decision-making systems for autonomous commercial vehicles and heavy-duty trucks using NVIDIA DRIVE end-to-end AI platform.",
+    "source_url": "https://www.volvogroup.com/en/news-and-media/news/2019/jun/news-3343940.html",
+    "source_title": "Volvo Group and NVIDIA partner on advanced AI platform for autonomous commercial vehicles",
+    "publication_date": "2019-06-18",
+    "retrieved_at": "2026-10-28T11:00:00Z",
+    "supporting_excerpt": "Volvo Group and NVIDIA have signed an agreement to jointly develop the decision-making system of autonomous commercial vehicles and machines. Utilizing NVIDIA's end-to-end artificial intelligence platform for training, simulation and in-vehicle computing, the resulting system is designed to safely handle fully autonomous driving on public roads and highways.",
+    "confidence": "high",
+    "evidence_type": "official_company_disclosure",
+    "limitations": [
+      "Discloses strategic R&D and platform development agreement; does not prove deployment in any specific production truck VIN.",
+      "Applies strictly to Volvo Group (commercial vehicles/trucks), not Volvo Cars."
+    ],
+    "validation_state": "manually_verified",
+    "is_synthetic": false
+  },
+  {
+    "relationship_id": "rel-volvo-cars-nvidia-02",
+    "entity_a": "volvo-cars",
+    "entity_b": "nvidia",
+    "relationship_type": "INTEGRATES",
+    "scope": "Integration of NVIDIA DRIVE Orin system-on-a-chip (SoC) as central computing platform in Volvo Cars' next-generation electric vehicles (EX90).",
+    "source_url": "https://www.media.volvocars.com/global/en-gb/media/pressreleases/279893/volvo-cars-deepens-collaboration-with-nvidia-as-it-introduces-next-generation-of-safe-autonomous-drivi",
+    "source_title": "Volvo Cars deepens collaboration with NVIDIA as it introduces next generation of safe, autonomous driving technology",
+    "publication_date": "2021-04-12",
+    "retrieved_at": "2026-10-28T11:00:00Z",
+    "supporting_excerpt": "Volvo Cars is deepening its collaboration with technology firm NVIDIA to use the NVIDIA DRIVE Orin system-on-a-chip (SoC) technology for its next-generation models... Volvo Cars aims to be the first global car maker to use NVIDIA DRIVE Orin in its next generation of cars, beginning with the upcoming fully electric SUV.",
+    "confidence": "high",
+    "evidence_type": "official_company_disclosure",
+    "limitations": [
+      "Applies strictly to Volvo Cars (passenger vehicles), which is legally and operationally separate from Volvo Group.",
+      "Does not reveal specific Tier 2 board firmware or software component versions."
+    ],
+    "validation_state": "manually_verified",
+    "is_synthetic": false
+  },
+  {
+    "relationship_id": "rel-volvo-cars-zenseact-03",
+    "entity_a": "volvo-cars",
+    "entity_b": "zenseact",
+    "relationship_type": "OWNS",
+    "scope": "100% corporate ownership of autonomous driving software development subsidiary Zenseact by Volvo Cars.",
+    "source_url": "https://www.media.volvocars.com/global/en-gb/media/pressreleases/308107/volvo-cars-acquires-100-per-cent-ownership-of-autonomous-driving-software-company-zenseact",
+    "source_title": "Volvo Cars acquires 100 per cent ownership of autonomous driving software company Zenseact",
+    "publication_date": "2022-12-30",
+    "retrieved_at": "2026-10-28T11:00:00Z",
+    "supporting_excerpt": "Volvo Cars has acquired 100 per cent ownership of Zenseact, taking full control of the autonomous driving (AD) and advanced driver assistance systems (ADAS) software company.",
+    "confidence": "high",
+    "evidence_type": "official_company_disclosure",
+    "limitations": [
+      "Corporate ownership establishes governance control, but does not provide an itemized software bill of materials.",
+      "Applies to Volvo Cars, not Volvo Group."
+    ],
+    "validation_state": "manually_verified",
+    "is_synthetic": false
+  },
+  {
+    "relationship_id": "rel-zenseact-luminar-04",
+    "entity_a": "zenseact",
+    "entity_b": "luminar",
+    "relationship_type": "DEVELOPS_WITH",
+    "scope": "Integration of Luminar LiDAR sensors with Zenseact OnePilot autonomous driving software stack.",
+    "source_url": "https://www.zenseact.com/news/zenseact-and-luminar-partner-for-standard-safety-on-consumer-vehicles/",
+    "source_title": "Zenseact and Luminar partner to deliver standardized safety for consumer autonomous vehicles",
+    "publication_date": "2021-03-10",
+    "retrieved_at": "2026-10-28T11:00:00Z",
+    "supporting_excerpt": "Zenseact and Luminar are joining forces to offer an integrated autonomous driving and safety software and hardware solution to commercial automotive OEMs, combining Zenseact's OnePilot software with Luminar's Iris LiDAR sensor.",
+    "confidence": "high",
+    "evidence_type": "official_company_disclosure",
+    "limitations": [
+      "Establishes software-sensor stack co-development; does not prove specific firmware versions or open-source dependencies."
+    ],
+    "validation_state": "manually_verified",
+    "is_synthetic": false
+  },
+  {
+    "relationship_id": "rel-volvo-cars-google-05",
+    "entity_a": "volvo-cars",
+    "entity_b": "google",
+    "relationship_type": "INTEGRATES",
+    "scope": "Native integration of Android Automotive OS with embedded Google services (Google Maps, Google Assistant) into vehicle infotainment head units.",
+    "source_url": "https://www.media.volvocars.com/global/en-gb/media/pressreleases/251347/volvo-cars-first-to-bring-android-powered-infotainment-system-with-google-assistant-google-maps-and-g",
+    "source_title": "Volvo Cars first to bring Android-powered infotainment system with Google Assistant, Google Maps and Google Play Store built-in",
+    "publication_date": "2019-05-06",
+    "retrieved_at": "2026-10-28T11:00:00Z",
+    "supporting_excerpt": "Volvo Cars is the first car maker to team up with Google to integrate an Android-powered infotainment system, featuring the Google Assistant, Google Maps and the Google Play Store built-in.",
+    "confidence": "high",
+    "evidence_type": "official_company_disclosure",
+    "limitations": [
+      "Confirms OEM-OS integration; does not expose specific Android kernel build manifests or proprietary HAL drivers.",
+      "Applies strictly to Volvo Cars infotainment, not Volvo Group."
+    ],
+    "validation_state": "manually_verified",
+    "is_synthetic": false
+  }
+]
