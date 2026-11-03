@@ -1,7 +1,7 @@
 """Canonical Corporate and Supplier Relationship domain model."""
 
 from typing import Optional, List
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from pydantic import BaseModel, Field
 from app.models.enums import CorporateRelationshipType, ConfidenceCategory
 
@@ -15,7 +15,7 @@ class CorporateRelationship(BaseModel):
     source_url: str = Field(..., description="Official or verifiable public source URL")
     source_title: str = Field(..., description="Title or headline of the publication source")
     publication_date: Optional[date] = Field(None, description="Date source was originally published")
-    retrieved_at: datetime = Field(default_factory=datetime.utcnow, description="ISO-8601 retrieval timestamp")
+    retrieved_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc), description="ISO-8601 retrieval timestamp")
     supporting_excerpt: str = Field(..., description="Verbatim short evidence excerpt from source")
     confidence: ConfidenceCategory = Field(default=ConfidenceCategory.HIGH, description="Confidence in relationship")
     evidence_type: str = Field(default="official_company_disclosure", description="Source classification")

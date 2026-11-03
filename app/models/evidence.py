@@ -1,7 +1,7 @@
 """Canonical Evidence Artifact domain model."""
 
 from typing import Optional
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from pydantic import BaseModel, Field
 from app.models.enums import EvidenceType
 
@@ -13,7 +13,7 @@ class EvidenceArtifact(BaseModel):
     source_url_or_file: str = Field(..., description="Source URL or relative file path")
     source_organisation: str = Field(..., description="Entity that published or attested the evidence")
     publication_date: Optional[date] = Field(None, description="Original publication date")
-    retrieval_date: datetime = Field(default_factory=datetime.utcnow, description="Timestamp artifact was acquired")
+    retrieval_date: datetime = Field(default_factory=lambda: datetime.now(timezone.utc), description="Timestamp artifact was acquired")
     effective_date: Optional[date] = Field(None, description="Date evidence became operative")
     expiration_date: Optional[date] = Field(None, description="Date evidence expires or requires review")
     content_checksum: str = Field(..., description="SHA-256 hash of evidence artifact content")

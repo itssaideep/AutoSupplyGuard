@@ -310,5 +310,8 @@ def run_wild_sbom_stratification():
     df_band_summary.to_csv(summary_csv, index=False)
     print(f"[OK] Saved stratified sample of {len(df_stratified)} Wild SBOMs to {out_strat_csv}")
 
-if __name__ == "__main__":
+def main():
     run_degradation_experiment()
+
+if __name__ == "__main__":
+    main()

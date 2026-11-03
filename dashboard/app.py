@@ -150,7 +150,7 @@ elif nav == "2. SBOM Quality Assessment":
 # ---------------------------------------------------------
 # PAGE 3: VULNERABILITY PRIORITISATION
 # ---------------------------------------------------------
-elif nav == "3. Vulnerability Prioritisation (RQ2)":
+elif nav == "3. Vulnerability Prioritisation":
     st.title("🎯 Dependency Impact & Vulnerability Prioritisation (RQ2)")
     st.markdown(
         "Comparing **Baseline A (Severity-Only)**, **Baseline B (Severity + Dependency)**, and the "
@@ -226,7 +226,7 @@ elif nav == "4. Multi-Tier Traceability Graph":
 # ---------------------------------------------------------
 # PAGE 5: CYBERSECURITY ASSURANCE CASES
 # ---------------------------------------------------------
-elif nav == "5. Cybersecurity Assurance Cases (RQ3)":
+elif nav == "5. Cybersecurity Assurance Cases":
     st.title("📋 Evidence-Based Cybersecurity Assurance (RQ3)")
     st.markdown(
         "Structured assurance reasoning for **ISO/SAE 21434** and **UNECE R155** claims. "

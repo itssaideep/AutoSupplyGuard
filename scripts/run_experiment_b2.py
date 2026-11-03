@@ -482,5 +482,8 @@ def run_experiment_b2():
 
     print(f"\n[OK] Experiment B2 completed. Saved raw files to {RESULTS_DIR}")
 
-if __name__ == "__main__":
+def main():
     run_experiment_b2()
+
+if __name__ == "__main__":
+    main()

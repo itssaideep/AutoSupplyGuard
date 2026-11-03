@@ -2,7 +2,7 @@
 
 import math
 from typing import List, Dict, Optional
-from datetime import datetime
+from datetime import datetime, timezone
 from pydantic import BaseModel, Field
 from app.models.component import Component
 from app.models.vulnerability import Vulnerability, VulnerabilityMatch
@@ -149,7 +149,9 @@ class VulnerabilityPrioritiser:
         # Evidence freshness factor
         freshness = 1.0
         if retrieved_at:
-            age_days = (datetime.utcnow() - retrieved_at).days
+            now = datetime.now(timezone.utc)
+            ret_dt = retrieved_at if retrieved_at.tzinfo else retrieved_at.replace(tzinfo=timezone.utc)
+            age_days = (now - ret_dt).days
             if age_days > self.freshness_threshold_days:
                 # Linear decay between 90 and 365 days from 1.0 down to 0.4
                 freshness = max(0.4, 1.0 - 0.6 * ((age_days - 90) / 275))

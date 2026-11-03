@@ -1,7 +1,7 @@
 """Deterministic Evidence-Based Assurance Engine for ISO/SAE 21434 and UNECE R155 claims."""
 
 from typing import List, Dict, Optional, Any
-from datetime import datetime
+from datetime import datetime, timezone
 from pydantic import BaseModel, Field
 from app.models.assurance import AssuranceClaim
 from app.models.evidence import EvidenceArtifact
@@ -25,7 +25,7 @@ class AssuranceEvaluationResult(BaseModel):
     not_assessed_count: int
     false_assurance_rate: float = Field(0.0, description="FAR: Proportion of falsely supported claims (must be 0.0%)")
     gap_summary: List[Dict[str, Any]]
-    evaluated_at: datetime = Field(default_factory=datetime.utcnow)
+    evaluated_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
 class AssuranceEngine:
     """Evaluates regulatory cybersecurity claims against verifiable evidence artifacts."""
@@ -63,7 +63,7 @@ class AssuranceEngine:
 
             # 2. Check Evidence Freshness
             stale_evidence: List[EvidenceArtifact] = []
-            now = datetime.utcnow()
+            now = datetime.now(timezone.utc)
             for ev in linked_evidence:
                 ev_date = ev.publication_date or (ev.retrieval_date.date() if ev.retrieval_date else None)
                 if ev_date:

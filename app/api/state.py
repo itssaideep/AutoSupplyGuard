@@ -2,6 +2,8 @@
 
 from typing import Dict, List, Optional, Any
 from pathlib import Path
+import logging
+
 from app.models.sbom import SBOM, DependencyEdge
 from app.models.component import Component
 from app.models.vulnerability import Vulnerability, VulnerabilityMatch
@@ -16,6 +18,8 @@ from app.traceability.prioritisation import VulnerabilityPrioritiser, Prioritise
 from app.traceability.supplier_graph import SupplierGraphManager
 from app.assurance.catalog import get_standard_claims, get_standard_requirements
 from app.assurance.evaluator import AssuranceEngine, AssuranceEvaluationResult
+
+logger = logging.getLogger(__name__)
 
 class ApplicationState:
     """Singleton service managing in-memory repository, graphs, and evaluation state."""
@@ -48,8 +52,8 @@ class ApplicationState:
             # 1. Load automotive vulnerability records
             vulns = self.auto_feed.load()
             self.vulnerabilities.update(vulns)
-        except Exception:
-            pass
+        except Exception as e:
+            logger.warning("Failed to initialize automotive vulnerability feed: %s", e)
 
         # 2. Load standard regulatory requirements and claims
         self.requirements = get_standard_requirements()

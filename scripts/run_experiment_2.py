@@ -65,12 +65,12 @@ def run_experiment_2(smoke: bool = False):
     graph.add_dependency_edge(DependencyEdge(source_component_id="c-curl", target_component_id="c-zlib", scope=DependencyScope.RUNTIME))
 
     # Simulated Vulnerabilities
-    v_crypto = Vulnerability(vulnerability_id="CVE-2023-CRYPTO-SHARED", source="AUTOMOTIVE_FEED", description="Buffer overflow in ASN.1 parser in OpenSSL", cvss_score=6.5, affected_ranges=["< 1.1.1u"], fixed_versions=["1.1.1u"])
-    v_net = Vulnerability(vulnerability_id="CVE-2023-CURL-HIGH", source="AUTOMOTIVE_FEED", description="Remote code execution in curl SOCKS5 proxy handshake", cvss_score=7.8, affected_ranges=["< 8.4.0"], fixed_versions=["8.4.0"])
-    v_iso_crit = Vulnerability(vulnerability_id="CVE-2023-ISOLATED-CRITICAL", source="NVD", description="Arbitrary code execution in dev log parser", cvss_score=9.8, affected_ranges=["< 1.0"])
-    v_iso_high = Vulnerability(vulnerability_id="CVE-2023-ISOLATED-HIGH", source="NVD", description="Denial of service in benchmark utility", cvss_score=8.5, affected_ranges=["< 2.0"])
-    v_zlib = Vulnerability(vulnerability_id="CVE-2023-ZLIB-MEDIUM", source="AUTOMOTIVE_FEED", description="Memory corruption in inflate function", cvss_score=5.3, affected_ranges=["< 1.2.14"])
-    v_remediated = Vulnerability(vulnerability_id="CVE-2023-FIXED-REMEDIATED", source="VENDOR_ADVISORY", description="Flaw in securesocket remediated via VEX", cvss_score=9.0, affected_ranges=["< 1.5"], fixed_versions=["1.5.0", "2.0.0"])
+    v_crypto = Vulnerability(vulnerability_id="CVE-2023-CRYPTO-SHARED", source="AUTOMOTIVE_FEED", description="Buffer overflow in ASN.1 parser in OpenSSL", cvss_score=6.5, affected_version_ranges=["< 1.1.1u"], fixed_versions=["1.1.1u"])
+    v_net = Vulnerability(vulnerability_id="CVE-2023-CURL-HIGH", source="AUTOMOTIVE_FEED", description="Remote code execution in curl SOCKS5 proxy handshake", cvss_score=7.8, affected_version_ranges=["< 8.4.0"], fixed_versions=["8.4.0"])
+    v_iso_crit = Vulnerability(vulnerability_id="CVE-2023-ISOLATED-CRITICAL", source="NVD", description="Arbitrary code execution in dev log parser", cvss_score=9.8, affected_version_ranges=["< 1.0"])
+    v_iso_high = Vulnerability(vulnerability_id="CVE-2023-ISOLATED-HIGH", source="NVD", description="Denial of service in benchmark utility", cvss_score=8.5, affected_version_ranges=["< 2.0"])
+    v_zlib = Vulnerability(vulnerability_id="CVE-2023-ZLIB-MEDIUM", source="AUTOMOTIVE_FEED", description="Memory corruption in inflate function", cvss_score=5.3, affected_version_ranges=["< 1.2.14"])
+    v_remediated = Vulnerability(vulnerability_id="CVE-2023-FIXED-REMEDIATED", source="VENDOR_ADVISORY", description="Flaw in securesocket remediated via VEX", cvss_score=9.0, affected_version_ranges=["< 1.5"], fixed_versions=["1.5.0", "2.0.0"])
 
     test_vulns = [v_crypto, v_net, v_iso_crit, v_iso_high, v_zlib, v_remediated]
 
